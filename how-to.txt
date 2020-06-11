@@ -1,0 +1,50 @@
+ZZZZZZZZZZZZZZZZZZZZZZZ
+  **  Linux
+ZZZZZZZZZZZZZZZZZZZZZZZ
+
+# ctag
+yum instlall ctags
+pip install python-tools
+# create local tags dir
+ctags -R
+###  set tags-dir to .vimrc
+set tags=/home/mak/py/tags
+
+NeoBundle
+
+
+
+ZZZZZZZZZZZZZZZZZZZZZZZ
+  **  Windows 10
+ZZZZZZZZZZZZZZZZZZZZZZZ
+
+### git install
+http://git-scm.com/
+
+### exuberant ctags
+http://hp.vector.co.jp/authors/VA025040/ctags/
+# --- system32
+C:\Windows\System32
+# --- vim direct
+C:\Program Files (x86)\Vim\vim82
+
+### Neobundle
+# -- win cmd
+#      create bundle directory...
+git clone https://github.com/Shougo/neobundle.vim C:\Users\êΩ\vimfiles\bundle\neobundle.vim
+
+### _gvimrc modify
+C:\Users\êΩ\_vimbk\   : change directory
+# _gvimrc set
+C:\Users\êΩ
+
+### _vimrc modify
+C:\Users\êΩ\vimfiles\   : change directory
+- NeoBundle
+- YankRing
+# _vimrc set
+C:\Users\êΩ
+
+:NeoBundleInstall
+
+
