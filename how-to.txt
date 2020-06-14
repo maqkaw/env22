@@ -12,14 +12,29 @@ set tags=/home/mak/py/tags
 
 NeoBundle
 
+pip install jedi
+
 
 
 ZZZZZZZZZZZZZZZZZZZZZZZ
   **  Windows 10
 ZZZZZZZZZZZZZZZZZZZZZZZ
 
+### hackgen
+https://github.com/yuru7/HackGen/releases
+
+
+### gvim
+https://www.kaoriya.net/software/vim/
+
+
+### python 3.8 install
+# py -m pip install jedi
+
+
 ### git install
 http://git-scm.com/
+
 
 ### exuberant ctags
 http://hp.vector.co.jp/authors/VA025040/ctags/
@@ -28,15 +43,18 @@ C:\Windows\System32
 # --- vim direct
 C:\Program Files (x86)\Vim\vim82
 
+
 ### Neobundle
 # -- win cmd
 #      create bundle directory...
 git clone https://github.com/Shougo/neobundle.vim C:\Users\êΩ\vimfiles\bundle\neobundle.vim
 
+
 ### _gvimrc modify
 C:\Users\êΩ\_vimbk\   : change directory
 # _gvimrc set
 C:\Users\êΩ
+
 
 ### _vimrc modify
 C:\Users\êΩ\vimfiles\   : change directory
