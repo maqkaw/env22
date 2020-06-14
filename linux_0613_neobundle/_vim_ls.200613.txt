@@ -1,0 +1,3784 @@
+.vim:
+total 8
+drwxrwxr-x. 20 mak mak 4096 Jun 13 19:39 bundle
+drwxrwxr-x.  2 mak mak   65 Jun  7 21:44 colors.bak
+drwxr-xr-x.  2 mak mak   41 Apr 30 21:36 view
+-rw-rw-r--.  1 mak mak 2505 Jun 13 19:21 yankring_history_v2.txt
+
+.vim/bundle:
+total 12
+drwxrwxr-x.  5 mak mak  167 Jun 13 16:00 gruvbox
+drwxrwxr-x.  7 mak mak  146 Jun 13 16:13 gruvbox-material
+drwxrwxr-x. 11 mak mak 4096 Jun 13 18:06 jedi-vim
+drwxrwxr-x.  4 mak mak  101 Jun 10 13:38 jellybeans.vim
+drwxrwxr-x.  4 mak mak   67 Jun 10 13:38 molokai
+-rw-rw-r--.  1 mak mak 1006 Jun 13 18:08 NeoBundle.lock
+drwxrwxr-x.  8 mak mak  175 Jun 10 13:12 neobundle.vim
+drwxrwxr-x. 10 mak mak  259 Jun  9 16:52 nerdtree
+drwxrwxr-x.  6 mak mak  159 Jun 13 15:28 papercolor-theme
+drwxrwxr-x.  5 mak mak   93 Jun  9 11:52 taglist
+drwxrwxr-x.  5 mak mak  109 Jun 10 13:37 unite-colorscheme
+drwxrwxr-x. 10 mak mak  184 Jun 10 13:29 unite.vim
+drwxrwxr-x.  8 mak mak  177 Jun 10 14:48 vim
+drwxrwxr-x.  8 mak mak  154 Jun 10 13:38 vimfiler
+drwxrwxr-x.  4 mak mak   49 Jun 10 14:45 vim-hybrid
+drwxrwxr-x. 10 mak mak 4096 Jun 10 13:56 vimproc
+drwxrwxr-x.  6 mak mak   99 Jun  9 17:04 vim-surround
+drwxrwxr-x.  5 mak mak   57 Jun 10 14:32 YankRing.vim
+
+.vim/bundle/gruvbox:
+total 32
+drwxrwxr-x. 4 mak mak   57 Jun 13 16:00 autoload
+-rw-rw-r--. 1 mak mak 5157 Jun 13 16:00 CHANGELOG.md
+drwxrwxr-x. 2 mak mak   25 Jun 13 16:19 colors
+-rwxrwxr-x. 1 mak mak 4721 Jun 13 16:00 gruvbox_256palette_osx.sh
+-rwxrwxr-x. 1 mak mak 4804 Jun 13 16:00 gruvbox_256palette.sh
+-rw-rw-r--. 1 mak mak  201 Jun 13 16:00 package.json
+-rw-rw-r--. 1 mak mak 3874 Jun 13 16:00 README.md
+
+.vim/bundle/gruvbox/autoload:
+total 4
+drwxrwxr-x. 3 mak mak  20 Jun 13 16:00 airline
+-rw-rw-r--. 1 mak mak 927 Jun 13 16:00 gruvbox.vim
+drwxrwxr-x. 3 mak mak  25 Jun 13 16:00 lightline
+
+.vim/bundle/gruvbox/autoload/airline:
+total 0
+drwxrwxr-x. 2 mak mak 25 Jun 13 16:00 themes
+
+.vim/bundle/gruvbox/autoload/airline/themes:
+total 8
+-rw-rw-r--. 1 mak mak 4961 Jun 13 16:00 gruvbox.vim
+
+.vim/bundle/gruvbox/autoload/lightline:
+total 0
+drwxrwxr-x. 2 mak mak 25 Jun 13 16:00 colorscheme
+
+.vim/bundle/gruvbox/autoload/lightline/colorscheme:
+total 4
+-rw-rw-r--. 1 mak mak 2693 Jun 13 16:00 gruvbox.vim
+
+.vim/bundle/gruvbox/colors:
+total 40
+-rw-rw-r--. 1 mak mak 38006 Jun 13 16:00 gruvbox.vim
+
+.vim/bundle/gruvbox-material:
+total 24
+drwxrwxr-x. 4 mak mak    66 Jun 13 16:13 autoload
+-rw-rw-r--. 1 mak mak  6638 Jun 13 16:13 CHANGELOG.md
+drwxrwxr-x. 2 mak mak    34 Jun 13 16:13 colors
+drwxrwxr-x. 2 mak mak    34 Jun 13 16:13 doc
+-rw-rw-r--. 1 mak mak  1064 Jun 13 16:13 LICENSE
+-rw-rw-r--. 1 mak mak 10829 Jun 13 16:13 README.md
+
+.vim/bundle/gruvbox-material/autoload:
+total 20
+drwxrwxr-x. 3 mak mak    20 Jun 13 16:13 airline
+-rw-rw-r--. 1 mak mak 18822 Jun 13 16:13 gruvbox_material.vim
+drwxrwxr-x. 3 mak mak    25 Jun 13 16:13 lightline
+
+.vim/bundle/gruvbox-material/autoload/airline:
+total 0
+drwxrwxr-x. 2 mak mak 34 Jun 13 16:13 themes
+
+.vim/bundle/gruvbox-material/autoload/airline/themes:
+total 20
+-rw-rw-r--. 1 mak mak 17015 Jun 13 16:13 gruvbox_material.vim
+
+.vim/bundle/gruvbox-material/autoload/lightline:
+total 0
+drwxrwxr-x. 2 mak mak 34 Jun 13 16:13 colorscheme
+
+.vim/bundle/gruvbox-material/autoload/lightline/colorscheme:
+total 12
+-rw-rw-r--. 1 mak mak 11572 Jun 13 16:13 gruvbox_material.vim
+
+.vim/bundle/gruvbox-material/colors:
+total 84
+-rw-rw-r--. 1 mak mak 83045 Jun 13 16:13 gruvbox-material.vim
+
+.vim/bundle/gruvbox-material/doc:
+total 20
+-rw-rw-r--. 1 mak mak 18594 Jun 13 16:13 gruvbox-material.txt
+
+.vim/bundle/jedi-vim:
+total 36
+drwxrwxr-x. 4 mak mak   36 Jun 13 18:06 after
+-rw-rw-r--. 1 mak mak 1825 Jun 13 18:06 AUTHORS.txt
+drwxrwxr-x. 3 mak mak   36 Jun 13 18:06 autoload
+-rw-rw-r--. 1 mak mak   86 Jun 13 18:06 codecov.yml
+-rw-rw-r--. 1 mak mak  369 Jun 13 18:06 CONTRIBUTING.md
+drwxrwxr-x. 2 mak mak   48 Jun 13 18:06 doc
+drwxrwxr-x. 3 mak mak   20 Jun 13 18:06 ftplugin
+-rw-rw-r--. 1 mak mak 1111 Jun 13 18:06 LICENSE.txt
+-rw-rw-r--. 1 mak mak  800 Jun 13 18:06 Makefile
+drwxrwxr-x. 2 mak mak   22 Jun 13 18:06 plugin
+drwxrwxr-x. 5 mak mak   94 Jun 13 18:07 pythonx
+-rw-rw-r--. 1 mak mak 8727 Jun 13 18:06 README.rst
+-rw-rw-r--. 1 mak mak   63 Jun 13 18:06 setup.cfg
+drwxrwxr-x. 3 mak mak   77 Jun 13 18:06 test
+
+.vim/bundle/jedi-vim/after:
+total 0
+drwxrwxr-x. 3 mak mak 20 Jun 13 18:06 ftplugin
+drwxrwxr-x. 2 mak mak 24 Jun 13 18:06 syntax
+
+.vim/bundle/jedi-vim/after/ftplugin:
+total 0
+drwxrwxr-x. 2 mak mak 22 Jun 13 18:06 python
+
+.vim/bundle/jedi-vim/after/ftplugin/python:
+total 4
+-rw-rw-r--. 1 mak mak 121 Jun 13 18:06 jedi.vim
+
+.vim/bundle/jedi-vim/after/syntax:
+total 4
+-rw-rw-r--. 1 mak mak 1275 Jun 13 18:06 python.vim
+
+.vim/bundle/jedi-vim/autoload:
+total 28
+drwxrwxr-x. 2 mak mak    22 Jun 13 18:06 health
+-rw-rw-r--. 1 mak mak 24747 Jun 13 18:06 jedi.vim
+
+.vim/bundle/jedi-vim/autoload/health:
+total 4
+-rw-rw-r--. 1 mak mak 115 Jun 13 18:06 jedi.vim
+
+.vim/bundle/jedi-vim/doc:
+total 36
+-rw-rw-r--. 1 mak mak 22497 Jun 13 18:06 jedi-vim.txt
+-rw-rw-r--. 1 mak mak 10028 Jun 13 18:06 logotype-a.svg
+
+.vim/bundle/jedi-vim/ftplugin:
+total 0
+drwxrwxr-x. 2 mak mak 22 Jun 13 18:06 python
+
+.vim/bundle/jedi-vim/ftplugin/python:
+total 4
+-rw-rw-r--. 1 mak mak 2001 Jun 13 18:06 jedi.vim
+
+.vim/bundle/jedi-vim/plugin:
+total 4
+-rw-rw-r--. 1 mak mak 2404 Jun 13 18:06 jedi.vim
+
+.vim/bundle/jedi-vim/pythonx:
+total 52
+drwxrwxr-x. 7 mak mak  4096 Jun 13 18:07 jedi
+-rw-rw-r--. 1 mak mak  2846 Jun 13 18:06 jedi_vim_debug.py
+-rw-rw-r--. 1 mak mak 40353 Jun 13 18:06 jedi_vim.py
+drwxrwxr-x. 6 mak mak  4096 Jun 13 18:08 parso
+drwxrwxr-x. 2 mak mak    37 Jun 13 18:07 __pycache__
+
+.vim/bundle/jedi-vim/pythonx/jedi:
+total 84
+-rw-rw-r--. 1 mak mak 1697 Jun 13 18:07 appveyor.yml
+-rw-rw-r--. 1 mak mak 2092 Jun 13 18:07 AUTHORS.txt
+-rw-rw-r--. 1 mak mak 8036 Jun 13 18:07 CHANGELOG.rst
+-rw-rw-r--. 1 mak mak 5814 Jun 13 18:07 conftest.py
+-rw-rw-r--. 1 mak mak  301 Jun 13 18:07 CONTRIBUTING.md
+-rwxrwxr-x. 1 mak mak 1258 Jun 13 18:07 deploy-master.sh
+drwxrwxr-x. 7 mak mak  169 Jun 13 18:07 docs
+drwxrwxr-x. 8 mak mak 4096 Jun 13 18:07 jedi
+-rw-rw-r--. 1 mak mak 1241 Jun 13 18:07 LICENSE.txt
+-rw-rw-r--. 1 mak mak  437 Jun 13 18:07 MANIFEST.in
+-rw-rw-r--. 1 mak mak  412 Jun 13 18:07 pytest.ini
+-rw-rw-r--. 1 mak mak 8177 Jun 13 18:07 README.rst
+-rw-rw-r--. 1 mak mak   13 Jun 13 18:07 requirements.txt
+drwxrwxr-x. 2 mak mak  129 Jun 13 18:07 scripts
+-rw-rw-r--. 1 mak mak  415 Jun 13 18:07 setup.cfg
+-rwxrwxr-x. 1 mak mak 2731 Jun 13 18:07 setup.py
+-rwxrwxr-x. 1 mak mak 7381 Jun 13 18:07 sith.py
+drwxrwxr-x. 9 mak mak 4096 Jun 13 18:07 test
+-rw-rw-r--. 1 mak mak 1473 Jun 13 18:07 tox.ini
+
+.vim/bundle/jedi-vim/pythonx/jedi/docs:
+total 32
+-rw-rw-r--. 1 mak mak 9145 Jun 13 18:07 conf.py
+drwxrwxr-x. 2 mak mak  167 Jun 13 18:07 docs
+-rw-rw-r--. 1 mak mak   37 Jun 13 18:07 global.rst
+-rw-rw-r--. 1 mak mak  768 Jun 13 18:07 index.rst
+-rw-rw-r--. 1 mak mak 5556 Jun 13 18:07 Makefile
+-rw-rw-r--. 1 mak mak  239 Jun 13 18:07 README.md
+drwxrwxr-x. 2 mak mak   96 Jun 13 18:07 _screenshots
+drwxrwxr-x. 2 mak mak   42 Jun 13 18:07 _static
+drwxrwxr-x. 2 mak mak   52 Jun 13 18:07 _templates
+drwxrwxr-x. 3 mak mak   49 Jun 13 18:07 _themes
+
+.vim/bundle/jedi-vim/pythonx/jedi/docs/docs:
+total 40
+-rw-rw-r--. 1 mak mak  152 Jun 13 18:07 api-classes.rst
+-rw-rw-r--. 1 mak mak 3084 Jun 13 18:07 api.rst
+-rw-rw-r--. 1 mak mak 5714 Jun 13 18:07 development.rst
+-rw-rw-r--. 1 mak mak 7324 Jun 13 18:07 features.rst
+-rw-rw-r--. 1 mak mak 2793 Jun 13 18:07 installation.rst
+-rw-rw-r--. 1 mak mak   77 Jun 13 18:07 settings.rst
+-rw-rw-r--. 1 mak mak  865 Jun 13 18:07 testing.rst
+-rw-rw-r--. 1 mak mak 2854 Jun 13 18:07 usage.rst
+
+.vim/bundle/jedi-vim/pythonx/jedi/docs/_screenshots:
+total 84
+-rw-rw-r--. 1 mak mak 17109 Jun 13 18:07 screenshot_complete.png
+-rw-rw-r--. 1 mak mak 40035 Jun 13 18:07 screenshot_function.png
+-rw-rw-r--. 1 mak mak 22041 Jun 13 18:07 screenshot_pydoc.png
+
+.vim/bundle/jedi-vim/pythonx/jedi/docs/_static:
+total 36
+-rw-rw-r--. 1 mak mak 28795 Jun 13 18:07 logo.png
+-rw-rw-r--. 1 mak mak   122 Jun 13 18:07 logo-src.txt
+
+.vim/bundle/jedi-vim/pythonx/jedi/docs/_templates:
+total 8
+-rw-rw-r--. 1 mak mak 231 Jun 13 18:07 ghbuttons.html
+-rw-rw-r--. 1 mak mak 136 Jun 13 18:07 sidebarlogo.html
+
+.vim/bundle/jedi-vim/pythonx/jedi/docs/_themes:
+total 8
+drwxrwxr-x. 3 mak mak   94 Jun 13 18:07 flask
+-rw-rw-r--. 1 mak mak 6672 Jun 13 18:07 flask_theme_support.py
+
+.vim/bundle/jedi-vim/pythonx/jedi/docs/_themes/flask:
+total 16
+-rw-rw-r--. 1 mak mak  933 Jun 13 18:07 layout.html
+-rw-rw-r--. 1 mak mak 1789 Jun 13 18:07 LICENSE
+-rw-rw-r--. 1 mak mak  590 Jun 13 18:07 relations.html
+drwxrwxr-x. 2 mak mak   49 Jun 13 18:07 static
+-rw-rw-r--. 1 mak mak  162 Jun 13 18:07 theme.conf
+
+.vim/bundle/jedi-vim/pythonx/jedi/docs/_themes/flask/static:
+total 12
+-rw-rw-r--. 1 mak mak 6411 Jun 13 18:07 flasky.css_t
+-rw-rw-r--. 1 mak mak  976 Jun 13 18:07 small_flask.css
+
+.vim/bundle/jedi-vim/pythonx/jedi/jedi:
+total 92
+drwxrwxr-x. 3 mak mak  4096 Jun 13 18:07 api
+-rw-rw-r--. 1 mak mak  3581 Jun 13 18:07 cache.py
+drwxrwxr-x. 3 mak mak    76 Jun 13 18:07 common
+-rw-rw-r--. 1 mak mak 24596 Jun 13 18:07 _compatibility.py
+-rw-rw-r--. 1 mak mak  3715 Jun 13 18:07 debug.py
+-rw-rw-r--. 1 mak mak  2310 Jun 13 18:07 file_io.py
+drwxrwxr-x. 6 mak mak  4096 Jun 13 18:07 inference
+-rw-rw-r--. 1 mak mak  1749 Jun 13 18:07 __init__.py
+-rw-rw-r--. 1 mak mak  1727 Jun 13 18:07 __main__.py
+-rw-rw-r--. 1 mak mak 10108 Jun 13 18:07 parser_utils.py
+drwxrwxr-x. 3 mak mak   113 Jun 13 18:07 plugins
+drwxrwxr-x. 2 mak mak  4096 Jun 13 18:08 __pycache__
+-rw-rw-r--. 1 mak mak  7035 Jun 13 18:07 refactoring.py
+-rw-rw-r--. 1 mak mak  3511 Jun 13 18:07 settings.py
+drwxrwxr-x. 3 mak mak    48 Jun 13 18:07 third_party
+-rw-rw-r--. 1 mak mak  4701 Jun 13 18:07 utils.py
+
+.vim/bundle/jedi-vim/pythonx/jedi/jedi/api:
+total 164
+-rw-rw-r--. 1 mak mak 27367 Jun 13 18:07 classes.py
+-rw-rw-r--. 1 mak mak   668 Jun 13 18:07 completion_cache.py
+-rw-rw-r--. 1 mak mak 23715 Jun 13 18:07 completion.py
+-rw-rw-r--. 1 mak mak 16950 Jun 13 18:07 environment.py
+-rw-rw-r--. 1 mak mak   125 Jun 13 18:07 exceptions.py
+-rw-rw-r--. 1 mak mak  5730 Jun 13 18:07 file_name.py
+-rw-rw-r--. 1 mak mak 16741 Jun 13 18:07 helpers.py
+-rw-rw-r--. 1 mak mak 24840 Jun 13 18:07 __init__.py
+-rw-rw-r--. 1 mak mak  1357 Jun 13 18:07 interpreter.py
+-rw-rw-r--. 1 mak mak  1408 Jun 13 18:07 keywords.py
+-rw-rw-r--. 1 mak mak  7116 Jun 13 18:07 project.py
+drwxrwxr-x. 2 mak mak  4096 Jun 13 18:08 __pycache__
+-rw-rw-r--. 1 mak mak   950 Jun 13 18:07 replstartup.py
+-rw-rw-r--. 1 mak mak  3690 Jun 13 18:07 strings.py
+
+.vim/bundle/jedi-vim/pythonx/jedi/jedi/api/__pycache__:
+total 260
+-rw-rw-r--. 1 mak mak 28144 Jun 13 18:07 classes.cpython-36.pyc
+-rw-rw-r--. 1 mak mak 28092 Jun 13 18:08 classes.cpython-37.pyc
+-rw-rw-r--. 1 mak mak   857 Jun 13 18:07 completion_cache.cpython-36.pyc
+-rw-rw-r--. 1 mak mak   861 Jun 13 18:08 completion_cache.cpython-37.pyc
+-rw-rw-r--. 1 mak mak 16507 Jun 13 18:07 completion.cpython-36.pyc
+-rw-rw-r--. 1 mak mak 16352 Jun 13 18:08 completion.cpython-37.pyc
+-rw-rw-r--. 1 mak mak 12569 Jun 13 18:07 environment.cpython-36.pyc
+-rw-rw-r--. 1 mak mak 12549 Jun 13 18:08 environment.cpython-37.pyc
+-rw-rw-r--. 1 mak mak   583 Jun 13 18:07 exceptions.cpython-36.pyc
+-rw-rw-r--. 1 mak mak   587 Jun 13 18:08 exceptions.cpython-37.pyc
+-rw-rw-r--. 1 mak mak  4009 Jun 13 18:07 file_name.cpython-36.pyc
+-rw-rw-r--. 1 mak mak  3999 Jun 13 18:08 file_name.cpython-37.pyc
+-rw-rw-r--. 1 mak mak 10934 Jun 13 18:07 helpers.cpython-36.pyc
+-rw-rw-r--. 1 mak mak 10778 Jun 13 18:08 helpers.cpython-37.pyc
+-rw-rw-r--. 1 mak mak 20843 Jun 13 18:07 __init__.cpython-36.pyc
+-rw-rw-r--. 1 mak mak 20790 Jun 13 18:08 __init__.cpython-37.pyc
+-rw-rw-r--. 1 mak mak  2035 Jun 13 18:07 interpreter.cpython-36.pyc
+-rw-rw-r--. 1 mak mak  2039 Jun 13 18:08 interpreter.cpython-37.pyc
+-rw-rw-r--. 1 mak mak  1441 Jun 13 18:07 keywords.cpython-36.pyc
+-rw-rw-r--. 1 mak mak  1445 Jun 13 18:08 keywords.cpython-37.pyc
+-rw-rw-r--. 1 mak mak  5801 Jun 13 18:07 project.cpython-36.pyc
+-rw-rw-r--. 1 mak mak  5773 Jun 13 18:08 project.cpython-37.pyc
+-rw-rw-r--. 1 mak mak  3429 Jun 13 18:07 strings.cpython-36.pyc
+-rw-rw-r--. 1 mak mak  3414 Jun 13 18:08 strings.cpython-37.pyc
+
+.vim/bundle/jedi-vim/pythonx/jedi/jedi/common:
+total 12
+-rw-rw-r--. 1 mak mak   54 Jun 13 18:07 __init__.py
+drwxrwxr-x. 2 mak mak  180 Jun 13 18:08 __pycache__
+-rw-rw-r--. 1 mak mak  610 Jun 13 18:07 utils.py
+-rw-rw-r--. 1 mak mak 2076 Jun 13 18:07 value.py
+
+.vim/bundle/jedi-vim/pythonx/jedi/jedi/common/__pycache__:
+total 24
+-rw-rw-r--. 1 mak mak  224 Jun 13 18:07 __init__.cpython-36.pyc
+-rw-rw-r--. 1 mak mak  228 Jun 13 18:08 __init__.cpython-37.pyc
+-rw-rw-r--. 1 mak mak  716 Jun 13 18:07 utils.cpython-36.pyc
+-rw-rw-r--. 1 mak mak  720 Jun 13 18:08 utils.cpython-37.pyc
+-rw-rw-r--. 1 mak mak 3605 Jun 13 18:07 value.cpython-36.pyc
+-rw-rw-r--. 1 mak mak 3607 Jun 13 18:08 value.cpython-37.pyc
+
+.vim/bundle/jedi-vim/pythonx/jedi/jedi/inference:
+total 300
+-rw-rw-r--. 1 mak mak  7894 Jun 13 18:07 analysis.py
+-rw-rw-r--. 1 mak mak 12879 Jun 13 18:07 arguments.py
+-rw-rw-r--. 1 mak mak 14845 Jun 13 18:07 base_value.py
+-rw-rw-r--. 1 mak mak  4159 Jun 13 18:07 cache.py
+drwxrwxr-x. 4 mak mak   136 Jun 13 18:07 compiled
+-rw-rw-r--. 1 mak mak 16966 Jun 13 18:07 context.py
+-rw-rw-r--. 1 mak mak 10694 Jun 13 18:07 docstrings.py
+-rw-rw-r--. 1 mak mak  8232 Jun 13 18:07 dynamic_params.py
+-rw-rw-r--. 1 mak mak 11681 Jun 13 18:07 filters.py
+-rw-rw-r--. 1 mak mak  5326 Jun 13 18:07 finder.py
+-rw-rw-r--. 1 mak mak  4495 Jun 13 18:07 flow_analysis.py
+drwxrwxr-x. 3 mak mak   212 Jun 13 18:07 gradual
+-rw-rw-r--. 1 mak mak  7090 Jun 13 18:07 helpers.py
+-rw-rw-r--. 1 mak mak 19892 Jun 13 18:07 imports.py
+-rw-rw-r--. 1 mak mak  8401 Jun 13 18:07 __init__.py
+-rw-rw-r--. 1 mak mak  1722 Jun 13 18:07 lazy_value.py
+-rw-rw-r--. 1 mak mak 22752 Jun 13 18:07 names.py
+-rw-rw-r--. 1 mak mak  9136 Jun 13 18:07 param.py
+-rw-rw-r--. 1 mak mak   191 Jun 13 18:07 parser_cache.py
+drwxrwxr-x. 2 mak mak  4096 Jun 13 18:10 __pycache__
+-rw-rw-r--. 1 mak mak  4931 Jun 13 18:07 recursion.py
+-rw-rw-r--. 1 mak mak  9331 Jun 13 18:07 references.py
+-rw-rw-r--. 1 mak mak  4888 Jun 13 18:07 signature.py
+-rw-rw-r--. 1 mak mak  7748 Jun 13 18:07 star_args.py
+-rw-rw-r--. 1 mak mak 34156 Jun 13 18:07 syntax_tree.py
+-rw-rw-r--. 1 mak mak 10128 Jun 13 18:07 sys_path.py
+-rw-rw-r--. 1 mak mak  3679 Jun 13 18:07 utils.py
+drwxrwxr-x. 3 mak mak   199 Jun 13 18:07 value
+
+.vim/bundle/jedi-vim/pythonx/jedi/jedi/inference/compiled:
+total 72
+-rw-rw-r--. 1 mak mak 19247 Jun 13 18:07 access.py
+-rw-rw-r--. 1 mak mak  5758 Jun 13 18:07 getattr_static.py
+-rw-rw-r--. 1 mak mak  2590 Jun 13 18:07 __init__.py
+-rw-rw-r--. 1 mak mak 10986 Jun 13 18:07 mixed.py
+drwxrwxr-x. 2 mak mak  4096 Jun 13 18:08 __pycache__
+drwxrwxr-x. 3 mak mak    83 Jun 13 18:07 subprocess
+-rw-rw-r--. 1 mak mak 21442 Jun 13 18:07 value.py
+
+.vim/bundle/jedi-vim/pythonx/jedi/jedi/inference/compiled/__pycache__:
+total 136
+-rw-rw-r--. 1 mak mak 16874 Jun 13 18:07 access.cpython-36.pyc
+-rw-rw-r--. 1 mak mak 16853 Jun 13 18:08 access.cpython-37.pyc
+-rw-rw-r--. 1 mak mak  5138 Jun 13 18:07 getattr_static.cpython-36.pyc
+-rw-rw-r--. 1 mak mak  5142 Jun 13 18:08 getattr_static.cpython-37.pyc
+-rw-rw-r--. 1 mak mak  2828 Jun 13 18:07 __init__.cpython-36.pyc
+-rw-rw-r--. 1 mak mak  2785 Jun 13 18:08 __init__.cpython-37.pyc
+-rw-rw-r--. 1 mak mak  8611 Jun 13 18:07 mixed.cpython-36.pyc
+-rw-rw-r--. 1 mak mak  8598 Jun 13 18:08 mixed.cpython-37.pyc
+-rw-rw-r--. 1 mak mak 21516 Jun 13 18:07 value.cpython-36.pyc
+-rw-rw-r--. 1 mak mak 21503 Jun 13 18:08 value.cpython-37.pyc
+
+.vim/bundle/jedi-vim/pythonx/jedi/jedi/inference/compiled/subprocess:
+total 24
+-rw-rw-r--. 1 mak mak  2336 Jun 13 18:07 functions.py
+-rw-rw-r--. 1 mak mak 14304 Jun 13 18:07 __init__.py
+-rw-rw-r--. 1 mak mak  1691 Jun 13 18:07 __main__.py
+drwxrwxr-x. 2 mak mak   132 Jun 13 18:08 __pycache__
+
+.vim/bundle/jedi-vim/pythonx/jedi/jedi/inference/compiled/subprocess/__pycache__:
+total 40
+-rw-rw-r--. 1 mak mak  2950 Jun 13 18:07 functions.cpython-36.pyc
+-rw-rw-r--. 1 mak mak  2954 Jun 13 18:08 functions.cpython-37.pyc
+-rw-rw-r--. 1 mak mak 13092 Jun 13 18:07 __init__.cpython-36.pyc
+-rw-rw-r--. 1 mak mak 13089 Jun 13 18:08 __init__.cpython-37.pyc
+
+.vim/bundle/jedi-vim/pythonx/jedi/jedi/inference/gradual:
+total 88
+-rw-rw-r--. 1 mak mak 17043 Jun 13 18:07 annotation.py
+-rw-rw-r--. 1 mak mak 11798 Jun 13 18:07 base.py
+-rw-rw-r--. 1 mak mak  7249 Jun 13 18:07 conversion.py
+-rw-rw-r--. 1 mak mak  3152 Jun 13 18:07 generics.py
+-rw-rw-r--. 1 mak mak     0 Jun 13 18:07 __init__.py
+drwxrwxr-x. 2 mak mak  4096 Jun 13 18:08 __pycache__
+-rw-rw-r--. 1 mak mak  3497 Jun 13 18:07 stub_value.py
+-rw-rw-r--. 1 mak mak 10346 Jun 13 18:07 typeshed.py
+-rw-rw-r--. 1 mak mak  3750 Jun 13 18:07 type_var.py
+-rw-rw-r--. 1 mak mak 12303 Jun 13 18:07 typing.py
+-rw-rw-r--. 1 mak mak  1070 Jun 13 18:07 utils.py
+
+.vim/bundle/jedi-vim/pythonx/jedi/jedi/inference/gradual/__pycache__:
+total 168
+-rw-rw-r--. 1 mak mak 11940 Jun 13 18:07 annotation.cpython-36.pyc
+-rw-rw-r--. 1 mak mak 11897 Jun 13 18:08 annotation.cpython-37.pyc
+-rw-rw-r--. 1 mak mak 12902 Jun 13 18:07 base.cpython-36.pyc
+-rw-rw-r--. 1 mak mak 12906 Jun 13 18:08 base.cpython-37.pyc
+-rw-rw-r--. 1 mak mak  4718 Jun 13 18:07 conversion.cpython-36.pyc
+-rw-rw-r--. 1 mak mak  4700 Jun 13 18:08 conversion.cpython-37.pyc
+-rw-rw-r--. 1 mak mak  5184 Jun 13 18:07 generics.cpython-36.pyc
+-rw-rw-r--. 1 mak mak  5188 Jun 13 18:08 generics.cpython-37.pyc
+-rw-rw-r--. 1 mak mak   161 Jun 13 18:07 __init__.cpython-36.pyc
+-rw-rw-r--. 1 mak mak   165 Jun 13 18:08 __init__.cpython-37.pyc
+-rw-rw-r--. 1 mak mak  4279 Jun 13 18:07 stub_value.cpython-36.pyc
+-rw-rw-r--. 1 mak mak  4261 Jun 13 18:08 stub_value.cpython-37.pyc
+-rw-rw-r--. 1 mak mak  6464 Jun 13 18:07 typeshed.cpython-36.pyc
+-rw-rw-r--. 1 mak mak  6413 Jun 13 18:08 typeshed.cpython-37.pyc
+-rw-rw-r--. 1 mak mak  3839 Jun 13 18:07 type_var.cpython-36.pyc
+-rw-rw-r--. 1 mak mak  3843 Jun 13 18:08 type_var.cpython-37.pyc
+-rw-rw-r--. 1 mak mak 11730 Jun 13 18:07 typing.cpython-36.pyc
+-rw-rw-r--. 1 mak mak 11720 Jun 13 18:08 typing.cpython-37.pyc
+-rw-rw-r--. 1 mak mak   937 Jun 13 18:07 utils.cpython-36.pyc
+-rw-rw-r--. 1 mak mak   931 Jun 13 18:08 utils.cpython-37.pyc
+
+.vim/bundle/jedi-vim/pythonx/jedi/jedi/inference/__pycache__:
+total 496
+-rw-rw-r--. 1 mak mak  6938 Jun 13 18:07 analysis.cpython-36.pyc
+-rw-rw-r--. 1 mak mak  6912 Jun 13 18:08 analysis.cpython-37.pyc
+-rw-rw-r--. 1 mak mak 10676 Jun 13 18:07 arguments.cpython-36.pyc
+-rw-rw-r--. 1 mak mak 10624 Jun 13 18:08 arguments.cpython-37.pyc
+-rw-rw-r--. 1 mak mak 18878 Jun 13 18:07 base_value.cpython-36.pyc
+-rw-rw-r--. 1 mak mak 18876 Jun 13 18:08 base_value.cpython-37.pyc
+-rw-rw-r--. 1 mak mak  4194 Jun 13 18:07 cache.cpython-36.pyc
+-rw-rw-r--. 1 mak mak  4198 Jun 13 18:08 cache.cpython-37.pyc
+-rw-rw-r--. 1 mak mak 17307 Jun 13 18:07 context.cpython-36.pyc
+-rw-rw-r--. 1 mak mak 17186 Jun 13 18:08 context.cpython-37.pyc
+-rw-rw-r--. 1 mak mak  8986 Jun 13 18:07 docstrings.cpython-36.pyc
+-rw-rw-r--. 1 mak mak  8955 Jun 13 18:08 docstrings.cpython-37.pyc
+-rw-rw-r--. 1 mak mak  5742 Jun 13 18:10 dynamic_params.cpython-36.pyc
+-rw-rw-r--. 1 mak mak 15215 Jun 13 18:07 filters.cpython-36.pyc
+-rw-rw-r--. 1 mak mak 15214 Jun 13 18:08 filters.cpython-37.pyc
+-rw-rw-r--. 1 mak mak  4384 Jun 13 18:08 finder.cpython-36.pyc
+-rw-rw-r--. 1 mak mak  3164 Jun 13 18:07 flow_analysis.cpython-36.pyc
+-rw-rw-r--. 1 mak mak  3154 Jun 13 18:08 flow_analysis.cpython-37.pyc
+-rw-rw-r--. 1 mak mak  6029 Jun 13 18:07 helpers.cpython-36.pyc
+-rw-rw-r--. 1 mak mak  5993 Jun 13 18:08 helpers.cpython-37.pyc
+-rw-rw-r--. 1 mak mak 13003 Jun 13 18:07 imports.cpython-36.pyc
+-rw-rw-r--. 1 mak mak 12969 Jun 13 18:08 imports.cpython-37.pyc
+-rw-rw-r--. 1 mak mak  7746 Jun 13 18:07 __init__.cpython-36.pyc
+-rw-rw-r--. 1 mak mak  7730 Jun 13 18:08 __init__.cpython-37.pyc
+-rw-rw-r--. 1 mak mak  3248 Jun 13 18:07 lazy_value.cpython-36.pyc
+-rw-rw-r--. 1 mak mak  3252 Jun 13 18:08 lazy_value.cpython-37.pyc
+-rw-rw-r--. 1 mak mak 22846 Jun 13 18:07 names.cpython-36.pyc
+-rw-rw-r--. 1 mak mak 22792 Jun 13 18:08 names.cpython-37.pyc
+-rw-rw-r--. 1 mak mak  5612 Jun 13 18:07 param.cpython-36.pyc
+-rw-rw-r--. 1 mak mak  5612 Jun 13 18:08 param.cpython-37.pyc
+-rw-rw-r--. 1 mak mak   396 Jun 13 18:07 parser_cache.cpython-36.pyc
+-rw-rw-r--. 1 mak mak   400 Jun 13 18:08 parser_cache.cpython-37.pyc
+-rw-rw-r--. 1 mak mak  4342 Jun 13 18:07 recursion.cpython-36.pyc
+-rw-rw-r--. 1 mak mak  4346 Jun 13 18:08 recursion.cpython-37.pyc
+-rw-rw-r--. 1 mak mak  6919 Jun 13 18:07 references.cpython-36.pyc
+-rw-rw-r--. 1 mak mak  6914 Jun 13 18:08 references.cpython-37.pyc
+-rw-rw-r--. 1 mak mak  5771 Jun 13 18:07 signature.cpython-36.pyc
+-rw-rw-r--. 1 mak mak  5773 Jun 13 18:08 signature.cpython-37.pyc
+-rw-rw-r--. 1 mak mak  5009 Jun 13 18:08 star_args.cpython-36.pyc
+-rw-rw-r--. 1 mak mak 20751 Jun 13 18:07 syntax_tree.cpython-36.pyc
+-rw-rw-r--. 1 mak mak 20538 Jun 13 18:08 syntax_tree.cpython-37.pyc
+-rw-rw-r--. 1 mak mak  7024 Jun 13 18:07 sys_path.cpython-36.pyc
+-rw-rw-r--. 1 mak mak  6985 Jun 13 18:08 sys_path.cpython-37.pyc
+-rw-rw-r--. 1 mak mak  5149 Jun 13 18:07 utils.cpython-36.pyc
+-rw-rw-r--. 1 mak mak  5138 Jun 13 18:08 utils.cpython-37.pyc
+
+.vim/bundle/jedi-vim/pythonx/jedi/jedi/inference/value:
+total 120
+-rw-rw-r--. 1 mak mak   434 Jun 13 18:07 decorator.py
+-rw-rw-r--. 1 mak mak  7693 Jun 13 18:07 dynamic_arrays.py
+-rw-rw-r--. 1 mak mak 18011 Jun 13 18:07 function.py
+-rw-rw-r--. 1 mak mak   311 Jun 13 18:07 __init__.py
+-rw-rw-r--. 1 mak mak 23539 Jun 13 18:07 instance.py
+-rw-rw-r--. 1 mak mak 23654 Jun 13 18:07 iterable.py
+-rw-rw-r--. 1 mak mak 14049 Jun 13 18:07 klass.py
+-rw-rw-r--. 1 mak mak  9708 Jun 13 18:07 module.py
+-rw-rw-r--. 1 mak mak  2145 Jun 13 18:07 namespace.py
+drwxrwxr-x. 2 mak mak  4096 Jun 13 18:08 __pycache__
+
+.vim/bundle/jedi-vim/pythonx/jedi/jedi/inference/value/__pycache__:
+total 232
+-rw-rw-r--. 1 mak mak   837 Jun 13 18:07 decorator.cpython-36.pyc
+-rw-rw-r--. 1 mak mak   841 Jun 13 18:08 decorator.cpython-37.pyc
+-rw-rw-r--. 1 mak mak  7360 Jun 13 18:07 dynamic_arrays.cpython-36.pyc
+-rw-rw-r--. 1 mak mak  7325 Jun 13 18:08 dynamic_arrays.cpython-37.pyc
+-rw-rw-r--. 1 mak mak 17476 Jun 13 18:07 function.cpython-36.pyc
+-rw-rw-r--. 1 mak mak 17455 Jun 13 18:08 function.cpython-37.pyc
+-rw-rw-r--. 1 mak mak   547 Jun 13 18:07 __init__.cpython-36.pyc
+-rw-rw-r--. 1 mak mak   551 Jun 13 18:08 __init__.cpython-37.pyc
+-rw-rw-r--. 1 mak mak 24872 Jun 13 18:07 instance.cpython-36.pyc
+-rw-rw-r--. 1 mak mak 24847 Jun 13 18:08 instance.cpython-37.pyc
+-rw-rw-r--. 1 mak mak 23941 Jun 13 18:07 iterable.cpython-36.pyc
+-rw-rw-r--. 1 mak mak 23880 Jun 13 18:08 iterable.cpython-37.pyc
+-rw-rw-r--. 1 mak mak 12572 Jun 13 18:07 klass.cpython-36.pyc
+-rw-rw-r--. 1 mak mak 12581 Jun 13 18:08 klass.cpython-37.pyc
+-rw-rw-r--. 1 mak mak  8269 Jun 13 18:07 module.cpython-36.pyc
+-rw-rw-r--. 1 mak mak  8249 Jun 13 18:08 module.cpython-37.pyc
+
+.vim/bundle/jedi-vim/pythonx/jedi/jedi/plugins:
+total 52
+-rw-rw-r--. 1 mak mak   919 Jun 13 18:07 flask.py
+-rw-rw-r--. 1 mak mak  1453 Jun 13 18:07 __init__.py
+drwxrwxr-x. 2 mak mak  4096 Jun 13 18:08 __pycache__
+-rw-rw-r--. 1 mak mak  6062 Jun 13 18:07 pytest.py
+-rw-rw-r--. 1 mak mak   267 Jun 13 18:07 registry.py
+-rw-rw-r--. 1 mak mak 28555 Jun 13 18:07 stdlib.py
+
+.vim/bundle/jedi-vim/pythonx/jedi/jedi/plugins/__pycache__:
+total 104
+-rw-rw-r--. 1 mak mak   817 Jun 13 18:07 flask.cpython-36.pyc
+-rw-rw-r--. 1 mak mak   811 Jun 13 18:08 flask.cpython-37.pyc
+-rw-rw-r--. 1 mak mak  1751 Jun 13 18:07 __init__.cpython-36.pyc
+-rw-rw-r--. 1 mak mak  1755 Jun 13 18:08 __init__.cpython-37.pyc
+-rw-rw-r--. 1 mak mak  5350 Jun 13 18:07 pytest.cpython-36.pyc
+-rw-rw-r--. 1 mak mak  5313 Jun 13 18:08 pytest.cpython-37.pyc
+-rw-rw-r--. 1 mak mak   406 Jun 13 18:07 registry.cpython-36.pyc
+-rw-rw-r--. 1 mak mak   410 Jun 13 18:08 registry.cpython-37.pyc
+-rw-rw-r--. 1 mak mak 28841 Jun 13 18:07 stdlib.cpython-36.pyc
+-rw-rw-r--. 1 mak mak 28843 Jun 13 18:08 stdlib.cpython-37.pyc
+
+.vim/bundle/jedi-vim/pythonx/jedi/jedi/__pycache__:
+total 104
+-rw-rw-r--. 1 mak mak  3710 Jun 13 18:07 cache.cpython-36.pyc
+-rw-rw-r--. 1 mak mak  3714 Jun 13 18:08 cache.cpython-37.pyc
+-rw-rw-r--. 1 mak mak 18763 Jun 13 18:07 _compatibility.cpython-36.pyc
+-rw-rw-r--. 1 mak mak 18756 Jun 13 18:08 _compatibility.cpython-37.pyc
+-rw-rw-r--. 1 mak mak  3677 Jun 13 18:07 debug.cpython-36.pyc
+-rw-rw-r--. 1 mak mak  3681 Jun 13 18:08 debug.cpython-37.pyc
+-rw-rw-r--. 1 mak mak  3746 Jun 13 18:07 file_io.cpython-36.pyc
+-rw-rw-r--. 1 mak mak  3750 Jun 13 18:08 file_io.cpython-37.pyc
+-rw-rw-r--. 1 mak mak  1956 Jun 13 18:07 __init__.cpython-36.pyc
+-rw-rw-r--. 1 mak mak  1960 Jun 13 18:08 __init__.cpython-37.pyc
+-rw-rw-r--. 1 mak mak  7696 Jun 13 18:07 parser_utils.cpython-36.pyc
+-rw-rw-r--. 1 mak mak  7584 Jun 13 18:08 parser_utils.cpython-37.pyc
+-rw-rw-r--. 1 mak mak  1621 Jun 13 18:07 settings.cpython-36.pyc
+-rw-rw-r--. 1 mak mak  1625 Jun 13 18:08 settings.cpython-37.pyc
+-rw-rw-r--. 1 mak mak  4478 Jun 13 18:07 utils.cpython-36.pyc
+
+.vim/bundle/jedi-vim/pythonx/jedi/jedi/third_party:
+total 4
+-rw-rw-r--. 1 mak mak 890 Jun 13 18:07 README_typeshed.md
+drwxrwxr-x. 5 mak mak 227 Jun 13 18:07 typeshed
+
+.vim/bundle/jedi-vim/pythonx/jedi/jedi/third_party/typeshed:
+total 48
+-rw-rw-r--. 1 mak mak 16151 Jun 13 18:07 CONTRIBUTING.md
+-rw-rw-r--. 1 mak mak 12658 Jun 13 18:07 LICENSE
+-rw-rw-r--. 1 mak mak   210 Jun 13 18:07 pyproject.toml
+-rw-rw-r--. 1 mak mak  5913 Jun 13 18:07 README.md
+-rw-rw-r--. 1 mak mak   166 Jun 13 18:07 requirements-tests-py3.txt
+drwxrwxr-x. 7 mak mak    59 Jun 13 18:07 stdlib
+drwxrwxr-x. 2 mak mak   153 Jun 13 18:07 tests
+drwxrwxr-x. 5 mak mak    37 Jun 13 18:07 third_party
+
+.vim/bundle/jedi-vim/pythonx/jedi/jedi/third_party/typeshed/stdlib:
+total 16
+drwxrwxr-x.  7 mak mak 4096 Jun 13 18:07 2
+drwxrwxr-x. 12 mak mak 4096 Jun 13 18:07 2and3
+drwxrwxr-x. 16 mak mak 4096 Jun 13 18:07 3
+drwxrwxr-x.  2 mak mak   25 Jun 13 18:07 3.6
+drwxrwxr-x.  2 mak mak   52 Jun 13 18:07 3.7
+
+.vim/bundle/jedi-vim/pythonx/jedi/jedi/third_party/typeshed/stdlib/2:
+total 596
+-rw-rw-r--. 1 mak mak  1147 Jun 13 18:07 abc.pyi
+-rw-rw-r--. 1 mak mak  5777 Jun 13 18:07 _ast.pyi
+-rw-rw-r--. 1 mak mak  1201 Jun 13 18:07 ast.pyi
+-rw-rw-r--. 1 mak mak   117 Jun 13 18:07 atexit.pyi
+-rw-rw-r--. 1 mak mak  1864 Jun 13 18:07 BaseHTTPServer.pyi
+-rw-rw-r--. 1 mak mak 70641 Jun 13 18:07 __builtin__.pyi
+-rw-rw-r--. 1 mak mak   227 Jun 13 18:07 CGIHTTPServer.pyi
+-rw-rw-r--. 1 mak mak  1478 Jun 13 18:07 _collections.pyi
+-rw-rw-r--. 1 mak mak  4986 Jun 13 18:07 collections.pyi
+-rw-rw-r--. 1 mak mak   331 Jun 13 18:07 commands.pyi
+-rw-rw-r--. 1 mak mak   660 Jun 13 18:07 compileall.pyi
+-rw-rw-r--. 1 mak mak  3882 Jun 13 18:07 ConfigParser.pyi
+-rw-rw-r--. 1 mak mak  4521 Jun 13 18:07 cookielib.pyi
+-rw-rw-r--. 1 mak mak  1342 Jun 13 18:07 Cookie.pyi
+-rw-rw-r--. 1 mak mak   726 Jun 13 18:07 copy_reg.pyi
+-rw-rw-r--. 1 mak mak   801 Jun 13 18:07 cPickle.pyi
+-rw-rw-r--. 1 mak mak  2033 Jun 13 18:07 cStringIO.pyi
+-rw-rw-r--. 1 mak mak   339 Jun 13 18:07 dircache.pyi
+drwxrwxr-x. 2 mak mak    50 Jun 13 18:07 distutils
+-rw-rw-r--. 1 mak mak   794 Jun 13 18:07 dummy_thread.pyi
+drwxrwxr-x. 3 mak mak  4096 Jun 13 18:07 email
+drwxrwxr-x. 2 mak mak    43 Jun 13 18:07 encodings
+-rw-rw-r--. 1 mak mak  2640 Jun 13 18:07 exceptions.pyi
+-rw-rw-r--. 1 mak mak  1561 Jun 13 18:07 fcntl.pyi
+-rw-rw-r--. 1 mak mak   348 Jun 13 18:07 fnmatch.pyi
+-rw-rw-r--. 1 mak mak   645 Jun 13 18:07 _functools.pyi
+-rw-rw-r--. 1 mak mak  1262 Jun 13 18:07 functools.pyi
+-rw-rw-r--. 1 mak mak   226 Jun 13 18:07 future_builtins.pyi
+-rw-rw-r--. 1 mak mak   787 Jun 13 18:07 gc.pyi
+-rw-rw-r--. 1 mak mak   448 Jun 13 18:07 getopt.pyi
+-rw-rw-r--. 1 mak mak   192 Jun 13 18:07 getpass.pyi
+-rw-rw-r--. 1 mak mak  2284 Jun 13 18:07 gettext.pyi
+-rw-rw-r--. 1 mak mak   375 Jun 13 18:07 glob.pyi
+-rw-rw-r--. 1 mak mak  1000 Jun 13 18:07 gzip.pyi
+-rw-rw-r--. 1 mak mak  1004 Jun 13 18:07 hashlib.pyi
+-rw-rw-r--. 1 mak mak   746 Jun 13 18:07 heapq.pyi
+-rw-rw-r--. 1 mak mak   871 Jun 13 18:07 _hotshot.pyi
+-rw-rw-r--. 1 mak mak   114 Jun 13 18:07 htmlentitydefs.pyi
+-rw-rw-r--. 1 mak mak  1067 Jun 13 18:07 HTMLParser.pyi
+-rw-rw-r--. 1 mak mak  5937 Jun 13 18:07 httplib.pyi
+-rw-rw-r--. 1 mak mak   134 Jun 13 18:07 importlib.pyi
+-rw-rw-r--. 1 mak mak  1325 Jun 13 18:07 imp.pyi
+-rw-rw-r--. 1 mak mak  4589 Jun 13 18:07 inspect.pyi
+-rw-rw-r--. 1 mak mak  7131 Jun 13 18:07 _io.pyi
+-rw-rw-r--. 1 mak mak  1463 Jun 13 18:07 io.pyi
+-rw-rw-r--. 1 mak mak  6499 Jun 13 18:07 itertools.pyi
+-rw-rw-r--. 1 mak mak   233 Jun 13 18:07 _json.pyi
+-rw-rw-r--. 1 mak mak  3777 Jun 13 18:07 json.pyi
+-rw-rw-r--. 1 mak mak   265 Jun 13 18:07 markupbase.pyi
+-rw-rw-r--. 1 mak mak   300 Jun 13 18:07 _md5.pyi
+-rw-rw-r--. 1 mak mak   118 Jun 13 18:07 md5.pyi
+-rw-rw-r--. 1 mak mak   703 Jun 13 18:07 mimetools.pyi
+drwxrwxr-x. 3 mak mak    90 Jun 13 18:07 multiprocessing
+-rw-rw-r--. 1 mak mak   426 Jun 13 18:07 mutex.pyi
+-rw-rw-r--. 1 mak mak   115 Jun 13 18:07 nturl2path.pyi
+drwxrwxr-x. 2 mak mak    42 Jun 13 18:07 os
+-rw-rw-r--. 1 mak mak  6228 Jun 13 18:07 os2emxpath.pyi
+-rw-rw-r--. 1 mak mak   453 Jun 13 18:07 pipes.pyi
+-rw-rw-r--. 1 mak mak  1609 Jun 13 18:07 platform.pyi
+-rw-rw-r--. 1 mak mak  1000 Jun 13 18:07 popen2.pyi
+-rw-rw-r--. 1 mak mak  6363 Jun 13 18:07 posix.pyi
+-rw-rw-r--. 1 mak mak   925 Jun 13 18:07 Queue.pyi
+-rw-rw-r--. 1 mak mak  3311 Jun 13 18:07 random.pyi
+-rw-rw-r--. 1 mak mak  1094 Jun 13 18:07 repr.pyi
+-rw-rw-r--. 1 mak mak  3804 Jun 13 18:07 re.pyi
+-rw-rw-r--. 1 mak mak   876 Jun 13 18:07 resource.pyi
+-rw-rw-r--. 1 mak mak  2234 Jun 13 18:07 rfc822.pyi
+-rw-rw-r--. 1 mak mak   230 Jun 13 18:07 robotparser.pyi
+-rw-rw-r--. 1 mak mak   541 Jun 13 18:07 runpy.pyi
+-rw-rw-r--. 1 mak mak  3003 Jun 13 18:07 sets.pyi
+-rw-rw-r--. 1 mak mak   632 Jun 13 18:07 _sha256.pyi
+-rw-rw-r--. 1 mak mak   632 Jun 13 18:07 _sha512.pyi
+-rw-rw-r--. 1 mak mak   348 Jun 13 18:07 _sha.pyi
+-rw-rw-r--. 1 mak mak   277 Jun 13 18:07 sha.pyi
+-rw-rw-r--. 1 mak mak  1585 Jun 13 18:07 shelve.pyi
+-rw-rw-r--. 1 mak mak  1000 Jun 13 18:07 shlex.pyi
+-rw-rw-r--. 1 mak mak  1571 Jun 13 18:07 signal.pyi
+-rw-rw-r--. 1 mak mak   689 Jun 13 18:07 SimpleHTTPServer.pyi
+-rw-rw-r--. 1 mak mak  2542 Jun 13 18:07 smtplib.pyi
+-rw-rw-r--. 1 mak mak  6309 Jun 13 18:07 _socket.pyi
+-rw-rw-r--. 1 mak mak  3950 Jun 13 18:07 SocketServer.pyi
+-rw-rw-r--. 1 mak mak   308 Jun 13 18:07 spwd.pyi
+-rw-rw-r--. 1 mak mak  1814 Jun 13 18:07 sre_constants.pyi
+-rw-rw-r--. 1 mak mak  2377 Jun 13 18:07 sre_parse.pyi
+-rw-rw-r--. 1 mak mak  1976 Jun 13 18:07 _sre.pyi
+-rw-rw-r--. 1 mak mak   993 Jun 13 18:07 stat.pyi
+-rw-rw-r--. 1 mak mak  1179 Jun 13 18:07 StringIO.pyi
+-rw-rw-r--. 1 mak mak  2077 Jun 13 18:07 stringold.pyi
+-rw-rw-r--. 1 mak mak  3706 Jun 13 18:07 string.pyi
+-rw-rw-r--. 1 mak mak  1198 Jun 13 18:07 strop.pyi
+-rw-rw-r--. 1 mak mak   811 Jun 13 18:07 _struct.pyi
+-rw-rw-r--. 1 mak mak  3819 Jun 13 18:07 subprocess.pyi
+-rw-rw-r--. 1 mak mak  1372 Jun 13 18:07 symbol.pyi
+-rw-rw-r--. 1 mak mak   682 Jun 13 18:07 _symtable.pyi
+-rw-rw-r--. 1 mak mak  3666 Jun 13 18:07 sys.pyi
+-rw-rw-r--. 1 mak mak  3758 Jun 13 18:07 tempfile.pyi
+-rw-rw-r--. 1 mak mak  1976 Jun 13 18:07 textwrap.pyi
+-rw-rw-r--. 1 mak mak   392 Jun 13 18:07 _threading_local.pyi
+-rw-rw-r--. 1 mak mak   957 Jun 13 18:07 thread.pyi
+-rw-rw-r--. 1 mak mak   337 Jun 13 18:07 toaiff.pyi
+-rw-rw-r--. 1 mak mak  2770 Jun 13 18:07 tokenize.pyi
+-rw-rw-r--. 1 mak mak  5316 Jun 13 18:07 types.pyi
+-rw-rw-r--. 1 mak mak 17294 Jun 13 18:07 typing.pyi
+-rw-rw-r--. 1 mak mak 13559 Jun 13 18:07 unittest.pyi
+-rw-rw-r--. 1 mak mak  8337 Jun 13 18:07 urllib2.pyi
+-rw-rw-r--. 1 mak mak  4766 Jun 13 18:07 urllib.pyi
+-rw-rw-r--. 1 mak mak  2033 Jun 13 18:07 urlparse.pyi
+-rw-rw-r--. 1 mak mak  1632 Jun 13 18:07 UserDict.pyi
+-rw-rw-r--. 1 mak mak   630 Jun 13 18:07 UserList.pyi
+-rw-rw-r--. 1 mak mak   224 Jun 13 18:07 user.pyi
+-rw-rw-r--. 1 mak mak  3844 Jun 13 18:07 UserString.pyi
+-rw-rw-r--. 1 mak mak   150 Jun 13 18:07 whichdb.pyi
+-rw-rw-r--. 1 mak mak  9655 Jun 13 18:07 xmlrpclib.pyi
+
+.vim/bundle/jedi-vim/pythonx/jedi/jedi/third_party/typeshed/stdlib/2/distutils:
+total 4
+-rw-rw-r--. 1 mak mak 116 Jun 13 18:07 emxccompiler.pyi
+-rw-rw-r--. 1 mak mak   0 Jun 13 18:07 __init__.pyi
+
+.vim/bundle/jedi-vim/pythonx/jedi/jedi/third_party/typeshed/stdlib/2/email:
+total 56
+-rw-rw-r--. 1 mak mak  300 Jun 13 18:07 base64mime.pyi
+-rw-rw-r--. 1 mak mak  902 Jun 13 18:07 charset.pyi
+-rw-rw-r--. 1 mak mak  143 Jun 13 18:07 encoders.pyi
+-rw-rw-r--. 1 mak mak  537 Jun 13 18:07 feedparser.pyi
+-rw-rw-r--. 1 mak mak  378 Jun 13 18:07 generator.pyi
+-rw-rw-r--. 1 mak mak  474 Jun 13 18:07 header.pyi
+-rw-rw-r--. 1 mak mak  270 Jun 13 18:07 __init__.pyi
+-rw-rw-r--. 1 mak mak  256 Jun 13 18:07 iterators.pyi
+-rw-rw-r--. 1 mak mak 1950 Jun 13 18:07 message.pyi
+drwxrwxr-x. 2 mak mak  179 Jun 13 18:07 mime
+-rw-rw-r--. 1 mak mak  159 Jun 13 18:07 MIMEText.pyi
+-rw-rw-r--. 1 mak mak 1072 Jun 13 18:07 _parseaddr.pyi
+-rw-rw-r--. 1 mak mak  415 Jun 13 18:07 parser.pyi
+-rw-rw-r--. 1 mak mak  490 Jun 13 18:07 quoprimime.pyi
+-rw-rw-r--. 1 mak mak  823 Jun 13 18:07 utils.pyi
+
+.vim/bundle/jedi-vim/pythonx/jedi/jedi/third_party/typeshed/stdlib/2/email/mime:
+total 32
+-rw-rw-r--. 1 mak mak 427 Jun 13 18:07 application.pyi
+-rw-rw-r--. 1 mak mak 177 Jun 13 18:07 audio.pyi
+-rw-rw-r--. 1 mak mak 128 Jun 13 18:07 base.pyi
+-rw-rw-r--. 1 mak mak 177 Jun 13 18:07 image.pyi
+-rw-rw-r--. 1 mak mak   0 Jun 13 18:07 __init__.pyi
+-rw-rw-r--. 1 mak mak 148 Jun 13 18:07 message.pyi
+-rw-rw-r--. 1 mak mak 159 Jun 13 18:07 multipart.pyi
+-rw-rw-r--. 1 mak mak 107 Jun 13 18:07 nonmultipart.pyi
+-rw-rw-r--. 1 mak mak 159 Jun 13 18:07 text.pyi
+
+.vim/bundle/jedi-vim/pythonx/jedi/jedi/third_party/typeshed/stdlib/2/encodings:
+total 8
+-rw-rw-r--. 1 mak mak  94 Jun 13 18:07 __init__.pyi
+-rw-rw-r--. 1 mak mak 573 Jun 13 18:07 utf_8.pyi
+
+.vim/bundle/jedi-vim/pythonx/jedi/jedi/third_party/typeshed/stdlib/2/multiprocessing:
+total 16
+drwxrwxr-x. 2 mak mak   48 Jun 13 18:07 dummy
+-rw-rw-r--. 1 mak mak 1931 Jun 13 18:07 __init__.pyi
+-rw-rw-r--. 1 mak mak 2387 Jun 13 18:07 pool.pyi
+-rw-rw-r--. 1 mak mak  909 Jun 13 18:07 process.pyi
+-rw-rw-r--. 1 mak mak  758 Jun 13 18:07 util.pyi
+
+.vim/bundle/jedi-vim/pythonx/jedi/jedi/third_party/typeshed/stdlib/2/multiprocessing/dummy:
+total 8
+-rw-rw-r--. 1 mak mak  674 Jun 13 18:07 connection.pyi
+-rw-rw-r--. 1 mak mak 1417 Jun 13 18:07 __init__.pyi
+
+.vim/bundle/jedi-vim/pythonx/jedi/jedi/third_party/typeshed/stdlib/2/os:
+total 24
+-rw-rw-r--. 1 mak mak 13399 Jun 13 18:07 __init__.pyi
+-rw-rw-r--. 1 mak mak  6228 Jun 13 18:07 path.pyi
+
+.vim/bundle/jedi-vim/pythonx/jedi/jedi/third_party/typeshed/stdlib/2and3:
+total 788
+-rw-rw-r--. 1 mak mak  3317 Jun 13 18:07 aifc.pyi
+-rw-rw-r--. 1 mak mak 17501 Jun 13 18:07 argparse.pyi
+-rw-rw-r--. 1 mak mak  2861 Jun 13 18:07 array.pyi
+-rw-rw-r--. 1 mak mak  1557 Jun 13 18:07 asynchat.pyi
+-rw-rw-r--. 1 mak mak  5627 Jun 13 18:07 asyncore.pyi
+-rw-rw-r--. 1 mak mak  1991 Jun 13 18:07 audioop.pyi
+-rw-rw-r--. 1 mak mak  1586 Jun 13 18:07 base64.pyi
+-rw-rw-r--. 1 mak mak  4474 Jun 13 18:07 bdb.pyi
+-rw-rw-r--. 1 mak mak  1458 Jun 13 18:07 binascii.pyi
+-rw-rw-r--. 1 mak mak  1169 Jun 13 18:07 binhex.pyi
+-rw-rw-r--. 1 mak mak   625 Jun 13 18:07 _bisect.pyi
+-rw-rw-r--. 1 mak mak   606 Jun 13 18:07 bisect.pyi
+-rw-rw-r--. 1 mak mak 70641 Jun 13 18:07 builtins.pyi
+-rw-rw-r--. 1 mak mak  1592 Jun 13 18:07 bz2.pyi
+-rw-rw-r--. 1 mak mak  5772 Jun 13 18:07 calendar.pyi
+-rw-rw-r--. 1 mak mak  4998 Jun 13 18:07 cgi.pyi
+-rw-rw-r--. 1 mak mak  1536 Jun 13 18:07 cgitb.pyi
+-rw-rw-r--. 1 mak mak   755 Jun 13 18:07 chunk.pyi
+-rw-rw-r--. 1 mak mak  1207 Jun 13 18:07 cmath.pyi
+-rw-rw-r--. 1 mak mak  1694 Jun 13 18:07 cmd.pyi
+-rw-rw-r--. 1 mak mak  5018 Jun 13 18:07 _codecs.pyi
+-rw-rw-r--. 1 mak mak 11071 Jun 13 18:07 codecs.pyi
+-rw-rw-r--. 1 mak mak   633 Jun 13 18:07 codeop.pyi
+-rw-rw-r--. 1 mak mak  1646 Jun 13 18:07 code.pyi
+-rw-rw-r--. 1 mak mak   600 Jun 13 18:07 colorsys.pyi
+-rw-rw-r--. 1 mak mak  4806 Jun 13 18:07 contextlib.pyi
+-rw-rw-r--. 1 mak mak   343 Jun 13 18:07 copy.pyi
+-rw-rw-r--. 1 mak mak  1284 Jun 13 18:07 cProfile.pyi
+-rw-rw-r--. 1 mak mak   648 Jun 13 18:07 crypt.pyi
+-rw-rw-r--. 1 mak mak  1437 Jun 13 18:07 _csv.pyi
+-rw-rw-r--. 1 mak mak  2813 Jun 13 18:07 csv.pyi
+drwxrwxr-x. 2 mak mak    62 Jun 13 18:07 ctypes
+drwxrwxr-x. 2 mak mak    79 Jun 13 18:07 curses
+-rw-rw-r--. 1 mak mak 13298 Jun 13 18:07 _curses.pyi
+-rw-rw-r--. 1 mak mak 12006 Jun 13 18:07 datetime.pyi
+-rw-rw-r--. 1 mak mak 16037 Jun 13 18:07 decimal.pyi
+-rw-rw-r--. 1 mak mak  3853 Jun 13 18:07 difflib.pyi
+-rw-rw-r--. 1 mak mak  2894 Jun 13 18:07 dis.pyi
+drwxrwxr-x. 3 mak mak  4096 Jun 13 18:07 distutils
+-rw-rw-r--. 1 mak mak  6852 Jun 13 18:07 doctest.pyi
+drwxrwxr-x. 2 mak mak    26 Jun 13 18:07 ensurepip
+-rw-rw-r--. 1 mak mak  2041 Jun 13 18:07 errno.pyi
+-rw-rw-r--. 1 mak mak  1621 Jun 13 18:07 filecmp.pyi
+-rw-rw-r--. 1 mak mak  2672 Jun 13 18:07 fileinput.pyi
+-rw-rw-r--. 1 mak mak  4655 Jun 13 18:07 formatter.pyi
+-rw-rw-r--. 1 mak mak  3276 Jun 13 18:07 fractions.pyi
+-rw-rw-r--. 1 mak mak  5985 Jun 13 18:07 ftplib.pyi
+-rw-rw-r--. 1 mak mak   587 Jun 13 18:07 __future__.pyi
+-rw-rw-r--. 1 mak mak   653 Jun 13 18:07 genericpath.pyi
+-rw-rw-r--. 1 mak mak   295 Jun 13 18:07 grp.pyi
+-rw-rw-r--. 1 mak mak   541 Jun 13 18:07 _heapq.pyi
+-rw-rw-r--. 1 mak mak  1075 Jun 13 18:07 hmac.pyi
+-rw-rw-r--. 1 mak mak  6407 Jun 13 18:07 imaplib.pyi
+-rw-rw-r--. 1 mak mak   403 Jun 13 18:07 imghdr.pyi
+-rw-rw-r--. 1 mak mak   135 Jun 13 18:07 keyword.pyi
+drwxrwxr-x. 3 mak mak    75 Jun 13 18:07 lib2to3
+-rw-rw-r--. 1 mak mak   590 Jun 13 18:07 linecache.pyi
+-rw-rw-r--. 1 mak mak  2596 Jun 13 18:07 locale.pyi
+drwxrwxr-x. 2 mak mak    64 Jun 13 18:07 logging
+-rw-rw-r--. 1 mak mak  6631 Jun 13 18:07 macpath.pyi
+-rw-rw-r--. 1 mak mak  7862 Jun 13 18:07 mailbox.pyi
+-rw-rw-r--. 1 mak mak   325 Jun 13 18:07 mailcap.pyi
+-rw-rw-r--. 1 mak mak   240 Jun 13 18:07 marshal.pyi
+-rw-rw-r--. 1 mak mak  3272 Jun 13 18:07 math.pyi
+-rw-rw-r--. 1 mak mak  1575 Jun 13 18:07 mimetypes.pyi
+-rw-rw-r--. 1 mak mak  3686 Jun 13 18:07 mmap.pyi
+-rw-rw-r--. 1 mak mak  2950 Jun 13 18:07 modulefinder.pyi
+-rw-rw-r--. 1 mak mak   466 Jun 13 18:07 netrc.pyi
+-rw-rw-r--. 1 mak mak   323 Jun 13 18:07 nis.pyi
+-rw-rw-r--. 1 mak mak  6228 Jun 13 18:07 ntpath.pyi
+-rw-rw-r--. 1 mak mak  4065 Jun 13 18:07 numbers.pyi
+-rw-rw-r--. 1 mak mak   463 Jun 13 18:07 opcode.pyi
+-rw-rw-r--. 1 mak mak  6519 Jun 13 18:07 operator.pyi
+-rw-rw-r--. 1 mak mak 10016 Jun 13 18:07 optparse.pyi
+-rw-rw-r--. 1 mak mak  2383 Jun 13 18:07 pdb.pyi
+-rw-rw-r--. 1 mak mak  3697 Jun 13 18:07 pickle.pyi
+-rw-rw-r--. 1 mak mak  4395 Jun 13 18:07 pickletools.pyi
+-rw-rw-r--. 1 mak mak  1369 Jun 13 18:07 pkgutil.pyi
+-rw-rw-r--. 1 mak mak  2459 Jun 13 18:07 plistlib.pyi
+-rw-rw-r--. 1 mak mak  2492 Jun 13 18:07 poplib.pyi
+-rw-rw-r--. 1 mak mak  6228 Jun 13 18:07 posixpath.pyi
+-rw-rw-r--. 1 mak mak  1699 Jun 13 18:07 pprint.pyi
+-rw-rw-r--. 1 mak mak  1289 Jun 13 18:07 profile.pyi
+-rw-rw-r--. 1 mak mak  1964 Jun 13 18:07 pstats.pyi
+-rw-rw-r--. 1 mak mak   623 Jun 13 18:07 pty.pyi
+-rw-rw-r--. 1 mak mak   350 Jun 13 18:07 pwd.pyi
+-rw-rw-r--. 1 mak mak   931 Jun 13 18:07 pyclbr.pyi
+-rw-rw-r--. 1 mak mak  1236 Jun 13 18:07 py_compile.pyi
+-rw-rw-r--. 1 mak mak  9786 Jun 13 18:07 pydoc.pyi
+drwxrwxr-x. 2 mak mak    61 Jun 13 18:07 pyexpat
+-rw-rw-r--. 1 mak mak   380 Jun 13 18:07 quopri.pyi
+-rw-rw-r--. 1 mak mak   493 Jun 13 18:07 _random.pyi
+-rw-rw-r--. 1 mak mak  1525 Jun 13 18:07 readline.pyi
+-rw-rw-r--. 1 mak mak   334 Jun 13 18:07 rlcompleter.pyi
+-rw-rw-r--. 1 mak mak  1332 Jun 13 18:07 sched.pyi
+-rw-rw-r--. 1 mak mak  3936 Jun 13 18:07 select.pyi
+-rw-rw-r--. 1 mak mak  6195 Jun 13 18:07 shutil.pyi
+-rw-rw-r--. 1 mak mak   482 Jun 13 18:07 site.pyi
+-rw-rw-r--. 1 mak mak  2856 Jun 13 18:07 smtpd.pyi
+-rw-rw-r--. 1 mak mak   635 Jun 13 18:07 sndhdr.pyi
+-rw-rw-r--. 1 mak mak 21695 Jun 13 18:07 socket.pyi
+drwxrwxr-x. 2 mak mak    44 Jun 13 18:07 sqlite3
+-rw-rw-r--. 1 mak mak   635 Jun 13 18:07 sre_compile.pyi
+-rw-rw-r--. 1 mak mak 11682 Jun 13 18:07 ssl.pyi
+-rw-rw-r--. 1 mak mak   858 Jun 13 18:07 stringprep.pyi
+-rw-rw-r--. 1 mak mak  1676 Jun 13 18:07 struct.pyi
+-rw-rw-r--. 1 mak mak  3086 Jun 13 18:07 sunau.pyi
+-rw-rw-r--. 1 mak mak  1645 Jun 13 18:07 symtable.pyi
+-rw-rw-r--. 1 mak mak   873 Jun 13 18:07 sysconfig.pyi
+-rw-rw-r--. 1 mak mak   822 Jun 13 18:07 syslog.pyi
+-rw-rw-r--. 1 mak mak   593 Jun 13 18:07 tabnanny.pyi
+-rw-rw-r--. 1 mak mak  6835 Jun 13 18:07 tarfile.pyi
+-rw-rw-r--. 1 mak mak  2723 Jun 13 18:07 telnetlib.pyi
+-rw-rw-r--. 1 mak mak  3403 Jun 13 18:07 termios.pyi
+-rw-rw-r--. 1 mak mak  6829 Jun 13 18:07 threading.pyi
+-rw-rw-r--. 1 mak mak  1634 Jun 13 18:07 timeit.pyi
+-rw-rw-r--. 1 mak mak  3889 Jun 13 18:07 time.pyi
+-rw-rw-r--. 1 mak mak  1161 Jun 13 18:07 token.pyi
+-rw-rw-r--. 1 mak mak  5852 Jun 13 18:07 traceback.pyi
+-rw-rw-r--. 1 mak mak  2048 Jun 13 18:07 trace.pyi
+-rw-rw-r--. 1 mak mak   305 Jun 13 18:07 tty.pyi
+-rw-rw-r--. 1 mak mak 18320 Jun 13 18:07 turtle.pyi
+-rw-rw-r--. 1 mak mak  1900 Jun 13 18:07 unicodedata.pyi
+-rw-rw-r--. 1 mak mak  2830 Jun 13 18:07 uuid.pyi
+-rw-rw-r--. 1 mak mak   562 Jun 13 18:07 uu.pyi
+-rw-rw-r--. 1 mak mak  1063 Jun 13 18:07 _warnings.pyi
+-rw-rw-r--. 1 mak mak  1786 Jun 13 18:07 warnings.pyi
+-rw-rw-r--. 1 mak mak  2654 Jun 13 18:07 wave.pyi
+-rw-rw-r--. 1 mak mak  1028 Jun 13 18:07 _weakref.pyi
+-rw-rw-r--. 1 mak mak  4288 Jun 13 18:07 weakref.pyi
+-rw-rw-r--. 1 mak mak  2239 Jun 13 18:07 _weakrefset.pyi
+-rw-rw-r--. 1 mak mak  3158 Jun 13 18:07 webbrowser.pyi
+drwxrwxr-x. 2 mak mak   143 Jun 13 18:07 wsgiref
+-rw-rw-r--. 1 mak mak  2353 Jun 13 18:07 xdrlib.pyi
+drwxrwxr-x. 5 mak mak    65 Jun 13 18:07 xml
+-rw-rw-r--. 1 mak mak  4874 Jun 13 18:07 zipfile.pyi
+-rw-rw-r--. 1 mak mak   689 Jun 13 18:07 zipimport.pyi
+-rw-rw-r--. 1 mak mak  1654 Jun 13 18:07 zlib.pyi
+
+.vim/bundle/jedi-vim/pythonx/jedi/jedi/third_party/typeshed/stdlib/2and3/ctypes:
+total 24
+-rw-rw-r--. 1 mak mak 11761 Jun 13 18:07 __init__.pyi
+-rw-rw-r--. 1 mak mak   187 Jun 13 18:07 util.pyi
+-rw-rw-r--. 1 mak mak  4566 Jun 13 18:07 wintypes.pyi
+
+.vim/bundle/jedi-vim/pythonx/jedi/jedi/third_party/typeshed/stdlib/2and3/curses:
+total 16
+-rw-rw-r--. 1 mak mak 1222 Jun 13 18:07 ascii.pyi
+-rw-rw-r--. 1 mak mak  368 Jun 13 18:07 __init__.pyi
+-rw-rw-r--. 1 mak mak  799 Jun 13 18:07 panel.pyi
+-rw-rw-r--. 1 mak mak  429 Jun 13 18:07 textpad.pyi
+
+.vim/bundle/jedi-vim/pythonx/jedi/jedi/third_party/typeshed/stdlib/2and3/distutils:
+total 100
+-rw-rw-r--. 1 mak mak  525 Jun 13 18:07 archive_util.pyi
+-rw-rw-r--. 1 mak mak  115 Jun 13 18:07 bcppcompiler.pyi
+-rw-rw-r--. 1 mak mak 6961 Jun 13 18:07 ccompiler.pyi
+-rw-rw-r--. 1 mak mak 2590 Jun 13 18:07 cmd.pyi
+drwxrwxr-x. 2 mak mak 4096 Jun 13 18:07 command
+-rw-rw-r--. 1 mak mak 1959 Jun 13 18:07 core.pyi
+-rw-rw-r--. 1 mak mak  178 Jun 13 18:07 cygwinccompiler.pyi
+-rw-rw-r--. 1 mak mak   41 Jun 13 18:07 debug.pyi
+-rw-rw-r--. 1 mak mak  303 Jun 13 18:07 dep_util.pyi
+-rw-rw-r--. 1 mak mak  638 Jun 13 18:07 dir_util.pyi
+-rw-rw-r--. 1 mak mak  492 Jun 13 18:07 dist.pyi
+-rw-rw-r--. 1 mak mak  852 Jun 13 18:07 errors.pyi
+-rw-rw-r--. 1 mak mak 1713 Jun 13 18:07 extension.pyi
+-rw-rw-r--. 1 mak mak  962 Jun 13 18:07 fancy_getopt.pyi
+-rw-rw-r--. 1 mak mak   52 Jun 13 18:07 filelist.pyi
+-rw-rw-r--. 1 mak mak  494 Jun 13 18:07 file_util.pyi
+-rw-rw-r--. 1 mak mak    0 Jun 13 18:07 __init__.pyi
+-rw-rw-r--. 1 mak mak  776 Jun 13 18:07 log.pyi
+-rw-rw-r--. 1 mak mak  115 Jun 13 18:07 msvccompiler.pyi
+-rw-rw-r--. 1 mak mak  286 Jun 13 18:07 spawn.pyi
+-rw-rw-r--. 1 mak mak  692 Jun 13 18:07 sysconfig.pyi
+-rw-rw-r--. 1 mak mak  760 Jun 13 18:07 text_file.pyi
+-rw-rw-r--. 1 mak mak  117 Jun 13 18:07 unixccompiler.pyi
+-rw-rw-r--. 1 mak mak  892 Jun 13 18:07 util.pyi
+-rw-rw-r--. 1 mak mak 1884 Jun 13 18:07 version.pyi
+
+.vim/bundle/jedi-vim/pythonx/jedi/jedi/third_party/typeshed/stdlib/2and3/distutils/command:
+total 12
+-rw-rw-r--. 1 mak mak   0 Jun 13 18:07 bdist_dumb.pyi
+-rw-rw-r--. 1 mak mak 182 Jun 13 18:07 bdist_msi.pyi
+-rw-rw-r--. 1 mak mak   0 Jun 13 18:07 bdist_packager.pyi
+-rw-rw-r--. 1 mak mak   0 Jun 13 18:07 bdist.pyi
+-rw-rw-r--. 1 mak mak   0 Jun 13 18:07 bdist_rpm.pyi
+-rw-rw-r--. 1 mak mak   0 Jun 13 18:07 bdist_wininst.pyi
+-rw-rw-r--. 1 mak mak   0 Jun 13 18:07 build_clib.pyi
+-rw-rw-r--. 1 mak mak   0 Jun 13 18:07 build_ext.pyi
+-rw-rw-r--. 1 mak mak   0 Jun 13 18:07 build.pyi
+-rw-rw-r--. 1 mak mak 277 Jun 13 18:07 build_py.pyi
+-rw-rw-r--. 1 mak mak   0 Jun 13 18:07 build_scripts.pyi
+-rw-rw-r--. 1 mak mak   0 Jun 13 18:07 check.pyi
+-rw-rw-r--. 1 mak mak   0 Jun 13 18:07 clean.pyi
+-rw-rw-r--. 1 mak mak   0 Jun 13 18:07 config.pyi
+-rw-rw-r--. 1 mak mak   0 Jun 13 18:07 __init__.pyi
+-rw-rw-r--. 1 mak mak   0 Jun 13 18:07 install_data.pyi
+-rw-rw-r--. 1 mak mak   0 Jun 13 18:07 install_headers.pyi
+-rw-rw-r--. 1 mak mak   0 Jun 13 18:07 install_lib.pyi
+-rw-rw-r--. 1 mak mak 340 Jun 13 18:07 install.pyi
+-rw-rw-r--. 1 mak mak   0 Jun 13 18:07 install_scripts.pyi
+-rw-rw-r--. 1 mak mak   0 Jun 13 18:07 register.pyi
+-rw-rw-r--. 1 mak mak   0 Jun 13 18:07 sdist.pyi
+
+.vim/bundle/jedi-vim/pythonx/jedi/jedi/third_party/typeshed/stdlib/2and3/ensurepip:
+total 4
+-rw-rw-r--. 1 mak mak 444 Jun 13 18:07 __init__.pyi
+
+.vim/bundle/jedi-vim/pythonx/jedi/jedi/third_party/typeshed/stdlib/2and3/lib2to3:
+total 12
+-rw-rw-r--. 1 mak mak   33 Jun 13 18:07 __init__.pyi
+drwxrwxr-x. 2 mak mak  153 Jun 13 18:07 pgen2
+-rw-rw-r--. 1 mak mak 2272 Jun 13 18:07 pygram.pyi
+-rw-rw-r--. 1 mak mak 3254 Jun 13 18:07 pytree.pyi
+
+.vim/bundle/jedi-vim/pythonx/jedi/jedi/third_party/typeshed/stdlib/2and3/lib2to3/pgen2:
+total 32
+-rw-rw-r--. 1 mak mak 1050 Jun 13 18:07 driver.pyi
+-rw-rw-r--. 1 mak mak  785 Jun 13 18:07 grammar.pyi
+-rw-rw-r--. 1 mak mak  184 Jun 13 18:07 __init__.pyi
+-rw-rw-r--. 1 mak mak  221 Jun 13 18:07 literals.pyi
+-rw-rw-r--. 1 mak mak 1160 Jun 13 18:07 parse.pyi
+-rw-rw-r--. 1 mak mak 2165 Jun 13 18:07 pgen.pyi
+-rw-rw-r--. 1 mak mak  988 Jun 13 18:07 tokenize.pyi
+-rw-rw-r--. 1 mak mak 1111 Jun 13 18:07 token.pyi
+
+.vim/bundle/jedi-vim/pythonx/jedi/jedi/third_party/typeshed/stdlib/2and3/logging:
+total 32
+-rw-rw-r--. 1 mak mak  1163 Jun 13 18:07 config.pyi
+-rw-rw-r--. 1 mak mak  8031 Jun 13 18:07 handlers.pyi
+-rw-rw-r--. 1 mak mak 18443 Jun 13 18:07 __init__.pyi
+
+.vim/bundle/jedi-vim/pythonx/jedi/jedi/third_party/typeshed/stdlib/2and3/pyexpat:
+total 12
+-rw-rw-r--. 1 mak mak 1275 Jun 13 18:07 errors.pyi
+-rw-rw-r--. 1 mak mak 3315 Jun 13 18:07 __init__.pyi
+-rw-rw-r--. 1 mak mak  205 Jun 13 18:07 model.pyi
+
+.vim/bundle/jedi-vim/pythonx/jedi/jedi/third_party/typeshed/stdlib/2and3/sqlite3:
+total 16
+-rw-rw-r--. 1 mak mak 10760 Jun 13 18:07 dbapi2.pyi
+-rw-rw-r--. 1 mak mak    43 Jun 13 18:07 __init__.pyi
+
+.vim/bundle/jedi-vim/pythonx/jedi/jedi/third_party/typeshed/stdlib/2and3/wsgiref:
+total 24
+-rw-rw-r--. 1 mak mak 3100 Jun 13 18:07 handlers.pyi
+-rw-rw-r--. 1 mak mak 1250 Jun 13 18:07 headers.pyi
+-rw-rw-r--. 1 mak mak    0 Jun 13 18:07 __init__.pyi
+-rw-rw-r--. 1 mak mak 1523 Jun 13 18:07 simple_server.pyi
+-rw-rw-r--. 1 mak mak 1742 Jun 13 18:07 types.pyi
+-rw-rw-r--. 1 mak mak  886 Jun 13 18:07 util.pyi
+-rw-rw-r--. 1 mak mak 1861 Jun 13 18:07 validate.pyi
+
+.vim/bundle/jedi-vim/pythonx/jedi/jedi/third_party/typeshed/stdlib/2and3/xml:
+total 4
+drwxrwxr-x. 2 mak mak 122 Jun 13 18:07 etree
+-rw-rw-r--. 1 mak mak  30 Jun 13 18:07 __init__.pyi
+drwxrwxr-x. 3 mak mak  39 Jun 13 18:07 parsers
+drwxrwxr-x. 2 mak mak  86 Jun 13 18:07 sax
+
+.vim/bundle/jedi-vim/pythonx/jedi/jedi/third_party/typeshed/stdlib/2and3/xml/etree:
+total 28
+-rw-rw-r--. 1 mak mak    99 Jun 13 18:07 cElementTree.pyi
+-rw-rw-r--. 1 mak mak   665 Jun 13 18:07 ElementInclude.pyi
+-rw-rw-r--. 1 mak mak  1603 Jun 13 18:07 ElementPath.pyi
+-rw-rw-r--. 1 mak mak 12589 Jun 13 18:07 ElementTree.pyi
+-rw-rw-r--. 1 mak mak     0 Jun 13 18:07 __init__.pyi
+
+.vim/bundle/jedi-vim/pythonx/jedi/jedi/third_party/typeshed/stdlib/2and3/xml/parsers:
+total 4
+drwxrwxr-x. 2 mak mak 61 Jun 13 18:07 expat
+-rw-rw-r--. 1 mak mak 34 Jun 13 18:07 __init__.pyi
+
+.vim/bundle/jedi-vim/pythonx/jedi/jedi/third_party/typeshed/stdlib/2and3/xml/parsers/expat:
+total 12
+-rw-rw-r--. 1 mak mak 29 Jun 13 18:07 errors.pyi
+-rw-rw-r--. 1 mak mak 22 Jun 13 18:07 __init__.pyi
+-rw-rw-r--. 1 mak mak 28 Jun 13 18:07 model.pyi
+
+.vim/bundle/jedi-vim/pythonx/jedi/jedi/third_party/typeshed/stdlib/2and3/xml/sax:
+total 16
+-rw-rw-r--. 1 mak mak 1391 Jun 13 18:07 handler.pyi
+-rw-rw-r--. 1 mak mak 1389 Jun 13 18:07 __init__.pyi
+-rw-rw-r--. 1 mak mak 2357 Jun 13 18:07 saxutils.pyi
+-rw-rw-r--. 1 mak mak 2327 Jun 13 18:07 xmlreader.pyi
+
+.vim/bundle/jedi-vim/pythonx/jedi/jedi/third_party/typeshed/stdlib/3:
+total 444
+-rw-rw-r--. 1 mak mak   613 Jun 13 18:07 abc.pyi
+-rw-rw-r--. 1 mak mak  8124 Jun 13 18:07 _ast.pyi
+-rw-rw-r--. 1 mak mak  2333 Jun 13 18:07 ast.pyi
+drwxrwxr-x. 2 mak mak  4096 Jun 13 18:07 asyncio
+-rw-rw-r--. 1 mak mak   313 Jun 13 18:07 atexit.pyi
+drwxrwxr-x. 2 mak mak    41 Jun 13 18:07 collections
+-rw-rw-r--. 1 mak mak  2237 Jun 13 18:07 compileall.pyi
+-rw-rw-r--. 1 mak mak   436 Jun 13 18:07 _compression.pyi
+drwxrwxr-x. 3 mak mak    41 Jun 13 18:07 concurrent
+-rw-rw-r--. 1 mak mak  8375 Jun 13 18:07 configparser.pyi
+-rw-rw-r--. 1 mak mak   726 Jun 13 18:07 copyreg.pyi
+-rw-rw-r--. 1 mak mak   800 Jun 13 18:07 _dummy_thread.pyi
+drwxrwxr-x. 3 mak mak  4096 Jun 13 18:07 email
+drwxrwxr-x. 2 mak mak    43 Jun 13 18:07 encodings
+-rw-rw-r--. 1 mak mak  2867 Jun 13 18:07 enum.pyi
+-rw-rw-r--. 1 mak mak   679 Jun 13 18:07 faulthandler.pyi
+-rw-rw-r--. 1 mak mak  1788 Jun 13 18:07 fcntl.pyi
+-rw-rw-r--. 1 mak mak   366 Jun 13 18:07 fnmatch.pyi
+-rw-rw-r--. 1 mak mak  3560 Jun 13 18:07 functools.pyi
+-rw-rw-r--. 1 mak mak   952 Jun 13 18:07 gc.pyi
+-rw-rw-r--. 1 mak mak   431 Jun 13 18:07 getopt.pyi
+-rw-rw-r--. 1 mak mak   203 Jun 13 18:07 getpass.pyi
+-rw-rw-r--. 1 mak mak  3067 Jun 13 18:07 gettext.pyi
+-rw-rw-r--. 1 mak mak   640 Jun 13 18:07 glob.pyi
+-rw-rw-r--. 1 mak mak  2052 Jun 13 18:07 gzip.pyi
+-rw-rw-r--. 1 mak mak  2353 Jun 13 18:07 hashlib.pyi
+-rw-rw-r--. 1 mak mak   737 Jun 13 18:07 heapq.pyi
+drwxrwxr-x. 2 mak mak    64 Jun 13 18:07 html
+drwxrwxr-x. 2 mak mak   102 Jun 13 18:07 http
+drwxrwxr-x. 2 mak mak   119 Jun 13 18:07 importlib
+-rw-rw-r--. 1 mak mak  1557 Jun 13 18:07 _importlib_modulespec.pyi
+-rw-rw-r--. 1 mak mak   717 Jun 13 18:07 _imp.pyi
+-rw-rw-r--. 1 mak mak  2138 Jun 13 18:07 imp.pyi
+-rw-rw-r--. 1 mak mak 10022 Jun 13 18:07 inspect.pyi
+-rw-rw-r--. 1 mak mak  8466 Jun 13 18:07 io.pyi
+-rw-rw-r--. 1 mak mak  5119 Jun 13 18:07 ipaddress.pyi
+-rw-rw-r--. 1 mak mak  4366 Jun 13 18:07 itertools.pyi
+drwxrwxr-x. 2 mak mak    64 Jun 13 18:07 json
+-rw-rw-r--. 1 mak mak   932 Jun 13 18:07 _json.pyi
+-rw-rw-r--. 1 mak mak  3273 Jun 13 18:07 lzma.pyi
+-rw-rw-r--. 1 mak mak   257 Jun 13 18:07 _markupbase.pyi
+-rw-rw-r--. 1 mak mak   148 Jun 13 18:07 msvcrt.pyi
+drwxrwxr-x. 3 mak mak   218 Jun 13 18:07 multiprocessing
+-rw-rw-r--. 1 mak mak  4232 Jun 13 18:07 nntplib.pyi
+-rw-rw-r--. 1 mak mak    76 Jun 13 18:07 nturl2path.pyi
+-rw-rw-r--. 1 mak mak  1343 Jun 13 18:07 _operator.pyi
+drwxrwxr-x. 2 mak mak    42 Jun 13 18:07 os
+-rw-rw-r--. 1 mak mak  5508 Jun 13 18:07 pathlib.pyi
+-rw-rw-r--. 1 mak mak   595 Jun 13 18:07 pipes.pyi
+-rw-rw-r--. 1 mak mak  1845 Jun 13 18:07 platform.pyi
+-rw-rw-r--. 1 mak mak  2234 Jun 13 18:07 posix.pyi
+-rw-rw-r--. 1 mak mak   600 Jun 13 18:07 _posixsubprocess.pyi
+-rw-rw-r--. 1 mak mak  1670 Jun 13 18:07 queue.pyi
+-rw-rw-r--. 1 mak mak  3483 Jun 13 18:07 random.pyi
+-rw-rw-r--. 1 mak mak  1259 Jun 13 18:07 reprlib.pyi
+-rw-rw-r--. 1 mak mak  5126 Jun 13 18:07 re.pyi
+-rw-rw-r--. 1 mak mak  1168 Jun 13 18:07 resource.pyi
+-rw-rw-r--. 1 mak mak   694 Jun 13 18:07 runpy.pyi
+-rw-rw-r--. 1 mak mak  3614 Jun 13 18:07 selectors.pyi
+-rw-rw-r--. 1 mak mak  1578 Jun 13 18:07 shelve.pyi
+-rw-rw-r--. 1 mak mak  1552 Jun 13 18:07 shlex.pyi
+-rw-rw-r--. 1 mak mak  3369 Jun 13 18:07 signal.pyi
+-rw-rw-r--. 1 mak mak  5604 Jun 13 18:07 smtplib.pyi
+-rw-rw-r--. 1 mak mak  3950 Jun 13 18:07 socketserver.pyi
+-rw-rw-r--. 1 mak mak   310 Jun 13 18:07 spwd.pyi
+-rw-rw-r--. 1 mak mak  3406 Jun 13 18:07 sre_constants.pyi
+-rw-rw-r--. 1 mak mak  3419 Jun 13 18:07 sre_parse.pyi
+-rw-rw-r--. 1 mak mak  2890 Jun 13 18:07 statistics.pyi
+-rw-rw-r--. 1 mak mak  1222 Jun 13 18:07 _stat.pyi
+-rw-rw-r--. 1 mak mak  1885 Jun 13 18:07 stat.pyi
+-rw-rw-r--. 1 mak mak  1571 Jun 13 18:07 string.pyi
+-rw-rw-r--. 1 mak mak  1279 Jun 13 18:07 _subprocess.pyi
+-rw-rw-r--. 1 mak mak 46402 Jun 13 18:07 subprocess.pyi
+-rw-rw-r--. 1 mak mak  1460 Jun 13 18:07 symbol.pyi
+-rw-rw-r--. 1 mak mak  5949 Jun 13 18:07 sys.pyi
+-rw-rw-r--. 1 mak mak  6339 Jun 13 18:07 tempfile.pyi
+-rw-rw-r--. 1 mak mak  3457 Jun 13 18:07 textwrap.pyi
+-rw-rw-r--. 1 mak mak   570 Jun 13 18:07 _threading_local.pyi
+-rw-rw-r--. 1 mak mak  1335 Jun 13 18:07 _thread.pyi
+drwxrwxr-x. 2 mak mak   148 Jun 13 18:07 tkinter
+-rw-rw-r--. 1 mak mak  2439 Jun 13 18:07 tokenize.pyi
+-rw-rw-r--. 1 mak mak   609 Jun 13 18:07 _tracemalloc.pyi
+-rw-rw-r--. 1 mak mak  2144 Jun 13 18:07 tracemalloc.pyi
+-rw-rw-r--. 1 mak mak 10083 Jun 13 18:07 types.pyi
+-rw-rw-r--. 1 mak mak 22471 Jun 13 18:07 typing.pyi
+drwxrwxr-x. 2 mak mak   186 Jun 13 18:07 unittest
+drwxrwxr-x. 2 mak mak   122 Jun 13 18:07 urllib
+-rw-rw-r--. 1 mak mak  4106 Jun 13 18:07 _winapi.pyi
+-rw-rw-r--. 1 mak mak   663 Jun 13 18:07 zipapp.pyi
+
+.vim/bundle/jedi-vim/pythonx/jedi/jedi/third_party/typeshed/stdlib/3/asyncio:
+total 116
+-rw-rw-r--. 1 mak mak 13208 Jun 13 18:07 base_events.pyi
+-rw-rw-r--. 1 mak mak   278 Jun 13 18:07 constants.pyi
+-rw-rw-r--. 1 mak mak   226 Jun 13 18:07 coroutines.pyi
+-rw-rw-r--. 1 mak mak 17785 Jun 13 18:07 events.pyi
+-rw-rw-r--. 1 mak mak   562 Jun 13 18:07 exceptions.pyi
+-rw-rw-r--. 1 mak mak  2403 Jun 13 18:07 futures.pyi
+-rw-rw-r--. 1 mak mak  4157 Jun 13 18:07 __init__.pyi
+-rw-rw-r--. 1 mak mak  2067 Jun 13 18:07 locks.pyi
+-rw-rw-r--. 1 mak mak  4210 Jun 13 18:07 proactor_events.pyi
+-rw-rw-r--. 1 mak mak  1053 Jun 13 18:07 protocols.pyi
+-rw-rw-r--. 1 mak mak  1082 Jun 13 18:07 queues.pyi
+-rw-rw-r--. 1 mak mak   177 Jun 13 18:07 runners.pyi
+-rw-rw-r--. 1 mak mak  1759 Jun 13 18:07 selector_events.pyi
+-rw-rw-r--. 1 mak mak  3899 Jun 13 18:07 streams.pyi
+-rw-rw-r--. 1 mak mak  2198 Jun 13 18:07 subprocess.pyi
+-rw-rw-r--. 1 mak mak  6877 Jun 13 18:07 tasks.pyi
+-rw-rw-r--. 1 mak mak  1872 Jun 13 18:07 transports.pyi
+-rw-rw-r--. 1 mak mak  2804 Jun 13 18:07 windows_events.pyi
+-rw-rw-r--. 1 mak mak   680 Jun 13 18:07 windows_utils.pyi
+
+.vim/bundle/jedi-vim/pythonx/jedi/jedi/third_party/typeshed/stdlib/3/collections:
+total 20
+-rw-rw-r--. 1 mak mak   945 Jun 13 18:07 abc.pyi
+-rw-rw-r--. 1 mak mak 14431 Jun 13 18:07 __init__.pyi
+
+.vim/bundle/jedi-vim/pythonx/jedi/jedi/third_party/typeshed/stdlib/3/concurrent:
+total 0
+drwxrwxr-x. 2 mak mak 80 Jun 13 18:07 futures
+-rw-rw-r--. 1 mak mak  0 Jun 13 18:07 __init__.pyi
+
+.vim/bundle/jedi-vim/pythonx/jedi/jedi/third_party/typeshed/stdlib/3/concurrent/futures:
+total 16
+-rw-rw-r--. 1 mak mak 3923 Jun 13 18:07 _base.pyi
+-rw-rw-r--. 1 mak mak  108 Jun 13 18:07 __init__.pyi
+-rw-rw-r--. 1 mak mak  699 Jun 13 18:07 process.pyi
+-rw-rw-r--. 1 mak mak 1162 Jun 13 18:07 thread.pyi
+
+.vim/bundle/jedi-vim/pythonx/jedi/jedi/third_party/typeshed/stdlib/3/email:
+total 60
+-rw-rw-r--. 1 mak mak 1156 Jun 13 18:07 charset.pyi
+-rw-rw-r--. 1 mak mak  580 Jun 13 18:07 contentmanager.pyi
+-rw-rw-r--. 1 mak mak  255 Jun 13 18:07 encoders.pyi
+-rw-rw-r--. 1 mak mak  863 Jun 13 18:07 errors.pyi
+-rw-rw-r--. 1 mak mak  572 Jun 13 18:07 feedparser.pyi
+-rw-rw-r--. 1 mak mak 1126 Jun 13 18:07 generator.pyi
+-rw-rw-r--. 1 mak mak 1143 Jun 13 18:07 header.pyi
+-rw-rw-r--. 1 mak mak 2977 Jun 13 18:07 headerregistry.pyi
+-rw-rw-r--. 1 mak mak  789 Jun 13 18:07 __init__.pyi
+-rw-rw-r--. 1 mak mak  335 Jun 13 18:07 iterators.pyi
+-rw-rw-r--. 1 mak mak 5084 Jun 13 18:07 message.pyi
+drwxrwxr-x. 2 mak mak  179 Jun 13 18:07 mime
+-rw-rw-r--. 1 mak mak 1435 Jun 13 18:07 parser.pyi
+-rw-rw-r--. 1 mak mak 2316 Jun 13 18:07 policy.pyi
+-rw-rw-r--. 1 mak mak 1630 Jun 13 18:07 utils.pyi
+
+.vim/bundle/jedi-vim/pythonx/jedi/jedi/third_party/typeshed/stdlib/3/email/mime:
+total 32
+-rw-rw-r--. 1 mak mak 452 Jun 13 18:07 application.pyi
+-rw-rw-r--. 1 mak mak 449 Jun 13 18:07 audio.pyi
+-rw-rw-r--. 1 mak mak 317 Jun 13 18:07 base.pyi
+-rw-rw-r--. 1 mak mak 449 Jun 13 18:07 image.pyi
+-rw-rw-r--. 1 mak mak   0 Jun 13 18:07 __init__.pyi
+-rw-rw-r--. 1 mak mak 242 Jun 13 18:07 message.pyi
+-rw-rw-r--. 1 mak mak 458 Jun 13 18:07 multipart.pyi
+-rw-rw-r--. 1 mak mak 126 Jun 13 18:07 nonmultipart.pyi
+-rw-rw-r--. 1 mak mak 275 Jun 13 18:07 text.pyi
+
+.vim/bundle/jedi-vim/pythonx/jedi/jedi/third_party/typeshed/stdlib/3/encodings:
+total 8
+-rw-rw-r--. 1 mak mak  75 Jun 13 18:07 __init__.pyi
+-rw-rw-r--. 1 mak mak 573 Jun 13 18:07 utf_8.pyi
+
+.vim/bundle/jedi-vim/pythonx/jedi/jedi/third_party/typeshed/stdlib/3/html:
+total 12
+-rw-rw-r--. 1 mak mak  136 Jun 13 18:07 entities.pyi
+-rw-rw-r--. 1 mak mak  122 Jun 13 18:07 __init__.pyi
+-rw-rw-r--. 1 mak mak 1036 Jun 13 18:07 parser.pyi
+
+.vim/bundle/jedi-vim/pythonx/jedi/jedi/third_party/typeshed/stdlib/3/http:
+total 28
+-rw-rw-r--. 1 mak mak 6269 Jun 13 18:07 client.pyi
+-rw-rw-r--. 1 mak mak 4888 Jun 13 18:07 cookiejar.pyi
+-rw-rw-r--. 1 mak mak 1280 Jun 13 18:07 cookies.pyi
+-rw-rw-r--. 1 mak mak 1689 Jun 13 18:07 __init__.pyi
+-rw-rw-r--. 1 mak mak 3176 Jun 13 18:07 server.pyi
+
+.vim/bundle/jedi-vim/pythonx/jedi/jedi/third_party/typeshed/stdlib/3/importlib:
+total 24
+-rw-rw-r--. 1 mak mak 3522 Jun 13 18:07 abc.pyi
+-rw-rw-r--. 1 mak mak  597 Jun 13 18:07 __init__.pyi
+-rw-rw-r--. 1 mak mak 3936 Jun 13 18:07 machinery.pyi
+-rw-rw-r--. 1 mak mak 3767 Jun 13 18:07 metadata.pyi
+-rw-rw-r--. 1 mak mak 1009 Jun 13 18:07 resources.pyi
+-rw-rw-r--. 1 mak mak 1871 Jun 13 18:07 util.pyi
+
+.vim/bundle/jedi-vim/pythonx/jedi/jedi/third_party/typeshed/stdlib/3/json:
+total 12
+-rw-rw-r--. 1 mak mak 1052 Jun 13 18:07 decoder.pyi
+-rw-rw-r--. 1 mak mak  742 Jun 13 18:07 encoder.pyi
+-rw-rw-r--. 1 mak mak 2266 Jun 13 18:07 __init__.pyi
+
+.vim/bundle/jedi-vim/pythonx/jedi/jedi/third_party/typeshed/stdlib/3/multiprocessing:
+total 44
+-rw-rw-r--. 1 mak mak 2093 Jun 13 18:07 connection.pyi
+-rw-rw-r--. 1 mak mak 6385 Jun 13 18:07 context.pyi
+drwxrwxr-x. 2 mak mak   48 Jun 13 18:07 dummy
+-rw-rw-r--. 1 mak mak 3576 Jun 13 18:07 __init__.pyi
+-rw-rw-r--. 1 mak mak 2905 Jun 13 18:07 managers.pyi
+-rw-rw-r--. 1 mak mak 3452 Jun 13 18:07 pool.pyi
+-rw-rw-r--. 1 mak mak 1142 Jun 13 18:07 process.pyi
+-rw-rw-r--. 1 mak mak 1109 Jun 13 18:07 queues.pyi
+-rw-rw-r--. 1 mak mak 1121 Jun 13 18:07 shared_memory.pyi
+-rw-rw-r--. 1 mak mak  687 Jun 13 18:07 spawn.pyi
+-rw-rw-r--. 1 mak mak 2072 Jun 13 18:07 synchronize.pyi
+
+.vim/bundle/jedi-vim/pythonx/jedi/jedi/third_party/typeshed/stdlib/3/multiprocessing/dummy:
+total 8
+-rw-rw-r--. 1 mak mak 1097 Jun 13 18:07 connection.pyi
+-rw-rw-r--. 1 mak mak 1165 Jun 13 18:07 __init__.pyi
+
+.vim/bundle/jedi-vim/pythonx/jedi/jedi/third_party/typeshed/stdlib/3/os:
+total 36
+-rw-rw-r--. 1 mak mak 26117 Jun 13 18:07 __init__.pyi
+-rw-rw-r--. 1 mak mak  6228 Jun 13 18:07 path.pyi
+
+.vim/bundle/jedi-vim/pythonx/jedi/jedi/third_party/typeshed/stdlib/3/tkinter:
+total 56
+-rw-rw-r--. 1 mak mak   277 Jun 13 18:07 commondialog.pyi
+-rw-rw-r--. 1 mak mak   880 Jun 13 18:07 constants.pyi
+-rw-rw-r--. 1 mak mak   291 Jun 13 18:07 dialog.pyi
+-rw-rw-r--. 1 mak mak  2233 Jun 13 18:07 filedialog.pyi
+-rw-rw-r--. 1 mak mak 25710 Jun 13 18:07 __init__.pyi
+-rw-rw-r--. 1 mak mak  1150 Jun 13 18:07 messagebox.pyi
+-rw-rw-r--. 1 mak mak  6355 Jun 13 18:07 ttk.pyi
+
+.vim/bundle/jedi-vim/pythonx/jedi/jedi/third_party/typeshed/stdlib/3/unittest:
+total 56
+-rw-rw-r--. 1 mak mak   371 Jun 13 18:07 async_case.pyi
+-rw-rw-r--. 1 mak mak 13002 Jun 13 18:07 case.pyi
+-rw-rw-r--. 1 mak mak  1034 Jun 13 18:07 __init__.pyi
+-rw-rw-r--. 1 mak mak  1222 Jun 13 18:07 loader.pyi
+-rw-rw-r--. 1 mak mak  5304 Jun 13 18:07 mock.pyi
+-rw-rw-r--. 1 mak mak  1617 Jun 13 18:07 result.pyi
+-rw-rw-r--. 1 mak mak  1210 Jun 13 18:07 runner.pyi
+-rw-rw-r--. 1 mak mak   388 Jun 13 18:07 signals.pyi
+-rw-rw-r--. 1 mak mak   791 Jun 13 18:07 suite.pyi
+-rw-rw-r--. 1 mak mak   921 Jun 13 18:07 util.pyi
+
+.vim/bundle/jedi-vim/pythonx/jedi/jedi/third_party/typeshed/stdlib/3/urllib:
+total 32
+-rw-rw-r--. 1 mak mak   317 Jun 13 18:07 error.pyi
+-rw-rw-r--. 1 mak mak     0 Jun 13 18:07 __init__.pyi
+-rw-rw-r--. 1 mak mak  4651 Jun 13 18:07 parse.pyi
+-rw-rw-r--. 1 mak mak 10004 Jun 13 18:07 request.pyi
+-rw-rw-r--. 1 mak mak  1682 Jun 13 18:07 response.pyi
+-rw-rw-r--. 1 mak mak   695 Jun 13 18:07 robotparser.pyi
+
+.vim/bundle/jedi-vim/pythonx/jedi/jedi/third_party/typeshed/stdlib/3.6:
+total 4
+-rw-rw-r--. 1 mak mak 501 Jun 13 18:07 secrets.pyi
+
+.vim/bundle/jedi-vim/pythonx/jedi/jedi/third_party/typeshed/stdlib/3.7:
+total 8
+-rw-rw-r--. 1 mak mak 1123 Jun 13 18:07 contextvars.pyi
+-rw-rw-r--. 1 mak mak 2371 Jun 13 18:07 dataclasses.pyi
+
+.vim/bundle/jedi-vim/pythonx/jedi/jedi/third_party/typeshed/tests:
+total 28
+-rwxrwxr-x. 1 mak mak 2389 Jun 13 18:07 check_consistent.py
+-rw-rw-r--. 1 mak mak    0 Jun 13 18:07 mypy_blacklist.txt
+-rwxrwxr-x. 1 mak mak 1196 Jun 13 18:07 mypy_selftest.py
+-rwxrwxr-x. 1 mak mak 5759 Jun 13 18:07 mypy_test.py
+-rw-rw-r--. 1 mak mak  586 Jun 13 18:07 pytype_blacklist.txt
+-rwxrwxr-x. 1 mak mak 7915 Jun 13 18:07 pytype_test.py
+
+.vim/bundle/jedi-vim/pythonx/jedi/jedi/third_party/typeshed/third_party:
+total 4
+drwxrwxr-x. 10 mak mak  213 Jun 13 18:07 2
+drwxrwxr-x. 26 mak mak 4096 Jun 13 18:07 2and3
+drwxrwxr-x.  7 mak mak  146 Jun 13 18:07 3
+
+.vim/bundle/jedi-vim/pythonx/jedi/jedi/third_party/typeshed/third_party/2:
+total 36
+drwxrwxr-x. 3 mak mak    41 Jun 13 18:07 concurrent
+-rw-rw-r--. 1 mak mak  2867 Jun 13 18:07 enum.pyi
+drwxrwxr-x. 2 mak mak    53 Jun 13 18:07 fb303
+-rw-rw-r--. 1 mak mak 10569 Jun 13 18:07 gflags.pyi
+-rw-rw-r--. 1 mak mak  5119 Jun 13 18:07 ipaddress.pyi
+drwxrwxr-x. 3 mak mak    80 Jun 13 18:07 kazoo
+drwxrwxr-x. 2 mak mak    44 Jun 13 18:07 OpenSSL
+-rw-rw-r--. 1 mak mak  5508 Jun 13 18:07 pathlib2.pyi
+-rw-rw-r--. 1 mak mak  1876 Jun 13 18:07 pymssql.pyi
+drwxrwxr-x. 2 mak mak    60 Jun 13 18:07 routes
+drwxrwxr-x. 2 mak mak    62 Jun 13 18:07 scribe
+drwxrwxr-x. 3 mak mak    39 Jun 13 18:07 six
+drwxrwxr-x. 2 mak mak   271 Jun 13 18:07 tornado
+
+.vim/bundle/jedi-vim/pythonx/jedi/jedi/third_party/typeshed/third_party/2/concurrent:
+total 0
+drwxrwxr-x. 2 mak mak 80 Jun 13 18:07 futures
+-rw-rw-r--. 1 mak mak  0 Jun 13 18:07 __init__.pyi
+
+.vim/bundle/jedi-vim/pythonx/jedi/jedi/third_party/typeshed/third_party/2/concurrent/futures:
+total 16
+-rw-rw-r--. 1 mak mak 3923 Jun 13 18:07 _base.pyi
+-rw-rw-r--. 1 mak mak  108 Jun 13 18:07 __init__.pyi
+-rw-rw-r--. 1 mak mak  699 Jun 13 18:07 process.pyi
+-rw-rw-r--. 1 mak mak 1162 Jun 13 18:07 thread.pyi
+
+.vim/bundle/jedi-vim/pythonx/jedi/jedi/third_party/typeshed/third_party/2/fb303:
+total 12
+-rw-rw-r--. 1 mak mak 8675 Jun 13 18:07 FacebookService.pyi
+-rw-rw-r--. 1 mak mak    0 Jun 13 18:07 __init__.pyi
+
+.vim/bundle/jedi-vim/pythonx/jedi/jedi/third_party/typeshed/third_party/2/kazoo:
+total 8
+-rw-rw-r--. 1 mak mak 3310 Jun 13 18:07 client.pyi
+-rw-rw-r--. 1 mak mak 2054 Jun 13 18:07 exceptions.pyi
+-rw-rw-r--. 1 mak mak    0 Jun 13 18:07 __init__.pyi
+drwxrwxr-x. 2 mak mak   46 Jun 13 18:07 recipe
+
+.vim/bundle/jedi-vim/pythonx/jedi/jedi/third_party/typeshed/third_party/2/kazoo/recipe:
+total 4
+-rw-rw-r--. 1 mak mak   0 Jun 13 18:07 __init__.pyi
+-rw-rw-r--. 1 mak mak 551 Jun 13 18:07 watchers.pyi
+
+.vim/bundle/jedi-vim/pythonx/jedi/jedi/third_party/typeshed/third_party/2/OpenSSL:
+total 8
+-rw-rw-r--. 1 mak mak 7644 Jun 13 18:07 crypto.pyi
+-rw-rw-r--. 1 mak mak    0 Jun 13 18:07 __init__.pyi
+
+.vim/bundle/jedi-vim/pythonx/jedi/jedi/third_party/typeshed/third_party/2/routes:
+total 12
+-rw-rw-r--. 1 mak mak  377 Jun 13 18:07 __init__.pyi
+-rw-rw-r--. 1 mak mak 2294 Jun 13 18:07 mapper.pyi
+-rw-rw-r--. 1 mak mak  576 Jun 13 18:07 util.pyi
+
+.vim/bundle/jedi-vim/pythonx/jedi/jedi/third_party/typeshed/third_party/2/scribe:
+total 8
+-rw-rw-r--. 1 mak mak    0 Jun 13 18:07 __init__.pyi
+-rw-rw-r--. 1 mak mak 1199 Jun 13 18:07 scribe.pyi
+-rw-rw-r--. 1 mak mak  383 Jun 13 18:07 ttypes.pyi
+
+.vim/bundle/jedi-vim/pythonx/jedi/jedi/third_party/typeshed/third_party/2/six:
+total 8
+-rw-rw-r--. 1 mak mak 3722 Jun 13 18:07 __init__.pyi
+drwxrwxr-x. 3 mak mak 4096 Jun 13 18:07 moves
+
+.vim/bundle/jedi-vim/pythonx/jedi/jedi/third_party/typeshed/third_party/2/six/moves:
+total 104
+-rw-rw-r--. 1 mak mak   29 Jun 13 18:07 BaseHTTPServer.pyi
+-rw-rw-r--. 1 mak mak   28 Jun 13 18:07 CGIHTTPServer.pyi
+-rw-rw-r--. 1 mak mak   27 Jun 13 18:07 configparser.pyi
+-rw-rw-r--. 1 mak mak   22 Jun 13 18:07 cPickle.pyi
+-rw-rw-r--. 1 mak mak   27 Jun 13 18:07 _dummy_thread.pyi
+-rw-rw-r--. 1 mak mak   30 Jun 13 18:07 email_mime_base.pyi
+-rw-rw-r--. 1 mak mak   35 Jun 13 18:07 email_mime_multipart.pyi
+-rw-rw-r--. 1 mak mak   38 Jun 13 18:07 email_mime_nonmultipart.pyi
+-rw-rw-r--. 1 mak mak   29 Jun 13 18:07 email_mime_text.pyi
+-rw-rw-r--. 1 mak mak   29 Jun 13 18:07 html_entities.pyi
+-rw-rw-r--. 1 mak mak   25 Jun 13 18:07 html_parser.pyi
+-rw-rw-r--. 1 mak mak   22 Jun 13 18:07 http_client.pyi
+-rw-rw-r--. 1 mak mak   24 Jun 13 18:07 http_cookiejar.pyi
+-rw-rw-r--. 1 mak mak   21 Jun 13 18:07 http_cookies.pyi
+-rw-rw-r--. 1 mak mak 2383 Jun 13 18:07 __init__.pyi
+-rw-rw-r--. 1 mak mak   20 Jun 13 18:07 queue.pyi
+-rw-rw-r--. 1 mak mak   19 Jun 13 18:07 reprlib.pyi
+-rw-rw-r--. 1 mak mak   31 Jun 13 18:07 SimpleHTTPServer.pyi
+-rw-rw-r--. 1 mak mak   27 Jun 13 18:07 socketserver.pyi
+-rw-rw-r--. 1 mak mak   21 Jun 13 18:07 _thread.pyi
+drwxrwxr-x. 2 mak mak  122 Jun 13 18:07 urllib
+-rw-rw-r--. 1 mak mak   28 Jun 13 18:07 urllib_error.pyi
+-rw-rw-r--. 1 mak mak   28 Jun 13 18:07 urllib_parse.pyi
+-rw-rw-r--. 1 mak mak   30 Jun 13 18:07 urllib_request.pyi
+-rw-rw-r--. 1 mak mak   31 Jun 13 18:07 urllib_response.pyi
+-rw-rw-r--. 1 mak mak   26 Jun 13 18:07 urllib_robotparser.pyi
+-rw-rw-r--. 1 mak mak   24 Jun 13 18:07 xmlrpc_client.pyi
+
+.vim/bundle/jedi-vim/pythonx/jedi/jedi/third_party/typeshed/third_party/2/six/moves/urllib:
+total 24
+-rw-rw-r--. 1 mak mak  148 Jun 13 18:07 error.pyi
+-rw-rw-r--. 1 mak mak  217 Jun 13 18:07 __init__.pyi
+-rw-rw-r--. 1 mak mak 1055 Jun 13 18:07 parse.pyi
+-rw-rw-r--. 1 mak mak 1960 Jun 13 18:07 request.pyi
+-rw-rw-r--. 1 mak mak  206 Jun 13 18:07 response.pyi
+-rw-rw-r--. 1 mak mak   59 Jun 13 18:07 robotparser.pyi
+
+.vim/bundle/jedi-vim/pythonx/jedi/jedi/third_party/typeshed/third_party/2/tornado:
+total 60
+-rw-rw-r--. 1 mak mak 1016 Jun 13 18:07 concurrent.pyi
+-rw-rw-r--. 1 mak mak 2785 Jun 13 18:07 gen.pyi
+-rw-rw-r--. 1 mak mak 3033 Jun 13 18:07 httpclient.pyi
+-rw-rw-r--. 1 mak mak 1535 Jun 13 18:07 httpserver.pyi
+-rw-rw-r--. 1 mak mak 2681 Jun 13 18:07 httputil.pyi
+-rw-rw-r--. 1 mak mak    0 Jun 13 18:07 __init__.pyi
+-rw-rw-r--. 1 mak mak 2797 Jun 13 18:07 ioloop.pyi
+-rw-rw-r--. 1 mak mak 1279 Jun 13 18:07 locks.pyi
+-rw-rw-r--. 1 mak mak 1349 Jun 13 18:07 netutil.pyi
+-rw-rw-r--. 1 mak mak  662 Jun 13 18:07 process.pyi
+-rw-rw-r--. 1 mak mak  556 Jun 13 18:07 tcpserver.pyi
+-rw-rw-r--. 1 mak mak 1865 Jun 13 18:07 testing.pyi
+-rw-rw-r--. 1 mak mak 1072 Jun 13 18:07 util.pyi
+-rw-rw-r--. 1 mak mak 8709 Jun 13 18:07 web.pyi
+
+.vim/bundle/jedi-vim/pythonx/jedi/jedi/third_party/typeshed/third_party/2and3:
+total 108
+drwxrwxr-x. 2 mak mak    26 Jun 13 18:07 atomicwrites
+drwxrwxr-x. 2 mak mak   111 Jun 13 18:07 attr
+drwxrwxr-x. 2 mak mak    56 Jun 13 18:07 backports
+-rw-rw-r--. 1 mak mak   220 Jun 13 18:07 backports_abc.pyi
+drwxrwxr-x. 2 mak mak   106 Jun 13 18:07 bleach
+drwxrwxr-x. 6 mak mak   227 Jun 13 18:07 boto
+-rw-rw-r--. 1 mak mak    24 Jun 13 18:07 certifi.pyi
+drwxrwxr-x. 2 mak mak    26 Jun 13 18:07 characteristic
+drwxrwxr-x. 2 mak mak   257 Jun 13 18:07 click
+-rw-rw-r--. 1 mak mak  1920 Jun 13 18:07 croniter.pyi
+drwxrwxr-x. 9 mak mak   152 Jun 13 18:07 Crypto
+drwxrwxr-x. 3 mak mak    96 Jun 13 18:07 cryptography
+drwxrwxr-x. 3 mak mak   132 Jun 13 18:07 dateutil
+-rw-rw-r--. 1 mak mak  2807 Jun 13 18:07 decorator.pyi
+-rw-rw-r--. 1 mak mak   395 Jun 13 18:07 emoji.pyi
+-rw-rw-r--. 1 mak mak   482 Jun 13 18:07 first.pyi
+drwxrwxr-x. 3 mak mak  4096 Jun 13 18:07 flask
+drwxrwxr-x. 2 mak mak   119 Jun 13 18:07 geoip2
+drwxrwxr-x. 3 mak mak    42 Jun 13 18:07 google
+-rw-rw-r--. 1 mak mak  8323 Jun 13 18:07 itsdangerous.pyi
+drwxrwxr-x. 2 mak mak  4096 Jun 13 18:07 jinja2
+drwxrwxr-x. 2 mak mak   107 Jun 13 18:07 markupsafe
+drwxrwxr-x. 2 mak mak   137 Jun 13 18:07 maxminddb
+-rw-rw-r--. 1 mak mak  5304 Jun 13 18:07 mock.pyi
+-rw-rw-r--. 1 mak mak  2051 Jun 13 18:07 mypy_extensions.pyi
+-rw-rw-r--. 1 mak mak 12697 Jun 13 18:07 pycurl.pyi
+drwxrwxr-x. 3 mak mak   174 Jun 13 18:07 pymysql
+drwxrwxr-x. 3 mak mak   203 Jun 13 18:07 pynamodb
+-rw-rw-r--. 1 mak mak   267 Jun 13 18:07 pyre_extensions.pyi
+drwxrwxr-x. 2 mak mak    26 Jun 13 18:07 pytz
+drwxrwxr-x. 2 mak mak   105 Jun 13 18:07 redis
+drwxrwxr-x. 3 mak mak   270 Jun 13 18:07 requests
+drwxrwxr-x. 2 mak mak    83 Jun 13 18:07 simplejson
+-rw-rw-r--. 1 mak mak   636 Jun 13 18:07 singledispatch.pyi
+-rw-rw-r--. 1 mak mak  1455 Jun 13 18:07 tabulate.pyi
+-rw-rw-r--. 1 mak mak   452 Jun 13 18:07 termcolor.pyi
+-rw-rw-r--. 1 mak mak   816 Jun 13 18:07 toml.pyi
+-rw-rw-r--. 1 mak mak  2729 Jun 13 18:07 typing_extensions.pyi
+-rw-rw-r--. 1 mak mak  1046 Jun 13 18:07 ujson.pyi
+drwxrwxr-x. 5 mak mak  4096 Jun 13 18:07 werkzeug
+drwxrwxr-x. 2 mak mak  4096 Jun 13 18:07 yaml
+
+.vim/bundle/jedi-vim/pythonx/jedi/jedi/third_party/typeshed/third_party/2and3/atomicwrites:
+total 4
+-rw-rw-r--. 1 mak mak 870 Jun 13 18:07 __init__.pyi
+
+.vim/bundle/jedi-vim/pythonx/jedi/jedi/third_party/typeshed/third_party/2and3/attr:
+total 24
+-rw-rw-r--. 1 mak mak  351 Jun 13 18:07 converters.pyi
+-rw-rw-r--. 1 mak mak  257 Jun 13 18:07 exceptions.pyi
+-rw-rw-r--. 1 mak mak  214 Jun 13 18:07 filters.pyi
+-rw-rw-r--. 1 mak mak 7769 Jun 13 18:07 __init__.pyi
+-rw-rw-r--. 1 mak mak  897 Jun 13 18:07 validators.pyi
+
+.vim/bundle/jedi-vim/pythonx/jedi/jedi/third_party/typeshed/third_party/2and3/backports:
+total 4
+-rw-rw-r--. 1 mak mak  0 Jun 13 18:07 __init__.pyi
+-rw-rw-r--. 1 mak mak 81 Jun 13 18:07 ssl_match_hostname.pyi
+
+.vim/bundle/jedi-vim/pythonx/jedi/jedi/third_party/typeshed/third_party/2and3/bleach:
+total 20
+-rw-rw-r--. 1 mak mak  206 Jun 13 18:07 callbacks.pyi
+-rw-rw-r--. 1 mak mak  877 Jun 13 18:07 __init__.pyi
+-rw-rw-r--. 1 mak mak  978 Jun 13 18:07 linkifier.pyi
+-rw-rw-r--. 1 mak mak 1154 Jun 13 18:07 sanitizer.pyi
+-rw-rw-r--. 1 mak mak  286 Jun 13 18:07 utils.pyi
+
+.vim/bundle/jedi-vim/pythonx/jedi/jedi/third_party/typeshed/third_party/2and3/boto:
+total 60
+-rw-rw-r--. 1 mak mak  250 Jun 13 18:07 auth_handler.pyi
+-rw-rw-r--. 1 mak mak 4140 Jun 13 18:07 auth.pyi
+-rw-rw-r--. 1 mak mak  313 Jun 13 18:07 compat.pyi
+-rw-rw-r--. 1 mak mak 5230 Jun 13 18:07 connection.pyi
+drwxrwxr-x. 2 mak mak   26 Jun 13 18:07 ec2
+drwxrwxr-x. 2 mak mak   26 Jun 13 18:07 elb
+-rw-rw-r--. 1 mak mak 4568 Jun 13 18:07 exception.pyi
+-rw-rw-r--. 1 mak mak 6986 Jun 13 18:07 __init__.pyi
+drwxrwxr-x. 2 mak mak   66 Jun 13 18:07 kms
+-rw-rw-r--. 1 mak mak  235 Jun 13 18:07 plugin.pyi
+-rw-rw-r--. 1 mak mak  654 Jun 13 18:07 regioninfo.pyi
+drwxrwxr-x. 2 mak mak 4096 Jun 13 18:07 s3
+-rw-rw-r--. 1 mak mak 6201 Jun 13 18:07 utils.pyi
+
+.vim/bundle/jedi-vim/pythonx/jedi/jedi/third_party/typeshed/third_party/2and3/boto/ec2:
+total 4
+-rw-rw-r--. 1 mak mak 170 Jun 13 18:07 __init__.pyi
+
+.vim/bundle/jedi-vim/pythonx/jedi/jedi/third_party/typeshed/third_party/2and3/boto/elb:
+total 4
+-rw-rw-r--. 1 mak mak 2479 Jun 13 18:07 __init__.pyi
+
+.vim/bundle/jedi-vim/pythonx/jedi/jedi/third_party/typeshed/third_party/2and3/boto/kms:
+total 12
+-rw-rw-r--. 1 mak mak  829 Jun 13 18:07 exceptions.pyi
+-rw-rw-r--. 1 mak mak  156 Jun 13 18:07 __init__.pyi
+-rw-rw-r--. 1 mak mak 3629 Jun 13 18:07 layer1.pyi
+
+.vim/bundle/jedi-vim/pythonx/jedi/jedi/third_party/typeshed/third_party/2and3/boto/s3:
+total 84
+-rw-rw-r--. 1 mak mak 1622 Jun 13 18:07 acl.pyi
+-rw-rw-r--. 1 mak mak 1803 Jun 13 18:07 bucketlistresultset.pyi
+-rw-rw-r--. 1 mak mak  400 Jun 13 18:07 bucketlogging.pyi
+-rw-rw-r--. 1 mak mak 8030 Jun 13 18:07 bucket.pyi
+-rw-rw-r--. 1 mak mak 4354 Jun 13 18:07 connection.pyi
+-rw-rw-r--. 1 mak mak  962 Jun 13 18:07 cors.pyi
+-rw-rw-r--. 1 mak mak  366 Jun 13 18:07 deletemarker.pyi
+-rw-rw-r--. 1 mak mak  495 Jun 13 18:07 __init__.pyi
+-rw-rw-r--. 1 mak mak  684 Jun 13 18:07 keyfile.pyi
+-rw-rw-r--. 1 mak mak 8309 Jun 13 18:07 key.pyi
+-rw-rw-r--. 1 mak mak 1874 Jun 13 18:07 lifecycle.pyi
+-rw-rw-r--. 1 mak mak 1014 Jun 13 18:07 multidelete.pyi
+-rw-rw-r--. 1 mak mak 1833 Jun 13 18:07 multipart.pyi
+-rw-rw-r--. 1 mak mak  324 Jun 13 18:07 prefix.pyi
+-rw-rw-r--. 1 mak mak  748 Jun 13 18:07 tagging.pyi
+-rw-rw-r--. 1 mak mak  362 Jun 13 18:07 user.pyi
+-rw-rw-r--. 1 mak mak 2492 Jun 13 18:07 website.pyi
+
+.vim/bundle/jedi-vim/pythonx/jedi/jedi/third_party/typeshed/third_party/2and3/characteristic:
+total 4
+-rw-rw-r--. 1 mak mak 1323 Jun 13 18:07 __init__.pyi
+
+.vim/bundle/jedi-vim/pythonx/jedi/jedi/third_party/typeshed/third_party/2and3/click:
+total 72
+-rw-rw-r--. 1 mak mak 11944 Jun 13 18:07 core.pyi
+-rw-rw-r--. 1 mak mak  9256 Jun 13 18:07 decorators.pyi
+-rw-rw-r--. 1 mak mak  2068 Jun 13 18:07 exceptions.pyi
+-rw-rw-r--. 1 mak mak  1615 Jun 13 18:07 formatting.pyi
+-rw-rw-r--. 1 mak mak   296 Jun 13 18:07 globals.pyi
+-rw-rw-r--. 1 mak mak  2872 Jun 13 18:07 __init__.pyi
+-rw-rw-r--. 1 mak mak  2141 Jun 13 18:07 parser.pyi
+-rw-rw-r--. 1 mak mak   544 Jun 13 18:07 README.md
+-rw-rw-r--. 1 mak mak   476 Jun 13 18:07 _termui_impl.pyi
+-rw-rw-r--. 1 mak mak  3501 Jun 13 18:07 termui.pyi
+-rw-rw-r--. 1 mak mak  2207 Jun 13 18:07 testing.pyi
+-rw-rw-r--. 1 mak mak  5502 Jun 13 18:07 types.pyi
+-rw-rw-r--. 1 mak mak  1915 Jun 13 18:07 utils.pyi
+
+.vim/bundle/jedi-vim/pythonx/jedi/jedi/third_party/typeshed/third_party/2and3/Crypto:
+total 8
+drwxrwxr-x. 2 mak mak 220 Jun 13 18:07 Cipher
+drwxrwxr-x. 2 mak mak 212 Jun 13 18:07 Hash
+-rw-rw-r--. 1 mak mak 109 Jun 13 18:07 __init__.pyi
+-rw-rw-r--. 1 mak mak 412 Jun 13 18:07 pct_warnings.pyi
+drwxrwxr-x. 2 mak mak  85 Jun 13 18:07 Protocol
+drwxrwxr-x. 2 mak mak  93 Jun 13 18:07 PublicKey
+drwxrwxr-x. 4 mak mak  72 Jun 13 18:07 Random
+drwxrwxr-x. 2 mak mak  69 Jun 13 18:07 Signature
+drwxrwxr-x. 2 mak mak 136 Jun 13 18:07 Util
+
+.vim/bundle/jedi-vim/pythonx/jedi/jedi/third_party/typeshed/third_party/2and3/Crypto/Cipher:
+total 48
+-rw-rw-r--. 1 mak mak 397 Jun 13 18:07 AES.pyi
+-rw-rw-r--. 1 mak mak 397 Jun 13 18:07 ARC2.pyi
+-rw-rw-r--. 1 mak mak 368 Jun 13 18:07 ARC4.pyi
+-rw-rw-r--. 1 mak mak 417 Jun 13 18:07 blockalgo.pyi
+-rw-rw-r--. 1 mak mak 407 Jun 13 18:07 Blowfish.pyi
+-rw-rw-r--. 1 mak mak 405 Jun 13 18:07 CAST.pyi
+-rw-rw-r--. 1 mak mak 400 Jun 13 18:07 DES3.pyi
+-rw-rw-r--. 1 mak mak 397 Jun 13 18:07 DES.pyi
+-rw-rw-r--. 1 mak mak 142 Jun 13 18:07 __init__.pyi
+-rw-rw-r--. 1 mak mak 504 Jun 13 18:07 PKCS1_OAEP.pyi
+-rw-rw-r--. 1 mak mak 414 Jun 13 18:07 PKCS1_v1_5.pyi
+-rw-rw-r--. 1 mak mak 412 Jun 13 18:07 XOR.pyi
+
+.vim/bundle/jedi-vim/pythonx/jedi/jedi/third_party/typeshed/third_party/2and3/Crypto/Hash:
+total 48
+-rw-rw-r--. 1 mak mak 328 Jun 13 18:07 hashalgo.pyi
+-rw-rw-r--. 1 mak mak 420 Jun 13 18:07 HMAC.pyi
+-rw-rw-r--. 1 mak mak 135 Jun 13 18:07 __init__.pyi
+-rw-rw-r--. 1 mak mak 327 Jun 13 18:07 MD2.pyi
+-rw-rw-r--. 1 mak mak 327 Jun 13 18:07 MD4.pyi
+-rw-rw-r--. 1 mak mak 327 Jun 13 18:07 MD5.pyi
+-rw-rw-r--. 1 mak mak 333 Jun 13 18:07 RIPEMD.pyi
+-rw-rw-r--. 1 mak mak 330 Jun 13 18:07 SHA224.pyi
+-rw-rw-r--. 1 mak mak 330 Jun 13 18:07 SHA256.pyi
+-rw-rw-r--. 1 mak mak 330 Jun 13 18:07 SHA384.pyi
+-rw-rw-r--. 1 mak mak 330 Jun 13 18:07 SHA512.pyi
+-rw-rw-r--. 1 mak mak 328 Jun 13 18:07 SHA.pyi
+
+.vim/bundle/jedi-vim/pythonx/jedi/jedi/third_party/typeshed/third_party/2and3/Crypto/Protocol:
+total 16
+-rw-rw-r--. 1 mak mak 262 Jun 13 18:07 AllOrNothing.pyi
+-rw-rw-r--. 1 mak mak 144 Jun 13 18:07 Chaffing.pyi
+-rw-rw-r--. 1 mak mak  77 Jun 13 18:07 __init__.pyi
+-rw-rw-r--. 1 mak mak 271 Jun 13 18:07 KDF.pyi
+
+.vim/bundle/jedi-vim/pythonx/jedi/jedi/third_party/typeshed/third_party/2and3/Crypto/PublicKey:
+total 20
+-rw-rw-r--. 1 mak mak  741 Jun 13 18:07 DSA.pyi
+-rw-rw-r--. 1 mak mak  531 Jun 13 18:07 ElGamal.pyi
+-rw-rw-r--. 1 mak mak   67 Jun 13 18:07 __init__.pyi
+-rw-rw-r--. 1 mak mak  611 Jun 13 18:07 pubkey.pyi
+-rw-rw-r--. 1 mak mak 1092 Jun 13 18:07 RSA.pyi
+
+.vim/bundle/jedi-vim/pythonx/jedi/jedi/third_party/typeshed/third_party/2and3/Crypto/Random:
+total 8
+drwxrwxr-x. 2 mak mak 103 Jun 13 18:07 Fortuna
+-rw-rw-r--. 1 mak mak  30 Jun 13 18:07 __init__.pyi
+drwxrwxr-x. 2 mak mak  83 Jun 13 18:07 OSRNG
+-rw-rw-r--. 1 mak mak 435 Jun 13 18:07 random.pyi
+
+.vim/bundle/jedi-vim/pythonx/jedi/jedi/third_party/typeshed/third_party/2and3/Crypto/Random/Fortuna:
+total 12
+-rw-rw-r--. 1 mak mak 570 Jun 13 18:07 FortunaAccumulator.pyi
+-rw-rw-r--. 1 mak mak 357 Jun 13 18:07 FortunaGenerator.pyi
+-rw-rw-r--. 1 mak mak   0 Jun 13 18:07 __init__.pyi
+-rw-rw-r--. 1 mak mak 314 Jun 13 18:07 SHAd256.pyi
+
+.vim/bundle/jedi-vim/pythonx/jedi/jedi/third_party/typeshed/third_party/2and3/Crypto/Random/OSRNG:
+total 16
+-rw-rw-r--. 1 mak mak 116 Jun 13 18:07 fallback.pyi
+-rw-rw-r--. 1 mak mak  18 Jun 13 18:07 __init__.pyi
+-rw-rw-r--. 1 mak mak 174 Jun 13 18:07 posix.pyi
+-rw-rw-r--. 1 mak mak 259 Jun 13 18:07 rng_base.pyi
+
+.vim/bundle/jedi-vim/pythonx/jedi/jedi/third_party/typeshed/third_party/2and3/Crypto/Signature:
+total 12
+-rw-rw-r--. 1 mak mak  68 Jun 13 18:07 __init__.pyi
+-rw-rw-r--. 1 mak mak 286 Jun 13 18:07 PKCS1_PSS.pyi
+-rw-rw-r--. 1 mak mak 180 Jun 13 18:07 PKCS1_v1_5.pyi
+
+.vim/bundle/jedi-vim/pythonx/jedi/jedi/third_party/typeshed/third_party/2and3/Crypto/Util:
+total 28
+-rw-rw-r--. 1 mak mak 1412 Jun 13 18:07 asn1.pyi
+-rw-rw-r--. 1 mak mak  216 Jun 13 18:07 Counter.pyi
+-rw-rw-r--. 1 mak mak   95 Jun 13 18:07 __init__.pyi
+-rw-rw-r--. 1 mak mak  801 Jun 13 18:07 number.pyi
+-rw-rw-r--. 1 mak mak  533 Jun 13 18:07 randpool.pyi
+-rw-rw-r--. 1 mak mak  126 Jun 13 18:07 RFC1751.pyi
+-rw-rw-r--. 1 mak mak   68 Jun 13 18:07 strxor.pyi
+
+.vim/bundle/jedi-vim/pythonx/jedi/jedi/third_party/typeshed/third_party/2and3/cryptography:
+total 24
+-rw-rw-r--. 1 mak mak   262 Jun 13 18:07 exceptions.pyi
+-rw-rw-r--. 1 mak mak   640 Jun 13 18:07 fernet.pyi
+drwxrwxr-x. 5 mak mak    76 Jun 13 18:07 hazmat
+-rw-rw-r--. 1 mak mak     0 Jun 13 18:07 __init__.pyi
+-rw-rw-r--. 1 mak mak 13382 Jun 13 18:07 x509.pyi
+
+.vim/bundle/jedi-vim/pythonx/jedi/jedi/third_party/typeshed/third_party/2and3/cryptography/hazmat:
+total 4
+drwxrwxr-x. 2 mak mak  48 Jun 13 18:07 backends
+drwxrwxr-x. 3 mak mak  41 Jun 13 18:07 bindings
+-rw-rw-r--. 1 mak mak  63 Jun 13 18:07 __init__.pyi
+drwxrwxr-x. 7 mak mak 241 Jun 13 18:07 primitives
+
+.vim/bundle/jedi-vim/pythonx/jedi/jedi/third_party/typeshed/third_party/2and3/cryptography/hazmat/backends:
+total 16
+-rw-rw-r--. 1 mak mak   58 Jun 13 18:07 __init__.pyi
+-rw-rw-r--. 1 mak mak 8238 Jun 13 18:07 interfaces.pyi
+
+.vim/bundle/jedi-vim/pythonx/jedi/jedi/third_party/typeshed/third_party/2and3/cryptography/hazmat/bindings:
+total 0
+-rw-rw-r--. 1 mak mak  0 Jun 13 18:07 __init__.pyi
+drwxrwxr-x. 2 mak mak 45 Jun 13 18:07 openssl
+
+.vim/bundle/jedi-vim/pythonx/jedi/jedi/third_party/typeshed/third_party/2and3/cryptography/hazmat/bindings/openssl:
+total 4
+-rw-rw-r--. 1 mak mak 148 Jun 13 18:07 binding.pyi
+-rw-rw-r--. 1 mak mak   0 Jun 13 18:07 __init__.pyi
+
+.vim/bundle/jedi-vim/pythonx/jedi/jedi/third_party/typeshed/third_party/2and3/cryptography/hazmat/primitives:
+total 32
+drwxrwxr-x. 2 mak mak  190 Jun 13 18:07 asymmetric
+drwxrwxr-x. 2 mak mak   81 Jun 13 18:07 ciphers
+-rw-rw-r--. 1 mak mak  416 Jun 13 18:07 cmac.pyi
+-rw-rw-r--. 1 mak mak   46 Jun 13 18:07 constant_time.pyi
+-rw-rw-r--. 1 mak mak 1298 Jun 13 18:07 hashes.pyi
+-rw-rw-r--. 1 mak mak  412 Jun 13 18:07 hmac.pyi
+-rw-rw-r--. 1 mak mak   63 Jun 13 18:07 __init__.pyi
+drwxrwxr-x. 2 mak mak  135 Jun 13 18:07 kdf
+-rw-rw-r--. 1 mak mak  518 Jun 13 18:07 keywrap.pyi
+-rw-rw-r--. 1 mak mak  540 Jun 13 18:07 padding.pyi
+-rw-rw-r--. 1 mak mak  504 Jun 13 18:07 poly1305.pyi
+drwxrwxr-x. 2 mak mak   44 Jun 13 18:07 serialization
+drwxrwxr-x. 2 mak mak   58 Jun 13 18:07 twofactor
+
+.vim/bundle/jedi-vim/pythonx/jedi/jedi/third_party/typeshed/third_party/2and3/cryptography/hazmat/primitives/asymmetric:
+total 48
+-rw-rw-r--. 1 mak mak 2490 Jun 13 18:07 dh.pyi
+-rw-rw-r--. 1 mak mak 2911 Jun 13 18:07 dsa.pyi
+-rw-rw-r--. 1 mak mak 7178 Jun 13 18:07 ec.pyi
+-rw-rw-r--. 1 mak mak  985 Jun 13 18:07 ed25519.pyi
+-rw-rw-r--. 1 mak mak  973 Jun 13 18:07 ed448.pyi
+-rw-rw-r--. 1 mak mak   63 Jun 13 18:07 __init__.pyi
+-rw-rw-r--. 1 mak mak  787 Jun 13 18:07 padding.pyi
+-rw-rw-r--. 1 mak mak 3204 Jun 13 18:07 rsa.pyi
+-rw-rw-r--. 1 mak mak  178 Jun 13 18:07 utils.pyi
+-rw-rw-r--. 1 mak mak  919 Jun 13 18:07 x25519.pyi
+-rw-rw-r--. 1 mak mak  905 Jun 13 18:07 x448.pyi
+
+.vim/bundle/jedi-vim/pythonx/jedi/jedi/third_party/typeshed/third_party/2and3/cryptography/hazmat/primitives/ciphers:
+total 16
+-rw-rw-r--. 1 mak mak 1065 Jun 13 18:07 aead.pyi
+-rw-rw-r--. 1 mak mak 2239 Jun 13 18:07 algorithms.pyi
+-rw-rw-r--. 1 mak mak 1298 Jun 13 18:07 __init__.pyi
+-rw-rw-r--. 1 mak mak 3089 Jun 13 18:07 modes.pyi
+
+.vim/bundle/jedi-vim/pythonx/jedi/jedi/third_party/typeshed/third_party/2and3/cryptography/hazmat/primitives/kdf:
+total 28
+-rw-rw-r--. 1 mak mak 864 Jun 13 18:07 concatkdf.pyi
+-rw-rw-r--. 1 mak mak 829 Jun 13 18:07 hkdf.pyi
+-rw-rw-r--. 1 mak mak 261 Jun 13 18:07 __init__.pyi
+-rw-rw-r--. 1 mak mak 851 Jun 13 18:07 kbkdf.pyi
+-rw-rw-r--. 1 mak mak 502 Jun 13 18:07 pbkdf2.pyi
+-rw-rw-r--. 1 mak mak 407 Jun 13 18:07 scrypt.pyi
+-rw-rw-r--. 1 mak mak 515 Jun 13 18:07 x963kdf.pyi
+
+.vim/bundle/jedi-vim/pythonx/jedi/jedi/third_party/typeshed/third_party/2and3/cryptography/hazmat/primitives/serialization:
+total 8
+-rw-rw-r--. 1 mak mak 1006 Jun 13 18:07 __init__.pyi
+-rw-rw-r--. 1 mak mak  113 Jun 13 18:07 pkcs12.pyi
+
+.vim/bundle/jedi-vim/pythonx/jedi/jedi/third_party/typeshed/third_party/2and3/cryptography/hazmat/primitives/twofactor:
+total 12
+-rw-rw-r--. 1 mak mak 540 Jun 13 18:07 hotp.pyi
+-rw-rw-r--. 1 mak mak  35 Jun 13 18:07 __init__.pyi
+-rw-rw-r--. 1 mak mak 585 Jun 13 18:07 totp.pyi
+
+.vim/bundle/jedi-vim/pythonx/jedi/jedi/third_party/typeshed/third_party/2and3/dateutil:
+total 20
+-rw-rw-r--. 1 mak mak  345 Jun 13 18:07 _common.pyi
+-rw-rw-r--. 1 mak mak    0 Jun 13 18:07 __init__.pyi
+-rw-rw-r--. 1 mak mak 1741 Jun 13 18:07 parser.pyi
+-rw-rw-r--. 1 mak mak 3328 Jun 13 18:07 relativedelta.pyi
+-rw-rw-r--. 1 mak mak 3360 Jun 13 18:07 rrule.pyi
+drwxrwxr-x. 2 mak mak   59 Jun 13 18:07 tz
+-rw-rw-r--. 1 mak mak  282 Jun 13 18:07 utils.pyi
+
+.vim/bundle/jedi-vim/pythonx/jedi/jedi/third_party/typeshed/third_party/2and3/dateutil/tz:
+total 12
+-rw-rw-r--. 1 mak mak  818 Jun 13 18:07 _common.pyi
+-rw-rw-r--. 1 mak mak  340 Jun 13 18:07 __init__.pyi
+-rw-rw-r--. 1 mak mak 3929 Jun 13 18:07 tz.pyi
+
+.vim/bundle/jedi-vim/pythonx/jedi/jedi/third_party/typeshed/third_party/2and3/flask:
+total 72
+-rw-rw-r--. 1 mak mak 8631 Jun 13 18:07 app.pyi
+-rw-rw-r--. 1 mak mak 3442 Jun 13 18:07 blueprints.pyi
+-rw-rw-r--. 1 mak mak 2342 Jun 13 18:07 cli.pyi
+-rw-rw-r--. 1 mak mak  988 Jun 13 18:07 config.pyi
+-rw-rw-r--. 1 mak mak 1563 Jun 13 18:07 ctx.pyi
+-rw-rw-r--. 1 mak mak  727 Jun 13 18:07 debughelpers.pyi
+-rw-rw-r--. 1 mak mak  438 Jun 13 18:07 globals.pyi
+-rw-rw-r--. 1 mak mak 2106 Jun 13 18:07 helpers.pyi
+-rw-rw-r--. 1 mak mak 2217 Jun 13 18:07 __init__.pyi
+drwxrwxr-x. 2 mak mak   41 Jun 13 18:07 json
+-rw-rw-r--. 1 mak mak  297 Jun 13 18:07 logging.pyi
+-rw-rw-r--. 1 mak mak 2135 Jun 13 18:07 sessions.pyi
+-rw-rw-r--. 1 mak mak  836 Jun 13 18:07 signals.pyi
+-rw-rw-r--. 1 mak mak  853 Jun 13 18:07 templating.pyi
+-rw-rw-r--. 1 mak mak 1500 Jun 13 18:07 testing.pyi
+-rw-rw-r--. 1 mak mak  675 Jun 13 18:07 views.pyi
+-rw-rw-r--. 1 mak mak 1253 Jun 13 18:07 wrappers.pyi
+
+.vim/bundle/jedi-vim/pythonx/jedi/jedi/third_party/typeshed/third_party/2and3/flask/json:
+total 8
+-rw-rw-r--. 1 mak mak  689 Jun 13 18:07 __init__.pyi
+-rw-rw-r--. 1 mak mak 2037 Jun 13 18:07 tag.pyi
+
+.vim/bundle/jedi-vim/pythonx/jedi/jedi/third_party/typeshed/third_party/2and3/geoip2:
+total 20
+-rw-rw-r--. 1 mak mak 1094 Jun 13 18:07 database.pyi
+-rw-rw-r--. 1 mak mak  498 Jun 13 18:07 errors.pyi
+-rw-rw-r--. 1 mak mak    0 Jun 13 18:07 __init__.pyi
+-rw-rw-r--. 1 mak mak  120 Jun 13 18:07 mixins.pyi
+-rw-rw-r--. 1 mak mak 1870 Jun 13 18:07 models.pyi
+-rw-rw-r--. 1 mak mak 2071 Jun 13 18:07 records.pyi
+
+.vim/bundle/jedi-vim/pythonx/jedi/jedi/third_party/typeshed/third_party/2and3/google:
+total 4
+-rw-rw-r--. 1 mak mak    0 Jun 13 18:07 __init__.pyi
+drwxrwxr-x. 5 mak mak 4096 Jun 13 18:07 protobuf
+
+.vim/bundle/jedi-vim/pythonx/jedi/jedi/third_party/typeshed/third_party/2and3/google/protobuf:
+total 272
+-rw-rw-r--. 1 mak mak   311 Jun 13 18:07 any_pb2.pyi
+-rw-rw-r--. 1 mak mak   557 Jun 13 18:07 any_test_pb2.pyi
+-rw-rw-r--. 1 mak mak  1814 Jun 13 18:07 api_pb2.pyi
+drwxrwxr-x. 2 mak mak    48 Jun 13 18:07 compiler
+-rw-rw-r--. 1 mak mak 18261 Jun 13 18:07 descriptor_pb2.pyi
+-rw-rw-r--. 1 mak mak   744 Jun 13 18:07 descriptor_pool.pyi
+-rw-rw-r--. 1 mak mak  7157 Jun 13 18:07 descriptor.pyi
+-rw-rw-r--. 1 mak mak   306 Jun 13 18:07 duration_pb2.pyi
+-rw-rw-r--. 1 mak mak   104 Jun 13 18:07 empty_pb2.pyi
+-rw-rw-r--. 1 mak mak   396 Jun 13 18:07 field_mask_pb2.pyi
+-rw-rw-r--. 1 mak mak    19 Jun 13 18:07 __init__.pyi
+drwxrwxr-x. 2 mak mak   194 Jun 13 18:07 internal
+-rw-rw-r--. 1 mak mak   913 Jun 13 18:07 json_format.pyi
+-rw-rw-r--. 1 mak mak  8186 Jun 13 18:07 map_proto2_unittest_pb2.pyi
+-rw-rw-r--. 1 mak mak 16465 Jun 13 18:07 map_unittest_pb2.pyi
+-rw-rw-r--. 1 mak mak   515 Jun 13 18:07 message_factory.pyi
+-rw-rw-r--. 1 mak mak  2086 Jun 13 18:07 message.pyi
+-rw-rw-r--. 1 mak mak   230 Jun 13 18:07 reflection.pyi
+-rw-rw-r--. 1 mak mak  1371 Jun 13 18:07 service.pyi
+-rw-rw-r--. 1 mak mak   198 Jun 13 18:07 source_context_pb2.pyi
+-rw-rw-r--. 1 mak mak  1820 Jun 13 18:07 struct_pb2.pyi
+-rw-rw-r--. 1 mak mak   648 Jun 13 18:07 symbol_database.pyi
+-rw-rw-r--. 1 mak mak 15413 Jun 13 18:07 test_messages_proto2_pb2.pyi
+-rw-rw-r--. 1 mak mak 19384 Jun 13 18:07 test_messages_proto3_pb2.pyi
+-rw-rw-r--. 1 mak mak   308 Jun 13 18:07 timestamp_pb2.pyi
+-rw-rw-r--. 1 mak mak  4683 Jun 13 18:07 type_pb2.pyi
+-rw-rw-r--. 1 mak mak   835 Jun 13 18:07 unittest_arena_pb2.pyi
+-rw-rw-r--. 1 mak mak  7704 Jun 13 18:07 unittest_custom_options_pb2.pyi
+-rw-rw-r--. 1 mak mak  1050 Jun 13 18:07 unittest_import_pb2.pyi
+-rw-rw-r--. 1 mak mak   180 Jun 13 18:07 unittest_import_public_pb2.pyi
+-rw-rw-r--. 1 mak mak  1027 Jun 13 18:07 unittest_mset_pb2.pyi
+-rw-rw-r--. 1 mak mak   336 Jun 13 18:07 unittest_mset_wire_format_pb2.pyi
+-rw-rw-r--. 1 mak mak   187 Jun 13 18:07 unittest_no_arena_import_pb2.pyi
+-rw-rw-r--. 1 mak mak  9917 Jun 13 18:07 unittest_no_arena_pb2.pyi
+-rw-rw-r--. 1 mak mak   544 Jun 13 18:07 unittest_no_generic_services_pb2.pyi
+-rw-rw-r--. 1 mak mak 40921 Jun 13 18:07 unittest_pb2.pyi
+-rw-rw-r--. 1 mak mak 11273 Jun 13 18:07 unittest_proto3_arena_pb2.pyi
+drwxrwxr-x. 2 mak mak    60 Jun 13 18:07 util
+-rw-rw-r--. 1 mak mak  1060 Jun 13 18:07 wrappers_pb2.pyi
+
+.vim/bundle/jedi-vim/pythonx/jedi/jedi/third_party/typeshed/third_party/2and3/google/protobuf/compiler:
+total 4
+-rw-rw-r--. 1 mak mak    0 Jun 13 18:07 __init__.pyi
+-rw-rw-r--. 1 mak mak 1593 Jun 13 18:07 plugin_pb2.pyi
+
+.vim/bundle/jedi-vim/pythonx/jedi/jedi/third_party/typeshed/third_party/2and3/google/protobuf/internal:
+total 28
+-rw-rw-r--. 1 mak mak 2689 Jun 13 18:07 containers.pyi
+-rw-rw-r--. 1 mak mak  860 Jun 13 18:07 decoder.pyi
+-rw-rw-r--. 1 mak mak 1045 Jun 13 18:07 encoder.pyi
+-rw-rw-r--. 1 mak mak  357 Jun 13 18:07 enum_type_wrapper.pyi
+-rw-rw-r--. 1 mak mak    0 Jun 13 18:07 __init__.pyi
+-rw-rw-r--. 1 mak mak  148 Jun 13 18:07 message_listener.pyi
+-rw-rw-r--. 1 mak mak 3696 Jun 13 18:07 well_known_types.pyi
+-rw-rw-r--. 1 mak mak 1554 Jun 13 18:07 wire_format.pyi
+
+.vim/bundle/jedi-vim/pythonx/jedi/jedi/third_party/typeshed/third_party/2and3/google/protobuf/util:
+total 16
+-rw-rw-r--. 1 mak mak     0 Jun 13 18:07 __init__.pyi
+-rw-rw-r--. 1 mak mak 13487 Jun 13 18:07 json_format_proto3_pb2.pyi
+
+.vim/bundle/jedi-vim/pythonx/jedi/jedi/third_party/typeshed/third_party/2and3/jinja2:
+total 104
+-rw-rw-r--. 1 mak mak 1396 Jun 13 18:07 bccache.pyi
+-rw-rw-r--. 1 mak mak  644 Jun 13 18:07 _compat.pyi
+-rw-rw-r--. 1 mak mak 6362 Jun 13 18:07 compiler.pyi
+-rw-rw-r--. 1 mak mak   23 Jun 13 18:07 constants.pyi
+-rw-rw-r--. 1 mak mak 1018 Jun 13 18:07 debug.pyi
+-rw-rw-r--. 1 mak mak  515 Jun 13 18:07 defaults.pyi
+-rw-rw-r--. 1 mak mak 7978 Jun 13 18:07 environment.pyi
+-rw-rw-r--. 1 mak mak 1050 Jun 13 18:07 exceptions.pyi
+-rw-rw-r--. 1 mak mak 1621 Jun 13 18:07 ext.pyi
+-rw-rw-r--. 1 mak mak 2425 Jun 13 18:07 filters.pyi
+-rw-rw-r--. 1 mak mak 1371 Jun 13 18:07 __init__.pyi
+-rw-rw-r--. 1 mak mak 2764 Jun 13 18:07 lexer.pyi
+-rw-rw-r--. 1 mak mak 2733 Jun 13 18:07 loaders.pyi
+-rw-rw-r--. 1 mak mak  338 Jun 13 18:07 meta.pyi
+-rw-rw-r--. 1 mak mak 5158 Jun 13 18:07 nodes.pyi
+-rw-rw-r--. 1 mak mak  660 Jun 13 18:07 optimizer.pyi
+-rw-rw-r--. 1 mak mak 2515 Jun 13 18:07 parser.pyi
+-rw-rw-r--. 1 mak mak 3449 Jun 13 18:07 runtime.pyi
+-rw-rw-r--. 1 mak mak 1145 Jun 13 18:07 sandbox.pyi
+-rw-rw-r--. 1 mak mak  360 Jun 13 18:07 _stringdefs.pyi
+-rw-rw-r--. 1 mak mak  561 Jun 13 18:07 tests.pyi
+-rw-rw-r--. 1 mak mak 2027 Jun 13 18:07 utils.pyi
+-rw-rw-r--. 1 mak mak  306 Jun 13 18:07 visitor.pyi
+
+.vim/bundle/jedi-vim/pythonx/jedi/jedi/third_party/typeshed/third_party/2and3/markupsafe:
+total 20
+-rw-rw-r--. 1 mak mak  440 Jun 13 18:07 _compat.pyi
+-rw-rw-r--. 1 mak mak   67 Jun 13 18:07 _constants.pyi
+-rw-rw-r--. 1 mak mak 2825 Jun 13 18:07 __init__.pyi
+-rw-rw-r--. 1 mak mak  255 Jun 13 18:07 _native.pyi
+-rw-rw-r--. 1 mak mak  255 Jun 13 18:07 _speedups.pyi
+
+.vim/bundle/jedi-vim/pythonx/jedi/jedi/third_party/typeshed/third_party/2and3/maxminddb:
+total 28
+-rw-rw-r--. 1 mak mak  242 Jun 13 18:07 compat.pyi
+-rw-rw-r--. 1 mak mak  130 Jun 13 18:07 const.pyi
+-rw-rw-r--. 1 mak mak  215 Jun 13 18:07 decoder.pyi
+-rw-rw-r--. 1 mak mak   46 Jun 13 18:07 errors.pyi
+-rw-rw-r--. 1 mak mak 1122 Jun 13 18:07 extension.pyi
+-rw-rw-r--. 1 mak mak  178 Jun 13 18:07 __init__.pyi
+-rw-rw-r--. 1 mak mak 1231 Jun 13 18:07 reader.pyi
+
+.vim/bundle/jedi-vim/pythonx/jedi/jedi/third_party/typeshed/third_party/2and3/pymysql:
+total 36
+-rw-rw-r--. 1 mak mak  327 Jun 13 18:07 charset.pyi
+-rw-rw-r--. 1 mak mak 4869 Jun 13 18:07 connections.pyi
+drwxrwxr-x. 2 mak mak  140 Jun 13 18:07 constants
+-rw-rw-r--. 1 mak mak 1330 Jun 13 18:07 converters.pyi
+-rw-rw-r--. 1 mak mak 1917 Jun 13 18:07 cursors.pyi
+-rw-rw-r--. 1 mak mak  571 Jun 13 18:07 err.pyi
+-rw-rw-r--. 1 mak mak 1630 Jun 13 18:07 __init__.pyi
+-rw-rw-r--. 1 mak mak  170 Jun 13 18:07 times.pyi
+-rw-rw-r--. 1 mak mak   66 Jun 13 18:07 util.pyi
+
+.vim/bundle/jedi-vim/pythonx/jedi/jedi/third_party/typeshed/third_party/2and3/pymysql/constants:
+total 32
+-rw-rw-r--. 1 mak mak   308 Jun 13 18:07 CLIENT.pyi
+-rw-rw-r--. 1 mak mak   407 Jun 13 18:07 COMMAND.pyi
+-rw-rw-r--. 1 mak mak 11280 Jun 13 18:07 ER.pyi
+-rw-rw-r--. 1 mak mak   354 Jun 13 18:07 FIELD_TYPE.pyi
+-rw-rw-r--. 1 mak mak   226 Jun 13 18:07 FLAG.pyi
+-rw-rw-r--. 1 mak mak     0 Jun 13 18:07 __init__.pyi
+-rw-rw-r--. 1 mak mak   331 Jun 13 18:07 SERVER_STATUS.pyi
+
+.vim/bundle/jedi-vim/pythonx/jedi/jedi/third_party/typeshed/third_party/2and3/pynamodb:
+total 44
+-rw-rw-r--. 1 mak mak 4194 Jun 13 18:07 attributes.pyi
+drwxrwxr-x. 2 mak mak   75 Jun 13 18:07 connection
+-rw-rw-r--. 1 mak mak 3038 Jun 13 18:07 constants.pyi
+-rw-rw-r--. 1 mak mak  887 Jun 13 18:07 exceptions.pyi
+-rw-rw-r--. 1 mak mak  982 Jun 13 18:07 indexes.pyi
+-rw-rw-r--. 1 mak mak   17 Jun 13 18:07 __init__.pyi
+-rw-rw-r--. 1 mak mak 5315 Jun 13 18:07 models.pyi
+-rw-rw-r--. 1 mak mak  145 Jun 13 18:07 settings.pyi
+-rw-rw-r--. 1 mak mak  472 Jun 13 18:07 throttle.pyi
+-rw-rw-r--. 1 mak mak   57 Jun 13 18:07 types.pyi
+
+.vim/bundle/jedi-vim/pythonx/jedi/jedi/third_party/typeshed/third_party/2and3/pynamodb/connection:
+total 20
+-rw-rw-r--. 1 mak mak 5688 Jun 13 18:07 base.pyi
+-rw-rw-r--. 1 mak mak  135 Jun 13 18:07 __init__.pyi
+-rw-rw-r--. 1 mak mak 3117 Jun 13 18:07 table.pyi
+-rw-rw-r--. 1 mak mak   67 Jun 13 18:07 util.pyi
+
+.vim/bundle/jedi-vim/pythonx/jedi/jedi/third_party/typeshed/third_party/2and3/pytz:
+total 4
+-rw-rw-r--. 1 mak mak 1891 Jun 13 18:07 __init__.pyi
+
+.vim/bundle/jedi-vim/pythonx/jedi/jedi/third_party/typeshed/third_party/2and3/redis:
+total 36
+-rw-rw-r--. 1 mak mak 15211 Jun 13 18:07 client.pyi
+-rw-rw-r--. 1 mak mak  4153 Jun 13 18:07 connection.pyi
+-rw-rw-r--. 1 mak mak   569 Jun 13 18:07 exceptions.pyi
+-rw-rw-r--. 1 mak mak   868 Jun 13 18:07 __init__.pyi
+-rw-rw-r--. 1 mak mak   136 Jun 13 18:07 utils.pyi
+
+.vim/bundle/jedi-vim/pythonx/jedi/jedi/third_party/typeshed/third_party/2and3/requests:
+total 60
+-rw-rw-r--. 1 mak mak 3123 Jun 13 18:07 adapters.pyi
+-rw-rw-r--. 1 mak mak 1345 Jun 13 18:07 api.pyi
+-rw-rw-r--. 1 mak mak 1223 Jun 13 18:07 auth.pyi
+-rw-rw-r--. 1 mak mak  123 Jun 13 18:07 compat.pyi
+-rw-rw-r--. 1 mak mak 2084 Jun 13 18:07 cookies.pyi
+-rw-rw-r--. 1 mak mak 1003 Jun 13 18:07 exceptions.pyi
+-rw-rw-r--. 1 mak mak  156 Jun 13 18:07 hooks.pyi
+-rw-rw-r--. 1 mak mak  940 Jun 13 18:07 __init__.pyi
+-rw-rw-r--. 1 mak mak 4775 Jun 13 18:07 models.pyi
+drwxrwxr-x. 3 mak mak   41 Jun 13 18:07 packages
+-rw-rw-r--. 1 mak mak 5020 Jun 13 18:07 sessions.pyi
+-rw-rw-r--. 1 mak mak   70 Jun 13 18:07 status_codes.pyi
+-rw-rw-r--. 1 mak mak  968 Jun 13 18:07 structures.pyi
+-rw-rw-r--. 1 mak mak 1641 Jun 13 18:07 utils.pyi
+
+.vim/bundle/jedi-vim/pythonx/jedi/jedi/third_party/typeshed/third_party/2and3/requests/packages:
+total 4
+-rw-rw-r--. 1 mak mak 158 Jun 13 18:07 __init__.pyi
+drwxrwxr-x. 5 mak mak 263 Jun 13 18:07 urllib3
+
+.vim/bundle/jedi-vim/pythonx/jedi/jedi/third_party/typeshed/third_party/2and3/requests/packages/urllib3:
+total 40
+-rw-rw-r--. 1 mak mak 1535 Jun 13 18:07 _collections.pyi
+-rw-rw-r--. 1 mak mak 2934 Jun 13 18:07 connectionpool.pyi
+-rw-rw-r--. 1 mak mak 2056 Jun 13 18:07 connection.pyi
+drwxrwxr-x. 2 mak mak   26 Jun 13 18:07 contrib
+-rw-rw-r--. 1 mak mak 1413 Jun 13 18:07 exceptions.pyi
+-rw-rw-r--. 1 mak mak  524 Jun 13 18:07 fields.pyi
+-rw-rw-r--. 1 mak mak  327 Jun 13 18:07 filepost.pyi
+-rw-rw-r--. 1 mak mak  914 Jun 13 18:07 __init__.pyi
+drwxrwxr-x. 3 mak mak   52 Jun 13 18:07 packages
+-rw-rw-r--. 1 mak mak 1308 Jun 13 18:07 poolmanager.pyi
+-rw-rw-r--. 1 mak mak  520 Jun 13 18:07 request.pyi
+-rw-rw-r--. 1 mak mak 1697 Jun 13 18:07 response.pyi
+drwxrwxr-x. 2 mak mak  154 Jun 13 18:07 util
+
+.vim/bundle/jedi-vim/pythonx/jedi/jedi/third_party/typeshed/third_party/2and3/requests/packages/urllib3/contrib:
+total 0
+-rw-rw-r--. 1 mak mak 0 Jun 13 18:07 __init__.pyi
+
+.vim/bundle/jedi-vim/pythonx/jedi/jedi/third_party/typeshed/third_party/2and3/requests/packages/urllib3/packages:
+total 0
+-rw-rw-r--. 1 mak mak  0 Jun 13 18:07 __init__.pyi
+drwxrwxr-x. 2 mak mak 53 Jun 13 18:07 ssl_match_hostname
+
+.vim/bundle/jedi-vim/pythonx/jedi/jedi/third_party/typeshed/third_party/2and3/requests/packages/urllib3/packages/ssl_match_hostname:
+total 8
+-rw-rw-r--. 1 mak mak 81 Jun 13 18:07 _implementation.pyi
+-rw-rw-r--. 1 mak mak 88 Jun 13 18:07 __init__.pyi
+
+.vim/bundle/jedi-vim/pythonx/jedi/jedi/third_party/typeshed/third_party/2and3/requests/packages/urllib3/util:
+total 32
+-rw-rw-r--. 1 mak mak  188 Jun 13 18:07 connection.pyi
+-rw-rw-r--. 1 mak mak  692 Jun 13 18:07 __init__.pyi
+-rw-rw-r--. 1 mak mak  220 Jun 13 18:07 request.pyi
+-rw-rw-r--. 1 mak mak   27 Jun 13 18:07 response.pyi
+-rw-rw-r--. 1 mak mak 1097 Jun 13 18:07 retry.pyi
+-rw-rw-r--. 1 mak mak  671 Jun 13 18:07 ssl_.pyi
+-rw-rw-r--. 1 mak mak  498 Jun 13 18:07 timeout.pyi
+-rw-rw-r--. 1 mak mak  491 Jun 13 18:07 url.pyi
+
+.vim/bundle/jedi-vim/pythonx/jedi/jedi/third_party/typeshed/third_party/2and3/simplejson:
+total 16
+-rw-rw-r--. 1 mak mak 234 Jun 13 18:07 decoder.pyi
+-rw-rw-r--. 1 mak mak 268 Jun 13 18:07 encoder.pyi
+-rw-rw-r--. 1 mak mak 539 Jun 13 18:07 __init__.pyi
+-rw-rw-r--. 1 mak mak 262 Jun 13 18:07 scanner.pyi
+
+.vim/bundle/jedi-vim/pythonx/jedi/jedi/third_party/typeshed/third_party/2and3/werkzeug:
+total 128
+-rw-rw-r--. 1 mak mak  1139 Jun 13 18:07 _compat.pyi
+drwxrwxr-x. 2 mak mak   256 Jun 13 18:07 contrib
+-rw-rw-r--. 1 mak mak 15655 Jun 13 18:07 datastructures.pyi
+drwxrwxr-x. 2 mak mak    80 Jun 13 18:07 debug
+-rw-rw-r--. 1 mak mak  4471 Jun 13 18:07 exceptions.pyi
+-rw-rw-r--. 1 mak mak   169 Jun 13 18:07 filesystem.pyi
+-rw-rw-r--. 1 mak mak  3645 Jun 13 18:07 formparser.pyi
+-rw-rw-r--. 1 mak mak  5403 Jun 13 18:07 http.pyi
+-rw-rw-r--. 1 mak mak  5539 Jun 13 18:07 __init__.pyi
+-rw-rw-r--. 1 mak mak   598 Jun 13 18:07 _internal.pyi
+-rw-rw-r--. 1 mak mak  2315 Jun 13 18:07 local.pyi
+drwxrwxr-x. 2 mak mak   150 Jun 13 18:07 middleware
+-rw-rw-r--. 1 mak mak   198 Jun 13 18:07 posixemulation.pyi
+-rw-rw-r--. 1 mak mak   826 Jun 13 18:07 _reloader.pyi
+-rw-rw-r--. 1 mak mak  6549 Jun 13 18:07 routing.pyi
+-rw-rw-r--. 1 mak mak   759 Jun 13 18:07 script.pyi
+-rw-rw-r--. 1 mak mak   524 Jun 13 18:07 security.pyi
+-rw-rw-r--. 1 mak mak  3706 Jun 13 18:07 serving.pyi
+-rw-rw-r--. 1 mak mak   225 Jun 13 18:07 testapp.pyi
+-rw-rw-r--. 1 mak mak  5957 Jun 13 18:07 test.pyi
+-rw-rw-r--. 1 mak mak  2887 Jun 13 18:07 urls.pyi
+-rw-rw-r--. 1 mak mak   311 Jun 13 18:07 useragents.pyi
+-rw-rw-r--. 1 mak mak  1942 Jun 13 18:07 utils.pyi
+-rw-rw-r--. 1 mak mak  9283 Jun 13 18:07 wrappers.pyi
+-rw-rw-r--. 1 mak mak  3082 Jun 13 18:07 wsgi.pyi
+
+.vim/bundle/jedi-vim/pythonx/jedi/jedi/third_party/typeshed/third_party/2and3/werkzeug/contrib:
+total 48
+-rw-rw-r--. 1 mak mak 1136 Jun 13 18:07 atom.pyi
+-rw-rw-r--. 1 mak mak 3321 Jun 13 18:07 cache.pyi
+-rw-rw-r--. 1 mak mak 1660 Jun 13 18:07 fixers.pyi
+-rw-rw-r--. 1 mak mak    0 Jun 13 18:07 __init__.pyi
+-rw-rw-r--. 1 mak mak 1202 Jun 13 18:07 iterio.pyi
+-rw-rw-r--. 1 mak mak  325 Jun 13 18:07 jsrouting.pyi
+-rw-rw-r--. 1 mak mak  192 Jun 13 18:07 limiter.pyi
+-rw-rw-r--. 1 mak mak   32 Jun 13 18:07 lint.pyi
+-rw-rw-r--. 1 mak mak  449 Jun 13 18:07 profiler.pyi
+-rw-rw-r--. 1 mak mak 1156 Jun 13 18:07 securecookie.pyi
+-rw-rw-r--. 1 mak mak 1974 Jun 13 18:07 sessions.pyi
+-rw-rw-r--. 1 mak mak  211 Jun 13 18:07 testtools.pyi
+-rw-rw-r--. 1 mak mak  603 Jun 13 18:07 wrappers.pyi
+
+.vim/bundle/jedi-vim/pythonx/jedi/jedi/third_party/typeshed/third_party/2and3/werkzeug/debug:
+total 16
+-rw-rw-r--. 1 mak mak 1207 Jun 13 18:07 console.pyi
+-rw-rw-r--. 1 mak mak 1330 Jun 13 18:07 __init__.pyi
+-rw-rw-r--. 1 mak mak  846 Jun 13 18:07 repr.pyi
+-rw-rw-r--. 1 mak mak 1687 Jun 13 18:07 tbtools.pyi
+
+.vim/bundle/jedi-vim/pythonx/jedi/jedi/third_party/typeshed/third_party/2and3/werkzeug/middleware:
+total 24
+-rw-rw-r--. 1 mak mak  455 Jun 13 18:07 dispatcher.pyi
+-rw-rw-r--. 1 mak mak  684 Jun 13 18:07 http_proxy.pyi
+-rw-rw-r--. 1 mak mak    0 Jun 13 18:07 __init__.pyi
+-rw-rw-r--. 1 mak mak 2418 Jun 13 18:07 lint.pyi
+-rw-rw-r--. 1 mak mak  568 Jun 13 18:07 profiler.pyi
+-rw-rw-r--. 1 mak mak  711 Jun 13 18:07 proxy_fix.pyi
+-rw-rw-r--. 1 mak mak 1294 Jun 13 18:07 shared_data.pyi
+
+.vim/bundle/jedi-vim/pythonx/jedi/jedi/third_party/typeshed/third_party/2and3/yaml:
+total 72
+-rw-rw-r--. 1 mak mak  595 Jun 13 18:07 composer.pyi
+-rw-rw-r--. 1 mak mak 3654 Jun 13 18:07 constructor.pyi
+-rw-rw-r--. 1 mak mak 2300 Jun 13 18:07 cyaml.pyi
+-rw-rw-r--. 1 mak mak 1167 Jun 13 18:07 dumper.pyi
+-rw-rw-r--. 1 mak mak 3787 Jun 13 18:07 emitter.pyi
+-rw-rw-r--. 1 mak mak  535 Jun 13 18:07 error.pyi
+-rw-rw-r--. 1 mak mak 1662 Jun 13 18:07 events.pyi
+-rw-rw-r--. 1 mak mak 5576 Jun 13 18:07 __init__.pyi
+-rw-rw-r--. 1 mak mak  767 Jun 13 18:07 loader.pyi
+-rw-rw-r--. 1 mak mak  685 Jun 13 18:07 nodes.pyi
+-rw-rw-r--. 1 mak mak 1663 Jun 13 18:07 parser.pyi
+-rw-rw-r--. 1 mak mak  831 Jun 13 18:07 reader.pyi
+-rw-rw-r--. 1 mak mak 2047 Jun 13 18:07 representer.pyi
+-rw-rw-r--. 1 mak mak  785 Jun 13 18:07 resolver.pyi
+-rw-rw-r--. 1 mak mak 3572 Jun 13 18:07 scanner.pyi
+-rw-rw-r--. 1 mak mak  665 Jun 13 18:07 serializer.pyi
+-rw-rw-r--. 1 mak mak 1792 Jun 13 18:07 tokens.pyi
+
+.vim/bundle/jedi-vim/pythonx/jedi/jedi/third_party/typeshed/third_party/3:
+total 12
+-rw-rw-r--. 1 mak mak 1123 Jun 13 18:07 contextvars.pyi
+-rw-rw-r--. 1 mak mak 2371 Jun 13 18:07 dataclasses.pyi
+drwxrwxr-x. 3 mak mak   78 Jun 13 18:07 docutils
+drwxrwxr-x. 3 mak mak   63 Jun 13 18:07 jwt
+-rw-rw-r--. 1 mak mak  490 Jun 13 18:07 orjson.pyi
+drwxrwxr-x. 2 mak mak   48 Jun 13 18:07 pkg_resources
+drwxrwxr-x. 3 mak mak   39 Jun 13 18:07 six
+drwxrwxr-x. 2 mak mak   82 Jun 13 18:07 typed_ast
+
+.vim/bundle/jedi-vim/pythonx/jedi/jedi/third_party/typeshed/third_party/3/docutils:
+total 12
+-rw-rw-r--. 1 mak mak  75 Jun 13 18:07 examples.pyi
+-rw-rw-r--. 1 mak mak  58 Jun 13 18:07 __init__.pyi
+-rw-rw-r--. 1 mak mak 261 Jun 13 18:07 nodes.pyi
+drwxrwxr-x. 3 mak mak  37 Jun 13 18:07 parsers
+
+.vim/bundle/jedi-vim/pythonx/jedi/jedi/third_party/typeshed/third_party/3/docutils/parsers:
+total 4
+-rw-rw-r--. 1 mak mak 58 Jun 13 18:07 __init__.pyi
+drwxrwxr-x. 2 mak mak 78 Jun 13 18:07 rst
+
+.vim/bundle/jedi-vim/pythonx/jedi/jedi/third_party/typeshed/third_party/3/docutils/parsers/rst:
+total 16
+-rw-rw-r--. 1 mak mak  58 Jun 13 18:07 __init__.pyi
+-rw-rw-r--. 1 mak mak  58 Jun 13 18:07 nodes.pyi
+-rw-rw-r--. 1 mak mak 419 Jun 13 18:07 roles.pyi
+-rw-rw-r--. 1 mak mak 132 Jun 13 18:07 states.pyi
+
+.vim/bundle/jedi-vim/pythonx/jedi/jedi/third_party/typeshed/third_party/3/jwt:
+total 8
+-rw-rw-r--. 1 mak mak 2865 Jun 13 18:07 algorithms.pyi
+drwxrwxr-x. 3 mak mak   44 Jun 13 18:07 contrib
+-rw-rw-r--. 1 mak mak 1731 Jun 13 18:07 __init__.pyi
+
+.vim/bundle/jedi-vim/pythonx/jedi/jedi/third_party/typeshed/third_party/3/jwt/contrib:
+total 0
+drwxrwxr-x. 2 mak mak 66 Jun 13 18:07 algorithms
+-rw-rw-r--. 1 mak mak  0 Jun 13 18:07 __init__.pyi
+
+.vim/bundle/jedi-vim/pythonx/jedi/jedi/third_party/typeshed/third_party/3/jwt/contrib/algorithms:
+total 12
+-rw-rw-r--. 1 mak mak  38 Jun 13 18:07 __init__.pyi
+-rw-rw-r--. 1 mak mak 240 Jun 13 18:07 pycrypto.pyi
+-rw-rw-r--. 1 mak mak 239 Jun 13 18:07 py_ecdsa.pyi
+
+.vim/bundle/jedi-vim/pythonx/jedi/jedi/third_party/typeshed/third_party/3/pkg_resources:
+total 16
+-rw-rw-r--. 1 mak mak 11937 Jun 13 18:07 __init__.pyi
+-rw-rw-r--. 1 mak mak    91 Jun 13 18:07 py31compat.pyi
+
+.vim/bundle/jedi-vim/pythonx/jedi/jedi/third_party/typeshed/third_party/3/six:
+total 8
+-rw-rw-r--. 1 mak mak 3535 Jun 13 18:07 __init__.pyi
+drwxrwxr-x. 3 mak mak 4096 Jun 13 18:07 moves
+
+.vim/bundle/jedi-vim/pythonx/jedi/jedi/third_party/typeshed/third_party/3/six/moves:
+total 132
+-rw-rw-r--. 1 mak mak   26 Jun 13 18:07 BaseHTTPServer.pyi
+-rw-rw-r--. 1 mak mak   23 Jun 13 18:07 builtins.pyi
+-rw-rw-r--. 1 mak mak   26 Jun 13 18:07 CGIHTTPServer.pyi
+-rw-rw-r--. 1 mak mak   27 Jun 13 18:07 configparser.pyi
+-rw-rw-r--. 1 mak mak   21 Jun 13 18:07 cPickle.pyi
+-rw-rw-r--. 1 mak mak   28 Jun 13 18:07 _dummy_thread.pyi
+-rw-rw-r--. 1 mak mak   30 Jun 13 18:07 email_mime_base.pyi
+-rw-rw-r--. 1 mak mak   35 Jun 13 18:07 email_mime_multipart.pyi
+-rw-rw-r--. 1 mak mak   38 Jun 13 18:07 email_mime_nonmultipart.pyi
+-rw-rw-r--. 1 mak mak   30 Jun 13 18:07 email_mime_text.pyi
+-rw-rw-r--. 1 mak mak   28 Jun 13 18:07 html_entities.pyi
+-rw-rw-r--. 1 mak mak   26 Jun 13 18:07 html_parser.pyi
+-rw-rw-r--. 1 mak mak   26 Jun 13 18:07 http_client.pyi
+-rw-rw-r--. 1 mak mak   29 Jun 13 18:07 http_cookiejar.pyi
+-rw-rw-r--. 1 mak mak   27 Jun 13 18:07 http_cookies.pyi
+-rw-rw-r--. 1 mak mak 2302 Jun 13 18:07 __init__.pyi
+-rw-rw-r--. 1 mak mak   20 Jun 13 18:07 queue.pyi
+-rw-rw-r--. 1 mak mak   22 Jun 13 18:07 reprlib.pyi
+-rw-rw-r--. 1 mak mak   26 Jun 13 18:07 SimpleHTTPServer.pyi
+-rw-rw-r--. 1 mak mak   27 Jun 13 18:07 socketserver.pyi
+-rw-rw-r--. 1 mak mak   22 Jun 13 18:07 _thread.pyi
+-rw-rw-r--. 1 mak mak   35 Jun 13 18:07 tkinter_commondialog.pyi
+-rw-rw-r--. 1 mak mak   32 Jun 13 18:07 tkinter_constants.pyi
+-rw-rw-r--. 1 mak mak   29 Jun 13 18:07 tkinter_dialog.pyi
+-rw-rw-r--. 1 mak mak   33 Jun 13 18:07 tkinter_filedialog.pyi
+-rw-rw-r--. 1 mak mak   22 Jun 13 18:07 tkinter.pyi
+-rw-rw-r--. 1 mak mak   33 Jun 13 18:07 tkinter_tkfiledialog.pyi
+-rw-rw-r--. 1 mak mak   26 Jun 13 18:07 tkinter_ttk.pyi
+drwxrwxr-x. 2 mak mak  122 Jun 13 18:07 urllib
+-rw-rw-r--. 1 mak mak   27 Jun 13 18:07 urllib_error.pyi
+-rw-rw-r--. 1 mak mak   27 Jun 13 18:07 urllib_parse.pyi
+-rw-rw-r--. 1 mak mak   30 Jun 13 18:07 urllib_request.pyi
+-rw-rw-r--. 1 mak mak   31 Jun 13 18:07 urllib_response.pyi
+-rw-rw-r--. 1 mak mak   33 Jun 13 18:07 urllib_robotparser.pyi
+
+.vim/bundle/jedi-vim/pythonx/jedi/jedi/third_party/typeshed/third_party/3/six/moves/urllib:
+total 24
+-rw-rw-r--. 1 mak mak  164 Jun 13 18:07 error.pyi
+-rw-rw-r--. 1 mak mak  217 Jun 13 18:07 __init__.pyi
+-rw-rw-r--. 1 mak mak 1372 Jun 13 18:07 parse.pyi
+-rw-rw-r--. 1 mak mak 2356 Jun 13 18:07 request.pyi
+-rw-rw-r--. 1 mak mak  389 Jun 13 18:07 response.pyi
+-rw-rw-r--. 1 mak mak   66 Jun 13 18:07 robotparser.pyi
+
+.vim/bundle/jedi-vim/pythonx/jedi/jedi/third_party/typeshed/third_party/3/typed_ast:
+total 24
+-rw-rw-r--. 1 mak mak 6985 Jun 13 18:07 ast27.pyi
+-rw-rw-r--. 1 mak mak 8014 Jun 13 18:07 ast3.pyi
+-rw-rw-r--. 1 mak mak   84 Jun 13 18:07 conversions.pyi
+-rw-rw-r--. 1 mak mak  124 Jun 13 18:07 __init__.pyi
+
+.vim/bundle/jedi-vim/pythonx/jedi/scripts:
+total 20
+-rwxrwxr-x. 1 mak mak 1330 Jun 13 18:07 diff_parser_profile.py
+-rwxrwxr-x. 1 mak mak 1649 Jun 13 18:07 memory_check.py
+-rwxrwxr-x. 1 mak mak   49 Jun 13 18:07 profiled_pytest.sh
+-rwxrwxr-x. 1 mak mak 1972 Jun 13 18:07 profile_output.py
+-rwxrwxr-x. 1 mak mak 1617 Jun 13 18:07 wx_check.py
+
+.vim/bundle/jedi-vim/pythonx/jedi/test:
+total 92
+drwxrwxr-x.  5 mak mak  4096 Jun 13 18:07 completion
+-rw-rw-r--.  1 mak mak  6516 Jun 13 18:07 conftest.py
+drwxrwxr-x. 21 mak mak  4096 Jun 13 18:07 examples
+-rw-rw-r--.  1 mak mak  1502 Jun 13 18:07 helpers.py
+-rw-rw-r--.  1 mak mak     0 Jun 13 18:07 __init__.py
+drwxrwxr-x.  2 mak mak    58 Jun 13 18:07 refactor
+-rwxrwxr-x.  1 mak mak  3478 Jun 13 18:07 refactor.py
+-rwxrwxr-x.  1 mak mak 18099 Jun 13 18:07 run.py
+drwxrwxr-x.  3 mak mak  4096 Jun 13 18:07 static_analysis
+drwxrwxr-x.  2 mak mak  4096 Jun 13 18:07 test_api
+-rw-rw-r--.  1 mak mak   784 Jun 13 18:07 test_cache.py
+-rw-rw-r--.  1 mak mak  1375 Jun 13 18:07 test_compatibility.py
+-rw-rw-r--.  1 mak mak   209 Jun 13 18:07 test_debug.py
+-rw-rw-r--.  1 mak mak   819 Jun 13 18:07 test_deprecation.py
+-rw-rw-r--.  1 mak mak   959 Jun 13 18:07 test_file_io.py
+drwxrwxr-x.  3 mak mak  4096 Jun 13 18:07 test_inference
+-rw-rw-r--.  1 mak mak  2016 Jun 13 18:07 test_integration.py
+drwxrwxr-x.  2 mak mak   106 Jun 13 18:07 test_parso_integration
+-rw-rw-r--.  1 mak mak  1218 Jun 13 18:07 test_settings.py
+-rw-rw-r--.  1 mak mak  2223 Jun 13 18:07 test_speed.py
+-rw-rw-r--.  1 mak mak  3843 Jun 13 18:07 test_utils.py
+
+.vim/bundle/jedi-vim/pythonx/jedi/test/completion:
+total 236
+-rw-rw-r--. 1 mak mak 6078 Jun 13 18:07 arrays.py
+-rw-rw-r--. 1 mak mak 1600 Jun 13 18:07 async_.py
+-rw-rw-r--. 1 mak mak 5696 Jun 13 18:07 basic.py
+-rw-rw-r--. 1 mak mak 9900 Jun 13 18:07 classes.py
+-rw-rw-r--. 1 mak mak  556 Jun 13 18:07 completion.py
+-rw-rw-r--. 1 mak mak  546 Jun 13 18:07 complex.py
+-rw-rw-r--. 1 mak mak 3796 Jun 13 18:07 comprehensions.py
+-rw-rw-r--. 1 mak mak  458 Jun 13 18:07 conftest.py
+-rw-rw-r--. 1 mak mak  745 Jun 13 18:07 context.py
+-rw-rw-r--. 1 mak mak 5517 Jun 13 18:07 decorators.py
+-rw-rw-r--. 1 mak mak 3421 Jun 13 18:07 descriptors.py
+-rw-rw-r--. 1 mak mak 4692 Jun 13 18:07 docstring.py
+-rw-rw-r--. 1 mak mak 5513 Jun 13 18:07 dynamic_arrays.py
+-rw-rw-r--. 1 mak mak 2199 Jun 13 18:07 dynamic_params.py
+-rw-rw-r--. 1 mak mak 4127 Jun 13 18:07 flow_analysis.py
+-rw-rw-r--. 1 mak mak  376 Jun 13 18:07 fstring.py
+-rw-rw-r--. 1 mak mak 7004 Jun 13 18:07 functions.py
+-rw-rw-r--. 1 mak mak 3726 Jun 13 18:07 generators.py
+-rw-rw-r--. 1 mak mak 3490 Jun 13 18:07 goto.py
+-rw-rw-r--. 1 mak mak 5530 Jun 13 18:07 imports.py
+drwxrwxr-x. 3 mak mak  272 Jun 13 18:07 import_tree
+-rw-rw-r--. 1 mak mak 1357 Jun 13 18:07 inheritance.py
+-rw-rw-r--. 1 mak mak  129 Jun 13 18:07 __init__.py
+-rw-rw-r--. 1 mak mak 2718 Jun 13 18:07 invalid.py
+-rw-rw-r--. 1 mak mak 1920 Jun 13 18:07 isinstance.py
+-rw-rw-r--. 1 mak mak  574 Jun 13 18:07 keywords.py
+-rw-rw-r--. 1 mak mak 1833 Jun 13 18:07 lambdas.py
+-rw-rw-r--. 1 mak mak  100 Jun 13 18:07 named_expression.py
+-rw-rw-r--. 1 mak mak 1162 Jun 13 18:07 named_param.py
+-rw-rw-r--. 1 mak mak 2222 Jun 13 18:07 on_import.py
+-rw-rw-r--. 1 mak mak 2080 Jun 13 18:07 ordering.py
+-rw-rw-r--. 1 mak mak  744 Jun 13 18:07 parser.py
+-rw-rw-r--. 1 mak mak 3065 Jun 13 18:07 pep0484_basic.py
+-rw-rw-r--. 1 mak mak 3304 Jun 13 18:07 pep0484_comments.py
+-rw-rw-r--. 1 mak mak 1185 Jun 13 18:07 pep0484_overload.py
+-rw-rw-r--. 1 mak mak 8876 Jun 13 18:07 pep0484_typing.py
+-rw-rw-r--. 1 mak mak 1726 Jun 13 18:07 pep0526_variables.py
+-rw-rw-r--. 1 mak mak  508 Jun 13 18:07 positional_only_params.py
+-rw-rw-r--. 1 mak mak 2023 Jun 13 18:07 precedence.py
+-rw-rw-r--. 1 mak mak 2656 Jun 13 18:07 pytest.py
+-rw-rw-r--. 1 mak mak 1464 Jun 13 18:07 recursion.py
+-rw-rw-r--. 1 mak mak 5719 Jun 13 18:07 stdlib.py
+drwxrwxr-x. 4 mak mak  116 Jun 13 18:07 stub_folder
+-rw-rw-r--. 1 mak mak 2389 Jun 13 18:07 stubs.py
+-rw-rw-r--. 1 mak mak  460 Jun 13 18:07 sys_path.py
+drwxrwxr-x. 2 mak mak   94 Jun 13 18:07 thirdparty
+-rw-rw-r--. 1 mak mak 2252 Jun 13 18:07 types.py
+-rw-rw-r--. 1 mak mak 8121 Jun 13 18:07 usages.py
+
+.vim/bundle/jedi-vim/pythonx/jedi/test/completion/import_tree:
+total 52
+-rw-rw-r--. 1 mak mak 131 Jun 13 18:07 classes.py
+-rw-rw-r--. 1 mak mak  39 Jun 13 18:07 flow_import.py
+-rw-rw-r--. 1 mak mak  46 Jun 13 18:07 globals.py
+-rw-rw-r--. 1 mak mak  80 Jun 13 18:07 __init__.py
+-rw-rw-r--. 1 mak mak 193 Jun 13 18:07 invisible_pkg.py
+-rw-rw-r--. 1 mak mak  61 Jun 13 18:07 mod1.py
+-rw-rw-r--. 1 mak mak  27 Jun 13 18:07 mod2.py
+drwxrwxr-x. 2 mak mak  55 Jun 13 18:07 pkg
+-rw-rw-r--. 1 mak mak  74 Jun 13 18:07 random.py
+-rw-rw-r--. 1 mak mak  87 Jun 13 18:07 recurse_class1.py
+-rw-rw-r--. 1 mak mak  66 Jun 13 18:07 recurse_class2.py
+-rw-rw-r--. 1 mak mak  72 Jun 13 18:07 references.py
+-rw-rw-r--. 1 mak mak  41 Jun 13 18:07 rename1.py
+-rw-rw-r--. 1 mak mak  75 Jun 13 18:07 rename2.py
+
+.vim/bundle/jedi-vim/pythonx/jedi/test/completion/import_tree/pkg:
+total 12
+-rw-rw-r--. 1 mak mak 45 Jun 13 18:07 base.py
+-rw-rw-r--. 1 mak mak 29 Jun 13 18:07 __init__.py
+-rw-rw-r--. 1 mak mak 37 Jun 13 18:07 mod1.py
+
+.vim/bundle/jedi-vim/pythonx/jedi/test/completion/stub_folder:
+total 12
+drwxrwxr-x. 2 mak mak 131 Jun 13 18:07 stub_only_folder
+-rw-rw-r--. 1 mak mak  67 Jun 13 18:07 stub_only.pyi
+drwxrwxr-x. 2 mak mak 150 Jun 13 18:07 with_stub_folder
+-rw-rw-r--. 1 mak mak 130 Jun 13 18:07 with_stub.py
+-rw-rw-r--. 1 mak mak 103 Jun 13 18:07 with_stub.pyi
+
+.vim/bundle/jedi-vim/pythonx/jedi/test/completion/stub_folder/stub_only_folder:
+total 20
+-rw-rw-r--. 1 mak mak 25 Jun 13 18:07 __init__.pyi
+-rw-rw-r--. 1 mak mak 18 Jun 13 18:07 nested_stub_only.pyi
+-rw-rw-r--. 1 mak mak 28 Jun 13 18:07 nested_with_stub.py
+-rw-rw-r--. 1 mak mak 28 Jun 13 18:07 nested_with_stub.pyi
+-rw-rw-r--. 1 mak mak 15 Jun 13 18:07 python_only.py
+
+.vim/bundle/jedi-vim/pythonx/jedi/test/completion/stub_folder/with_stub_folder:
+total 24
+-rw-rw-r--. 1 mak mak 60 Jun 13 18:07 __init__.py
+-rw-rw-r--. 1 mak mak 62 Jun 13 18:07 __init__.pyi
+-rw-rw-r--. 1 mak mak 56 Jun 13 18:07 nested_stub_only.pyi
+-rw-rw-r--. 1 mak mak 28 Jun 13 18:07 nested_with_stub.py
+-rw-rw-r--. 1 mak mak 28 Jun 13 18:07 nested_with_stub.pyi
+-rw-rw-r--. 1 mak mak 15 Jun 13 18:07 python_only.py
+
+.vim/bundle/jedi-vim/pythonx/jedi/test/completion/thirdparty:
+total 20
+-rw-rw-r--. 1 mak mak  212 Jun 13 18:07 django_.py
+-rw-rw-r--. 1 mak mak 1486 Jun 13 18:07 jedi_.py
+-rw-rw-r--. 1 mak mak  134 Jun 13 18:07 psycopg2_.py
+-rw-rw-r--. 1 mak mak  544 Jun 13 18:07 pylab_.py
+-rw-rw-r--. 1 mak mak  320 Jun 13 18:07 PyQt4_.py
+
+.vim/bundle/jedi-vim/pythonx/jedi/test/examples:
+total 4
+drwxrwxr-x. 2 mak mak  48 Jun 13 18:07 absolute_import
+drwxrwxr-x. 4 mak mak  48 Jun 13 18:07 buildout_project
+drwxrwxr-x. 3 mak mak  34 Jun 13 18:07 django
+drwxrwxr-x. 5 mak mak  72 Jun 13 18:07 flask-site-packages
+drwxrwxr-x. 4 mak mak  28 Jun 13 18:07 implicit_namespace_package
+drwxrwxr-x. 3 mak mak  23 Jun 13 18:07 implicit_nested_namespaces
+drwxrwxr-x. 3 mak mak  17 Jun 13 18:07 inheritance
+drwxrwxr-x. 2 mak mak  69 Jun 13 18:07 init_extension_module
+drwxrwxr-x. 4 mak mak  52 Jun 13 18:07 issue1209
+drwxrwxr-x. 4 mak mak  28 Jun 13 18:07 namespace_package
+drwxrwxr-x. 2 mak mak  36 Jun 13 18:07 namespace_package_relative_import
+drwxrwxr-x. 3 mak mak  42 Jun 13 18:07 nested_namespaces
+drwxrwxr-x. 4 mak mak  93 Jun 13 18:07 not_in_sys_path
+-rw-rw-r--. 1 mak mak 155 Jun 13 18:07 README.rst
+drwxrwxr-x. 3 mak mak  27 Jun 13 18:07 sample_venvs
+drwxrwxr-x. 2 mak mak  60 Jun 13 18:07 simple_import
+drwxrwxr-x. 2 mak mak  27 Jun 13 18:07 speed
+drwxrwxr-x. 5 mak mak  73 Jun 13 18:07 stub_packages
+drwxrwxr-x. 2 mak mak  37 Jun 13 18:07 typing_overload
+drwxrwxr-x. 2 mak mak  40 Jun 13 18:07 zipped_imports
+
+.vim/bundle/jedi-vim/pythonx/jedi/test/examples/absolute_import:
+total 8
+-rw-rw-r--. 1 mak mak 383 Jun 13 18:07 local_module.py
+-rw-rw-r--. 1 mak mak 437 Jun 13 18:07 unittest.py
+
+.vim/bundle/jedi-vim/pythonx/jedi/test/examples/buildout_project:
+total 0
+drwxrwxr-x. 2 mak mak 54 Jun 13 18:07 bin
+-rw-rw-r--. 1 mak mak  0 Jun 13 18:07 buildout.cfg
+drwxrwxr-x. 3 mak mak 23 Jun 13 18:07 src
+
+.vim/bundle/jedi-vim/pythonx/jedi/test/examples/buildout_project/bin:
+total 8
+-rw-rw-r--. 1 mak mak 231 Jun 13 18:07 app
+-rw-rw-r--. 1 mak mak   5 Jun 13 18:07 binary_file
+-rw-rw-r--. 1 mak mak   0 Jun 13 18:07 empty_file
+
+.vim/bundle/jedi-vim/pythonx/jedi/test/examples/buildout_project/src:
+total 0
+drwxrwxr-x. 2 mak mak 28 Jun 13 18:07 proj_name
+
+.vim/bundle/jedi-vim/pythonx/jedi/test/examples/buildout_project/src/proj_name:
+total 0
+-rw-rw-r--. 1 mak mak 0 Jun 13 18:07 module_name.py
+
+.vim/bundle/jedi-vim/pythonx/jedi/test/examples/django:
+total 4
+drwxrwxr-x. 2 mak mak  42 Jun 13 18:07 app
+-rw-rw-r--. 1 mak mak 249 Jun 13 18:07 manage.py
+
+.vim/bundle/jedi-vim/pythonx/jedi/test/examples/django/app:
+total 4
+-rw-rw-r--. 1 mak mak  0 Jun 13 18:07 __init__.py
+-rw-rw-r--. 1 mak mak 18 Jun 13 18:07 models.py
+
+.vim/bundle/jedi-vim/pythonx/jedi/test/examples/flask-site-packages:
+total 4
+drwxrwxr-x. 3 mak mak 36 Jun 13 18:07 flask
+drwxrwxr-x. 2 mak mak 25 Jun 13 18:07 flask_baz
+drwxrwxr-x. 3 mak mak 50 Jun 13 18:07 flaskext
+-rw-rw-r--. 1 mak mak 28 Jun 13 18:07 flask_foo.py
+
+.vim/bundle/jedi-vim/pythonx/jedi/test/examples/flask-site-packages/flask:
+total 4
+drwxrwxr-x. 2 mak mak 25 Jun 13 18:07 ext
+-rw-rw-r--. 1 mak mak 21 Jun 13 18:07 __init__.py
+
+.vim/bundle/jedi-vim/pythonx/jedi/test/examples/flask-site-packages/flask/ext:
+total 4
+-rw-rw-r--. 1 mak mak 1 Jun 13 18:07 __init__.py
+
+.vim/bundle/jedi-vim/pythonx/jedi/test/examples/flask-site-packages/flask_baz:
+total 4
+-rw-rw-r--. 1 mak mak 8 Jun 13 18:07 __init__.py
+
+.vim/bundle/jedi-vim/pythonx/jedi/test/examples/flask-site-packages/flaskext:
+total 4
+-rw-rw-r--. 1 mak mak 28 Jun 13 18:07 bar.py
+-rw-rw-r--. 1 mak mak  0 Jun 13 18:07 __init__.py
+drwxrwxr-x. 2 mak mak 25 Jun 13 18:07 moo
+
+.vim/bundle/jedi-vim/pythonx/jedi/test/examples/flask-site-packages/flaskext/moo:
+total 4
+-rw-rw-r--. 1 mak mak 8 Jun 13 18:07 __init__.py
+
+.vim/bundle/jedi-vim/pythonx/jedi/test/examples/implicit_namespace_package:
+total 0
+drwxrwxr-x. 3 mak mak 17 Jun 13 18:07 ns1
+drwxrwxr-x. 3 mak mak 17 Jun 13 18:07 ns2
+
+.vim/bundle/jedi-vim/pythonx/jedi/test/examples/implicit_namespace_package/ns1:
+total 0
+drwxrwxr-x. 2 mak mak 25 Jun 13 18:07 pkg
+
+.vim/bundle/jedi-vim/pythonx/jedi/test/examples/implicit_namespace_package/ns1/pkg:
+total 4
+-rw-rw-r--. 1 mak mak 18 Jun 13 18:07 ns1_file.py
+
+.vim/bundle/jedi-vim/pythonx/jedi/test/examples/implicit_namespace_package/ns2:
+total 0
+drwxrwxr-x. 2 mak mak 25 Jun 13 18:07 pkg
+
+.vim/bundle/jedi-vim/pythonx/jedi/test/examples/implicit_namespace_package/ns2/pkg:
+total 4
+-rw-rw-r--. 1 mak mak 18 Jun 13 18:07 ns2_file.py
+
+.vim/bundle/jedi-vim/pythonx/jedi/test/examples/implicit_nested_namespaces:
+total 0
+drwxrwxr-x. 3 mak mak 17 Jun 13 18:07 namespace
+
+.vim/bundle/jedi-vim/pythonx/jedi/test/examples/implicit_nested_namespaces/namespace:
+total 0
+drwxrwxr-x. 2 mak mak 23 Jun 13 18:07 pkg
+
+.vim/bundle/jedi-vim/pythonx/jedi/test/examples/implicit_nested_namespaces/namespace/pkg:
+total 4
+-rw-rw-r--. 1 mak mak 10 Jun 13 18:07 module.py
+
+.vim/bundle/jedi-vim/pythonx/jedi/test/examples/inheritance:
+total 0
+drwxrwxr-x. 2 mak mak 42 Jun 13 18:07 pkg
+
+.vim/bundle/jedi-vim/pythonx/jedi/test/examples/inheritance/pkg:
+total 8
+-rw-rw-r--. 1 mak mak 74 Jun 13 18:07 __init__.py
+-rw-rw-r--. 1 mak mak 44 Jun 13 18:07 module.py
+
+.vim/bundle/jedi-vim/pythonx/jedi/test/examples/init_extension_module:
+total 28
+-rwxrwxr-x. 1 mak mak 16493 Jun 13 18:07 __init__.cpython-34m.so
+-rw-rw-r--. 1 mak mak   294 Jun 13 18:07 module.c
+-rw-rw-r--. 1 mak mak   250 Jun 13 18:07 setup.py
+
+.vim/bundle/jedi-vim/pythonx/jedi/test/examples/issue1209:
+total 0
+drwxrwxr-x. 3 mak mak 41 Jun 13 18:07 api
+-rw-rw-r--. 1 mak mak  0 Jun 13 18:07 __init__.py
+drwxrwxr-x. 2 mak mak 40 Jun 13 18:07 whatever
+
+.vim/bundle/jedi-vim/pythonx/jedi/test/examples/issue1209/api:
+total 0
+-rw-rw-r--. 1 mak mak  0 Jun 13 18:07 __init__.py
+drwxrwxr-x. 2 mak mak 45 Jun 13 18:07 whatever
+
+.vim/bundle/jedi-vim/pythonx/jedi/test/examples/issue1209/api/whatever:
+total 0
+-rw-rw-r--. 1 mak mak 0 Jun 13 18:07 api_test1.py
+-rw-rw-r--. 1 mak mak 0 Jun 13 18:07 __init__.py
+
+.vim/bundle/jedi-vim/pythonx/jedi/test/examples/issue1209/whatever:
+total 0
+-rw-rw-r--. 1 mak mak 0 Jun 13 18:07 __init__.py
+-rw-rw-r--. 1 mak mak 0 Jun 13 18:07 test.py
+
+.vim/bundle/jedi-vim/pythonx/jedi/test/examples/namespace_package:
+total 0
+drwxrwxr-x. 3 mak mak 17 Jun 13 18:07 ns1
+drwxrwxr-x. 3 mak mak 17 Jun 13 18:07 ns2
+
+.vim/bundle/jedi-vim/pythonx/jedi/test/examples/namespace_package/ns1:
+total 0
+drwxrwxr-x. 3 mak mak 62 Jun 13 18:07 pkg
+
+.vim/bundle/jedi-vim/pythonx/jedi/test/examples/namespace_package/ns1/pkg:
+total 8
+-rw-rw-r--. 1 mak mak 214 Jun 13 18:07 __init__.py
+-rw-rw-r--. 1 mak mak  18 Jun 13 18:07 ns1_file.py
+drwxrwxr-x. 2 mak mak  25 Jun 13 18:07 ns1_folder
+
+.vim/bundle/jedi-vim/pythonx/jedi/test/examples/namespace_package/ns1/pkg/ns1_folder:
+total 4
+-rw-rw-r--. 1 mak mak 20 Jun 13 18:07 __init__.py
+
+.vim/bundle/jedi-vim/pythonx/jedi/test/examples/namespace_package/ns2:
+total 0
+drwxrwxr-x. 3 mak mak 43 Jun 13 18:07 pkg
+
+.vim/bundle/jedi-vim/pythonx/jedi/test/examples/namespace_package/ns2/pkg:
+total 4
+-rw-rw-r--. 1 mak mak 18 Jun 13 18:07 ns2_file.py
+drwxrwxr-x. 3 mak mak 39 Jun 13 18:07 ns2_folder
+
+.vim/bundle/jedi-vim/pythonx/jedi/test/examples/namespace_package/ns2/pkg/ns2_folder:
+total 4
+-rw-rw-r--. 1 mak mak 20 Jun 13 18:07 __init__.py
+drwxrwxr-x. 2 mak mak 25 Jun 13 18:07 nested
+
+.vim/bundle/jedi-vim/pythonx/jedi/test/examples/namespace_package/ns2/pkg/ns2_folder/nested:
+total 4
+-rw-rw-r--. 1 mak mak 16 Jun 13 18:07 __init__.py
+
+.vim/bundle/jedi-vim/pythonx/jedi/test/examples/namespace_package_relative_import:
+total 8
+-rw-rw-r--. 1 mak mak 23 Jun 13 18:07 rel1.py
+-rw-rw-r--. 1 mak mak  9 Jun 13 18:07 rel2.py
+
+.vim/bundle/jedi-vim/pythonx/jedi/test/examples/nested_namespaces:
+total 0
+-rw-rw-r--. 1 mak mak  0 Jun 13 18:07 __init__.py
+drwxrwxr-x. 3 mak mak 36 Jun 13 18:07 namespace
+
+.vim/bundle/jedi-vim/pythonx/jedi/test/examples/nested_namespaces/namespace:
+total 4
+-rw-rw-r--. 1 mak mak 94 Jun 13 18:07 __init__.py
+drwxrwxr-x. 2 mak mak 25 Jun 13 18:07 pkg
+
+.vim/bundle/jedi-vim/pythonx/jedi/test/examples/nested_namespaces/namespace/pkg:
+total 4
+-rw-rw-r--. 1 mak mak 10 Jun 13 18:07 __init__.py
+
+.vim/bundle/jedi-vim/pythonx/jedi/test/examples/not_in_sys_path:
+total 4
+-rw-rw-r--. 1 mak mak  0 Jun 13 18:07 __init__.py
+drwxrwxr-x. 2 mak mak 42 Jun 13 18:07 not_in_sys_path_package
+-rw-rw-r--. 1 mak mak 10 Jun 13 18:07 not_in_sys_path.py
+drwxrwxr-x. 2 mak mak 42 Jun 13 18:07 pkg
+
+.vim/bundle/jedi-vim/pythonx/jedi/test/examples/not_in_sys_path/not_in_sys_path_package:
+total 8
+-rw-rw-r--. 1 mak mak 18 Jun 13 18:07 __init__.py
+-rw-rw-r--. 1 mak mak 25 Jun 13 18:07 module.py
+
+.vim/bundle/jedi-vim/pythonx/jedi/test/examples/not_in_sys_path/pkg:
+total 4
+-rw-rw-r--. 1 mak mak   0 Jun 13 18:07 __init__.py
+-rw-rw-r--. 1 mak mak 221 Jun 13 18:07 module.py
+
+.vim/bundle/jedi-vim/pythonx/jedi/test/examples/sample_venvs:
+total 0
+drwxrwxr-x. 3 mak mak 133 Jun 13 18:07 pth_directory
+
+.vim/bundle/jedi-vim/pythonx/jedi/test/examples/sample_venvs/pth_directory:
+total 20
+drwxrwxr-x. 2 mak mak  25 Jun 13 18:07 dir-from-foo-pth
+-rw-rw-r--. 1 mak mak  20 Jun 13 18:07 egg_link.egg-link
+-rw-rw-r--. 1 mak mak  19 Jun 13 18:07 foo.pth
+-rw-rw-r--. 1 mak mak  36 Jun 13 18:07 import_smth.pth
+-rw-rw-r--. 1 mak mak  25 Jun 13 18:07 relative.egg-link
+-rw-rw-r--. 1 mak mak 121 Jun 13 18:07 smth.py
+
+.vim/bundle/jedi-vim/pythonx/jedi/test/examples/sample_venvs/pth_directory/dir-from-foo-pth:
+total 4
+-rw-rw-r--. 1 mak mak 106 Jun 13 18:07 __init__.py
+
+.vim/bundle/jedi-vim/pythonx/jedi/test/examples/simple_import:
+total 4
+-rw-rw-r--. 1 mak mak 92 Jun 13 18:07 __init__.py
+-rw-rw-r--. 1 mak mak  0 Jun 13 18:07 module2.py
+-rw-rw-r--. 1 mak mak  0 Jun 13 18:07 module.py
+
+.vim/bundle/jedi-vim/pythonx/jedi/test/examples/speed:
+total 4
+-rw-rw-r--. 1 mak mak 647 Jun 13 18:07 precedence.py
+
+.vim/bundle/jedi-vim/pythonx/jedi/test/examples/stub_packages:
+total 0
+drwxrwxr-x. 2 mak mak 26 Jun 13 18:07 no_python-stubs
+drwxrwxr-x. 2 mak mak 42 Jun 13 18:07 with_python
+drwxrwxr-x. 2 mak mak 44 Jun 13 18:07 with_python-stubs
+
+.vim/bundle/jedi-vim/pythonx/jedi/test/examples/stub_packages/no_python-stubs:
+total 4
+-rw-rw-r--. 1 mak mak 9 Jun 13 18:07 __init__.pyi
+
+.vim/bundle/jedi-vim/pythonx/jedi/test/examples/stub_packages/with_python:
+total 8
+-rw-rw-r--. 1 mak mak 117 Jun 13 18:07 __init__.py
+-rw-rw-r--. 1 mak mak 106 Jun 13 18:07 module.py
+
+.vim/bundle/jedi-vim/pythonx/jedi/test/examples/stub_packages/with_python-stubs:
+total 8
+-rw-rw-r--. 1 mak mak 87 Jun 13 18:07 __init__.pyi
+-rw-rw-r--. 1 mak mak 67 Jun 13 18:07 module.pyi
+
+.vim/bundle/jedi-vim/pythonx/jedi/test/examples/typing_overload:
+total 8
+-rw-rw-r--. 1 mak mak  47 Jun 13 18:07 file.py
+-rw-rw-r--. 1 mak mak 148 Jun 13 18:07 file.pyi
+
+.vim/bundle/jedi-vim/pythonx/jedi/test/examples/zipped_imports:
+total 8
+-rw-rw-r--. 1 mak mak  204 Jun 13 18:07 not_pkg.zip
+-rw-rw-r--. 1 mak mak 1057 Jun 13 18:07 pkg.zip
+
+.vim/bundle/jedi-vim/pythonx/jedi/test/refactor:
+total 12
+-rw-rw-r--. 1 mak mak 697 Jun 13 18:07 extract.py
+-rw-rw-r--. 1 mak mak 246 Jun 13 18:07 inline.py
+-rw-rw-r--. 1 mak mak 295 Jun 13 18:07 rename.py
+
+.vim/bundle/jedi-vim/pythonx/jedi/test/static_analysis:
+total 68
+-rw-rw-r--. 1 mak mak 2087 Jun 13 18:07 attribute_error.py
+-rw-rw-r--. 1 mak mak  746 Jun 13 18:07 attribute_warnings.py
+-rw-rw-r--. 1 mak mak  776 Jun 13 18:07 branches.py
+-rw-rw-r--. 1 mak mak  185 Jun 13 18:07 builtins.py
+-rw-rw-r--. 1 mak mak  152 Jun 13 18:07 class_simple.py
+-rw-rw-r--. 1 mak mak  773 Jun 13 18:07 comprehensions.py
+-rw-rw-r--. 1 mak mak  245 Jun 13 18:07 descriptors.py
+-rw-rw-r--. 1 mak mak  102 Jun 13 18:07 generators.py
+-rw-rw-r--. 1 mak mak  382 Jun 13 18:07 imports.py
+drwxrwxr-x. 2 mak mak   49 Jun 13 18:07 import_tree
+-rw-rw-r--. 1 mak mak  366 Jun 13 18:07 iterable.py
+-rw-rw-r--. 1 mak mak  108 Jun 13 18:07 keywords.py
+-rw-rw-r--. 1 mak mak 1150 Jun 13 18:07 normal_arguments.py
+-rw-rw-r--. 1 mak mak  199 Jun 13 18:07 operations.py
+-rw-rw-r--. 1 mak mak  128 Jun 13 18:07 python2.py
+-rw-rw-r--. 1 mak mak 2237 Jun 13 18:07 star_arguments.py
+-rw-rw-r--. 1 mak mak 1741 Jun 13 18:07 try_except.py
+-rw-rw-r--. 1 mak mak   35 Jun 13 18:07 with_.py
+
+.vim/bundle/jedi-vim/pythonx/jedi/test/static_analysis/import_tree:
+total 8
+-rw-rw-r--. 1 mak mak 16 Jun 13 18:07 a.py
+-rw-rw-r--. 1 mak mak  0 Jun 13 18:07 b.py
+-rw-rw-r--. 1 mak mak 98 Jun 13 18:07 __init__.py
+
+.vim/bundle/jedi-vim/pythonx/jedi/test/test_api:
+total 152
+-rw-rw-r--. 1 mak mak     0 Jun 13 18:07 __init__.py
+-rw-rw-r--. 1 mak mak   328 Jun 13 18:07 test_analysis.py
+-rw-rw-r--. 1 mak mak  2183 Jun 13 18:07 test_api_classes_follow_definition.py
+-rw-rw-r--. 1 mak mak 10834 Jun 13 18:07 test_api.py
+-rw-rw-r--. 1 mak mak 18980 Jun 13 18:07 test_call_signatures.py
+-rw-rw-r--. 1 mak mak 17926 Jun 13 18:07 test_classes.py
+-rw-rw-r--. 1 mak mak 15237 Jun 13 18:07 test_completion.py
+-rw-rw-r--. 1 mak mak  3307 Jun 13 18:07 test_context.py
+-rw-rw-r--. 1 mak mak  4418 Jun 13 18:07 test_defined_names.py
+-rw-rw-r--. 1 mak mak  2342 Jun 13 18:07 test_documentation.py
+-rw-rw-r--. 1 mak mak  5217 Jun 13 18:07 test_environment.py
+-rw-rw-r--. 1 mak mak  3445 Jun 13 18:07 test_full_name.py
+-rw-rw-r--. 1 mak mak 21115 Jun 13 18:07 test_interpreter.py
+-rw-rw-r--. 1 mak mak  1705 Jun 13 18:07 test_keyword.py
+-rw-rw-r--. 1 mak mak   674 Jun 13 18:07 test_project.py
+-rw-rw-r--. 1 mak mak  1033 Jun 13 18:07 test_settings.py
+-rw-rw-r--. 1 mak mak  2942 Jun 13 18:07 test_signatures.py
+-rw-rw-r--. 1 mak mak  2559 Jun 13 18:07 test_unicode.py
+-rw-rw-r--. 1 mak mak   697 Jun 13 18:07 test_usages.py
+
+.vim/bundle/jedi-vim/pythonx/jedi/test/test_inference:
+total 116
+-rw-rw-r--. 1 mak mak     0 Jun 13 18:07 __init__.py
+-rw-rw-r--. 1 mak mak   278 Jun 13 18:07 test_absolute_import.py
+-rw-rw-r--. 1 mak mak  1479 Jun 13 18:07 test_annotations.py
+-rw-rw-r--. 1 mak mak  2499 Jun 13 18:07 test_buildout_detection.py
+-rw-rw-r--. 1 mak mak  5483 Jun 13 18:07 test_compiled.py
+-rw-rw-r--. 1 mak mak   693 Jun 13 18:07 test_context.py
+-rw-rw-r--. 1 mak mak 10699 Jun 13 18:07 test_docstring.py
+-rw-rw-r--. 1 mak mak  1671 Jun 13 18:07 test_extension.py
+-rw-rw-r--. 1 mak mak   377 Jun 13 18:07 test_fstring.py
+drwxrwxr-x. 2 mak mak   124 Jun 13 18:07 test_gradual
+-rw-rw-r--. 1 mak mak  3590 Jun 13 18:07 test_implicit_namespace_package.py
+-rw-rw-r--. 1 mak mak 17461 Jun 13 18:07 test_imports.py
+-rw-rw-r--. 1 mak mak  1412 Jun 13 18:07 test_literals.py
+-rw-rw-r--. 1 mak mak  2038 Jun 13 18:07 test_mixed.py
+-rw-rw-r--. 1 mak mak  3207 Jun 13 18:07 test_namespace_package.py
+-rw-rw-r--. 1 mak mak   647 Jun 13 18:07 test_precedence.py
+-rw-rw-r--. 1 mak mak  2176 Jun 13 18:07 test_pyc.py
+-rw-rw-r--. 1 mak mak  1014 Jun 13 18:07 test_representation.py
+-rw-rw-r--. 1 mak mak 10911 Jun 13 18:07 test_signature.py
+-rw-rw-r--. 1 mak mak  2853 Jun 13 18:07 test_stdlib.py
+-rw-rw-r--. 1 mak mak  4099 Jun 13 18:07 test_sys_path.py
+
+.vim/bundle/jedi-vim/pythonx/jedi/test/test_inference/test_gradual:
+total 20
+-rw-rw-r--. 1 mak mak    0 Jun 13 18:07 __init__.py
+-rw-rw-r--. 1 mak mak 2302 Jun 13 18:07 test_conversion.py
+-rw-rw-r--. 1 mak mak 2884 Jun 13 18:07 test_stub_loading.py
+-rw-rw-r--. 1 mak mak 3783 Jun 13 18:07 test_stubs.py
+-rw-rw-r--. 1 mak mak 7372 Jun 13 18:07 test_typeshed.py
+
+.vim/bundle/jedi-vim/pythonx/jedi/test/test_parso_integration:
+total 12
+-rw-rw-r--. 1 mak mak    0 Jun 13 18:07 __init__.py
+-rw-rw-r--. 1 mak mak 2022 Jun 13 18:07 test_basic.py
+-rw-rw-r--. 1 mak mak 1027 Jun 13 18:07 test_error_correction.py
+-rw-rw-r--. 1 mak mak 2317 Jun 13 18:07 test_parser_utils.py
+
+.vim/bundle/jedi-vim/pythonx/parso:
+total 60
+-rw-rw-r--. 1 mak mak 1871 Jun 13 18:08 AUTHORS.txt
+-rw-rw-r--. 1 mak mak 2077 Jun 13 18:08 CHANGELOG.rst
+-rw-rw-r--. 1 mak mak 4949 Jun 13 18:08 conftest.py
+-rw-rw-r--. 1 mak mak  274 Jun 13 18:08 CONTRIBUTING.md
+-rwxrwxr-x. 1 mak mak 1231 Jun 13 18:08 deploy-master.sh
+drwxrwxr-x. 6 mak mak  149 Jun 13 18:08 docs
+-rw-rw-r--. 1 mak mak 4176 Jun 13 18:08 LICENSE.txt
+-rw-rw-r--. 1 mak mak  266 Jun 13 18:08 MANIFEST.in
+drwxrwxr-x. 5 mak mak  273 Jun 13 18:08 parso
+-rw-rw-r--. 1 mak mak  356 Jun 13 18:08 pytest.ini
+-rw-rw-r--. 1 mak mak 2711 Jun 13 18:08 README.rst
+drwxrwxr-x. 2 mak mak   36 Jun 13 18:08 scripts
+-rw-rw-r--. 1 mak mak  231 Jun 13 18:08 setup.cfg
+-rwxrwxr-x. 1 mak mak 1788 Jun 13 18:08 setup.py
+drwxrwxr-x. 3 mak mak 4096 Jun 13 18:08 test
+-rw-rw-r--. 1 mak mak  430 Jun 13 18:08 tox.ini
+
+.vim/bundle/jedi-vim/pythonx/parso/docs:
+total 32
+-rw-rw-r--. 1 mak mak 9177 Jun 13 18:08 conf.py
+drwxrwxr-x. 2 mak mak   93 Jun 13 18:08 docs
+-rw-rw-r--. 1 mak mak   66 Jun 13 18:08 global.rst
+-rw-rw-r--. 1 mak mak  516 Jun 13 18:08 index.rst
+-rw-rw-r--. 1 mak mak 5560 Jun 13 18:08 Makefile
+-rw-rw-r--. 1 mak mak   73 Jun 13 18:08 README.md
+drwxrwxr-x. 2 mak mak   49 Jun 13 18:08 _static
+drwxrwxr-x. 2 mak mak   52 Jun 13 18:08 _templates
+drwxrwxr-x. 3 mak mak   49 Jun 13 18:08 _themes
+
+.vim/bundle/jedi-vim/pythonx/parso/docs/docs:
+total 16
+-rw-rw-r--. 1 mak mak  860 Jun 13 18:08 development.rst
+-rw-rw-r--. 1 mak mak  867 Jun 13 18:08 installation.rst
+-rw-rw-r--. 1 mak mak  992 Jun 13 18:08 parser-tree.rst
+-rw-rw-r--. 1 mak mak 1555 Jun 13 18:08 usage.rst
+
+.vim/bundle/jedi-vim/pythonx/parso/docs/_static:
+total 256
+-rw-rw-r--. 1 mak mak  56519 Jun 13 18:08 logo_characters.png
+-rw-rw-r--. 1 mak mak 204714 Jun 13 18:08 logo.png
+
+.vim/bundle/jedi-vim/pythonx/parso/docs/_templates:
+total 8
+-rw-rw-r--. 1 mak mak 231 Jun 13 18:08 ghbuttons.html
+-rw-rw-r--. 1 mak mak 136 Jun 13 18:08 sidebarlogo.html
+
+.vim/bundle/jedi-vim/pythonx/parso/docs/_themes:
+total 8
+drwxrwxr-x. 3 mak mak   94 Jun 13 18:08 flask
+-rw-rw-r--. 1 mak mak 6672 Jun 13 18:08 flask_theme_support.py
+
+.vim/bundle/jedi-vim/pythonx/parso/docs/_themes/flask:
+total 16
+-rw-rw-r--. 1 mak mak  924 Jun 13 18:08 layout.html
+-rw-rw-r--. 1 mak mak 1789 Jun 13 18:08 LICENSE
+-rw-rw-r--. 1 mak mak  590 Jun 13 18:08 relations.html
+drwxrwxr-x. 2 mak mak   49 Jun 13 18:08 static
+-rw-rw-r--. 1 mak mak  162 Jun 13 18:08 theme.conf
+
+.vim/bundle/jedi-vim/pythonx/parso/docs/_themes/flask/static:
+total 12
+-rw-rw-r--. 1 mak mak 6411 Jun 13 18:08 flasky.css_t
+-rw-rw-r--. 1 mak mak  976 Jun 13 18:08 small_flask.css
+
+.vim/bundle/jedi-vim/pythonx/parso/parso:
+total 88
+-rw-rw-r--. 1 mak mak  6147 Jun 13 18:08 cache.py
+-rw-rw-r--. 1 mak mak  1618 Jun 13 18:08 _compatibility.py
+-rw-rw-r--. 1 mak mak   972 Jun 13 18:08 file_io.py
+-rw-rw-r--. 1 mak mak 10275 Jun 13 18:08 grammar.py
+-rw-rw-r--. 1 mak mak  1192 Jun 13 18:08 grammar.pyi
+-rw-rw-r--. 1 mak mak  1607 Jun 13 18:08 __init__.py
+-rw-rw-r--. 1 mak mak   612 Jun 13 18:08 __init__.pyi
+-rw-rw-r--. 1 mak mak  5170 Jun 13 18:08 normalizer.py
+-rw-rw-r--. 1 mak mak  7160 Jun 13 18:08 parser.py
+drwxrwxr-x. 3 mak mak   156 Jun 13 18:08 pgen2
+drwxrwxr-x. 2 mak mak  4096 Jun 13 18:08 __pycache__
+drwxrwxr-x. 3 mak mak  4096 Jun 13 18:08 python
+-rw-rw-r--. 1 mak mak 11312 Jun 13 18:08 tree.py
+-rw-rw-r--. 1 mak mak  6074 Jun 13 18:08 utils.py
+-rw-rw-r--. 1 mak mak   792 Jun 13 18:08 utils.pyi
+
+.vim/bundle/jedi-vim/pythonx/parso/parso/pgen2:
+total 40
+-rw-rw-r--. 1 mak mak 14180 Jun 13 18:08 generator.py
+-rw-rw-r--. 1 mak mak  1243 Jun 13 18:08 generator.pyi
+-rw-rw-r--. 1 mak mak  5399 Jun 13 18:08 grammar_parser.py
+-rw-rw-r--. 1 mak mak   586 Jun 13 18:08 grammar_parser.pyi
+-rw-rw-r--. 1 mak mak   382 Jun 13 18:08 __init__.py
+-rw-rw-r--. 1 mak mak    71 Jun 13 18:08 __init__.pyi
+drwxrwxr-x. 2 mak mak   206 Jun 13 18:08 __pycache__
+
+.vim/bundle/jedi-vim/pythonx/parso/parso/pgen2/__pycache__:
+total 48
+-rw-rw-r--. 1 mak mak 9759 Jun 13 18:08 generator.cpython-36.pyc
+-rw-rw-r--. 1 mak mak 9749 Jun 13 18:08 generator.cpython-37.pyc
+-rw-rw-r--. 1 mak mak 4412 Jun 13 18:08 grammar_parser.cpython-36.pyc
+-rw-rw-r--. 1 mak mak 4401 Jun 13 18:08 grammar_parser.cpython-37.pyc
+-rw-rw-r--. 1 mak mak  213 Jun 13 18:08 __init__.cpython-36.pyc
+-rw-rw-r--. 1 mak mak  217 Jun 13 18:08 __init__.cpython-37.pyc
+
+.vim/bundle/jedi-vim/pythonx/parso/parso/__pycache__:
+total 136
+-rw-rw-r--. 1 mak mak  4294 Jun 13 18:08 cache.cpython-36.pyc
+-rw-rw-r--. 1 mak mak  4283 Jun 13 18:08 cache.cpython-37.pyc
+-rw-rw-r--. 1 mak mak  1759 Jun 13 18:08 _compatibility.cpython-36.pyc
+-rw-rw-r--. 1 mak mak  1763 Jun 13 18:08 _compatibility.cpython-37.pyc
+-rw-rw-r--. 1 mak mak  1495 Jun 13 18:08 file_io.cpython-36.pyc
+-rw-rw-r--. 1 mak mak  1499 Jun 13 18:08 file_io.cpython-37.pyc
+-rw-rw-r--. 1 mak mak  8907 Jun 13 18:08 grammar.cpython-36.pyc
+-rw-rw-r--. 1 mak mak  8901 Jun 13 18:08 grammar.cpython-37.pyc
+-rw-rw-r--. 1 mak mak  1836 Jun 13 18:08 __init__.cpython-36.pyc
+-rw-rw-r--. 1 mak mak  1840 Jun 13 18:08 __init__.cpython-37.pyc
+-rw-rw-r--. 1 mak mak  6512 Jun 13 18:08 normalizer.cpython-36.pyc
+-rw-rw-r--. 1 mak mak  6523 Jun 13 18:08 normalizer.cpython-37.pyc
+-rw-rw-r--. 1 mak mak  6838 Jun 13 18:08 parser.cpython-36.pyc
+-rw-rw-r--. 1 mak mak  6822 Jun 13 18:08 parser.cpython-37.pyc
+-rw-rw-r--. 1 mak mak 12062 Jun 13 18:08 tree.cpython-36.pyc
+-rw-rw-r--. 1 mak mak 12019 Jun 13 18:08 tree.cpython-37.pyc
+-rw-rw-r--. 1 mak mak  5099 Jun 13 18:08 utils.cpython-36.pyc
+-rw-rw-r--. 1 mak mak  5049 Jun 13 18:08 utils.cpython-37.pyc
+
+.vim/bundle/jedi-vim/pythonx/parso/parso/python:
+total 276
+-rw-rw-r--. 1 mak mak 27173 Jun 13 18:08 diff.py
+-rw-rw-r--. 1 mak mak 41775 Jun 13 18:08 errors.py
+-rw-rw-r--. 1 mak mak  5960 Jun 13 18:08 grammar27.txt
+-rw-rw-r--. 1 mak mak  6126 Jun 13 18:08 grammar33.txt
+-rw-rw-r--. 1 mak mak  6130 Jun 13 18:08 grammar34.txt
+-rw-rw-r--. 1 mak mak  6935 Jun 13 18:08 grammar35.txt
+-rw-rw-r--. 1 mak mak  6935 Jun 13 18:08 grammar36.txt
+-rw-rw-r--. 1 mak mak  6786 Jun 13 18:08 grammar37.txt
+-rw-rw-r--. 1 mak mak  7546 Jun 13 18:08 grammar38.txt
+-rw-rw-r--. 1 mak mak  7546 Jun 13 18:08 grammar39.txt
+-rw-rw-r--. 1 mak mak     0 Jun 13 18:08 __init__.py
+-rw-rw-r--. 1 mak mak  7864 Jun 13 18:08 issue_list.txt
+-rw-rw-r--. 1 mak mak  8520 Jun 13 18:08 parser.py
+-rw-rw-r--. 1 mak mak 32216 Jun 13 18:08 pep8.py
+-rw-rw-r--. 1 mak mak  2405 Jun 13 18:08 prefix.py
+drwxrwxr-x. 2 mak mak  4096 Jun 13 18:08 __pycache__
+-rw-rw-r--. 1 mak mak 26912 Jun 13 18:08 tokenize.py
+-rw-rw-r--. 1 mak mak   686 Jun 13 18:08 tokenize.pyi
+-rw-rw-r--. 1 mak mak   811 Jun 13 18:08 token.py
+-rw-rw-r--. 1 mak mak   810 Jun 13 18:08 token.pyi
+-rw-rw-r--. 1 mak mak 37916 Jun 13 18:08 tree.py
+
+.vim/bundle/jedi-vim/pythonx/parso/parso/python/__pycache__:
+total 308
+-rw-rw-r--. 1 mak mak 16455 Jun 13 18:08 diff.cpython-36.pyc
+-rw-rw-r--. 1 mak mak 16177 Jun 13 18:08 diff.cpython-37.pyc
+-rw-rw-r--. 1 mak mak 34751 Jun 13 18:08 errors.cpython-36.pyc
+-rw-rw-r--. 1 mak mak 34295 Jun 13 18:08 errors.cpython-37.pyc
+-rw-rw-r--. 1 mak mak   152 Jun 13 18:08 __init__.cpython-36.pyc
+-rw-rw-r--. 1 mak mak   156 Jun 13 18:08 __init__.cpython-37.pyc
+-rw-rw-r--. 1 mak mak  5346 Jun 13 18:08 parser.cpython-36.pyc
+-rw-rw-r--. 1 mak mak  5313 Jun 13 18:08 parser.cpython-37.pyc
+-rw-rw-r--. 1 mak mak 18545 Jun 13 18:08 pep8.cpython-36.pyc
+-rw-rw-r--. 1 mak mak 18074 Jun 13 18:08 pep8.cpython-37.pyc
+-rw-rw-r--. 1 mak mak  2280 Jun 13 18:08 prefix.cpython-36.pyc
+-rw-rw-r--. 1 mak mak  2284 Jun 13 18:08 prefix.cpython-37.pyc
+-rw-rw-r--. 1 mak mak  1361 Jun 13 18:08 token.cpython-36.pyc
+-rw-rw-r--. 1 mak mak  1296 Jun 13 18:08 token.cpython-37.pyc
+-rw-rw-r--. 1 mak mak 14890 Jun 13 18:08 tokenize.cpython-36.pyc
+-rw-rw-r--. 1 mak mak 14733 Jun 13 18:08 tokenize.cpython-37.pyc
+-rw-rw-r--. 1 mak mak 41013 Jun 13 18:08 tree.cpython-36.pyc
+-rw-rw-r--. 1 mak mak 40963 Jun 13 18:08 tree.cpython-37.pyc
+
+.vim/bundle/jedi-vim/pythonx/parso/scripts:
+total 4
+-rwxrwxr-x. 1 mak mak 1330 Jun 13 18:08 diff_parser_profile.py
+
+.vim/bundle/jedi-vim/pythonx/parso/test:
+total 176
+-rw-rw-r--. 1 mak mak  8410 Jun 13 18:08 failing_examples.py
+-rw-rw-r--. 1 mak mak 10548 Jun 13 18:08 fuzz_diff_parser.py
+-rw-rw-r--. 1 mak mak     0 Jun 13 18:08 __init__.py
+drwxrwxr-x. 2 mak mak  4096 Jun 13 18:08 normalizer_issue_files
+-rw-rw-r--. 1 mak mak   861 Jun 13 18:08 test_absolute_import.py
+-rw-rw-r--. 1 mak mak  4690 Jun 13 18:08 test_cache.py
+-rw-rw-r--. 1 mak mak 29161 Jun 13 18:08 test_diff_parser.py
+-rw-rw-r--. 1 mak mak  2788 Jun 13 18:08 test_error_recovery.py
+-rw-rw-r--. 1 mak mak   702 Jun 13 18:08 test_file_python_errors.py
+-rw-rw-r--. 1 mak mak  3234 Jun 13 18:08 test_fstring.py
+-rw-rw-r--. 1 mak mak  2646 Jun 13 18:08 test_get_code.py
+-rw-rw-r--. 1 mak mak   127 Jun 13 18:08 test_grammar.py
+-rw-rw-r--. 1 mak mak   987 Jun 13 18:08 test_load_grammar.py
+-rw-rw-r--. 1 mak mak  2153 Jun 13 18:08 test_normalizer_issues_files.py
+-rw-rw-r--. 1 mak mak  3573 Jun 13 18:08 test_old_fast_parser.py
+-rw-rw-r--. 1 mak mak  1412 Jun 13 18:08 test_param_splitting.py
+-rw-rw-r--. 1 mak mak  6225 Jun 13 18:08 test_parser.py
+-rw-rw-r--. 1 mak mak  7336 Jun 13 18:08 test_parser_tree.py
+-rw-rw-r--. 1 mak mak   896 Jun 13 18:08 test_pep8.py
+-rw-rw-r--. 1 mak mak  9312 Jun 13 18:08 test_pgen2.py
+-rw-rw-r--. 1 mak mak  2311 Jun 13 18:08 test_prefix.py
+-rw-rw-r--. 1 mak mak 11021 Jun 13 18:08 test_python_errors.py
+-rw-rw-r--. 1 mak mak 13331 Jun 13 18:08 test_tokenize.py
+-rw-rw-r--. 1 mak mak  1830 Jun 13 18:08 test_utils.py
+
+.vim/bundle/jedi-vim/pythonx/parso/test/normalizer_issue_files:
+total 148
+-rw-rw-r--. 1 mak mak  674 Jun 13 18:08 allowed_syntax.py
+-rw-rw-r--. 1 mak mak   19 Jun 13 18:08 allowed_syntax_python2.py
+-rw-rw-r--. 1 mak mak   47 Jun 13 18:08 allowed_syntax_python3.4.py
+-rw-rw-r--. 1 mak mak  299 Jun 13 18:08 allowed_syntax_python3.5.py
+-rw-rw-r--. 1 mak mak  432 Jun 13 18:08 allowed_syntax_python3.6.py
+-rw-rw-r--. 1 mak mak 2634 Jun 13 18:08 E101.py
+-rw-rw-r--. 1 mak mak  758 Jun 13 18:08 E10.py
+-rw-rw-r--. 1 mak mak 1043 Jun 13 18:08 E11.py
+-rw-rw-r--. 1 mak mak 1507 Jun 13 18:08 E12_first.py
+-rw-rw-r--. 1 mak mak 6368 Jun 13 18:08 E12_not_first.py
+-rw-rw-r--. 1 mak mak 7385 Jun 13 18:08 E12_not_second.py
+-rw-rw-r--. 1 mak mak 4070 Jun 13 18:08 E12_second.py
+-rw-rw-r--. 1 mak mak 2291 Jun 13 18:08 E12_third.py
+-rw-rw-r--. 1 mak mak  716 Jun 13 18:08 E20.py
+-rw-rw-r--. 1 mak mak  323 Jun 13 18:08 E21.py
+-rw-rw-r--. 1 mak mak 2155 Jun 13 18:08 E22.py
+-rw-rw-r--. 1 mak mak  179 Jun 13 18:08 E23.py
+-rw-rw-r--. 1 mak mak  876 Jun 13 18:08 E25.py
+-rw-rw-r--. 1 mak mak 1509 Jun 13 18:08 E26.py
+-rw-rw-r--. 1 mak mak  668 Jun 13 18:08 E27.py
+-rw-rw-r--. 1 mak mak  146 Jun 13 18:08 E29.py
+-rw-rw-r--. 1 mak mak 1747 Jun 13 18:08 E30not.py
+-rw-rw-r--. 1 mak mak 1484 Jun 13 18:08 E30.py
+-rw-rw-r--. 1 mak mak  554 Jun 13 18:08 E40.py
+-rw-rw-r--. 1 mak mak 3051 Jun 13 18:08 E50.py
+-rw-rw-r--. 1 mak mak  399 Jun 13 18:08 E70.py
+-rw-rw-r--. 1 mak mak 1130 Jun 13 18:08 E71.py
+-rw-rw-r--. 1 mak mak 1084 Jun 13 18:08 E72.py
+-rw-rw-r--. 1 mak mak  221 Jun 13 18:08 E73.py
+-rw-rw-r--. 1 mak mak  152 Jun 13 18:08 latin-1.py
+-rw-rw-r--. 1 mak mak 1410 Jun 13 18:08 LICENSE
+-rw-rw-r--. 1 mak mak  255 Jun 13 18:08 python2.7.py
+-rw-rw-r--. 1 mak mak 1222 Jun 13 18:08 python3.py
+-rw-rw-r--. 1 mak mak   83 Jun 13 18:08 utf-8-bom.py
+-rw-rw-r--. 1 mak mak 1864 Jun 13 18:08 utf-8.py
+
+.vim/bundle/jedi-vim/pythonx/__pycache__:
+total 28
+-rw-rw-r--. 1 mak mak 28013 Jun 13 18:07 jedi_vim.cpython-36.pyc
+
+.vim/bundle/jedi-vim/test:
+total 12
+-rw-rw-r--. 1 mak mak 2102 Jun 13 18:06 test_integration.py
+-rw-rw-r--. 1 mak mak  282 Jun 13 18:06 _utils.vim
+-rw-rw-r--. 1 mak mak  253 Jun 13 18:06 vimrc
+drwxrwxr-x. 2 mak mak  171 Jun 13 18:06 vspec
+
+.vim/bundle/jedi-vim/test/vspec:
+total 36
+-rw-rw-r--. 1 mak mak  369 Jun 13 18:06 completions_disabled.vim
+-rw-rw-r--. 1 mak mak 3632 Jun 13 18:06 completions.vim
+-rw-rw-r--. 1 mak mak 1139 Jun 13 18:06 documentation.vim
+-rw-rw-r--. 1 mak mak 5178 Jun 13 18:06 goto.vim
+-rw-rw-r--. 1 mak mak  351 Jun 13 18:06 jedi_debug_info.vim
+-rw-rw-r--. 1 mak mak 1047 Jun 13 18:06 pyimport.vim
+-rw-rw-r--. 1 mak mak 4337 Jun 13 18:06 signatures.vim
+
+.vim/bundle/jellybeans.vim:
+total 12
+-rw-rw-r--. 1 mak mak  280 Jun 10 13:38 ansi-term-colors.txt
+drwxrwxr-x. 2 mak mak   28 Jun 10 13:38 colors
+-rw-rw-r--. 1 mak mak 5804 Jun 10 13:38 README.markdown
+
+.vim/bundle/jellybeans.vim/colors:
+total 20
+-rw-rw-r--. 1 mak mak 20205 Jun 10 13:38 jellybeans.vim
+
+.vim/bundle/molokai:
+total 8
+drwxrwxr-x. 2 mak mak   25 Jun 10 13:38 colors
+-rw-rw-r--. 1 mak mak 1172 Jun 10 13:38 LICENSE.md
+-rw-rw-r--. 1 mak mak 1160 Jun 10 13:38 README.md
+
+.vim/bundle/molokai/colors:
+total 12
+-rw-rw-r--. 1 mak mak 10150 Jun 10 13:38 molokai.vim
+
+.vim/bundle/neobundle.vim:
+total 16
+drwxrwxr-x. 4 mak mak   57 Jun 10 13:12 autoload
+drwxrwxr-x. 2 mak mak   96 Jun 10 13:12 bin
+drwxrwxr-x. 2 mak mak   27 Jun 10 13:12 doc
+-rw-rw-r--. 1 mak mak 1068 Jun 10 13:12 LICENSE-MIT.txt
+-rw-rw-r--. 1 mak mak  589 Jun 10 13:12 Makefile
+drwxrwxr-x. 2 mak mak   27 Jun 10 13:12 plugin
+-rw-rw-r--. 1 mak mak 4673 Jun 10 13:12 README.md
+drwxrwxr-x. 2 mak mak  128 Jun 10 13:12 test
+
+.vim/bundle/neobundle.vim/autoload:
+total 16
+drwxrwxr-x. 4 mak mak   216 Jun 10 13:12 neobundle
+-rw-rw-r--. 1 mak mak 14352 Jun 10 13:12 neobundle.vim
+drwxrwxr-x. 4 mak mak    34 Jun 10 13:12 unite
+
+.vim/bundle/neobundle.vim/autoload/neobundle:
+total 144
+-rw-rw-r--. 1 mak mak  8532 Jun 10 13:12 autoload.vim
+-rw-rw-r--. 1 mak mak  2093 Jun 10 13:12 cache.vim
+-rw-rw-r--. 1 mak mak 23277 Jun 10 13:12 commands.vim
+-rw-rw-r--. 1 mak mak 22021 Jun 10 13:12 config.vim
+-rw-rw-r--. 1 mak mak  9136 Jun 10 13:12 init.vim
+-rw-rw-r--. 1 mak mak 26253 Jun 10 13:12 installer.vim
+-rw-rw-r--. 1 mak mak  2910 Jun 10 13:12 metadata.vim
+-rw-rw-r--. 1 mak mak  8891 Jun 10 13:12 parser.vim
+drwxrwxr-x. 2 mak mak    71 Jun 10 13:12 sources
+-rw-rw-r--. 1 mak mak  8140 Jun 10 13:12 TOML.vim
+drwxrwxr-x. 2 mak mak    96 Jun 10 13:12 types
+-rw-rw-r--. 1 mak mak 15747 Jun 10 13:12 util.vim
+
+.vim/bundle/neobundle.vim/autoload/neobundle/sources:
+total 16
+-rw-rw-r--. 1 mak mak 4011 Jun 10 13:12 github.vim
+-rw-rw-r--. 1 mak mak 3497 Jun 10 13:12 metadata.vim
+-rw-rw-r--. 1 mak mak 5313 Jun 10 13:12 vim_scripts_org.vim
+
+.vim/bundle/neobundle.vim/autoload/neobundle/types:
+total 36
+-rw-rw-r--. 1 mak mak 10656 Jun 10 13:12 git.vim
+-rw-rw-r--. 1 mak mak  3968 Jun 10 13:12 hg.vim
+-rw-rw-r--. 1 mak mak  2508 Jun 10 13:12 none.vim
+-rw-rw-r--. 1 mak mak  3611 Jun 10 13:12 raw.vim
+-rw-rw-r--. 1 mak mak  2982 Jun 10 13:12 svn.vim
+-rw-rw-r--. 1 mak mak  4579 Jun 10 13:12 vba.vim
+
+.vim/bundle/neobundle.vim/autoload/unite:
+total 0
+drwxrwxr-x. 2 mak mak  27 Jun 10 13:12 kinds
+drwxrwxr-x. 2 mak mak 135 Jun 10 13:12 sources
+
+.vim/bundle/neobundle.vim/autoload/unite/kinds:
+total 4
+-rw-rw-r--. 1 mak mak 3621 Jun 10 13:12 neobundle.vim
+
+.vim/bundle/neobundle.vim/autoload/unite/sources:
+total 36
+-rw-rw-r--. 1 mak mak 7167 Jun 10 13:12 neobundle_install.vim
+-rw-rw-r--. 1 mak mak 2761 Jun 10 13:12 neobundle_lazy.vim
+-rw-rw-r--. 1 mak mak 2954 Jun 10 13:12 neobundle_log.vim
+-rw-rw-r--. 1 mak mak 9331 Jun 10 13:12 neobundle_search.vim
+-rw-rw-r--. 1 mak mak 4828 Jun 10 13:12 neobundle.vim
+
+.vim/bundle/neobundle.vim/bin:
+total 16
+-rwxrwxr-x. 1 mak mak 4088 Jun 10 13:12 install.sh
+-rwxrwxr-x. 1 mak mak  232 Jun 10 13:12 neoinstall
+-rw-rw-r--. 1 mak mak  800 Jun 10 13:12 neoinstall.bat
+-rw-rw-r--. 1 mak mak  834 Jun 10 13:12 neoinstall_novimproc.bat
+
+.vim/bundle/neobundle.vim/doc:
+total 56
+-rw-rw-r--. 1 mak mak 56157 Jun 10 13:12 neobundle.txt
+
+.vim/bundle/neobundle.vim/plugin:
+total 4
+-rw-rw-r--. 1 mak mak 2181 Jun 10 13:12 neobundle.vim
+
+.vim/bundle/neobundle.vim/test:
+total 44
+-rw-rw-r--. 1 mak mak  2760 Jun 10 13:12 commands.vim
+-rw-rw-r--. 1 mak mak   895 Jun 10 13:12 lock.vim
+-rw-rw-r--. 1 mak mak 13157 Jun 10 13:12 parse.vim
+-rw-rw-r--. 1 mak mak   997 Jun 10 13:12 sample.vim
+-rw-rw-r--. 1 mak mak  2647 Jun 10 13:12 source.vim
+-rw-rw-r--. 1 mak mak  1312 Jun 10 13:12 toml.vim
+-rw-rw-r--. 1 mak mak  5586 Jun 10 13:12 tsort.vim
+
+.vim/bundle/nerdtree:
+total 132
+drwxrwxr-x. 3 mak mak    42 Jun  9 16:52 autoload
+-rw-rw-r--. 1 mak mak 27972 Jun  9 16:52 CHANGELOG.md
+-rw-rw-r--. 1 mak mak    26 Jun  9 16:52 _config.yml
+drwxrwxr-x. 2 mak mak    38 Jun  9 16:52 doc
+drwxrwxr-x. 3 mak mak    22 Jun  9 16:52 lib
+-rw-rw-r--. 1 mak mak   474 Jun  9 16:52 LICENCE
+drwxrwxr-x. 2 mak mak    65 Jun  9 16:52 nerdtree_plugin
+drwxrwxr-x. 2 mak mak    27 Jun  9 16:52 plugin
+-rw-rw-r--. 1 mak mak  5370 Jun  9 16:52 README.markdown
+-rw-rw-r--. 1 mak mak 87896 Jun  9 16:52 screenshot.png
+drwxrwxr-x. 2 mak mak    26 Jun  9 16:52 syntax
+
+.vim/bundle/nerdtree/autoload:
+total 8
+drwxrwxr-x. 2 mak mak   25 Jun  9 16:52 nerdtree
+-rw-rw-r--. 1 mak mak 7476 Jun  9 16:52 nerdtree.vim
+
+.vim/bundle/nerdtree/autoload/nerdtree:
+total 28
+-rw-rw-r--. 1 mak mak 25268 Jun  9 16:52 ui_glue.vim
+
+.vim/bundle/nerdtree/doc:
+total 76
+-rw-rw-r--. 1 mak mak 66655 Jun  9 16:52 NERDTree.txt
+-rw-rw-r--. 1 mak mak  7492 Jun  9 17:04 tags
+
+.vim/bundle/nerdtree/lib:
+total 4
+drwxrwxr-x. 2 mak mak 4096 Jun  9 16:52 nerdtree
+
+.vim/bundle/nerdtree/lib/nerdtree:
+total 164
+-rw-rw-r--. 1 mak mak 12806 Jun  9 16:52 bookmark.vim
+-rw-rw-r--. 1 mak mak 12134 Jun  9 16:52 creator.vim
+-rw-rw-r--. 1 mak mak   383 Jun  9 16:52 event.vim
+-rw-rw-r--. 1 mak mak  1398 Jun  9 16:52 flag_set.vim
+-rw-rw-r--. 1 mak mak  4653 Jun  9 16:52 key_map.vim
+-rw-rw-r--. 1 mak mak  6140 Jun  9 16:52 menu_controller.vim
+-rw-rw-r--. 1 mak mak  3519 Jun  9 16:52 menu_item.vim
+-rw-rw-r--. 1 mak mak  6083 Jun  9 16:52 nerdtree.vim
+-rw-rw-r--. 1 mak mak  1122 Jun  9 16:52 notifier.vim
+-rw-rw-r--. 1 mak mak  9661 Jun  9 16:52 opener.vim
+-rw-rw-r--. 1 mak mak 26979 Jun  9 16:52 path.vim
+-rw-rw-r--. 1 mak mak 22042 Jun  9 16:52 tree_dir_node.vim
+-rw-rw-r--. 1 mak mak 10604 Jun  9 16:52 tree_file_node.vim
+-rw-rw-r--. 1 mak mak 18693 Jun  9 16:52 ui.vim
+
+.vim/bundle/nerdtree/nerdtree_plugin:
+total 28
+-rw-rw-r--. 1 mak mak  1586 Jun  9 16:52 exec_menuitem.vim
+-rw-rw-r--. 1 mak mak 17614 Jun  9 16:52 fs_menu.vim
+-rw-rw-r--. 1 mak mak  2241 Jun  9 16:52 vcs.vim
+
+.vim/bundle/nerdtree/plugin:
+total 12
+-rw-rw-r--. 1 mak mak 9572 Jun  9 16:52 NERD_tree.vim
+
+.vim/bundle/nerdtree/syntax:
+total 8
+-rw-rw-r--. 1 mak mak 4529 Jun  9 16:52 nerdtree.vim
+
+.vim/bundle/papercolor-theme:
+total 32
+drwxrwxr-x. 2 mak mak    28 Jun 13 15:28 colors
+-rw-rw-r--. 1 mak mak  5342 Jun 13 15:28 DESIGN.md
+drwxrwxr-x. 2 mak mak    28 Jun 13 15:28 doc
+-rw-rw-r--. 1 mak mak  1086 Jun 13 15:28 LICENSE
+-rw-rw-r--. 1 mak mak 12324 Jun 13 15:28 README.md
+-rw-rw-r--. 1 mak mak  1529 Jun 13 15:28 ROADMAP.md
+drwxrwxr-x. 2 mak mak    39 Jun 13 15:28 test
+
+.vim/bundle/papercolor-theme/colors:
+total 88
+-rwxrwxr-x. 1 mak mak 87696 Jun 13 15:28 PaperColor.vim
+
+.vim/bundle/papercolor-theme/doc:
+total 8
+-rw-rw-r--. 1 mak mak 7367 Jun 13 15:28 PaperColor.txt
+
+.vim/bundle/papercolor-theme/test:
+total 8
+-rw-rw-r--. 1 mak mak  307 Jun 13 15:28 Dockerfile
+-rw-rw-r--. 1 mak mak 1114 Jun 13 15:28 test.sh
+
+.vim/bundle/taglist:
+total 8
+drwxrwxr-x. 2 mak mak   37 Jun  9 11:52 doc
+-rw-rw-r--. 1 mak mak 1303 Jun  9 11:52 LICENSE
+drwxrwxr-x. 2 mak mak   25 Jun  9 11:52 plugin
+-rw-rw-r--. 1 mak mak  780 Jun  9 11:52 README.md
+
+.vim/bundle/taglist/doc:
+total 76
+-rwxrwxr-x. 1 mak mak 70264 Jun  9 11:52 taglist.txt
+-rw-rw-r--. 1 mak mak  3379 Jun  9 17:04 tags
+
+.vim/bundle/taglist/plugin:
+total 152
+-rw-rw-r--. 1 mak mak 152242 Jun  9 11:52 taglist.vim
+
+.vim/bundle/unite-colorscheme:
+total 12
+drwxrwxr-x. 3 mak mak  19 Jun 10 13:37 autoload
+drwxrwxr-x. 2 mak mak  35 Jun 10 13:37 doc
+-rw-rw-r--. 1 mak mak 553 Jun 10 13:37 Rakefile
+-rw-rw-r--. 1 mak mak 256 Jun 10 13:37 README.md
+-rw-rw-r--. 1 mak mak 999 Jun 10 13:37 unite-colorscheme.vimup
+
+.vim/bundle/unite-colorscheme/autoload:
+total 0
+drwxrwxr-x. 3 mak mak 21 Jun 10 13:37 unite
+
+.vim/bundle/unite-colorscheme/autoload/unite:
+total 0
+drwxrwxr-x. 2 mak mak 29 Jun 10 13:37 sources
+
+.vim/bundle/unite-colorscheme/autoload/unite/sources:
+total 4
+-rw-rw-r--. 1 mak mak 2107 Jun 10 13:37 colorscheme.vim
+
+.vim/bundle/unite-colorscheme/doc:
+total 4
+-rw-rw-r--. 1 mak mak 1514 Jun 10 13:37 unite-colorscheme.txt
+
+.vim/bundle/unite.vim:
+total 12
+drwxrwxr-x. 4 mak mak   66 Jun 10 13:29 autoload
+drwxrwxr-x. 2 mak mak   23 Jun 10 13:29 doc
+-rw-rw-r--. 1 mak mak 1100 Jun 10 13:29 LICENSE
+drwxrwxr-x. 3 mak mak   36 Jun 10 13:29 plugin
+-rw-rw-r--. 1 mak mak 7288 Jun 10 13:29 README.md
+drwxrwxr-x. 3 mak mak   21 Jun 10 13:29 rplugin
+drwxrwxr-x. 2 mak mak   49 Jun 10 13:29 syntax
+drwxrwxr-x. 2 mak mak   98 Jun 10 13:29 test
+
+.vim/bundle/unite.vim/autoload:
+total 20
+drwxrwxr-x. 5 mak mak  4096 Jun 10 13:29 unite
+-rw-rw-r--. 1 mak mak 11770 Jun 10 13:29 unite.vim
+drwxrwxr-x. 3 mak mak    74 Jun 10 13:29 vital
+-rw-rw-r--. 1 mak mak   400 Jun 10 13:29 vital.vim
+
+.vim/bundle/unite.vim/autoload/unite:
+total 248
+-rw-rw-r--. 1 mak mak 16445 Jun 10 13:29 action.vim
+-rw-rw-r--. 1 mak mak 13175 Jun 10 13:29 candidates.vim
+-rw-rw-r--. 1 mak mak  5326 Jun 10 13:29 complete.vim
+-rw-rw-r--. 1 mak mak  4866 Jun 10 13:29 custom.vim
+-rw-rw-r--. 1 mak mak  5754 Jun 10 13:29 exrename.vim
+drwxrwxr-x. 2 mak mak  4096 Jun 10 13:29 filters
+-rw-rw-r--. 1 mak mak  9248 Jun 10 13:29 filters.vim
+-rw-rw-r--. 1 mak mak 10782 Jun 10 13:29 handlers.vim
+-rw-rw-r--. 1 mak mak 20448 Jun 10 13:29 helper.vim
+-rw-rw-r--. 1 mak mak 24471 Jun 10 13:29 init.vim
+drwxrwxr-x. 2 mak mak  4096 Jun 10 13:29 kinds
+-rw-rw-r--. 1 mak mak 33291 Jun 10 13:29 mappings.vim
+drwxrwxr-x. 3 mak mak  4096 Jun 10 13:29 sources
+-rw-rw-r--. 1 mak mak 15986 Jun 10 13:29 start.vim
+-rw-rw-r--. 1 mak mak 12550 Jun 10 13:29 util.vim
+-rw-rw-r--. 1 mak mak  7474 Jun 10 13:29 variables.vim
+-rw-rw-r--. 1 mak mak 31561 Jun 10 13:29 view.vim
+
+.vim/bundle/unite.vim/autoload/unite/filters:
+total 124
+-rw-rw-r--. 1 mak mak  796 Jun 10 13:29 converter_abbr_word.vim
+-rw-rw-r--. 1 mak mak 1236 Jun 10 13:29 converter_default.vim
+-rw-rw-r--. 1 mak mak 1531 Jun 10 13:29 converter_file_directory.vim
+-rw-rw-r--. 1 mak mak  973 Jun 10 13:29 converter_full_path.vim
+-rw-rw-r--. 1 mak mak  692 Jun 10 13:29 converter_nothing.vim
+-rw-rw-r--. 1 mak mak 1688 Jun 10 13:29 converter_relative_abbr.vim
+-rw-rw-r--. 1 mak mak 2426 Jun 10 13:29 converter_relative_word.vim
+-rw-rw-r--. 1 mak mak  860 Jun 10 13:29 converter_smart_path.vim
+-rw-rw-r--. 1 mak mak  894 Jun 10 13:29 converter_tail_abbr.vim
+-rw-rw-r--. 1 mak mak  902 Jun 10 13:29 converter_tail.vim
+-rw-rw-r--. 1 mak mak  887 Jun 10 13:29 converter_uniq_word.vim
+-rw-rw-r--. 1 mak mak  772 Jun 10 13:29 converter_word_abbr.vim
+-rw-rw-r--. 1 mak mak 1370 Jun 10 13:29 matcher_context.vim
+-rw-rw-r--. 1 mak mak 1457 Jun 10 13:29 matcher_default.vim
+-rw-rw-r--. 1 mak mak 2535 Jun 10 13:29 matcher_fuzzy.vim
+-rw-rw-r--. 1 mak mak 2180 Jun 10 13:29 matcher_glob.vim
+-rw-rw-r--. 1 mak mak  992 Jun 10 13:29 matcher_hide_current_file.vim
+-rw-rw-r--. 1 mak mak 1039 Jun 10 13:29 matcher_hide_hidden_files.vim
+-rw-rw-r--. 1 mak mak 2868 Jun 10 13:29 matcher_migemo.vim
+-rw-rw-r--. 1 mak mak  911 Jun 10 13:29 matcher_project_files.vim
+-rw-rw-r--. 1 mak mak 2693 Jun 10 13:29 matcher_project_ignore_files.vim
+-rw-rw-r--. 1 mak mak 2325 Jun 10 13:29 matcher_regexp.vim
+-rw-rw-r--. 1 mak mak 1182 Jun 10 13:29 sorter_default.vim
+-rw-rw-r--. 1 mak mak  894 Jun 10 13:29 sorter_ftime.vim
+-rw-rw-r--. 1 mak mak  761 Jun 10 13:29 sorter_length.vim
+-rw-rw-r--. 1 mak mak  671 Jun 10 13:29 sorter_nothing.vim
+-rw-rw-r--. 1 mak mak  503 Jun 10 13:29 sorter_rank.vim
+-rw-rw-r--. 1 mak mak  674 Jun 10 13:29 sorter_reverse.vim
+-rw-rw-r--. 1 mak mak 3631 Jun 10 13:29 sorter_selecta.py
+-rw-rw-r--. 1 mak mak 3654 Jun 10 13:29 sorter_selecta.vim
+-rw-rw-r--. 1 mak mak  737 Jun 10 13:29 sorter_word.vim
+
+.vim/bundle/unite.vim/autoload/unite/kinds:
+total 120
+-rw-rw-r--. 1 mak mak  4630 Jun 10 13:29 buffer.vim
+-rw-rw-r--. 1 mak mak 10249 Jun 10 13:29 cdable.vim
+-rw-rw-r--. 1 mak mak  3191 Jun 10 13:29 command.vim
+-rw-rw-r--. 1 mak mak  4697 Jun 10 13:29 common.vim
+-rw-rw-r--. 1 mak mak  1508 Jun 10 13:29 completion.vim
+-rw-rw-r--. 1 mak mak   660 Jun 10 13:29 directory.vim
+-rw-rw-r--. 1 mak mak  9511 Jun 10 13:29 file_base.vim
+-rw-rw-r--. 1 mak mak  9429 Jun 10 13:29 file.vim
+-rw-rw-r--. 1 mak mak 16374 Jun 10 13:29 file_vimfiler_base.vim
+-rw-rw-r--. 1 mak mak  2028 Jun 10 13:29 guicmd.vim
+-rw-rw-r--. 1 mak mak  8135 Jun 10 13:29 jump_list.vim
+-rw-rw-r--. 1 mak mak  7513 Jun 10 13:29 openable.vim
+-rw-rw-r--. 1 mak mak  1607 Jun 10 13:29 source.vim
+-rw-rw-r--. 1 mak mak  3080 Jun 10 13:29 tab.vim
+-rw-rw-r--. 1 mak mak  1179 Jun 10 13:29 uri.vim
+-rw-rw-r--. 1 mak mak  3488 Jun 10 13:29 window.vim
+-rw-rw-r--. 1 mak mak   569 Jun 10 13:29 word.vim
+
+.vim/bundle/unite.vim/autoload/unite/sources:
+total 236
+-rw-rw-r--. 1 mak mak  5376 Jun 10 13:29 action.vim
+-rw-rw-r--. 1 mak mak  4104 Jun 10 13:29 alias.vim
+-rw-rw-r--. 1 mak mak  8370 Jun 10 13:29 bookmark.vim
+drwxrwxr-x. 2 mak mak    27 Jun 10 13:29 buffer
+-rw-rw-r--. 1 mak mak  9919 Jun 10 13:29 buffer.vim
+-rw-rw-r--. 1 mak mak  1462 Jun 10 13:29 change.vim
+-rw-rw-r--. 1 mak mak  4949 Jun 10 13:29 command.vim
+-rw-rw-r--. 1 mak mak  2319 Jun 10 13:29 directory.vim
+-rw-rw-r--. 1 mak mak  1544 Jun 10 13:29 file_list.vim
+-rw-rw-r--. 1 mak mak  1787 Jun 10 13:29 file_point.vim
+-rw-rw-r--. 1 mak mak 14825 Jun 10 13:29 file.vim
+-rw-rw-r--. 1 mak mak  4119 Jun 10 13:29 find.vim
+-rw-rw-r--. 1 mak mak  4097 Jun 10 13:29 function.vim
+-rw-rw-r--. 1 mak mak  2974 Jun 10 13:29 grep_git.vim
+-rw-rw-r--. 1 mak mak  9001 Jun 10 13:29 grep.vim
+-rw-rw-r--. 1 mak mak  1936 Jun 10 13:29 history_input.vim
+-rw-rw-r--. 1 mak mak  2475 Jun 10 13:29 history_unite.vim
+-rw-rw-r--. 1 mak mak  2692 Jun 10 13:29 interactive.vim
+-rw-rw-r--. 1 mak mak  1869 Jun 10 13:29 jump_point.vim
+-rw-rw-r--. 1 mak mak  2284 Jun 10 13:29 jump.vim
+-rw-rw-r--. 1 mak mak  1705 Jun 10 13:29 launcher.vim
+-rw-rw-r--. 1 mak mak  7828 Jun 10 13:29 line.vim
+-rw-rw-r--. 1 mak mak  2526 Jun 10 13:29 mapping.vim
+-rw-rw-r--. 1 mak mak  3093 Jun 10 13:29 menu.vim
+-rw-rw-r--. 1 mak mak  5770 Jun 10 13:29 output_shellcmd.vim
+-rw-rw-r--. 1 mak mak  2182 Jun 10 13:29 output.vim
+-rw-rw-r--. 1 mak mak  3907 Jun 10 13:29 process.vim
+-rw-rw-r--. 1 mak mak 26838 Jun 10 13:29 rec.vim
+-rw-rw-r--. 1 mak mak  2736 Jun 10 13:29 register.vim
+-rw-rw-r--. 1 mak mak  2019 Jun 10 13:29 resume.vim
+-rw-rw-r--. 1 mak mak  1773 Jun 10 13:29 runtimepath.vim
+-rw-rw-r--. 1 mak mak  3564 Jun 10 13:29 script.vim
+-rw-rw-r--. 1 mak mak  1999 Jun 10 13:29 source.vim
+-rw-rw-r--. 1 mak mak  3150 Jun 10 13:29 tab.vim
+-rw-rw-r--. 1 mak mak  5234 Jun 10 13:29 vimgrep.vim
+-rw-rw-r--. 1 mak mak  3372 Jun 10 13:29 window_gui.vim
+-rw-rw-r--. 1 mak mak  3185 Jun 10 13:29 window.vim
+
+.vim/bundle/unite.vim/autoload/unite/sources/buffer:
+total 4
+-rw-rw-r--. 1 mak mak 735 Jun 10 13:29 variables.vim
+
+.vim/bundle/unite.vim/autoload/vital:
+total 20
+drwxrwxr-x. 5 mak mak    81 Jun 10 13:29 _unite
+-rw-rw-r--. 1 mak mak   143 Jun 10 13:29 _unite.vim
+-rw-rw-r--. 1 mak mak 10082 Jun 10 13:29 unite.vim
+-rw-rw-r--. 1 mak mak   134 Jun 10 13:29 unite.vital
+
+.vim/bundle/unite.vim/autoload/vital/_unite:
+total 20
+drwxrwxr-x. 2 mak mak    40 Jun 10 13:29 Data
+-rw-rw-r--. 1 mak mak 12015 Jun 10 13:29 Prelude.vim
+-rw-rw-r--. 1 mak mak  5392 Jun 10 13:29 Process.vim
+drwxrwxr-x. 3 mak mak    55 Jun 10 13:29 System
+drwxrwxr-x. 2 mak mak    25 Jun 10 13:29 Vim
+
+.vim/bundle/unite.vim/autoload/vital/_unite/Data:
+total 36
+-rw-rw-r--. 1 mak mak 12947 Jun 10 13:29 List.vim
+-rw-rw-r--. 1 mak mak 20268 Jun 10 13:29 String.vim
+
+.vim/bundle/unite.vim/autoload/vital/_unite/System:
+total 20
+drwxrwxr-x. 2 mak mak    28 Jun 10 13:29 Cache
+-rw-rw-r--. 1 mak mak  7834 Jun 10 13:29 Filepath.vim
+-rw-rw-r--. 1 mak mak 10573 Jun 10 13:29 File.vim
+
+.vim/bundle/unite.vim/autoload/vital/_unite/System/Cache:
+total 4
+-rw-rw-r--. 1 mak mak 3226 Jun 10 13:29 Deprecated.vim
+
+.vim/bundle/unite.vim/autoload/vital/_unite/Vim:
+total 4
+-rw-rw-r--. 1 mak mak 1996 Jun 10 13:29 Message.vim
+
+.vim/bundle/unite.vim/doc:
+total 132
+-rw-rw-r--. 1 mak mak 133509 Jun 10 13:29 unite.txt
+
+.vim/bundle/unite.vim/plugin:
+total 4
+drwxrwxr-x. 2 mak mak   62 Jun 10 13:29 unite
+-rw-rw-r--. 1 mak mak 2762 Jun 10 13:29 unite.vim
+
+.vim/bundle/unite.vim/plugin/unite:
+total 12
+-rw-rw-r--. 1 mak mak 1867 Jun 10 13:29 bookmark.vim
+-rw-rw-r--. 1 mak mak  840 Jun 10 13:29 buffer.vim
+-rw-rw-r--. 1 mak mak  967 Jun 10 13:29 window.vim
+
+.vim/bundle/unite.vim/rplugin:
+total 0
+drwxrwxr-x. 3 mak mak 20 Jun 10 13:29 python3
+
+.vim/bundle/unite.vim/rplugin/python3:
+total 0
+drwxrwxr-x. 4 mak mak 32 Jun 10 13:29 denite
+
+.vim/bundle/unite.vim/rplugin/python3/denite:
+total 0
+drwxrwxr-x. 2 mak mak 22 Jun 10 13:29 kind
+drwxrwxr-x. 2 mak mak 22 Jun 10 13:29 source
+
+.vim/bundle/unite.vim/rplugin/python3/denite/kind:
+total 4
+-rw-rw-r--. 1 mak mak 952 Jun 10 13:29 unite.py
+
+.vim/bundle/unite.vim/rplugin/python3/denite/source:
+total 4
+-rw-rw-r--. 1 mak mak 1094 Jun 10 13:29 unite.py
+
+.vim/bundle/unite.vim/syntax:
+total 8
+-rw-rw-r--. 1 mak mak  549 Jun 10 13:29 unite_exrename.vim
+-rw-rw-r--. 1 mak mak 1691 Jun 10 13:29 unite.vim
+
+.vim/bundle/unite.vim/test:
+total 20
+-rw-rw-r--. 1 mak mak 1530 Jun 10 13:29 converter.vim
+-rw-rw-r--. 1 mak mak  463 Jun 10 13:29 grep.vim
+-rw-rw-r--. 1 mak mak 3358 Jun 10 13:29 matcher.vim
+-rw-rw-r--. 1 mak mak 1388 Jun 10 13:29 sorter.vim
+-rw-rw-r--. 1 mak mak 1251 Jun 10 13:29 source.vim
+
+.vim/bundle/vim:
+total 540
+drwxrwxr-x. 4 mak mak     34 Jun 10 14:48 after
+drwxrwxr-x. 4 mak mak     57 Jun 10 14:48 autoload
+drwxrwxr-x. 2 mak mak     25 Jun 10 14:48 colors
+drwxrwxr-x. 2 mak mak     25 Jun 10 14:48 doc
+-rw-rw-r--. 1 mak mak   2022 Jun 10 14:48 INSTALL.md
+-rw-rw-r--. 1 mak mak   1080 Jun 10 14:48 LICENSE
+-rw-rw-r--. 1 mak mak   1189 Jun 10 14:48 README.md
+-rw-rw-r--. 1 mak mak 539018 Jun 10 14:48 screenshot.png
+
+.vim/bundle/vim/after:
+total 4
+drwxrwxr-x. 2 mak mak   25 Jun 10 14:48 plugin
+drwxrwxr-x. 2 mak mak 4096 Jun 10 14:48 syntax
+
+.vim/bundle/vim/after/plugin:
+total 4
+-rw-rw-r--. 1 mak mak 1209 Jun 10 14:48 dracula.vim
+
+.vim/bundle/vim/after/syntax:
+total 88
+-rw-rw-r--. 1 mak mak  526 Jun 10 14:48 css.vim
+-rw-rw-r--. 1 mak mak  283 Jun 10 14:48 gitcommit.vim
+-rw-rw-r--. 1 mak mak  238 Jun 10 14:48 html.vim
+-rw-rw-r--. 1 mak mak  741 Jun 10 14:48 javascript.vim
+-rw-rw-r--. 1 mak mak  126 Jun 10 14:48 json.vim
+-rw-rw-r--. 1 mak mak  107 Jun 10 14:48 lua.vim
+-rw-rw-r--. 1 mak mak 1971 Jun 10 14:48 markdown.vim
+-rw-rw-r--. 1 mak mak  149 Jun 10 14:48 ocaml.vim
+-rw-rw-r--. 1 mak mak 1278 Jun 10 14:48 perl.vim
+-rw-rw-r--. 1 mak mak  273 Jun 10 14:48 php.vim
+-rw-rw-r--. 1 mak mak  529 Jun 10 14:48 plantuml.vim
+-rw-rw-r--. 1 mak mak  308 Jun 10 14:48 python.vim
+-rw-rw-r--. 1 mak mak  527 Jun 10 14:48 ruby.vim
+-rw-rw-r--. 1 mak mak   86 Jun 10 14:48 rust.vim
+-rw-rw-r--. 1 mak mak  433 Jun 10 14:48 sass.vim
+-rw-rw-r--. 1 mak mak  186 Jun 10 14:48 sh.vim
+-rw-rw-r--. 1 mak mak  603 Jun 10 14:48 tex.vim
+-rw-rw-r--. 1 mak mak  250 Jun 10 14:48 typescriptreact.vim
+-rw-rw-r--. 1 mak mak 2665 Jun 10 14:48 typescript.vim
+-rw-rw-r--. 1 mak mak  436 Jun 10 14:48 vim.vim
+-rw-rw-r--. 1 mak mak  315 Jun 10 14:48 xml.vim
+-rw-rw-r--. 1 mak mak  360 Jun 10 14:48 yaml.vim
+
+.vim/bundle/vim/autoload:
+total 4
+drwxrwxr-x. 3 mak mak   20 Jun 10 14:48 airline
+-rw-rw-r--. 1 mak mak 2024 Jun 10 14:48 dracula.vim
+drwxrwxr-x. 3 mak mak   25 Jun 10 14:48 lightline
+
+.vim/bundle/vim/autoload/airline:
+total 0
+drwxrwxr-x. 2 mak mak 25 Jun 10 14:48 themes
+
+.vim/bundle/vim/autoload/airline/themes:
+total 8
+-rw-rw-r--. 1 mak mak 4601 Jun 10 14:48 dracula.vim
+
+.vim/bundle/vim/autoload/lightline:
+total 0
+drwxrwxr-x. 2 mak mak 25 Jun 10 14:48 colorscheme
+
+.vim/bundle/vim/autoload/lightline/colorscheme:
+total 4
+-rw-rw-r--. 1 mak mak 1871 Jun 10 14:48 dracula.vim
+
+.vim/bundle/vim/colors:
+total 12
+-rw-rw-r--. 1 mak mak 9444 Jun 10 14:48 dracula.vim
+
+.vim/bundle/vim/doc:
+total 8
+-rw-rw-r--. 1 mak mak 5994 Jun 10 14:48 dracula.txt
+
+.vim/bundle/vimfiler:
+total 8
+drwxrwxr-x. 5 mak mak   85 Jun 10 13:38 autoload
+drwxrwxr-x. 2 mak mak   26 Jun 10 13:38 doc
+-rw-rw-r--. 1 mak mak 1100 Jun 10 13:38 LICENSE
+drwxrwxr-x. 2 mak mak   26 Jun 10 13:38 plugin
+-rw-rw-r--. 1 mak mak 1991 Jun 10 13:38 README.md
+drwxrwxr-x. 2 mak mak   26 Jun 10 13:38 syntax
+drwxrwxr-x. 2 mak mak   27 Jun 10 13:38 test
+
+.vim/bundle/vimfiler/autoload:
+total 12
+drwxrwxr-x. 4 mak mak   36 Jun 10 13:38 unite
+drwxrwxr-x. 4 mak mak  200 Jun 10 13:38 vimfiler
+-rw-rw-r--. 1 mak mak 6529 Jun 10 13:38 vimfiler.vim
+drwxrwxr-x. 3 mak mak   86 Jun 10 13:38 vital
+-rw-rw-r--. 1 mak mak  400 Jun 10 13:38 vital.vim
+
+.vim/bundle/vimfiler/autoload/unite:
+total 0
+drwxrwxr-x. 2 mak mak  39 Jun 10 13:38 filters
+drwxrwxr-x. 2 mak mak 163 Jun 10 13:38 sources
+
+.vim/bundle/vimfiler/autoload/unite/filters:
+total 4
+-rw-rw-r--. 1 mak mak 1843 Jun 10 13:38 matcher_vimfiler_mask.vim
+
+.vim/bundle/vimfiler/autoload/unite/sources:
+total 24
+-rw-rw-r--. 1 mak mak 1915 Jun 10 13:38 vimfiler_drive.vim
+-rw-rw-r--. 1 mak mak 2014 Jun 10 13:38 vimfiler_execute.vim
+-rw-rw-r--. 1 mak mak 1972 Jun 10 13:38 vimfiler_history.vim
+-rw-rw-r--. 1 mak mak 2068 Jun 10 13:38 vimfiler_mask.vim
+-rw-rw-r--. 1 mak mak 2745 Jun 10 13:38 vimfiler_popd.vim
+-rw-rw-r--. 1 mak mak 2824 Jun 10 13:38 vimfiler_sort.vim
+
+.vim/bundle/vimfiler/autoload/vimfiler:
+total 140
+drwxrwxr-x. 2 mak mak    54 Jun 10 13:38 columns
+-rw-rw-r--. 1 mak mak  1146 Jun 10 13:38 custom.vim
+-rw-rw-r--. 1 mak mak   576 Jun 10 13:38 exrename.vim
+drwxrwxr-x. 2 mak mak   109 Jun 10 13:38 filters
+-rw-rw-r--. 1 mak mak  6051 Jun 10 13:38 handler.vim
+-rw-rw-r--. 1 mak mak  9385 Jun 10 13:38 helper.vim
+-rw-rw-r--. 1 mak mak 20195 Jun 10 13:38 init.vim
+-rw-rw-r--. 1 mak mak 58717 Jun 10 13:38 mappings.vim
+-rw-rw-r--. 1 mak mak  8276 Jun 10 13:38 util.vim
+-rw-rw-r--. 1 mak mak  3608 Jun 10 13:38 variables.vim
+-rw-rw-r--. 1 mak mak 12785 Jun 10 13:38 view.vim
+
+.vim/bundle/vimfiler/autoload/vimfiler/columns:
+total 12
+-rw-rw-r--. 1 mak mak 2558 Jun 10 13:38 size.vim
+-rw-rw-r--. 1 mak mak 2154 Jun 10 13:38 time.vim
+-rw-rw-r--. 1 mak mak 2851 Jun 10 13:38 type.vim
+
+.vim/bundle/vimfiler/autoload/vimfiler/filters:
+total 12
+-rw-rw-r--. 1 mak mak 1005 Jun 10 13:38 matcher_ignore_files.vim
+-rw-rw-r--. 1 mak mak  784 Jun 10 13:38 matcher_ignore_pattern.vim
+-rw-rw-r--. 1 mak mak  742 Jun 10 13:38 matcher_ignore_wildignore.vim
+
+.vim/bundle/vimfiler/autoload/vital:
+total 20
+drwxrwxr-x. 5 mak mak    81 Jun 10 13:38 _vimfiler
+-rw-rw-r--. 1 mak mak   143 Jun 10 13:38 _vimfiler.vim
+-rw-rw-r--. 1 mak mak 10082 Jun 10 13:38 vimfiler.vim
+-rw-rw-r--. 1 mak mak   136 Jun 10 13:38 vimfiler.vital
+
+.vim/bundle/vimfiler/autoload/vital/_vimfiler:
+total 20
+drwxrwxr-x. 2 mak mak    56 Jun 10 13:38 Data
+-rw-rw-r--. 1 mak mak 12021 Jun 10 13:38 Prelude.vim
+-rw-rw-r--. 1 mak mak  5398 Jun 10 13:38 Process.vim
+drwxrwxr-x. 3 mak mak    19 Jun 10 13:38 System
+drwxrwxr-x. 2 mak mak    60 Jun 10 13:38 Vim
+
+.vim/bundle/vimfiler/autoload/vital/_vimfiler/Data:
+total 40
+-rw-rw-r--. 1 mak mak  3232 Jun 10 13:38 Dict.vim
+-rw-rw-r--. 1 mak mak 12953 Jun 10 13:38 List.vim
+-rw-rw-r--. 1 mak mak 20274 Jun 10 13:38 String.vim
+
+.vim/bundle/vimfiler/autoload/vital/_vimfiler/System:
+total 0
+drwxrwxr-x. 2 mak mak 28 Jun 10 13:38 Cache
+
+.vim/bundle/vimfiler/autoload/vital/_vimfiler/System/Cache:
+total 4
+-rw-rw-r--. 1 mak mak 3232 Jun 10 13:38 Deprecated.vim
+
+.vim/bundle/vimfiler/autoload/vital/_vimfiler/Vim:
+total 20
+-rw-rw-r--. 1 mak mak 5819 Jun 10 13:38 Buffer.vim
+-rw-rw-r--. 1 mak mak 7652 Jun 10 13:38 Guard.vim
+-rw-rw-r--. 1 mak mak 2002 Jun 10 13:38 Message.vim
+
+.vim/bundle/vimfiler/doc:
+total 48
+-rw-rw-r--. 1 mak mak 45889 Jun 10 13:38 vimfiler.txt
+
+.vim/bundle/vimfiler/plugin:
+total 4
+-rw-rw-r--. 1 mak mak 3722 Jun 10 13:38 vimfiler.vim
+
+.vim/bundle/vimfiler/syntax:
+total 4
+-rw-rw-r--. 1 mak mak 2497 Jun 10 13:38 vimfiler.vim
+
+.vim/bundle/vimfiler/test:
+total 4
+-rw-rw-r--. 1 mak mak 1343 Jun 10 13:38 functions.vim
+
+.vim/bundle/vim-hybrid:
+total 4
+drwxrwxr-x. 2 mak mak   24 Jun 10 14:53 colors
+-rw-rw-r--. 1 mak mak 3441 Jun 10 13:38 README.md
+
+.vim/bundle/vim-hybrid/colors:
+total 20
+-rw-rw-r--. 1 mak mak 19764 Jun 10 13:38 hybrid.vim
+
+.vim/bundle/vimproc:
+total 56
+-rw-rw-r--. 1 mak mak  935 Jun 10 13:56 appveyor.yml
+drwxrwxr-x. 3 mak mak   40 Jun 10 13:56 autoload
+drwxrwxr-x. 2 mak mak   25 Jun 10 13:56 doc
+drwxrwxr-x. 2 mak mak   22 Jun 10 13:56 lib
+-rw-rw-r--. 1 mak mak  716 Jun 10 13:56 make_android.mak
+-rw-rw-r--. 1 mak mak  365 Jun 10 13:56 make_bsd.mak
+-rw-rw-r--. 1 mak mak  260 Jun 10 13:56 make_cygwin64.mak
+-rw-rw-r--. 1 mak mak  258 Jun 10 13:56 make_cygwin.mak
+-rw-rw-r--. 1 mak mak 1726 Jun 10 13:56 Makefile
+-rw-rw-r--. 1 mak mak  430 Jun 10 13:56 make_mac.mak
+-rw-rw-r--. 1 mak mak  242 Jun 10 13:56 make_mingw32.mak
+-rw-rw-r--. 1 mak mak  261 Jun 10 13:56 make_mingw64.mak
+-rw-rw-r--. 1 mak mak 1494 Jun 10 13:56 make_msvc.mak
+-rw-rw-r--. 1 mak mak  468 Jun 10 13:56 make_sunos.mak
+-rw-rw-r--. 1 mak mak  429 Jun 10 13:56 make_unix.mak
+drwxrwxr-x. 2 mak mak   25 Jun 10 13:56 plugin
+-rw-rw-r--. 1 mak mak 4788 Jun 10 13:56 README.mkd
+drwxrwxr-x. 2 mak mak  106 Jun 10 13:56 src
+drwxrwxr-x. 2 mak mak  132 Jun 10 13:56 test
+drwxrwxr-x. 2 mak mak  187 Jun 10 13:56 tools
+
+.vim/bundle/vimproc/autoload:
+total 52
+drwxrwxr-x. 2 mak mak   112 Jun 10 13:56 vimproc
+-rw-rw-r--. 1 mak mak 50448 Jun 10 13:56 vimproc.vim
+
+.vim/bundle/vimproc/autoload/vimproc:
+total 56
+-rw-rw-r--. 1 mak mak  3099 Jun 10 13:56 cmd.vim
+-rw-rw-r--. 1 mak mak  3746 Jun 10 13:56 commands.vim
+-rw-rw-r--. 1 mak mak  5078 Jun 10 13:56 filepath.vim
+-rw-rw-r--. 1 mak mak  3185 Jun 10 13:56 lexer.vim
+-rw-rw-r--. 1 mak mak 25793 Jun 10 13:56 parser.vim
+-rw-rw-r--. 1 mak mak  6395 Jun 10 13:56 util.vim
+
+.vim/bundle/vimproc/doc:
+total 20
+-rw-rw-r--. 1 mak mak 17969 Jun 10 13:56 vimproc.txt
+
+.vim/bundle/vimproc/lib:
+total 0
+
+.vim/bundle/vimproc/plugin:
+total 4
+-rw-rw-r--. 1 mak mak 2001 Jun 10 13:56 vimproc.vim
+
+.vim/bundle/vimproc/src:
+total 96
+-rw-rw-r--. 1 mak mak  4712 Jun 10 13:56 fakepoll.h
+-rw-rw-r--. 1 mak mak 32326 Jun 10 13:56 proc.c
+-rw-rw-r--. 1 mak mak 34814 Jun 10 13:56 proc_w32.c
+-rw-rw-r--. 1 mak mak  3240 Jun 10 13:56 ptytty.c
+-rw-rw-r--. 1 mak mak   247 Jun 10 13:56 ptytty.h
+-rw-rw-r--. 1 mak mak  9643 Jun 10 13:56 vimstack.c
+
+.vim/bundle/vimproc/test:
+total 28
+-rw-rw-r--. 1 mak mak 3800 Jun 10 13:56 fopen.vim
+-rw-rw-r--. 1 mak mak  301 Jun 10 13:56 functions.vim
+-rw-rw-r--. 1 mak mak  659 Jun 10 13:56 lexer.vim
+-rw-rw-r--. 1 mak mak 3326 Jun 10 13:56 parser.vim
+-rw-rw-r--. 1 mak mak 2684 Jun 10 13:56 popen.vim
+-rw-rw-r--. 1 mak mak  740 Jun 10 13:56 socket.vim
+-rw-rw-r--. 1 mak mak 2189 Jun 10 13:56 system.vim
+
+.vim/bundle/vimproc/tools:
+total 36
+-rwxrwxr-x. 1 mak mak 2962 Jun 10 13:56 appveyor.bat
+-rw-rw-r--. 1 mak mak  289 Jun 10 13:56 benchmark.vim
+-rwxrwxr-x. 1 mak mak 4543 Jun 10 13:56 dl-kaoriya-vim.py
+-rw-rw-r--. 1 mak mak  199 Jun 10 13:56 fork.py
+-rw-rw-r--. 1 mak mak  497 Jun 10 13:56 leak_check2.vim
+-rw-rw-r--. 1 mak mak  348 Jun 10 13:56 leak_check.vim
+-rwxrwxr-x. 1 mak mak 1421 Jun 10 13:56 update-dll-mingw.bat
+-rw-rw-r--. 1 mak mak 2275 Jun 10 13:56 update-dll-msvc.bat
+
+.vim/bundle/vim-surround:
+total 4
+drwxrwxr-x. 2 mak mak   38 Jun  9 17:04 doc
+drwxrwxr-x. 2 mak mak   26 Jun  9 17:04 plugin
+-rw-rw-r--. 1 mak mak 2293 Jun  9 17:04 README.markdown
+
+.vim/bundle/vim-surround/doc:
+total 16
+-rw-rw-r--. 1 mak mak 10223 Jun  9 17:04 surround.txt
+-rw-rw-r--. 1 mak mak   624 Jun  9 17:04 tags
+
+.vim/bundle/vim-surround/plugin:
+total 20
+-rw-rw-r--. 1 mak mak 17337 Jun  9 17:04 surround.vim
+
+.vim/bundle/YankRing.vim:
+total 8
+drwxrwxr-x. 2 mak mak   26 Jun 10 14:32 doc
+drwxrwxr-x. 2 mak mak   26 Jun 10 14:32 plugin
+-rw-rw-r--. 1 mak mak 6397 Jun 10 14:32 README
+
+.vim/bundle/YankRing.vim/doc:
+total 80
+-rw-rw-r--. 1 mak mak 80469 Jun 10 14:32 yankring.txt
+
+.vim/bundle/YankRing.vim/plugin:
+total 100
+-rw-rw-r--. 1 mak mak 100425 Jun 10 14:32 yankring.vim
+
+.vim/colors.bak:
+total 52
+-rw-rw-r--. 1 mak mak 19764 Jun  7 20:52 hybrid.vim
+-rw-rw-r--. 1 mak mak 20205 Jun  7 21:18 jellybeans.vim
+-rw-rw-r--. 1 mak mak 10150 Jun  7 21:32 molokai.vim
+
+.vim/view:
+total 4
+-rw-rw-r--. 1 mak mak 3160 Apr 30 21:36 ~=+py=+le2=+dllee3.py=1.vim

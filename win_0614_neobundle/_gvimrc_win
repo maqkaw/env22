@@ -1,0 +1,11 @@
+" Backup
+set backup
+set backupdir=C:\Users\êΩ\.vim_backup
+set swapfile
+set directory=C:\Users\êΩ\.vim_backup
+
+" change LF
+"set fileformats=unix
+
+set columns=170
+set lines=50

@@ -1,0 +1,2941 @@
+.vim
+├── dein
+│   ├── cache_vim
+│   ├── rc
+│   │   ├── lazy.toml
+│   │   └── plugins.toml
+│   ├── repos
+│   │   └── github.com
+│   │       ├── davidhalter
+│   │       │   └── jedi-vim
+│   │       │       ├── after
+│   │       │       │   ├── ftplugin
+│   │       │       │   │   └── python
+│   │       │       │   │       └── jedi.vim
+│   │       │       │   └── syntax
+│   │       │       │       └── python.vim
+│   │       │       ├── AUTHORS.txt
+│   │       │       ├── autoload
+│   │       │       │   ├── health
+│   │       │       │   │   └── jedi.vim
+│   │       │       │   └── jedi.vim
+│   │       │       ├── codecov.yml
+│   │       │       ├── CONTRIBUTING.md
+│   │       │       ├── doc
+│   │       │       │   ├── jedi-vim.txt
+│   │       │       │   └── logotype-a.svg
+│   │       │       ├── ftplugin
+│   │       │       │   └── python
+│   │       │       │       └── jedi.vim
+│   │       │       ├── LICENSE.txt
+│   │       │       ├── Makefile
+│   │       │       ├── plugin
+│   │       │       │   └── jedi.vim
+│   │       │       ├── pythonx
+│   │       │       │   ├── jedi
+│   │       │       │   │   ├── appveyor.yml
+│   │       │       │   │   ├── AUTHORS.txt
+│   │       │       │   │   ├── CHANGELOG.rst
+│   │       │       │   │   ├── conftest.py
+│   │       │       │   │   ├── CONTRIBUTING.md
+│   │       │       │   │   ├── deploy-master.sh
+│   │       │       │   │   ├── docs
+│   │       │       │   │   │   ├── conf.py
+│   │       │       │   │   │   ├── docs
+│   │       │       │   │   │   │   ├── api-classes.rst
+│   │       │       │   │   │   │   ├── api.rst
+│   │       │       │   │   │   │   ├── development.rst
+│   │       │       │   │   │   │   ├── features.rst
+│   │       │       │   │   │   │   ├── installation.rst
+│   │       │       │   │   │   │   ├── settings.rst
+│   │       │       │   │   │   │   ├── testing.rst
+│   │       │       │   │   │   │   └── usage.rst
+│   │       │       │   │   │   ├── global.rst
+│   │       │       │   │   │   ├── index.rst
+│   │       │       │   │   │   ├── Makefile
+│   │       │       │   │   │   ├── README.md
+│   │       │       │   │   │   ├── _screenshots
+│   │       │       │   │   │   │   ├── screenshot_complete.png
+│   │       │       │   │   │   │   ├── screenshot_function.png
+│   │       │       │   │   │   │   └── screenshot_pydoc.png
+│   │       │       │   │   │   ├── _static
+│   │       │       │   │   │   │   ├── logo.png
+│   │       │       │   │   │   │   └── logo-src.txt
+│   │       │       │   │   │   ├── _templates
+│   │       │       │   │   │   │   ├── ghbuttons.html
+│   │       │       │   │   │   │   └── sidebarlogo.html
+│   │       │       │   │   │   └── _themes
+│   │       │       │   │   │       ├── flask
+│   │       │       │   │   │       │   ├── layout.html
+│   │       │       │   │   │       │   ├── LICENSE
+│   │       │       │   │   │       │   ├── relations.html
+│   │       │       │   │   │       │   ├── static
+│   │       │       │   │   │       │   │   ├── flasky.css_t
+│   │       │       │   │   │       │   │   └── small_flask.css
+│   │       │       │   │   │       │   └── theme.conf
+│   │       │       │   │   │       └── flask_theme_support.py
+│   │       │       │   │   ├── jedi
+│   │       │       │   │   │   ├── api
+│   │       │       │   │   │   │   ├── classes.py
+│   │       │       │   │   │   │   ├── completion_cache.py
+│   │       │       │   │   │   │   ├── completion.py
+│   │       │       │   │   │   │   ├── environment.py
+│   │       │       │   │   │   │   ├── exceptions.py
+│   │       │       │   │   │   │   ├── file_name.py
+│   │       │       │   │   │   │   ├── helpers.py
+│   │       │       │   │   │   │   ├── __init__.py
+│   │       │       │   │   │   │   ├── interpreter.py
+│   │       │       │   │   │   │   ├── keywords.py
+│   │       │       │   │   │   │   ├── project.py
+│   │       │       │   │   │   │   ├── replstartup.py
+│   │       │       │   │   │   │   └── strings.py
+│   │       │       │   │   │   ├── cache.py
+│   │       │       │   │   │   ├── common
+│   │       │       │   │   │   │   ├── __init__.py
+│   │       │       │   │   │   │   ├── utils.py
+│   │       │       │   │   │   │   └── value.py
+│   │       │       │   │   │   ├── _compatibility.py
+│   │       │       │   │   │   ├── debug.py
+│   │       │       │   │   │   ├── file_io.py
+│   │       │       │   │   │   ├── inference
+│   │       │       │   │   │   │   ├── analysis.py
+│   │       │       │   │   │   │   ├── arguments.py
+│   │       │       │   │   │   │   ├── base_value.py
+│   │       │       │   │   │   │   ├── cache.py
+│   │       │       │   │   │   │   ├── compiled
+│   │       │       │   │   │   │   │   ├── access.py
+│   │       │       │   │   │   │   │   ├── getattr_static.py
+│   │       │       │   │   │   │   │   ├── __init__.py
+│   │       │       │   │   │   │   │   ├── mixed.py
+│   │       │       │   │   │   │   │   ├── subprocess
+│   │       │       │   │   │   │   │   │   ├── functions.py
+│   │       │       │   │   │   │   │   │   ├── __init__.py
+│   │       │       │   │   │   │   │   │   └── __main__.py
+│   │       │       │   │   │   │   │   └── value.py
+│   │       │       │   │   │   │   ├── context.py
+│   │       │       │   │   │   │   ├── docstrings.py
+│   │       │       │   │   │   │   ├── dynamic_params.py
+│   │       │       │   │   │   │   ├── filters.py
+│   │       │       │   │   │   │   ├── finder.py
+│   │       │       │   │   │   │   ├── flow_analysis.py
+│   │       │       │   │   │   │   ├── gradual
+│   │       │       │   │   │   │   │   ├── annotation.py
+│   │       │       │   │   │   │   │   ├── base.py
+│   │       │       │   │   │   │   │   ├── conversion.py
+│   │       │       │   │   │   │   │   ├── generics.py
+│   │       │       │   │   │   │   │   ├── __init__.py
+│   │       │       │   │   │   │   │   ├── stub_value.py
+│   │       │       │   │   │   │   │   ├── typeshed.py
+│   │       │       │   │   │   │   │   ├── type_var.py
+│   │       │       │   │   │   │   │   ├── typing.py
+│   │       │       │   │   │   │   │   └── utils.py
+│   │       │       │   │   │   │   ├── helpers.py
+│   │       │       │   │   │   │   ├── imports.py
+│   │       │       │   │   │   │   ├── __init__.py
+│   │       │       │   │   │   │   ├── lazy_value.py
+│   │       │       │   │   │   │   ├── names.py
+│   │       │       │   │   │   │   ├── param.py
+│   │       │       │   │   │   │   ├── parser_cache.py
+│   │       │       │   │   │   │   ├── recursion.py
+│   │       │       │   │   │   │   ├── references.py
+│   │       │       │   │   │   │   ├── signature.py
+│   │       │       │   │   │   │   ├── star_args.py
+│   │       │       │   │   │   │   ├── syntax_tree.py
+│   │       │       │   │   │   │   ├── sys_path.py
+│   │       │       │   │   │   │   ├── utils.py
+│   │       │       │   │   │   │   └── value
+│   │       │       │   │   │   │       ├── decorator.py
+│   │       │       │   │   │   │       ├── dynamic_arrays.py
+│   │       │       │   │   │   │       ├── function.py
+│   │       │       │   │   │   │       ├── __init__.py
+│   │       │       │   │   │   │       ├── instance.py
+│   │       │       │   │   │   │       ├── iterable.py
+│   │       │       │   │   │   │       ├── klass.py
+│   │       │       │   │   │   │       ├── module.py
+│   │       │       │   │   │   │       └── namespace.py
+│   │       │       │   │   │   ├── __init__.py
+│   │       │       │   │   │   ├── __main__.py
+│   │       │       │   │   │   ├── parser_utils.py
+│   │       │       │   │   │   ├── plugins
+│   │       │       │   │   │   │   ├── flask.py
+│   │       │       │   │   │   │   ├── __init__.py
+│   │       │       │   │   │   │   ├── pytest.py
+│   │       │       │   │   │   │   ├── registry.py
+│   │       │       │   │   │   │   └── stdlib.py
+│   │       │       │   │   │   ├── refactoring.py
+│   │       │       │   │   │   ├── settings.py
+│   │       │       │   │   │   ├── third_party
+│   │       │       │   │   │   │   ├── README_typeshed.md
+│   │       │       │   │   │   │   └── typeshed
+│   │       │       │   │   │   │       ├── CONTRIBUTING.md
+│   │       │       │   │   │   │       ├── LICENSE
+│   │       │       │   │   │   │       ├── pyproject.toml
+│   │       │       │   │   │   │       ├── README.md
+│   │       │       │   │   │   │       ├── requirements-tests-py3.txt
+│   │       │       │   │   │   │       ├── stdlib
+│   │       │       │   │   │   │       │   ├── 2
+│   │       │       │   │   │   │       │   │   ├── abc.pyi
+│   │       │       │   │   │   │       │   │   ├── _ast.pyi
+│   │       │       │   │   │   │       │   │   ├── ast.pyi
+│   │       │       │   │   │   │       │   │   ├── atexit.pyi
+│   │       │       │   │   │   │       │   │   ├── BaseHTTPServer.pyi
+│   │       │       │   │   │   │       │   │   ├── __builtin__.pyi
+│   │       │       │   │   │   │       │   │   ├── CGIHTTPServer.pyi
+│   │       │       │   │   │   │       │   │   ├── _collections.pyi
+│   │       │       │   │   │   │       │   │   ├── collections.pyi
+│   │       │       │   │   │   │       │   │   ├── commands.pyi
+│   │       │       │   │   │   │       │   │   ├── compileall.pyi
+│   │       │       │   │   │   │       │   │   ├── ConfigParser.pyi
+│   │       │       │   │   │   │       │   │   ├── cookielib.pyi
+│   │       │       │   │   │   │       │   │   ├── Cookie.pyi
+│   │       │       │   │   │   │       │   │   ├── copy_reg.pyi
+│   │       │       │   │   │   │       │   │   ├── cPickle.pyi
+│   │       │       │   │   │   │       │   │   ├── cStringIO.pyi
+│   │       │       │   │   │   │       │   │   ├── dircache.pyi
+│   │       │       │   │   │   │       │   │   ├── distutils
+│   │       │       │   │   │   │       │   │   │   ├── emxccompiler.pyi
+│   │       │       │   │   │   │       │   │   │   └── __init__.pyi
+│   │       │       │   │   │   │       │   │   ├── dummy_thread.pyi
+│   │       │       │   │   │   │       │   │   ├── email
+│   │       │       │   │   │   │       │   │   │   ├── base64mime.pyi
+│   │       │       │   │   │   │       │   │   │   ├── charset.pyi
+│   │       │       │   │   │   │       │   │   │   ├── encoders.pyi
+│   │       │       │   │   │   │       │   │   │   ├── feedparser.pyi
+│   │       │       │   │   │   │       │   │   │   ├── generator.pyi
+│   │       │       │   │   │   │       │   │   │   ├── header.pyi
+│   │       │       │   │   │   │       │   │   │   ├── __init__.pyi
+│   │       │       │   │   │   │       │   │   │   ├── iterators.pyi
+│   │       │       │   │   │   │       │   │   │   ├── message.pyi
+│   │       │       │   │   │   │       │   │   │   ├── mime
+│   │       │       │   │   │   │       │   │   │   │   ├── application.pyi
+│   │       │       │   │   │   │       │   │   │   │   ├── audio.pyi
+│   │       │       │   │   │   │       │   │   │   │   ├── base.pyi
+│   │       │       │   │   │   │       │   │   │   │   ├── image.pyi
+│   │       │       │   │   │   │       │   │   │   │   ├── __init__.pyi
+│   │       │       │   │   │   │       │   │   │   │   ├── message.pyi
+│   │       │       │   │   │   │       │   │   │   │   ├── multipart.pyi
+│   │       │       │   │   │   │       │   │   │   │   ├── nonmultipart.pyi
+│   │       │       │   │   │   │       │   │   │   │   └── text.pyi
+│   │       │       │   │   │   │       │   │   │   ├── MIMEText.pyi
+│   │       │       │   │   │   │       │   │   │   ├── _parseaddr.pyi
+│   │       │       │   │   │   │       │   │   │   ├── parser.pyi
+│   │       │       │   │   │   │       │   │   │   ├── quoprimime.pyi
+│   │       │       │   │   │   │       │   │   │   └── utils.pyi
+│   │       │       │   │   │   │       │   │   ├── encodings
+│   │       │       │   │   │   │       │   │   │   ├── __init__.pyi
+│   │       │       │   │   │   │       │   │   │   └── utf_8.pyi
+│   │       │       │   │   │   │       │   │   ├── exceptions.pyi
+│   │       │       │   │   │   │       │   │   ├── fcntl.pyi
+│   │       │       │   │   │   │       │   │   ├── fnmatch.pyi
+│   │       │       │   │   │   │       │   │   ├── _functools.pyi
+│   │       │       │   │   │   │       │   │   ├── functools.pyi
+│   │       │       │   │   │   │       │   │   ├── future_builtins.pyi
+│   │       │       │   │   │   │       │   │   ├── gc.pyi
+│   │       │       │   │   │   │       │   │   ├── getopt.pyi
+│   │       │       │   │   │   │       │   │   ├── getpass.pyi
+│   │       │       │   │   │   │       │   │   ├── gettext.pyi
+│   │       │       │   │   │   │       │   │   ├── glob.pyi
+│   │       │       │   │   │   │       │   │   ├── gzip.pyi
+│   │       │       │   │   │   │       │   │   ├── hashlib.pyi
+│   │       │       │   │   │   │       │   │   ├── heapq.pyi
+│   │       │       │   │   │   │       │   │   ├── _hotshot.pyi
+│   │       │       │   │   │   │       │   │   ├── htmlentitydefs.pyi
+│   │       │       │   │   │   │       │   │   ├── HTMLParser.pyi
+│   │       │       │   │   │   │       │   │   ├── httplib.pyi
+│   │       │       │   │   │   │       │   │   ├── importlib.pyi
+│   │       │       │   │   │   │       │   │   ├── imp.pyi
+│   │       │       │   │   │   │       │   │   ├── inspect.pyi
+│   │       │       │   │   │   │       │   │   ├── _io.pyi
+│   │       │       │   │   │   │       │   │   ├── io.pyi
+│   │       │       │   │   │   │       │   │   ├── itertools.pyi
+│   │       │       │   │   │   │       │   │   ├── _json.pyi
+│   │       │       │   │   │   │       │   │   ├── json.pyi
+│   │       │       │   │   │   │       │   │   ├── markupbase.pyi
+│   │       │       │   │   │   │       │   │   ├── _md5.pyi
+│   │       │       │   │   │   │       │   │   ├── md5.pyi
+│   │       │       │   │   │   │       │   │   ├── mimetools.pyi
+│   │       │       │   │   │   │       │   │   ├── multiprocessing
+│   │       │       │   │   │   │       │   │   │   ├── dummy
+│   │       │       │   │   │   │       │   │   │   │   ├── connection.pyi
+│   │       │       │   │   │   │       │   │   │   │   └── __init__.pyi
+│   │       │       │   │   │   │       │   │   │   ├── __init__.pyi
+│   │       │       │   │   │   │       │   │   │   ├── pool.pyi
+│   │       │       │   │   │   │       │   │   │   ├── process.pyi
+│   │       │       │   │   │   │       │   │   │   └── util.pyi
+│   │       │       │   │   │   │       │   │   ├── mutex.pyi
+│   │       │       │   │   │   │       │   │   ├── nturl2path.pyi
+│   │       │       │   │   │   │       │   │   ├── os
+│   │       │       │   │   │   │       │   │   │   ├── __init__.pyi
+│   │       │       │   │   │   │       │   │   │   └── path.pyi
+│   │       │       │   │   │   │       │   │   ├── os2emxpath.pyi
+│   │       │       │   │   │   │       │   │   ├── pipes.pyi
+│   │       │       │   │   │   │       │   │   ├── platform.pyi
+│   │       │       │   │   │   │       │   │   ├── popen2.pyi
+│   │       │       │   │   │   │       │   │   ├── posix.pyi
+│   │       │       │   │   │   │       │   │   ├── Queue.pyi
+│   │       │       │   │   │   │       │   │   ├── random.pyi
+│   │       │       │   │   │   │       │   │   ├── repr.pyi
+│   │       │       │   │   │   │       │   │   ├── re.pyi
+│   │       │       │   │   │   │       │   │   ├── resource.pyi
+│   │       │       │   │   │   │       │   │   ├── rfc822.pyi
+│   │       │       │   │   │   │       │   │   ├── robotparser.pyi
+│   │       │       │   │   │   │       │   │   ├── runpy.pyi
+│   │       │       │   │   │   │       │   │   ├── sets.pyi
+│   │       │       │   │   │   │       │   │   ├── _sha256.pyi
+│   │       │       │   │   │   │       │   │   ├── _sha512.pyi
+│   │       │       │   │   │   │       │   │   ├── _sha.pyi
+│   │       │       │   │   │   │       │   │   ├── sha.pyi
+│   │       │       │   │   │   │       │   │   ├── shelve.pyi
+│   │       │       │   │   │   │       │   │   ├── shlex.pyi
+│   │       │       │   │   │   │       │   │   ├── signal.pyi
+│   │       │       │   │   │   │       │   │   ├── SimpleHTTPServer.pyi
+│   │       │       │   │   │   │       │   │   ├── smtplib.pyi
+│   │       │       │   │   │   │       │   │   ├── _socket.pyi
+│   │       │       │   │   │   │       │   │   ├── SocketServer.pyi
+│   │       │       │   │   │   │       │   │   ├── spwd.pyi
+│   │       │       │   │   │   │       │   │   ├── sre_constants.pyi
+│   │       │       │   │   │   │       │   │   ├── sre_parse.pyi
+│   │       │       │   │   │   │       │   │   ├── _sre.pyi
+│   │       │       │   │   │   │       │   │   ├── stat.pyi
+│   │       │       │   │   │   │       │   │   ├── StringIO.pyi
+│   │       │       │   │   │   │       │   │   ├── stringold.pyi
+│   │       │       │   │   │   │       │   │   ├── string.pyi
+│   │       │       │   │   │   │       │   │   ├── strop.pyi
+│   │       │       │   │   │   │       │   │   ├── _struct.pyi
+│   │       │       │   │   │   │       │   │   ├── subprocess.pyi
+│   │       │       │   │   │   │       │   │   ├── symbol.pyi
+│   │       │       │   │   │   │       │   │   ├── _symtable.pyi
+│   │       │       │   │   │   │       │   │   ├── sys.pyi
+│   │       │       │   │   │   │       │   │   ├── tempfile.pyi
+│   │       │       │   │   │   │       │   │   ├── textwrap.pyi
+│   │       │       │   │   │   │       │   │   ├── _threading_local.pyi
+│   │       │       │   │   │   │       │   │   ├── thread.pyi
+│   │       │       │   │   │   │       │   │   ├── toaiff.pyi
+│   │       │       │   │   │   │       │   │   ├── tokenize.pyi
+│   │       │       │   │   │   │       │   │   ├── types.pyi
+│   │       │       │   │   │   │       │   │   ├── typing.pyi
+│   │       │       │   │   │   │       │   │   ├── unittest.pyi
+│   │       │       │   │   │   │       │   │   ├── urllib2.pyi
+│   │       │       │   │   │   │       │   │   ├── urllib.pyi
+│   │       │       │   │   │   │       │   │   ├── urlparse.pyi
+│   │       │       │   │   │   │       │   │   ├── UserDict.pyi
+│   │       │       │   │   │   │       │   │   ├── UserList.pyi
+│   │       │       │   │   │   │       │   │   ├── user.pyi
+│   │       │       │   │   │   │       │   │   ├── UserString.pyi
+│   │       │       │   │   │   │       │   │   ├── whichdb.pyi
+│   │       │       │   │   │   │       │   │   └── xmlrpclib.pyi
+│   │       │       │   │   │   │       │   ├── 2and3
+│   │       │       │   │   │   │       │   │   ├── aifc.pyi
+│   │       │       │   │   │   │       │   │   ├── argparse.pyi
+│   │       │       │   │   │   │       │   │   ├── array.pyi
+│   │       │       │   │   │   │       │   │   ├── asynchat.pyi
+│   │       │       │   │   │   │       │   │   ├── asyncore.pyi
+│   │       │       │   │   │   │       │   │   ├── audioop.pyi
+│   │       │       │   │   │   │       │   │   ├── base64.pyi
+│   │       │       │   │   │   │       │   │   ├── bdb.pyi
+│   │       │       │   │   │   │       │   │   ├── binascii.pyi
+│   │       │       │   │   │   │       │   │   ├── binhex.pyi
+│   │       │       │   │   │   │       │   │   ├── _bisect.pyi
+│   │       │       │   │   │   │       │   │   ├── bisect.pyi
+│   │       │       │   │   │   │       │   │   ├── builtins.pyi
+│   │       │       │   │   │   │       │   │   ├── bz2.pyi
+│   │       │       │   │   │   │       │   │   ├── calendar.pyi
+│   │       │       │   │   │   │       │   │   ├── cgi.pyi
+│   │       │       │   │   │   │       │   │   ├── cgitb.pyi
+│   │       │       │   │   │   │       │   │   ├── chunk.pyi
+│   │       │       │   │   │   │       │   │   ├── cmath.pyi
+│   │       │       │   │   │   │       │   │   ├── cmd.pyi
+│   │       │       │   │   │   │       │   │   ├── _codecs.pyi
+│   │       │       │   │   │   │       │   │   ├── codecs.pyi
+│   │       │       │   │   │   │       │   │   ├── codeop.pyi
+│   │       │       │   │   │   │       │   │   ├── code.pyi
+│   │       │       │   │   │   │       │   │   ├── colorsys.pyi
+│   │       │       │   │   │   │       │   │   ├── contextlib.pyi
+│   │       │       │   │   │   │       │   │   ├── copy.pyi
+│   │       │       │   │   │   │       │   │   ├── cProfile.pyi
+│   │       │       │   │   │   │       │   │   ├── crypt.pyi
+│   │       │       │   │   │   │       │   │   ├── _csv.pyi
+│   │       │       │   │   │   │       │   │   ├── csv.pyi
+│   │       │       │   │   │   │       │   │   ├── ctypes
+│   │       │       │   │   │   │       │   │   │   ├── __init__.pyi
+│   │       │       │   │   │   │       │   │   │   ├── util.pyi
+│   │       │       │   │   │   │       │   │   │   └── wintypes.pyi
+│   │       │       │   │   │   │       │   │   ├── curses
+│   │       │       │   │   │   │       │   │   │   ├── ascii.pyi
+│   │       │       │   │   │   │       │   │   │   ├── __init__.pyi
+│   │       │       │   │   │   │       │   │   │   ├── panel.pyi
+│   │       │       │   │   │   │       │   │   │   └── textpad.pyi
+│   │       │       │   │   │   │       │   │   ├── _curses.pyi
+│   │       │       │   │   │   │       │   │   ├── datetime.pyi
+│   │       │       │   │   │   │       │   │   ├── decimal.pyi
+│   │       │       │   │   │   │       │   │   ├── difflib.pyi
+│   │       │       │   │   │   │       │   │   ├── dis.pyi
+│   │       │       │   │   │   │       │   │   ├── distutils
+│   │       │       │   │   │   │       │   │   │   ├── archive_util.pyi
+│   │       │       │   │   │   │       │   │   │   ├── bcppcompiler.pyi
+│   │       │       │   │   │   │       │   │   │   ├── ccompiler.pyi
+│   │       │       │   │   │   │       │   │   │   ├── cmd.pyi
+│   │       │       │   │   │   │       │   │   │   ├── command
+│   │       │       │   │   │   │       │   │   │   │   ├── bdist_dumb.pyi
+│   │       │       │   │   │   │       │   │   │   │   ├── bdist_msi.pyi
+│   │       │       │   │   │   │       │   │   │   │   ├── bdist_packager.pyi
+│   │       │       │   │   │   │       │   │   │   │   ├── bdist.pyi
+│   │       │       │   │   │   │       │   │   │   │   ├── bdist_rpm.pyi
+│   │       │       │   │   │   │       │   │   │   │   ├── bdist_wininst.pyi
+│   │       │       │   │   │   │       │   │   │   │   ├── build_clib.pyi
+│   │       │       │   │   │   │       │   │   │   │   ├── build_ext.pyi
+│   │       │       │   │   │   │       │   │   │   │   ├── build.pyi
+│   │       │       │   │   │   │       │   │   │   │   ├── build_py.pyi
+│   │       │       │   │   │   │       │   │   │   │   ├── build_scripts.pyi
+│   │       │       │   │   │   │       │   │   │   │   ├── check.pyi
+│   │       │       │   │   │   │       │   │   │   │   ├── clean.pyi
+│   │       │       │   │   │   │       │   │   │   │   ├── config.pyi
+│   │       │       │   │   │   │       │   │   │   │   ├── __init__.pyi
+│   │       │       │   │   │   │       │   │   │   │   ├── install_data.pyi
+│   │       │       │   │   │   │       │   │   │   │   ├── install_headers.pyi
+│   │       │       │   │   │   │       │   │   │   │   ├── install_lib.pyi
+│   │       │       │   │   │   │       │   │   │   │   ├── install.pyi
+│   │       │       │   │   │   │       │   │   │   │   ├── install_scripts.pyi
+│   │       │       │   │   │   │       │   │   │   │   ├── register.pyi
+│   │       │       │   │   │   │       │   │   │   │   └── sdist.pyi
+│   │       │       │   │   │   │       │   │   │   ├── core.pyi
+│   │       │       │   │   │   │       │   │   │   ├── cygwinccompiler.pyi
+│   │       │       │   │   │   │       │   │   │   ├── debug.pyi
+│   │       │       │   │   │   │       │   │   │   ├── dep_util.pyi
+│   │       │       │   │   │   │       │   │   │   ├── dir_util.pyi
+│   │       │       │   │   │   │       │   │   │   ├── dist.pyi
+│   │       │       │   │   │   │       │   │   │   ├── errors.pyi
+│   │       │       │   │   │   │       │   │   │   ├── extension.pyi
+│   │       │       │   │   │   │       │   │   │   ├── fancy_getopt.pyi
+│   │       │       │   │   │   │       │   │   │   ├── filelist.pyi
+│   │       │       │   │   │   │       │   │   │   ├── file_util.pyi
+│   │       │       │   │   │   │       │   │   │   ├── __init__.pyi
+│   │       │       │   │   │   │       │   │   │   ├── log.pyi
+│   │       │       │   │   │   │       │   │   │   ├── msvccompiler.pyi
+│   │       │       │   │   │   │       │   │   │   ├── spawn.pyi
+│   │       │       │   │   │   │       │   │   │   ├── sysconfig.pyi
+│   │       │       │   │   │   │       │   │   │   ├── text_file.pyi
+│   │       │       │   │   │   │       │   │   │   ├── unixccompiler.pyi
+│   │       │       │   │   │   │       │   │   │   ├── util.pyi
+│   │       │       │   │   │   │       │   │   │   └── version.pyi
+│   │       │       │   │   │   │       │   │   ├── doctest.pyi
+│   │       │       │   │   │   │       │   │   ├── ensurepip
+│   │       │       │   │   │   │       │   │   │   └── __init__.pyi
+│   │       │       │   │   │   │       │   │   ├── errno.pyi
+│   │       │       │   │   │   │       │   │   ├── filecmp.pyi
+│   │       │       │   │   │   │       │   │   ├── fileinput.pyi
+│   │       │       │   │   │   │       │   │   ├── formatter.pyi
+│   │       │       │   │   │   │       │   │   ├── fractions.pyi
+│   │       │       │   │   │   │       │   │   ├── ftplib.pyi
+│   │       │       │   │   │   │       │   │   ├── __future__.pyi
+│   │       │       │   │   │   │       │   │   ├── genericpath.pyi
+│   │       │       │   │   │   │       │   │   ├── grp.pyi
+│   │       │       │   │   │   │       │   │   ├── _heapq.pyi
+│   │       │       │   │   │   │       │   │   ├── hmac.pyi
+│   │       │       │   │   │   │       │   │   ├── imaplib.pyi
+│   │       │       │   │   │   │       │   │   ├── imghdr.pyi
+│   │       │       │   │   │   │       │   │   ├── keyword.pyi
+│   │       │       │   │   │   │       │   │   ├── lib2to3
+│   │       │       │   │   │   │       │   │   │   ├── __init__.pyi
+│   │       │       │   │   │   │       │   │   │   ├── pgen2
+│   │       │       │   │   │   │       │   │   │   │   ├── driver.pyi
+│   │       │       │   │   │   │       │   │   │   │   ├── grammar.pyi
+│   │       │       │   │   │   │       │   │   │   │   ├── __init__.pyi
+│   │       │       │   │   │   │       │   │   │   │   ├── literals.pyi
+│   │       │       │   │   │   │       │   │   │   │   ├── parse.pyi
+│   │       │       │   │   │   │       │   │   │   │   ├── pgen.pyi
+│   │       │       │   │   │   │       │   │   │   │   ├── tokenize.pyi
+│   │       │       │   │   │   │       │   │   │   │   └── token.pyi
+│   │       │       │   │   │   │       │   │   │   ├── pygram.pyi
+│   │       │       │   │   │   │       │   │   │   └── pytree.pyi
+│   │       │       │   │   │   │       │   │   ├── linecache.pyi
+│   │       │       │   │   │   │       │   │   ├── locale.pyi
+│   │       │       │   │   │   │       │   │   ├── logging
+│   │       │       │   │   │   │       │   │   │   ├── config.pyi
+│   │       │       │   │   │   │       │   │   │   ├── handlers.pyi
+│   │       │       │   │   │   │       │   │   │   └── __init__.pyi
+│   │       │       │   │   │   │       │   │   ├── macpath.pyi
+│   │       │       │   │   │   │       │   │   ├── mailbox.pyi
+│   │       │       │   │   │   │       │   │   ├── mailcap.pyi
+│   │       │       │   │   │   │       │   │   ├── marshal.pyi
+│   │       │       │   │   │   │       │   │   ├── math.pyi
+│   │       │       │   │   │   │       │   │   ├── mimetypes.pyi
+│   │       │       │   │   │   │       │   │   ├── mmap.pyi
+│   │       │       │   │   │   │       │   │   ├── modulefinder.pyi
+│   │       │       │   │   │   │       │   │   ├── netrc.pyi
+│   │       │       │   │   │   │       │   │   ├── nis.pyi
+│   │       │       │   │   │   │       │   │   ├── ntpath.pyi
+│   │       │       │   │   │   │       │   │   ├── numbers.pyi
+│   │       │       │   │   │   │       │   │   ├── opcode.pyi
+│   │       │       │   │   │   │       │   │   ├── operator.pyi
+│   │       │       │   │   │   │       │   │   ├── optparse.pyi
+│   │       │       │   │   │   │       │   │   ├── pdb.pyi
+│   │       │       │   │   │   │       │   │   ├── pickle.pyi
+│   │       │       │   │   │   │       │   │   ├── pickletools.pyi
+│   │       │       │   │   │   │       │   │   ├── pkgutil.pyi
+│   │       │       │   │   │   │       │   │   ├── plistlib.pyi
+│   │       │       │   │   │   │       │   │   ├── poplib.pyi
+│   │       │       │   │   │   │       │   │   ├── posixpath.pyi
+│   │       │       │   │   │   │       │   │   ├── pprint.pyi
+│   │       │       │   │   │   │       │   │   ├── profile.pyi
+│   │       │       │   │   │   │       │   │   ├── pstats.pyi
+│   │       │       │   │   │   │       │   │   ├── pty.pyi
+│   │       │       │   │   │   │       │   │   ├── pwd.pyi
+│   │       │       │   │   │   │       │   │   ├── pyclbr.pyi
+│   │       │       │   │   │   │       │   │   ├── py_compile.pyi
+│   │       │       │   │   │   │       │   │   ├── pydoc.pyi
+│   │       │       │   │   │   │       │   │   ├── pyexpat
+│   │       │       │   │   │   │       │   │   │   ├── errors.pyi
+│   │       │       │   │   │   │       │   │   │   ├── __init__.pyi
+│   │       │       │   │   │   │       │   │   │   └── model.pyi
+│   │       │       │   │   │   │       │   │   ├── quopri.pyi
+│   │       │       │   │   │   │       │   │   ├── _random.pyi
+│   │       │       │   │   │   │       │   │   ├── readline.pyi
+│   │       │       │   │   │   │       │   │   ├── rlcompleter.pyi
+│   │       │       │   │   │   │       │   │   ├── sched.pyi
+│   │       │       │   │   │   │       │   │   ├── select.pyi
+│   │       │       │   │   │   │       │   │   ├── shutil.pyi
+│   │       │       │   │   │   │       │   │   ├── site.pyi
+│   │       │       │   │   │   │       │   │   ├── smtpd.pyi
+│   │       │       │   │   │   │       │   │   ├── sndhdr.pyi
+│   │       │       │   │   │   │       │   │   ├── socket.pyi
+│   │       │       │   │   │   │       │   │   ├── sqlite3
+│   │       │       │   │   │   │       │   │   │   ├── dbapi2.pyi
+│   │       │       │   │   │   │       │   │   │   └── __init__.pyi
+│   │       │       │   │   │   │       │   │   ├── sre_compile.pyi
+│   │       │       │   │   │   │       │   │   ├── ssl.pyi
+│   │       │       │   │   │   │       │   │   ├── stringprep.pyi
+│   │       │       │   │   │   │       │   │   ├── struct.pyi
+│   │       │       │   │   │   │       │   │   ├── sunau.pyi
+│   │       │       │   │   │   │       │   │   ├── symtable.pyi
+│   │       │       │   │   │   │       │   │   ├── sysconfig.pyi
+│   │       │       │   │   │   │       │   │   ├── syslog.pyi
+│   │       │       │   │   │   │       │   │   ├── tabnanny.pyi
+│   │       │       │   │   │   │       │   │   ├── tarfile.pyi
+│   │       │       │   │   │   │       │   │   ├── telnetlib.pyi
+│   │       │       │   │   │   │       │   │   ├── termios.pyi
+│   │       │       │   │   │   │       │   │   ├── threading.pyi
+│   │       │       │   │   │   │       │   │   ├── timeit.pyi
+│   │       │       │   │   │   │       │   │   ├── time.pyi
+│   │       │       │   │   │   │       │   │   ├── token.pyi
+│   │       │       │   │   │   │       │   │   ├── traceback.pyi
+│   │       │       │   │   │   │       │   │   ├── trace.pyi
+│   │       │       │   │   │   │       │   │   ├── tty.pyi
+│   │       │       │   │   │   │       │   │   ├── turtle.pyi
+│   │       │       │   │   │   │       │   │   ├── unicodedata.pyi
+│   │       │       │   │   │   │       │   │   ├── uuid.pyi
+│   │       │       │   │   │   │       │   │   ├── uu.pyi
+│   │       │       │   │   │   │       │   │   ├── _warnings.pyi
+│   │       │       │   │   │   │       │   │   ├── warnings.pyi
+│   │       │       │   │   │   │       │   │   ├── wave.pyi
+│   │       │       │   │   │   │       │   │   ├── _weakref.pyi
+│   │       │       │   │   │   │       │   │   ├── weakref.pyi
+│   │       │       │   │   │   │       │   │   ├── _weakrefset.pyi
+│   │       │       │   │   │   │       │   │   ├── webbrowser.pyi
+│   │       │       │   │   │   │       │   │   ├── wsgiref
+│   │       │       │   │   │   │       │   │   │   ├── handlers.pyi
+│   │       │       │   │   │   │       │   │   │   ├── headers.pyi
+│   │       │       │   │   │   │       │   │   │   ├── __init__.pyi
+│   │       │       │   │   │   │       │   │   │   ├── simple_server.pyi
+│   │       │       │   │   │   │       │   │   │   ├── types.pyi
+│   │       │       │   │   │   │       │   │   │   ├── util.pyi
+│   │       │       │   │   │   │       │   │   │   └── validate.pyi
+│   │       │       │   │   │   │       │   │   ├── xdrlib.pyi
+│   │       │       │   │   │   │       │   │   ├── xml
+│   │       │       │   │   │   │       │   │   │   ├── etree
+│   │       │       │   │   │   │       │   │   │   │   ├── cElementTree.pyi
+│   │       │       │   │   │   │       │   │   │   │   ├── ElementInclude.pyi
+│   │       │       │   │   │   │       │   │   │   │   ├── ElementPath.pyi
+│   │       │       │   │   │   │       │   │   │   │   ├── ElementTree.pyi
+│   │       │       │   │   │   │       │   │   │   │   └── __init__.pyi
+│   │       │       │   │   │   │       │   │   │   ├── __init__.pyi
+│   │       │       │   │   │   │       │   │   │   ├── parsers
+│   │       │       │   │   │   │       │   │   │   │   ├── expat
+│   │       │       │   │   │   │       │   │   │   │   │   ├── errors.pyi
+│   │       │       │   │   │   │       │   │   │   │   │   ├── __init__.pyi
+│   │       │       │   │   │   │       │   │   │   │   │   └── model.pyi
+│   │       │       │   │   │   │       │   │   │   │   └── __init__.pyi
+│   │       │       │   │   │   │       │   │   │   └── sax
+│   │       │       │   │   │   │       │   │   │       ├── handler.pyi
+│   │       │       │   │   │   │       │   │   │       ├── __init__.pyi
+│   │       │       │   │   │   │       │   │   │       ├── saxutils.pyi
+│   │       │       │   │   │   │       │   │   │       └── xmlreader.pyi
+│   │       │       │   │   │   │       │   │   ├── zipfile.pyi
+│   │       │       │   │   │   │       │   │   ├── zipimport.pyi
+│   │       │       │   │   │   │       │   │   └── zlib.pyi
+│   │       │       │   │   │   │       │   ├── 3
+│   │       │       │   │   │   │       │   │   ├── abc.pyi
+│   │       │       │   │   │   │       │   │   ├── _ast.pyi
+│   │       │       │   │   │   │       │   │   ├── ast.pyi
+│   │       │       │   │   │   │       │   │   ├── asyncio
+│   │       │       │   │   │   │       │   │   │   ├── base_events.pyi
+│   │       │       │   │   │   │       │   │   │   ├── constants.pyi
+│   │       │       │   │   │   │       │   │   │   ├── coroutines.pyi
+│   │       │       │   │   │   │       │   │   │   ├── events.pyi
+│   │       │       │   │   │   │       │   │   │   ├── exceptions.pyi
+│   │       │       │   │   │   │       │   │   │   ├── futures.pyi
+│   │       │       │   │   │   │       │   │   │   ├── __init__.pyi
+│   │       │       │   │   │   │       │   │   │   ├── locks.pyi
+│   │       │       │   │   │   │       │   │   │   ├── proactor_events.pyi
+│   │       │       │   │   │   │       │   │   │   ├── protocols.pyi
+│   │       │       │   │   │   │       │   │   │   ├── queues.pyi
+│   │       │       │   │   │   │       │   │   │   ├── runners.pyi
+│   │       │       │   │   │   │       │   │   │   ├── selector_events.pyi
+│   │       │       │   │   │   │       │   │   │   ├── streams.pyi
+│   │       │       │   │   │   │       │   │   │   ├── subprocess.pyi
+│   │       │       │   │   │   │       │   │   │   ├── tasks.pyi
+│   │       │       │   │   │   │       │   │   │   ├── transports.pyi
+│   │       │       │   │   │   │       │   │   │   ├── windows_events.pyi
+│   │       │       │   │   │   │       │   │   │   └── windows_utils.pyi
+│   │       │       │   │   │   │       │   │   ├── atexit.pyi
+│   │       │       │   │   │   │       │   │   ├── collections
+│   │       │       │   │   │   │       │   │   │   ├── abc.pyi
+│   │       │       │   │   │   │       │   │   │   └── __init__.pyi
+│   │       │       │   │   │   │       │   │   ├── compileall.pyi
+│   │       │       │   │   │   │       │   │   ├── _compression.pyi
+│   │       │       │   │   │   │       │   │   ├── concurrent
+│   │       │       │   │   │   │       │   │   │   ├── futures
+│   │       │       │   │   │   │       │   │   │   │   ├── _base.pyi
+│   │       │       │   │   │   │       │   │   │   │   ├── __init__.pyi
+│   │       │       │   │   │   │       │   │   │   │   ├── process.pyi
+│   │       │       │   │   │   │       │   │   │   │   └── thread.pyi
+│   │       │       │   │   │   │       │   │   │   └── __init__.pyi
+│   │       │       │   │   │   │       │   │   ├── configparser.pyi
+│   │       │       │   │   │   │       │   │   ├── copyreg.pyi
+│   │       │       │   │   │   │       │   │   ├── _dummy_thread.pyi
+│   │       │       │   │   │   │       │   │   ├── email
+│   │       │       │   │   │   │       │   │   │   ├── charset.pyi
+│   │       │       │   │   │   │       │   │   │   ├── contentmanager.pyi
+│   │       │       │   │   │   │       │   │   │   ├── encoders.pyi
+│   │       │       │   │   │   │       │   │   │   ├── errors.pyi
+│   │       │       │   │   │   │       │   │   │   ├── feedparser.pyi
+│   │       │       │   │   │   │       │   │   │   ├── generator.pyi
+│   │       │       │   │   │   │       │   │   │   ├── header.pyi
+│   │       │       │   │   │   │       │   │   │   ├── headerregistry.pyi
+│   │       │       │   │   │   │       │   │   │   ├── __init__.pyi
+│   │       │       │   │   │   │       │   │   │   ├── iterators.pyi
+│   │       │       │   │   │   │       │   │   │   ├── message.pyi
+│   │       │       │   │   │   │       │   │   │   ├── mime
+│   │       │       │   │   │   │       │   │   │   │   ├── application.pyi
+│   │       │       │   │   │   │       │   │   │   │   ├── audio.pyi
+│   │       │       │   │   │   │       │   │   │   │   ├── base.pyi
+│   │       │       │   │   │   │       │   │   │   │   ├── image.pyi
+│   │       │       │   │   │   │       │   │   │   │   ├── __init__.pyi
+│   │       │       │   │   │   │       │   │   │   │   ├── message.pyi
+│   │       │       │   │   │   │       │   │   │   │   ├── multipart.pyi
+│   │       │       │   │   │   │       │   │   │   │   ├── nonmultipart.pyi
+│   │       │       │   │   │   │       │   │   │   │   └── text.pyi
+│   │       │       │   │   │   │       │   │   │   ├── parser.pyi
+│   │       │       │   │   │   │       │   │   │   ├── policy.pyi
+│   │       │       │   │   │   │       │   │   │   └── utils.pyi
+│   │       │       │   │   │   │       │   │   ├── encodings
+│   │       │       │   │   │   │       │   │   │   ├── __init__.pyi
+│   │       │       │   │   │   │       │   │   │   └── utf_8.pyi
+│   │       │       │   │   │   │       │   │   ├── enum.pyi
+│   │       │       │   │   │   │       │   │   ├── faulthandler.pyi
+│   │       │       │   │   │   │       │   │   ├── fcntl.pyi
+│   │       │       │   │   │   │       │   │   ├── fnmatch.pyi
+│   │       │       │   │   │   │       │   │   ├── functools.pyi
+│   │       │       │   │   │   │       │   │   ├── gc.pyi
+│   │       │       │   │   │   │       │   │   ├── getopt.pyi
+│   │       │       │   │   │   │       │   │   ├── getpass.pyi
+│   │       │       │   │   │   │       │   │   ├── gettext.pyi
+│   │       │       │   │   │   │       │   │   ├── glob.pyi
+│   │       │       │   │   │   │       │   │   ├── gzip.pyi
+│   │       │       │   │   │   │       │   │   ├── hashlib.pyi
+│   │       │       │   │   │   │       │   │   ├── heapq.pyi
+│   │       │       │   │   │   │       │   │   ├── html
+│   │       │       │   │   │   │       │   │   │   ├── entities.pyi
+│   │       │       │   │   │   │       │   │   │   ├── __init__.pyi
+│   │       │       │   │   │   │       │   │   │   └── parser.pyi
+│   │       │       │   │   │   │       │   │   ├── http
+│   │       │       │   │   │   │       │   │   │   ├── client.pyi
+│   │       │       │   │   │   │       │   │   │   ├── cookiejar.pyi
+│   │       │       │   │   │   │       │   │   │   ├── cookies.pyi
+│   │       │       │   │   │   │       │   │   │   ├── __init__.pyi
+│   │       │       │   │   │   │       │   │   │   └── server.pyi
+│   │       │       │   │   │   │       │   │   ├── importlib
+│   │       │       │   │   │   │       │   │   │   ├── abc.pyi
+│   │       │       │   │   │   │       │   │   │   ├── __init__.pyi
+│   │       │       │   │   │   │       │   │   │   ├── machinery.pyi
+│   │       │       │   │   │   │       │   │   │   ├── metadata.pyi
+│   │       │       │   │   │   │       │   │   │   ├── resources.pyi
+│   │       │       │   │   │   │       │   │   │   └── util.pyi
+│   │       │       │   │   │   │       │   │   ├── _importlib_modulespec.pyi
+│   │       │       │   │   │   │       │   │   ├── _imp.pyi
+│   │       │       │   │   │   │       │   │   ├── imp.pyi
+│   │       │       │   │   │   │       │   │   ├── inspect.pyi
+│   │       │       │   │   │   │       │   │   ├── io.pyi
+│   │       │       │   │   │   │       │   │   ├── ipaddress.pyi
+│   │       │       │   │   │   │       │   │   ├── itertools.pyi
+│   │       │       │   │   │   │       │   │   ├── json
+│   │       │       │   │   │   │       │   │   │   ├── decoder.pyi
+│   │       │       │   │   │   │       │   │   │   ├── encoder.pyi
+│   │       │       │   │   │   │       │   │   │   └── __init__.pyi
+│   │       │       │   │   │   │       │   │   ├── _json.pyi
+│   │       │       │   │   │   │       │   │   ├── lzma.pyi
+│   │       │       │   │   │   │       │   │   ├── _markupbase.pyi
+│   │       │       │   │   │   │       │   │   ├── msvcrt.pyi
+│   │       │       │   │   │   │       │   │   ├── multiprocessing
+│   │       │       │   │   │   │       │   │   │   ├── connection.pyi
+│   │       │       │   │   │   │       │   │   │   ├── context.pyi
+│   │       │       │   │   │   │       │   │   │   ├── dummy
+│   │       │       │   │   │   │       │   │   │   │   ├── connection.pyi
+│   │       │       │   │   │   │       │   │   │   │   └── __init__.pyi
+│   │       │       │   │   │   │       │   │   │   ├── __init__.pyi
+│   │       │       │   │   │   │       │   │   │   ├── managers.pyi
+│   │       │       │   │   │   │       │   │   │   ├── pool.pyi
+│   │       │       │   │   │   │       │   │   │   ├── process.pyi
+│   │       │       │   │   │   │       │   │   │   ├── queues.pyi
+│   │       │       │   │   │   │       │   │   │   ├── shared_memory.pyi
+│   │       │       │   │   │   │       │   │   │   ├── spawn.pyi
+│   │       │       │   │   │   │       │   │   │   └── synchronize.pyi
+│   │       │       │   │   │   │       │   │   ├── nntplib.pyi
+│   │       │       │   │   │   │       │   │   ├── nturl2path.pyi
+│   │       │       │   │   │   │       │   │   ├── _operator.pyi
+│   │       │       │   │   │   │       │   │   ├── os
+│   │       │       │   │   │   │       │   │   │   ├── __init__.pyi
+│   │       │       │   │   │   │       │   │   │   └── path.pyi
+│   │       │       │   │   │   │       │   │   ├── pathlib.pyi
+│   │       │       │   │   │   │       │   │   ├── pipes.pyi
+│   │       │       │   │   │   │       │   │   ├── platform.pyi
+│   │       │       │   │   │   │       │   │   ├── posix.pyi
+│   │       │       │   │   │   │       │   │   ├── _posixsubprocess.pyi
+│   │       │       │   │   │   │       │   │   ├── queue.pyi
+│   │       │       │   │   │   │       │   │   ├── random.pyi
+│   │       │       │   │   │   │       │   │   ├── reprlib.pyi
+│   │       │       │   │   │   │       │   │   ├── re.pyi
+│   │       │       │   │   │   │       │   │   ├── resource.pyi
+│   │       │       │   │   │   │       │   │   ├── runpy.pyi
+│   │       │       │   │   │   │       │   │   ├── selectors.pyi
+│   │       │       │   │   │   │       │   │   ├── shelve.pyi
+│   │       │       │   │   │   │       │   │   ├── shlex.pyi
+│   │       │       │   │   │   │       │   │   ├── signal.pyi
+│   │       │       │   │   │   │       │   │   ├── smtplib.pyi
+│   │       │       │   │   │   │       │   │   ├── socketserver.pyi
+│   │       │       │   │   │   │       │   │   ├── spwd.pyi
+│   │       │       │   │   │   │       │   │   ├── sre_constants.pyi
+│   │       │       │   │   │   │       │   │   ├── sre_parse.pyi
+│   │       │       │   │   │   │       │   │   ├── statistics.pyi
+│   │       │       │   │   │   │       │   │   ├── _stat.pyi
+│   │       │       │   │   │   │       │   │   ├── stat.pyi
+│   │       │       │   │   │   │       │   │   ├── string.pyi
+│   │       │       │   │   │   │       │   │   ├── _subprocess.pyi
+│   │       │       │   │   │   │       │   │   ├── subprocess.pyi
+│   │       │       │   │   │   │       │   │   ├── symbol.pyi
+│   │       │       │   │   │   │       │   │   ├── sys.pyi
+│   │       │       │   │   │   │       │   │   ├── tempfile.pyi
+│   │       │       │   │   │   │       │   │   ├── textwrap.pyi
+│   │       │       │   │   │   │       │   │   ├── _threading_local.pyi
+│   │       │       │   │   │   │       │   │   ├── _thread.pyi
+│   │       │       │   │   │   │       │   │   ├── tkinter
+│   │       │       │   │   │   │       │   │   │   ├── commondialog.pyi
+│   │       │       │   │   │   │       │   │   │   ├── constants.pyi
+│   │       │       │   │   │   │       │   │   │   ├── dialog.pyi
+│   │       │       │   │   │   │       │   │   │   ├── filedialog.pyi
+│   │       │       │   │   │   │       │   │   │   ├── __init__.pyi
+│   │       │       │   │   │   │       │   │   │   ├── messagebox.pyi
+│   │       │       │   │   │   │       │   │   │   └── ttk.pyi
+│   │       │       │   │   │   │       │   │   ├── tokenize.pyi
+│   │       │       │   │   │   │       │   │   ├── _tracemalloc.pyi
+│   │       │       │   │   │   │       │   │   ├── tracemalloc.pyi
+│   │       │       │   │   │   │       │   │   ├── types.pyi
+│   │       │       │   │   │   │       │   │   ├── typing.pyi
+│   │       │       │   │   │   │       │   │   ├── unittest
+│   │       │       │   │   │   │       │   │   │   ├── async_case.pyi
+│   │       │       │   │   │   │       │   │   │   ├── case.pyi
+│   │       │       │   │   │   │       │   │   │   ├── __init__.pyi
+│   │       │       │   │   │   │       │   │   │   ├── loader.pyi
+│   │       │       │   │   │   │       │   │   │   ├── mock.pyi
+│   │       │       │   │   │   │       │   │   │   ├── result.pyi
+│   │       │       │   │   │   │       │   │   │   ├── runner.pyi
+│   │       │       │   │   │   │       │   │   │   ├── signals.pyi
+│   │       │       │   │   │   │       │   │   │   ├── suite.pyi
+│   │       │       │   │   │   │       │   │   │   └── util.pyi
+│   │       │       │   │   │   │       │   │   ├── urllib
+│   │       │       │   │   │   │       │   │   │   ├── error.pyi
+│   │       │       │   │   │   │       │   │   │   ├── __init__.pyi
+│   │       │       │   │   │   │       │   │   │   ├── parse.pyi
+│   │       │       │   │   │   │       │   │   │   ├── request.pyi
+│   │       │       │   │   │   │       │   │   │   ├── response.pyi
+│   │       │       │   │   │   │       │   │   │   └── robotparser.pyi
+│   │       │       │   │   │   │       │   │   ├── _winapi.pyi
+│   │       │       │   │   │   │       │   │   └── zipapp.pyi
+│   │       │       │   │   │   │       │   ├── 3.6
+│   │       │       │   │   │   │       │   │   └── secrets.pyi
+│   │       │       │   │   │   │       │   └── 3.7
+│   │       │       │   │   │   │       │       ├── contextvars.pyi
+│   │       │       │   │   │   │       │       └── dataclasses.pyi
+│   │       │       │   │   │   │       ├── tests
+│   │       │       │   │   │   │       │   ├── check_consistent.py
+│   │       │       │   │   │   │       │   ├── mypy_blacklist.txt
+│   │       │       │   │   │   │       │   ├── mypy_selftest.py
+│   │       │       │   │   │   │       │   ├── mypy_test.py
+│   │       │       │   │   │   │       │   ├── pytype_blacklist.txt
+│   │       │       │   │   │   │       │   └── pytype_test.py
+│   │       │       │   │   │   │       └── third_party
+│   │       │       │   │   │   │           ├── 2
+│   │       │       │   │   │   │           │   ├── concurrent
+│   │       │       │   │   │   │           │   │   ├── futures
+│   │       │       │   │   │   │           │   │   │   ├── _base.pyi
+│   │       │       │   │   │   │           │   │   │   ├── __init__.pyi
+│   │       │       │   │   │   │           │   │   │   ├── process.pyi
+│   │       │       │   │   │   │           │   │   │   └── thread.pyi
+│   │       │       │   │   │   │           │   │   └── __init__.pyi
+│   │       │       │   │   │   │           │   ├── enum.pyi
+│   │       │       │   │   │   │           │   ├── fb303
+│   │       │       │   │   │   │           │   │   ├── FacebookService.pyi
+│   │       │       │   │   │   │           │   │   └── __init__.pyi
+│   │       │       │   │   │   │           │   ├── gflags.pyi
+│   │       │       │   │   │   │           │   ├── ipaddress.pyi
+│   │       │       │   │   │   │           │   ├── kazoo
+│   │       │       │   │   │   │           │   │   ├── client.pyi
+│   │       │       │   │   │   │           │   │   ├── exceptions.pyi
+│   │       │       │   │   │   │           │   │   ├── __init__.pyi
+│   │       │       │   │   │   │           │   │   └── recipe
+│   │       │       │   │   │   │           │   │       ├── __init__.pyi
+│   │       │       │   │   │   │           │   │       └── watchers.pyi
+│   │       │       │   │   │   │           │   ├── OpenSSL
+│   │       │       │   │   │   │           │   │   ├── crypto.pyi
+│   │       │       │   │   │   │           │   │   └── __init__.pyi
+│   │       │       │   │   │   │           │   ├── pathlib2.pyi
+│   │       │       │   │   │   │           │   ├── pymssql.pyi
+│   │       │       │   │   │   │           │   ├── routes
+│   │       │       │   │   │   │           │   │   ├── __init__.pyi
+│   │       │       │   │   │   │           │   │   ├── mapper.pyi
+│   │       │       │   │   │   │           │   │   └── util.pyi
+│   │       │       │   │   │   │           │   ├── scribe
+│   │       │       │   │   │   │           │   │   ├── __init__.pyi
+│   │       │       │   │   │   │           │   │   ├── scribe.pyi
+│   │       │       │   │   │   │           │   │   └── ttypes.pyi
+│   │       │       │   │   │   │           │   ├── six
+│   │       │       │   │   │   │           │   │   ├── __init__.pyi
+│   │       │       │   │   │   │           │   │   └── moves
+│   │       │       │   │   │   │           │   │       ├── BaseHTTPServer.pyi
+│   │       │       │   │   │   │           │   │       ├── CGIHTTPServer.pyi
+│   │       │       │   │   │   │           │   │       ├── configparser.pyi
+│   │       │       │   │   │   │           │   │       ├── cPickle.pyi
+│   │       │       │   │   │   │           │   │       ├── _dummy_thread.pyi
+│   │       │       │   │   │   │           │   │       ├── email_mime_base.pyi
+│   │       │       │   │   │   │           │   │       ├── email_mime_multipart.pyi
+│   │       │       │   │   │   │           │   │       ├── email_mime_nonmultipart.pyi
+│   │       │       │   │   │   │           │   │       ├── email_mime_text.pyi
+│   │       │       │   │   │   │           │   │       ├── html_entities.pyi
+│   │       │       │   │   │   │           │   │       ├── html_parser.pyi
+│   │       │       │   │   │   │           │   │       ├── http_client.pyi
+│   │       │       │   │   │   │           │   │       ├── http_cookiejar.pyi
+│   │       │       │   │   │   │           │   │       ├── http_cookies.pyi
+│   │       │       │   │   │   │           │   │       ├── __init__.pyi
+│   │       │       │   │   │   │           │   │       ├── queue.pyi
+│   │       │       │   │   │   │           │   │       ├── reprlib.pyi
+│   │       │       │   │   │   │           │   │       ├── SimpleHTTPServer.pyi
+│   │       │       │   │   │   │           │   │       ├── socketserver.pyi
+│   │       │       │   │   │   │           │   │       ├── _thread.pyi
+│   │       │       │   │   │   │           │   │       ├── urllib
+│   │       │       │   │   │   │           │   │       │   ├── error.pyi
+│   │       │       │   │   │   │           │   │       │   ├── __init__.pyi
+│   │       │       │   │   │   │           │   │       │   ├── parse.pyi
+│   │       │       │   │   │   │           │   │       │   ├── request.pyi
+│   │       │       │   │   │   │           │   │       │   ├── response.pyi
+│   │       │       │   │   │   │           │   │       │   └── robotparser.pyi
+│   │       │       │   │   │   │           │   │       ├── urllib_error.pyi
+│   │       │       │   │   │   │           │   │       ├── urllib_parse.pyi
+│   │       │       │   │   │   │           │   │       ├── urllib_request.pyi
+│   │       │       │   │   │   │           │   │       ├── urllib_response.pyi
+│   │       │       │   │   │   │           │   │       ├── urllib_robotparser.pyi
+│   │       │       │   │   │   │           │   │       └── xmlrpc_client.pyi
+│   │       │       │   │   │   │           │   └── tornado
+│   │       │       │   │   │   │           │       ├── concurrent.pyi
+│   │       │       │   │   │   │           │       ├── gen.pyi
+│   │       │       │   │   │   │           │       ├── httpclient.pyi
+│   │       │       │   │   │   │           │       ├── httpserver.pyi
+│   │       │       │   │   │   │           │       ├── httputil.pyi
+│   │       │       │   │   │   │           │       ├── __init__.pyi
+│   │       │       │   │   │   │           │       ├── ioloop.pyi
+│   │       │       │   │   │   │           │       ├── locks.pyi
+│   │       │       │   │   │   │           │       ├── netutil.pyi
+│   │       │       │   │   │   │           │       ├── process.pyi
+│   │       │       │   │   │   │           │       ├── tcpserver.pyi
+│   │       │       │   │   │   │           │       ├── testing.pyi
+│   │       │       │   │   │   │           │       ├── util.pyi
+│   │       │       │   │   │   │           │       └── web.pyi
+│   │       │       │   │   │   │           ├── 2and3
+│   │       │       │   │   │   │           │   ├── atomicwrites
+│   │       │       │   │   │   │           │   │   └── __init__.pyi
+│   │       │       │   │   │   │           │   ├── attr
+│   │       │       │   │   │   │           │   │   ├── converters.pyi
+│   │       │       │   │   │   │           │   │   ├── exceptions.pyi
+│   │       │       │   │   │   │           │   │   ├── filters.pyi
+│   │       │       │   │   │   │           │   │   ├── __init__.pyi
+│   │       │       │   │   │   │           │   │   └── validators.pyi
+│   │       │       │   │   │   │           │   ├── backports
+│   │       │       │   │   │   │           │   │   ├── __init__.pyi
+│   │       │       │   │   │   │           │   │   └── ssl_match_hostname.pyi
+│   │       │       │   │   │   │           │   ├── backports_abc.pyi
+│   │       │       │   │   │   │           │   ├── bleach
+│   │       │       │   │   │   │           │   │   ├── callbacks.pyi
+│   │       │       │   │   │   │           │   │   ├── __init__.pyi
+│   │       │       │   │   │   │           │   │   ├── linkifier.pyi
+│   │       │       │   │   │   │           │   │   ├── sanitizer.pyi
+│   │       │       │   │   │   │           │   │   └── utils.pyi
+│   │       │       │   │   │   │           │   ├── boto
+│   │       │       │   │   │   │           │   │   ├── auth_handler.pyi
+│   │       │       │   │   │   │           │   │   ├── auth.pyi
+│   │       │       │   │   │   │           │   │   ├── compat.pyi
+│   │       │       │   │   │   │           │   │   ├── connection.pyi
+│   │       │       │   │   │   │           │   │   ├── ec2
+│   │       │       │   │   │   │           │   │   │   └── __init__.pyi
+│   │       │       │   │   │   │           │   │   ├── elb
+│   │       │       │   │   │   │           │   │   │   └── __init__.pyi
+│   │       │       │   │   │   │           │   │   ├── exception.pyi
+│   │       │       │   │   │   │           │   │   ├── __init__.pyi
+│   │       │       │   │   │   │           │   │   ├── kms
+│   │       │       │   │   │   │           │   │   │   ├── exceptions.pyi
+│   │       │       │   │   │   │           │   │   │   ├── __init__.pyi
+│   │       │       │   │   │   │           │   │   │   └── layer1.pyi
+│   │       │       │   │   │   │           │   │   ├── plugin.pyi
+│   │       │       │   │   │   │           │   │   ├── regioninfo.pyi
+│   │       │       │   │   │   │           │   │   ├── s3
+│   │       │       │   │   │   │           │   │   │   ├── acl.pyi
+│   │       │       │   │   │   │           │   │   │   ├── bucketlistresultset.pyi
+│   │       │       │   │   │   │           │   │   │   ├── bucketlogging.pyi
+│   │       │       │   │   │   │           │   │   │   ├── bucket.pyi
+│   │       │       │   │   │   │           │   │   │   ├── connection.pyi
+│   │       │       │   │   │   │           │   │   │   ├── cors.pyi
+│   │       │       │   │   │   │           │   │   │   ├── deletemarker.pyi
+│   │       │       │   │   │   │           │   │   │   ├── __init__.pyi
+│   │       │       │   │   │   │           │   │   │   ├── keyfile.pyi
+│   │       │       │   │   │   │           │   │   │   ├── key.pyi
+│   │       │       │   │   │   │           │   │   │   ├── lifecycle.pyi
+│   │       │       │   │   │   │           │   │   │   ├── multidelete.pyi
+│   │       │       │   │   │   │           │   │   │   ├── multipart.pyi
+│   │       │       │   │   │   │           │   │   │   ├── prefix.pyi
+│   │       │       │   │   │   │           │   │   │   ├── tagging.pyi
+│   │       │       │   │   │   │           │   │   │   ├── user.pyi
+│   │       │       │   │   │   │           │   │   │   └── website.pyi
+│   │       │       │   │   │   │           │   │   └── utils.pyi
+│   │       │       │   │   │   │           │   ├── certifi.pyi
+│   │       │       │   │   │   │           │   ├── characteristic
+│   │       │       │   │   │   │           │   │   └── __init__.pyi
+│   │       │       │   │   │   │           │   ├── click
+│   │       │       │   │   │   │           │   │   ├── core.pyi
+│   │       │       │   │   │   │           │   │   ├── decorators.pyi
+│   │       │       │   │   │   │           │   │   ├── exceptions.pyi
+│   │       │       │   │   │   │           │   │   ├── formatting.pyi
+│   │       │       │   │   │   │           │   │   ├── globals.pyi
+│   │       │       │   │   │   │           │   │   ├── __init__.pyi
+│   │       │       │   │   │   │           │   │   ├── parser.pyi
+│   │       │       │   │   │   │           │   │   ├── README.md
+│   │       │       │   │   │   │           │   │   ├── _termui_impl.pyi
+│   │       │       │   │   │   │           │   │   ├── termui.pyi
+│   │       │       │   │   │   │           │   │   ├── testing.pyi
+│   │       │       │   │   │   │           │   │   ├── types.pyi
+│   │       │       │   │   │   │           │   │   └── utils.pyi
+│   │       │       │   │   │   │           │   ├── croniter.pyi
+│   │       │       │   │   │   │           │   ├── Crypto
+│   │       │       │   │   │   │           │   │   ├── Cipher
+│   │       │       │   │   │   │           │   │   │   ├── AES.pyi
+│   │       │       │   │   │   │           │   │   │   ├── ARC2.pyi
+│   │       │       │   │   │   │           │   │   │   ├── ARC4.pyi
+│   │       │       │   │   │   │           │   │   │   ├── blockalgo.pyi
+│   │       │       │   │   │   │           │   │   │   ├── Blowfish.pyi
+│   │       │       │   │   │   │           │   │   │   ├── CAST.pyi
+│   │       │       │   │   │   │           │   │   │   ├── DES3.pyi
+│   │       │       │   │   │   │           │   │   │   ├── DES.pyi
+│   │       │       │   │   │   │           │   │   │   ├── __init__.pyi
+│   │       │       │   │   │   │           │   │   │   ├── PKCS1_OAEP.pyi
+│   │       │       │   │   │   │           │   │   │   ├── PKCS1_v1_5.pyi
+│   │       │       │   │   │   │           │   │   │   └── XOR.pyi
+│   │       │       │   │   │   │           │   │   ├── Hash
+│   │       │       │   │   │   │           │   │   │   ├── hashalgo.pyi
+│   │       │       │   │   │   │           │   │   │   ├── HMAC.pyi
+│   │       │       │   │   │   │           │   │   │   ├── __init__.pyi
+│   │       │       │   │   │   │           │   │   │   ├── MD2.pyi
+│   │       │       │   │   │   │           │   │   │   ├── MD4.pyi
+│   │       │       │   │   │   │           │   │   │   ├── MD5.pyi
+│   │       │       │   │   │   │           │   │   │   ├── RIPEMD.pyi
+│   │       │       │   │   │   │           │   │   │   ├── SHA224.pyi
+│   │       │       │   │   │   │           │   │   │   ├── SHA256.pyi
+│   │       │       │   │   │   │           │   │   │   ├── SHA384.pyi
+│   │       │       │   │   │   │           │   │   │   ├── SHA512.pyi
+│   │       │       │   │   │   │           │   │   │   └── SHA.pyi
+│   │       │       │   │   │   │           │   │   ├── __init__.pyi
+│   │       │       │   │   │   │           │   │   ├── pct_warnings.pyi
+│   │       │       │   │   │   │           │   │   ├── Protocol
+│   │       │       │   │   │   │           │   │   │   ├── AllOrNothing.pyi
+│   │       │       │   │   │   │           │   │   │   ├── Chaffing.pyi
+│   │       │       │   │   │   │           │   │   │   ├── __init__.pyi
+│   │       │       │   │   │   │           │   │   │   └── KDF.pyi
+│   │       │       │   │   │   │           │   │   ├── PublicKey
+│   │       │       │   │   │   │           │   │   │   ├── DSA.pyi
+│   │       │       │   │   │   │           │   │   │   ├── ElGamal.pyi
+│   │       │       │   │   │   │           │   │   │   ├── __init__.pyi
+│   │       │       │   │   │   │           │   │   │   ├── pubkey.pyi
+│   │       │       │   │   │   │           │   │   │   └── RSA.pyi
+│   │       │       │   │   │   │           │   │   ├── Random
+│   │       │       │   │   │   │           │   │   │   ├── Fortuna
+│   │       │       │   │   │   │           │   │   │   │   ├── FortunaAccumulator.pyi
+│   │       │       │   │   │   │           │   │   │   │   ├── FortunaGenerator.pyi
+│   │       │       │   │   │   │           │   │   │   │   ├── __init__.pyi
+│   │       │       │   │   │   │           │   │   │   │   └── SHAd256.pyi
+│   │       │       │   │   │   │           │   │   │   ├── __init__.pyi
+│   │       │       │   │   │   │           │   │   │   ├── OSRNG
+│   │       │       │   │   │   │           │   │   │   │   ├── fallback.pyi
+│   │       │       │   │   │   │           │   │   │   │   ├── __init__.pyi
+│   │       │       │   │   │   │           │   │   │   │   ├── posix.pyi
+│   │       │       │   │   │   │           │   │   │   │   └── rng_base.pyi
+│   │       │       │   │   │   │           │   │   │   └── random.pyi
+│   │       │       │   │   │   │           │   │   ├── Signature
+│   │       │       │   │   │   │           │   │   │   ├── __init__.pyi
+│   │       │       │   │   │   │           │   │   │   ├── PKCS1_PSS.pyi
+│   │       │       │   │   │   │           │   │   │   └── PKCS1_v1_5.pyi
+│   │       │       │   │   │   │           │   │   └── Util
+│   │       │       │   │   │   │           │   │       ├── asn1.pyi
+│   │       │       │   │   │   │           │   │       ├── Counter.pyi
+│   │       │       │   │   │   │           │   │       ├── __init__.pyi
+│   │       │       │   │   │   │           │   │       ├── number.pyi
+│   │       │       │   │   │   │           │   │       ├── randpool.pyi
+│   │       │       │   │   │   │           │   │       ├── RFC1751.pyi
+│   │       │       │   │   │   │           │   │       └── strxor.pyi
+│   │       │       │   │   │   │           │   ├── cryptography
+│   │       │       │   │   │   │           │   │   ├── exceptions.pyi
+│   │       │       │   │   │   │           │   │   ├── fernet.pyi
+│   │       │       │   │   │   │           │   │   ├── hazmat
+│   │       │       │   │   │   │           │   │   │   ├── backends
+│   │       │       │   │   │   │           │   │   │   │   ├── __init__.pyi
+│   │       │       │   │   │   │           │   │   │   │   └── interfaces.pyi
+│   │       │       │   │   │   │           │   │   │   ├── bindings
+│   │       │       │   │   │   │           │   │   │   │   ├── __init__.pyi
+│   │       │       │   │   │   │           │   │   │   │   └── openssl
+│   │       │       │   │   │   │           │   │   │   │       ├── binding.pyi
+│   │       │       │   │   │   │           │   │   │   │       └── __init__.pyi
+│   │       │       │   │   │   │           │   │   │   ├── __init__.pyi
+│   │       │       │   │   │   │           │   │   │   └── primitives
+│   │       │       │   │   │   │           │   │   │       ├── asymmetric
+│   │       │       │   │   │   │           │   │   │       │   ├── dh.pyi
+│   │       │       │   │   │   │           │   │   │       │   ├── dsa.pyi
+│   │       │       │   │   │   │           │   │   │       │   ├── ec.pyi
+│   │       │       │   │   │   │           │   │   │       │   ├── ed25519.pyi
+│   │       │       │   │   │   │           │   │   │       │   ├── ed448.pyi
+│   │       │       │   │   │   │           │   │   │       │   ├── __init__.pyi
+│   │       │       │   │   │   │           │   │   │       │   ├── padding.pyi
+│   │       │       │   │   │   │           │   │   │       │   ├── rsa.pyi
+│   │       │       │   │   │   │           │   │   │       │   ├── utils.pyi
+│   │       │       │   │   │   │           │   │   │       │   ├── x25519.pyi
+│   │       │       │   │   │   │           │   │   │       │   └── x448.pyi
+│   │       │       │   │   │   │           │   │   │       ├── ciphers
+│   │       │       │   │   │   │           │   │   │       │   ├── aead.pyi
+│   │       │       │   │   │   │           │   │   │       │   ├── algorithms.pyi
+│   │       │       │   │   │   │           │   │   │       │   ├── __init__.pyi
+│   │       │       │   │   │   │           │   │   │       │   └── modes.pyi
+│   │       │       │   │   │   │           │   │   │       ├── cmac.pyi
+│   │       │       │   │   │   │           │   │   │       ├── constant_time.pyi
+│   │       │       │   │   │   │           │   │   │       ├── hashes.pyi
+│   │       │       │   │   │   │           │   │   │       ├── hmac.pyi
+│   │       │       │   │   │   │           │   │   │       ├── __init__.pyi
+│   │       │       │   │   │   │           │   │   │       ├── kdf
+│   │       │       │   │   │   │           │   │   │       │   ├── concatkdf.pyi
+│   │       │       │   │   │   │           │   │   │       │   ├── hkdf.pyi
+│   │       │       │   │   │   │           │   │   │       │   ├── __init__.pyi
+│   │       │       │   │   │   │           │   │   │       │   ├── kbkdf.pyi
+│   │       │       │   │   │   │           │   │   │       │   ├── pbkdf2.pyi
+│   │       │       │   │   │   │           │   │   │       │   ├── scrypt.pyi
+│   │       │       │   │   │   │           │   │   │       │   └── x963kdf.pyi
+│   │       │       │   │   │   │           │   │   │       ├── keywrap.pyi
+│   │       │       │   │   │   │           │   │   │       ├── padding.pyi
+│   │       │       │   │   │   │           │   │   │       ├── poly1305.pyi
+│   │       │       │   │   │   │           │   │   │       ├── serialization
+│   │       │       │   │   │   │           │   │   │       │   ├── __init__.pyi
+│   │       │       │   │   │   │           │   │   │       │   └── pkcs12.pyi
+│   │       │       │   │   │   │           │   │   │       └── twofactor
+│   │       │       │   │   │   │           │   │   │           ├── hotp.pyi
+│   │       │       │   │   │   │           │   │   │           ├── __init__.pyi
+│   │       │       │   │   │   │           │   │   │           └── totp.pyi
+│   │       │       │   │   │   │           │   │   ├── __init__.pyi
+│   │       │       │   │   │   │           │   │   └── x509.pyi
+│   │       │       │   │   │   │           │   ├── dateutil
+│   │       │       │   │   │   │           │   │   ├── _common.pyi
+│   │       │       │   │   │   │           │   │   ├── __init__.pyi
+│   │       │       │   │   │   │           │   │   ├── parser.pyi
+│   │       │       │   │   │   │           │   │   ├── relativedelta.pyi
+│   │       │       │   │   │   │           │   │   ├── rrule.pyi
+│   │       │       │   │   │   │           │   │   ├── tz
+│   │       │       │   │   │   │           │   │   │   ├── _common.pyi
+│   │       │       │   │   │   │           │   │   │   ├── __init__.pyi
+│   │       │       │   │   │   │           │   │   │   └── tz.pyi
+│   │       │       │   │   │   │           │   │   └── utils.pyi
+│   │       │       │   │   │   │           │   ├── decorator.pyi
+│   │       │       │   │   │   │           │   ├── emoji.pyi
+│   │       │       │   │   │   │           │   ├── first.pyi
+│   │       │       │   │   │   │           │   ├── flask
+│   │       │       │   │   │   │           │   │   ├── app.pyi
+│   │       │       │   │   │   │           │   │   ├── blueprints.pyi
+│   │       │       │   │   │   │           │   │   ├── cli.pyi
+│   │       │       │   │   │   │           │   │   ├── config.pyi
+│   │       │       │   │   │   │           │   │   ├── ctx.pyi
+│   │       │       │   │   │   │           │   │   ├── debughelpers.pyi
+│   │       │       │   │   │   │           │   │   ├── globals.pyi
+│   │       │       │   │   │   │           │   │   ├── helpers.pyi
+│   │       │       │   │   │   │           │   │   ├── __init__.pyi
+│   │       │       │   │   │   │           │   │   ├── json
+│   │       │       │   │   │   │           │   │   │   ├── __init__.pyi
+│   │       │       │   │   │   │           │   │   │   └── tag.pyi
+│   │       │       │   │   │   │           │   │   ├── logging.pyi
+│   │       │       │   │   │   │           │   │   ├── sessions.pyi
+│   │       │       │   │   │   │           │   │   ├── signals.pyi
+│   │       │       │   │   │   │           │   │   ├── templating.pyi
+│   │       │       │   │   │   │           │   │   ├── testing.pyi
+│   │       │       │   │   │   │           │   │   ├── views.pyi
+│   │       │       │   │   │   │           │   │   └── wrappers.pyi
+│   │       │       │   │   │   │           │   ├── geoip2
+│   │       │       │   │   │   │           │   │   ├── database.pyi
+│   │       │       │   │   │   │           │   │   ├── errors.pyi
+│   │       │       │   │   │   │           │   │   ├── __init__.pyi
+│   │       │       │   │   │   │           │   │   ├── mixins.pyi
+│   │       │       │   │   │   │           │   │   ├── models.pyi
+│   │       │       │   │   │   │           │   │   └── records.pyi
+│   │       │       │   │   │   │           │   ├── google
+│   │       │       │   │   │   │           │   │   ├── __init__.pyi
+│   │       │       │   │   │   │           │   │   └── protobuf
+│   │       │       │   │   │   │           │   │       ├── any_pb2.pyi
+│   │       │       │   │   │   │           │   │       ├── any_test_pb2.pyi
+│   │       │       │   │   │   │           │   │       ├── api_pb2.pyi
+│   │       │       │   │   │   │           │   │       ├── compiler
+│   │       │       │   │   │   │           │   │       │   ├── __init__.pyi
+│   │       │       │   │   │   │           │   │       │   └── plugin_pb2.pyi
+│   │       │       │   │   │   │           │   │       ├── descriptor_pb2.pyi
+│   │       │       │   │   │   │           │   │       ├── descriptor_pool.pyi
+│   │       │       │   │   │   │           │   │       ├── descriptor.pyi
+│   │       │       │   │   │   │           │   │       ├── duration_pb2.pyi
+│   │       │       │   │   │   │           │   │       ├── empty_pb2.pyi
+│   │       │       │   │   │   │           │   │       ├── field_mask_pb2.pyi
+│   │       │       │   │   │   │           │   │       ├── __init__.pyi
+│   │       │       │   │   │   │           │   │       ├── internal
+│   │       │       │   │   │   │           │   │       │   ├── containers.pyi
+│   │       │       │   │   │   │           │   │       │   ├── decoder.pyi
+│   │       │       │   │   │   │           │   │       │   ├── encoder.pyi
+│   │       │       │   │   │   │           │   │       │   ├── enum_type_wrapper.pyi
+│   │       │       │   │   │   │           │   │       │   ├── __init__.pyi
+│   │       │       │   │   │   │           │   │       │   ├── message_listener.pyi
+│   │       │       │   │   │   │           │   │       │   ├── well_known_types.pyi
+│   │       │       │   │   │   │           │   │       │   └── wire_format.pyi
+│   │       │       │   │   │   │           │   │       ├── json_format.pyi
+│   │       │       │   │   │   │           │   │       ├── map_proto2_unittest_pb2.pyi
+│   │       │       │   │   │   │           │   │       ├── map_unittest_pb2.pyi
+│   │       │       │   │   │   │           │   │       ├── message_factory.pyi
+│   │       │       │   │   │   │           │   │       ├── message.pyi
+│   │       │       │   │   │   │           │   │       ├── reflection.pyi
+│   │       │       │   │   │   │           │   │       ├── service.pyi
+│   │       │       │   │   │   │           │   │       ├── source_context_pb2.pyi
+│   │       │       │   │   │   │           │   │       ├── struct_pb2.pyi
+│   │       │       │   │   │   │           │   │       ├── symbol_database.pyi
+│   │       │       │   │   │   │           │   │       ├── test_messages_proto2_pb2.pyi
+│   │       │       │   │   │   │           │   │       ├── test_messages_proto3_pb2.pyi
+│   │       │       │   │   │   │           │   │       ├── timestamp_pb2.pyi
+│   │       │       │   │   │   │           │   │       ├── type_pb2.pyi
+│   │       │       │   │   │   │           │   │       ├── unittest_arena_pb2.pyi
+│   │       │       │   │   │   │           │   │       ├── unittest_custom_options_pb2.pyi
+│   │       │       │   │   │   │           │   │       ├── unittest_import_pb2.pyi
+│   │       │       │   │   │   │           │   │       ├── unittest_import_public_pb2.pyi
+│   │       │       │   │   │   │           │   │       ├── unittest_mset_pb2.pyi
+│   │       │       │   │   │   │           │   │       ├── unittest_mset_wire_format_pb2.pyi
+│   │       │       │   │   │   │           │   │       ├── unittest_no_arena_import_pb2.pyi
+│   │       │       │   │   │   │           │   │       ├── unittest_no_arena_pb2.pyi
+│   │       │       │   │   │   │           │   │       ├── unittest_no_generic_services_pb2.pyi
+│   │       │       │   │   │   │           │   │       ├── unittest_pb2.pyi
+│   │       │       │   │   │   │           │   │       ├── unittest_proto3_arena_pb2.pyi
+│   │       │       │   │   │   │           │   │       ├── util
+│   │       │       │   │   │   │           │   │       │   ├── __init__.pyi
+│   │       │       │   │   │   │           │   │       │   └── json_format_proto3_pb2.pyi
+│   │       │       │   │   │   │           │   │       └── wrappers_pb2.pyi
+│   │       │       │   │   │   │           │   ├── itsdangerous.pyi
+│   │       │       │   │   │   │           │   ├── jinja2
+│   │       │       │   │   │   │           │   │   ├── bccache.pyi
+│   │       │       │   │   │   │           │   │   ├── _compat.pyi
+│   │       │       │   │   │   │           │   │   ├── compiler.pyi
+│   │       │       │   │   │   │           │   │   ├── constants.pyi
+│   │       │       │   │   │   │           │   │   ├── debug.pyi
+│   │       │       │   │   │   │           │   │   ├── defaults.pyi
+│   │       │       │   │   │   │           │   │   ├── environment.pyi
+│   │       │       │   │   │   │           │   │   ├── exceptions.pyi
+│   │       │       │   │   │   │           │   │   ├── ext.pyi
+│   │       │       │   │   │   │           │   │   ├── filters.pyi
+│   │       │       │   │   │   │           │   │   ├── __init__.pyi
+│   │       │       │   │   │   │           │   │   ├── lexer.pyi
+│   │       │       │   │   │   │           │   │   ├── loaders.pyi
+│   │       │       │   │   │   │           │   │   ├── meta.pyi
+│   │       │       │   │   │   │           │   │   ├── nodes.pyi
+│   │       │       │   │   │   │           │   │   ├── optimizer.pyi
+│   │       │       │   │   │   │           │   │   ├── parser.pyi
+│   │       │       │   │   │   │           │   │   ├── runtime.pyi
+│   │       │       │   │   │   │           │   │   ├── sandbox.pyi
+│   │       │       │   │   │   │           │   │   ├── _stringdefs.pyi
+│   │       │       │   │   │   │           │   │   ├── tests.pyi
+│   │       │       │   │   │   │           │   │   ├── utils.pyi
+│   │       │       │   │   │   │           │   │   └── visitor.pyi
+│   │       │       │   │   │   │           │   ├── markupsafe
+│   │       │       │   │   │   │           │   │   ├── _compat.pyi
+│   │       │       │   │   │   │           │   │   ├── _constants.pyi
+│   │       │       │   │   │   │           │   │   ├── __init__.pyi
+│   │       │       │   │   │   │           │   │   ├── _native.pyi
+│   │       │       │   │   │   │           │   │   └── _speedups.pyi
+│   │       │       │   │   │   │           │   ├── maxminddb
+│   │       │       │   │   │   │           │   │   ├── compat.pyi
+│   │       │       │   │   │   │           │   │   ├── const.pyi
+│   │       │       │   │   │   │           │   │   ├── decoder.pyi
+│   │       │       │   │   │   │           │   │   ├── errors.pyi
+│   │       │       │   │   │   │           │   │   ├── extension.pyi
+│   │       │       │   │   │   │           │   │   ├── __init__.pyi
+│   │       │       │   │   │   │           │   │   └── reader.pyi
+│   │       │       │   │   │   │           │   ├── mock.pyi
+│   │       │       │   │   │   │           │   ├── mypy_extensions.pyi
+│   │       │       │   │   │   │           │   ├── pycurl.pyi
+│   │       │       │   │   │   │           │   ├── pymysql
+│   │       │       │   │   │   │           │   │   ├── charset.pyi
+│   │       │       │   │   │   │           │   │   ├── connections.pyi
+│   │       │       │   │   │   │           │   │   ├── constants
+│   │       │       │   │   │   │           │   │   │   ├── CLIENT.pyi
+│   │       │       │   │   │   │           │   │   │   ├── COMMAND.pyi
+│   │       │       │   │   │   │           │   │   │   ├── ER.pyi
+│   │       │       │   │   │   │           │   │   │   ├── FIELD_TYPE.pyi
+│   │       │       │   │   │   │           │   │   │   ├── FLAG.pyi
+│   │       │       │   │   │   │           │   │   │   ├── __init__.pyi
+│   │       │       │   │   │   │           │   │   │   └── SERVER_STATUS.pyi
+│   │       │       │   │   │   │           │   │   ├── converters.pyi
+│   │       │       │   │   │   │           │   │   ├── cursors.pyi
+│   │       │       │   │   │   │           │   │   ├── err.pyi
+│   │       │       │   │   │   │           │   │   ├── __init__.pyi
+│   │       │       │   │   │   │           │   │   ├── times.pyi
+│   │       │       │   │   │   │           │   │   └── util.pyi
+│   │       │       │   │   │   │           │   ├── pynamodb
+│   │       │       │   │   │   │           │   │   ├── attributes.pyi
+│   │       │       │   │   │   │           │   │   ├── connection
+│   │       │       │   │   │   │           │   │   │   ├── base.pyi
+│   │       │       │   │   │   │           │   │   │   ├── __init__.pyi
+│   │       │       │   │   │   │           │   │   │   ├── table.pyi
+│   │       │       │   │   │   │           │   │   │   └── util.pyi
+│   │       │       │   │   │   │           │   │   ├── constants.pyi
+│   │       │       │   │   │   │           │   │   ├── exceptions.pyi
+│   │       │       │   │   │   │           │   │   ├── indexes.pyi
+│   │       │       │   │   │   │           │   │   ├── __init__.pyi
+│   │       │       │   │   │   │           │   │   ├── models.pyi
+│   │       │       │   │   │   │           │   │   ├── settings.pyi
+│   │       │       │   │   │   │           │   │   ├── throttle.pyi
+│   │       │       │   │   │   │           │   │   └── types.pyi
+│   │       │       │   │   │   │           │   ├── pyre_extensions.pyi
+│   │       │       │   │   │   │           │   ├── pytz
+│   │       │       │   │   │   │           │   │   └── __init__.pyi
+│   │       │       │   │   │   │           │   ├── redis
+│   │       │       │   │   │   │           │   │   ├── client.pyi
+│   │       │       │   │   │   │           │   │   ├── connection.pyi
+│   │       │       │   │   │   │           │   │   ├── exceptions.pyi
+│   │       │       │   │   │   │           │   │   ├── __init__.pyi
+│   │       │       │   │   │   │           │   │   └── utils.pyi
+│   │       │       │   │   │   │           │   ├── requests
+│   │       │       │   │   │   │           │   │   ├── adapters.pyi
+│   │       │       │   │   │   │           │   │   ├── api.pyi
+│   │       │       │   │   │   │           │   │   ├── auth.pyi
+│   │       │       │   │   │   │           │   │   ├── compat.pyi
+│   │       │       │   │   │   │           │   │   ├── cookies.pyi
+│   │       │       │   │   │   │           │   │   ├── exceptions.pyi
+│   │       │       │   │   │   │           │   │   ├── hooks.pyi
+│   │       │       │   │   │   │           │   │   ├── __init__.pyi
+│   │       │       │   │   │   │           │   │   ├── models.pyi
+│   │       │       │   │   │   │           │   │   ├── packages
+│   │       │       │   │   │   │           │   │   │   ├── __init__.pyi
+│   │       │       │   │   │   │           │   │   │   └── urllib3
+│   │       │       │   │   │   │           │   │   │       ├── _collections.pyi
+│   │       │       │   │   │   │           │   │   │       ├── connectionpool.pyi
+│   │       │       │   │   │   │           │   │   │       ├── connection.pyi
+│   │       │       │   │   │   │           │   │   │       ├── contrib
+│   │       │       │   │   │   │           │   │   │       │   └── __init__.pyi
+│   │       │       │   │   │   │           │   │   │       ├── exceptions.pyi
+│   │       │       │   │   │   │           │   │   │       ├── fields.pyi
+│   │       │       │   │   │   │           │   │   │       ├── filepost.pyi
+│   │       │       │   │   │   │           │   │   │       ├── __init__.pyi
+│   │       │       │   │   │   │           │   │   │       ├── packages
+│   │       │       │   │   │   │           │   │   │       │   ├── __init__.pyi
+│   │       │       │   │   │   │           │   │   │       │   └── ssl_match_hostname
+│   │       │       │   │   │   │           │   │   │       │       ├── _implementation.pyi
+│   │       │       │   │   │   │           │   │   │       │       └── __init__.pyi
+│   │       │       │   │   │   │           │   │   │       ├── poolmanager.pyi
+│   │       │       │   │   │   │           │   │   │       ├── request.pyi
+│   │       │       │   │   │   │           │   │   │       ├── response.pyi
+│   │       │       │   │   │   │           │   │   │       └── util
+│   │       │       │   │   │   │           │   │   │           ├── connection.pyi
+│   │       │       │   │   │   │           │   │   │           ├── __init__.pyi
+│   │       │       │   │   │   │           │   │   │           ├── request.pyi
+│   │       │       │   │   │   │           │   │   │           ├── response.pyi
+│   │       │       │   │   │   │           │   │   │           ├── retry.pyi
+│   │       │       │   │   │   │           │   │   │           ├── ssl_.pyi
+│   │       │       │   │   │   │           │   │   │           ├── timeout.pyi
+│   │       │       │   │   │   │           │   │   │           └── url.pyi
+│   │       │       │   │   │   │           │   │   ├── sessions.pyi
+│   │       │       │   │   │   │           │   │   ├── status_codes.pyi
+│   │       │       │   │   │   │           │   │   ├── structures.pyi
+│   │       │       │   │   │   │           │   │   └── utils.pyi
+│   │       │       │   │   │   │           │   ├── simplejson
+│   │       │       │   │   │   │           │   │   ├── decoder.pyi
+│   │       │       │   │   │   │           │   │   ├── encoder.pyi
+│   │       │       │   │   │   │           │   │   ├── __init__.pyi
+│   │       │       │   │   │   │           │   │   └── scanner.pyi
+│   │       │       │   │   │   │           │   ├── singledispatch.pyi
+│   │       │       │   │   │   │           │   ├── tabulate.pyi
+│   │       │       │   │   │   │           │   ├── termcolor.pyi
+│   │       │       │   │   │   │           │   ├── toml.pyi
+│   │       │       │   │   │   │           │   ├── typing_extensions.pyi
+│   │       │       │   │   │   │           │   ├── ujson.pyi
+│   │       │       │   │   │   │           │   ├── werkzeug
+│   │       │       │   │   │   │           │   │   ├── _compat.pyi
+│   │       │       │   │   │   │           │   │   ├── contrib
+│   │       │       │   │   │   │           │   │   │   ├── atom.pyi
+│   │       │       │   │   │   │           │   │   │   ├── cache.pyi
+│   │       │       │   │   │   │           │   │   │   ├── fixers.pyi
+│   │       │       │   │   │   │           │   │   │   ├── __init__.pyi
+│   │       │       │   │   │   │           │   │   │   ├── iterio.pyi
+│   │       │       │   │   │   │           │   │   │   ├── jsrouting.pyi
+│   │       │       │   │   │   │           │   │   │   ├── limiter.pyi
+│   │       │       │   │   │   │           │   │   │   ├── lint.pyi
+│   │       │       │   │   │   │           │   │   │   ├── profiler.pyi
+│   │       │       │   │   │   │           │   │   │   ├── securecookie.pyi
+│   │       │       │   │   │   │           │   │   │   ├── sessions.pyi
+│   │       │       │   │   │   │           │   │   │   ├── testtools.pyi
+│   │       │       │   │   │   │           │   │   │   └── wrappers.pyi
+│   │       │       │   │   │   │           │   │   ├── datastructures.pyi
+│   │       │       │   │   │   │           │   │   ├── debug
+│   │       │       │   │   │   │           │   │   │   ├── console.pyi
+│   │       │       │   │   │   │           │   │   │   ├── __init__.pyi
+│   │       │       │   │   │   │           │   │   │   ├── repr.pyi
+│   │       │       │   │   │   │           │   │   │   └── tbtools.pyi
+│   │       │       │   │   │   │           │   │   ├── exceptions.pyi
+│   │       │       │   │   │   │           │   │   ├── filesystem.pyi
+│   │       │       │   │   │   │           │   │   ├── formparser.pyi
+│   │       │       │   │   │   │           │   │   ├── http.pyi
+│   │       │       │   │   │   │           │   │   ├── __init__.pyi
+│   │       │       │   │   │   │           │   │   ├── _internal.pyi
+│   │       │       │   │   │   │           │   │   ├── local.pyi
+│   │       │       │   │   │   │           │   │   ├── middleware
+│   │       │       │   │   │   │           │   │   │   ├── dispatcher.pyi
+│   │       │       │   │   │   │           │   │   │   ├── http_proxy.pyi
+│   │       │       │   │   │   │           │   │   │   ├── __init__.pyi
+│   │       │       │   │   │   │           │   │   │   ├── lint.pyi
+│   │       │       │   │   │   │           │   │   │   ├── profiler.pyi
+│   │       │       │   │   │   │           │   │   │   ├── proxy_fix.pyi
+│   │       │       │   │   │   │           │   │   │   └── shared_data.pyi
+│   │       │       │   │   │   │           │   │   ├── posixemulation.pyi
+│   │       │       │   │   │   │           │   │   ├── _reloader.pyi
+│   │       │       │   │   │   │           │   │   ├── routing.pyi
+│   │       │       │   │   │   │           │   │   ├── script.pyi
+│   │       │       │   │   │   │           │   │   ├── security.pyi
+│   │       │       │   │   │   │           │   │   ├── serving.pyi
+│   │       │       │   │   │   │           │   │   ├── testapp.pyi
+│   │       │       │   │   │   │           │   │   ├── test.pyi
+│   │       │       │   │   │   │           │   │   ├── urls.pyi
+│   │       │       │   │   │   │           │   │   ├── useragents.pyi
+│   │       │       │   │   │   │           │   │   ├── utils.pyi
+│   │       │       │   │   │   │           │   │   ├── wrappers.pyi
+│   │       │       │   │   │   │           │   │   └── wsgi.pyi
+│   │       │       │   │   │   │           │   └── yaml
+│   │       │       │   │   │   │           │       ├── composer.pyi
+│   │       │       │   │   │   │           │       ├── constructor.pyi
+│   │       │       │   │   │   │           │       ├── cyaml.pyi
+│   │       │       │   │   │   │           │       ├── dumper.pyi
+│   │       │       │   │   │   │           │       ├── emitter.pyi
+│   │       │       │   │   │   │           │       ├── error.pyi
+│   │       │       │   │   │   │           │       ├── events.pyi
+│   │       │       │   │   │   │           │       ├── __init__.pyi
+│   │       │       │   │   │   │           │       ├── loader.pyi
+│   │       │       │   │   │   │           │       ├── nodes.pyi
+│   │       │       │   │   │   │           │       ├── parser.pyi
+│   │       │       │   │   │   │           │       ├── reader.pyi
+│   │       │       │   │   │   │           │       ├── representer.pyi
+│   │       │       │   │   │   │           │       ├── resolver.pyi
+│   │       │       │   │   │   │           │       ├── scanner.pyi
+│   │       │       │   │   │   │           │       ├── serializer.pyi
+│   │       │       │   │   │   │           │       └── tokens.pyi
+│   │       │       │   │   │   │           └── 3
+│   │       │       │   │   │   │               ├── contextvars.pyi
+│   │       │       │   │   │   │               ├── dataclasses.pyi
+│   │       │       │   │   │   │               ├── docutils
+│   │       │       │   │   │   │               │   ├── examples.pyi
+│   │       │       │   │   │   │               │   ├── __init__.pyi
+│   │       │       │   │   │   │               │   ├── nodes.pyi
+│   │       │       │   │   │   │               │   └── parsers
+│   │       │       │   │   │   │               │       ├── __init__.pyi
+│   │       │       │   │   │   │               │       └── rst
+│   │       │       │   │   │   │               │           ├── __init__.pyi
+│   │       │       │   │   │   │               │           ├── nodes.pyi
+│   │       │       │   │   │   │               │           ├── roles.pyi
+│   │       │       │   │   │   │               │           └── states.pyi
+│   │       │       │   │   │   │               ├── jwt
+│   │       │       │   │   │   │               │   ├── algorithms.pyi
+│   │       │       │   │   │   │               │   ├── contrib
+│   │       │       │   │   │   │               │   │   ├── algorithms
+│   │       │       │   │   │   │               │   │   │   ├── __init__.pyi
+│   │       │       │   │   │   │               │   │   │   ├── pycrypto.pyi
+│   │       │       │   │   │   │               │   │   │   └── py_ecdsa.pyi
+│   │       │       │   │   │   │               │   │   └── __init__.pyi
+│   │       │       │   │   │   │               │   └── __init__.pyi
+│   │       │       │   │   │   │               ├── orjson.pyi
+│   │       │       │   │   │   │               ├── pkg_resources
+│   │       │       │   │   │   │               │   ├── __init__.pyi
+│   │       │       │   │   │   │               │   └── py31compat.pyi
+│   │       │       │   │   │   │               ├── six
+│   │       │       │   │   │   │               │   ├── __init__.pyi
+│   │       │       │   │   │   │               │   └── moves
+│   │       │       │   │   │   │               │       ├── BaseHTTPServer.pyi
+│   │       │       │   │   │   │               │       ├── builtins.pyi
+│   │       │       │   │   │   │               │       ├── CGIHTTPServer.pyi
+│   │       │       │   │   │   │               │       ├── configparser.pyi
+│   │       │       │   │   │   │               │       ├── cPickle.pyi
+│   │       │       │   │   │   │               │       ├── _dummy_thread.pyi
+│   │       │       │   │   │   │               │       ├── email_mime_base.pyi
+│   │       │       │   │   │   │               │       ├── email_mime_multipart.pyi
+│   │       │       │   │   │   │               │       ├── email_mime_nonmultipart.pyi
+│   │       │       │   │   │   │               │       ├── email_mime_text.pyi
+│   │       │       │   │   │   │               │       ├── html_entities.pyi
+│   │       │       │   │   │   │               │       ├── html_parser.pyi
+│   │       │       │   │   │   │               │       ├── http_client.pyi
+│   │       │       │   │   │   │               │       ├── http_cookiejar.pyi
+│   │       │       │   │   │   │               │       ├── http_cookies.pyi
+│   │       │       │   │   │   │               │       ├── __init__.pyi
+│   │       │       │   │   │   │               │       ├── queue.pyi
+│   │       │       │   │   │   │               │       ├── reprlib.pyi
+│   │       │       │   │   │   │               │       ├── SimpleHTTPServer.pyi
+│   │       │       │   │   │   │               │       ├── socketserver.pyi
+│   │       │       │   │   │   │               │       ├── _thread.pyi
+│   │       │       │   │   │   │               │       ├── tkinter_commondialog.pyi
+│   │       │       │   │   │   │               │       ├── tkinter_constants.pyi
+│   │       │       │   │   │   │               │       ├── tkinter_dialog.pyi
+│   │       │       │   │   │   │               │       ├── tkinter_filedialog.pyi
+│   │       │       │   │   │   │               │       ├── tkinter.pyi
+│   │       │       │   │   │   │               │       ├── tkinter_tkfiledialog.pyi
+│   │       │       │   │   │   │               │       ├── tkinter_ttk.pyi
+│   │       │       │   │   │   │               │       ├── urllib
+│   │       │       │   │   │   │               │       │   ├── error.pyi
+│   │       │       │   │   │   │               │       │   ├── __init__.pyi
+│   │       │       │   │   │   │               │       │   ├── parse.pyi
+│   │       │       │   │   │   │               │       │   ├── request.pyi
+│   │       │       │   │   │   │               │       │   ├── response.pyi
+│   │       │       │   │   │   │               │       │   └── robotparser.pyi
+│   │       │       │   │   │   │               │       ├── urllib_error.pyi
+│   │       │       │   │   │   │               │       ├── urllib_parse.pyi
+│   │       │       │   │   │   │               │       ├── urllib_request.pyi
+│   │       │       │   │   │   │               │       ├── urllib_response.pyi
+│   │       │       │   │   │   │               │       └── urllib_robotparser.pyi
+│   │       │       │   │   │   │               └── typed_ast
+│   │       │       │   │   │   │                   ├── ast27.pyi
+│   │       │       │   │   │   │                   ├── ast3.pyi
+│   │       │       │   │   │   │                   ├── conversions.pyi
+│   │       │       │   │   │   │                   └── __init__.pyi
+│   │       │       │   │   │   └── utils.py
+│   │       │       │   │   ├── LICENSE.txt
+│   │       │       │   │   ├── MANIFEST.in
+│   │       │       │   │   ├── pytest.ini
+│   │       │       │   │   ├── README.rst
+│   │       │       │   │   ├── requirements.txt
+│   │       │       │   │   ├── scripts
+│   │       │       │   │   │   ├── diff_parser_profile.py
+│   │       │       │   │   │   ├── memory_check.py
+│   │       │       │   │   │   ├── profiled_pytest.sh
+│   │       │       │   │   │   ├── profile_output.py
+│   │       │       │   │   │   └── wx_check.py
+│   │       │       │   │   ├── setup.cfg
+│   │       │       │   │   ├── setup.py
+│   │       │       │   │   ├── sith.py
+│   │       │       │   │   ├── test
+│   │       │       │   │   │   ├── completion
+│   │       │       │   │   │   │   ├── arrays.py
+│   │       │       │   │   │   │   ├── async_.py
+│   │       │       │   │   │   │   ├── basic.py
+│   │       │       │   │   │   │   ├── classes.py
+│   │       │       │   │   │   │   ├── completion.py
+│   │       │       │   │   │   │   ├── complex.py
+│   │       │       │   │   │   │   ├── comprehensions.py
+│   │       │       │   │   │   │   ├── conftest.py
+│   │       │       │   │   │   │   ├── context.py
+│   │       │       │   │   │   │   ├── decorators.py
+│   │       │       │   │   │   │   ├── descriptors.py
+│   │       │       │   │   │   │   ├── docstring.py
+│   │       │       │   │   │   │   ├── dynamic_arrays.py
+│   │       │       │   │   │   │   ├── dynamic_params.py
+│   │       │       │   │   │   │   ├── flow_analysis.py
+│   │       │       │   │   │   │   ├── fstring.py
+│   │       │       │   │   │   │   ├── functions.py
+│   │       │       │   │   │   │   ├── generators.py
+│   │       │       │   │   │   │   ├── goto.py
+│   │       │       │   │   │   │   ├── imports.py
+│   │       │       │   │   │   │   ├── import_tree
+│   │       │       │   │   │   │   │   ├── classes.py
+│   │       │       │   │   │   │   │   ├── flow_import.py
+│   │       │       │   │   │   │   │   ├── globals.py
+│   │       │       │   │   │   │   │   ├── __init__.py
+│   │       │       │   │   │   │   │   ├── invisible_pkg.py
+│   │       │       │   │   │   │   │   ├── mod1.py
+│   │       │       │   │   │   │   │   ├── mod2.py
+│   │       │       │   │   │   │   │   ├── pkg
+│   │       │       │   │   │   │   │   │   ├── base.py
+│   │       │       │   │   │   │   │   │   ├── __init__.py
+│   │       │       │   │   │   │   │   │   └── mod1.py
+│   │       │       │   │   │   │   │   ├── random.py
+│   │       │       │   │   │   │   │   ├── recurse_class1.py
+│   │       │       │   │   │   │   │   ├── recurse_class2.py
+│   │       │       │   │   │   │   │   ├── references.py
+│   │       │       │   │   │   │   │   ├── rename1.py
+│   │       │       │   │   │   │   │   └── rename2.py
+│   │       │       │   │   │   │   ├── inheritance.py
+│   │       │       │   │   │   │   ├── __init__.py
+│   │       │       │   │   │   │   ├── invalid.py
+│   │       │       │   │   │   │   ├── isinstance.py
+│   │       │       │   │   │   │   ├── keywords.py
+│   │       │       │   │   │   │   ├── lambdas.py
+│   │       │       │   │   │   │   ├── named_expression.py
+│   │       │       │   │   │   │   ├── named_param.py
+│   │       │       │   │   │   │   ├── on_import.py
+│   │       │       │   │   │   │   ├── ordering.py
+│   │       │       │   │   │   │   ├── parser.py
+│   │       │       │   │   │   │   ├── pep0484_basic.py
+│   │       │       │   │   │   │   ├── pep0484_comments.py
+│   │       │       │   │   │   │   ├── pep0484_overload.py
+│   │       │       │   │   │   │   ├── pep0484_typing.py
+│   │       │       │   │   │   │   ├── pep0526_variables.py
+│   │       │       │   │   │   │   ├── positional_only_params.py
+│   │       │       │   │   │   │   ├── precedence.py
+│   │       │       │   │   │   │   ├── pytest.py
+│   │       │       │   │   │   │   ├── recursion.py
+│   │       │       │   │   │   │   ├── stdlib.py
+│   │       │       │   │   │   │   ├── stub_folder
+│   │       │       │   │   │   │   │   ├── stub_only_folder
+│   │       │       │   │   │   │   │   │   ├── __init__.pyi
+│   │       │       │   │   │   │   │   │   ├── nested_stub_only.pyi
+│   │       │       │   │   │   │   │   │   ├── nested_with_stub.py
+│   │       │       │   │   │   │   │   │   ├── nested_with_stub.pyi
+│   │       │       │   │   │   │   │   │   └── python_only.py
+│   │       │       │   │   │   │   │   ├── stub_only.pyi
+│   │       │       │   │   │   │   │   ├── with_stub_folder
+│   │       │       │   │   │   │   │   │   ├── __init__.py
+│   │       │       │   │   │   │   │   │   ├── __init__.pyi
+│   │       │       │   │   │   │   │   │   ├── nested_stub_only.pyi
+│   │       │       │   │   │   │   │   │   ├── nested_with_stub.py
+│   │       │       │   │   │   │   │   │   ├── nested_with_stub.pyi
+│   │       │       │   │   │   │   │   │   └── python_only.py
+│   │       │       │   │   │   │   │   ├── with_stub.py
+│   │       │       │   │   │   │   │   └── with_stub.pyi
+│   │       │       │   │   │   │   ├── stubs.py
+│   │       │       │   │   │   │   ├── sys_path.py
+│   │       │       │   │   │   │   ├── thirdparty
+│   │       │       │   │   │   │   │   ├── django_.py
+│   │       │       │   │   │   │   │   ├── jedi_.py
+│   │       │       │   │   │   │   │   ├── psycopg2_.py
+│   │       │       │   │   │   │   │   ├── pylab_.py
+│   │       │       │   │   │   │   │   └── PyQt4_.py
+│   │       │       │   │   │   │   ├── types.py
+│   │       │       │   │   │   │   └── usages.py
+│   │       │       │   │   │   ├── conftest.py
+│   │       │       │   │   │   ├── examples
+│   │       │       │   │   │   │   ├── absolute_import
+│   │       │       │   │   │   │   │   ├── local_module.py
+│   │       │       │   │   │   │   │   └── unittest.py
+│   │       │       │   │   │   │   ├── buildout_project
+│   │       │       │   │   │   │   │   ├── bin
+│   │       │       │   │   │   │   │   │   ├── app
+│   │       │       │   │   │   │   │   │   ├── binary_file
+│   │       │       │   │   │   │   │   │   └── empty_file
+│   │       │       │   │   │   │   │   ├── buildout.cfg
+│   │       │       │   │   │   │   │   └── src
+│   │       │       │   │   │   │   │       └── proj_name
+│   │       │       │   │   │   │   │           └── module_name.py
+│   │       │       │   │   │   │   ├── django
+│   │       │       │   │   │   │   │   ├── app
+│   │       │       │   │   │   │   │   │   ├── __init__.py
+│   │       │       │   │   │   │   │   │   └── models.py
+│   │       │       │   │   │   │   │   └── manage.py
+│   │       │       │   │   │   │   ├── flask-site-packages
+│   │       │       │   │   │   │   │   ├── flask
+│   │       │       │   │   │   │   │   │   ├── ext
+│   │       │       │   │   │   │   │   │   │   └── __init__.py
+│   │       │       │   │   │   │   │   │   └── __init__.py
+│   │       │       │   │   │   │   │   ├── flask_baz
+│   │       │       │   │   │   │   │   │   └── __init__.py
+│   │       │       │   │   │   │   │   ├── flaskext
+│   │       │       │   │   │   │   │   │   ├── bar.py
+│   │       │       │   │   │   │   │   │   ├── __init__.py
+│   │       │       │   │   │   │   │   │   └── moo
+│   │       │       │   │   │   │   │   │       └── __init__.py
+│   │       │       │   │   │   │   │   └── flask_foo.py
+│   │       │       │   │   │   │   ├── implicit_namespace_package
+│   │       │       │   │   │   │   │   ├── ns1
+│   │       │       │   │   │   │   │   │   └── pkg
+│   │       │       │   │   │   │   │   │       └── ns1_file.py
+│   │       │       │   │   │   │   │   └── ns2
+│   │       │       │   │   │   │   │       └── pkg
+│   │       │       │   │   │   │   │           └── ns2_file.py
+│   │       │       │   │   │   │   ├── implicit_nested_namespaces
+│   │       │       │   │   │   │   │   └── namespace
+│   │       │       │   │   │   │   │       └── pkg
+│   │       │       │   │   │   │   │           └── module.py
+│   │       │       │   │   │   │   ├── inheritance
+│   │       │       │   │   │   │   │   └── pkg
+│   │       │       │   │   │   │   │       ├── __init__.py
+│   │       │       │   │   │   │   │       └── module.py
+│   │       │       │   │   │   │   ├── init_extension_module
+│   │       │       │   │   │   │   │   ├── __init__.cpython-34m.so
+│   │       │       │   │   │   │   │   ├── module.c
+│   │       │       │   │   │   │   │   └── setup.py
+│   │       │       │   │   │   │   ├── issue1209
+│   │       │       │   │   │   │   │   ├── api
+│   │       │       │   │   │   │   │   │   ├── __init__.py
+│   │       │       │   │   │   │   │   │   └── whatever
+│   │       │       │   │   │   │   │   │       ├── api_test1.py
+│   │       │       │   │   │   │   │   │       └── __init__.py
+│   │       │       │   │   │   │   │   ├── __init__.py
+│   │       │       │   │   │   │   │   └── whatever
+│   │       │       │   │   │   │   │       ├── __init__.py
+│   │       │       │   │   │   │   │       └── test.py
+│   │       │       │   │   │   │   ├── namespace_package
+│   │       │       │   │   │   │   │   ├── ns1
+│   │       │       │   │   │   │   │   │   └── pkg
+│   │       │       │   │   │   │   │   │       ├── __init__.py
+│   │       │       │   │   │   │   │   │       ├── ns1_file.py
+│   │       │       │   │   │   │   │   │       └── ns1_folder
+│   │       │       │   │   │   │   │   │           └── __init__.py
+│   │       │       │   │   │   │   │   └── ns2
+│   │       │       │   │   │   │   │       └── pkg
+│   │       │       │   │   │   │   │           ├── ns2_file.py
+│   │       │       │   │   │   │   │           └── ns2_folder
+│   │       │       │   │   │   │   │               ├── __init__.py
+│   │       │       │   │   │   │   │               └── nested
+│   │       │       │   │   │   │   │                   └── __init__.py
+│   │       │       │   │   │   │   ├── namespace_package_relative_import
+│   │       │       │   │   │   │   │   ├── rel1.py
+│   │       │       │   │   │   │   │   └── rel2.py
+│   │       │       │   │   │   │   ├── nested_namespaces
+│   │       │       │   │   │   │   │   ├── __init__.py
+│   │       │       │   │   │   │   │   └── namespace
+│   │       │       │   │   │   │   │       ├── __init__.py
+│   │       │       │   │   │   │   │       └── pkg
+│   │       │       │   │   │   │   │           └── __init__.py
+│   │       │       │   │   │   │   ├── not_in_sys_path
+│   │       │       │   │   │   │   │   ├── __init__.py
+│   │       │       │   │   │   │   │   ├── not_in_sys_path_package
+│   │       │       │   │   │   │   │   │   ├── __init__.py
+│   │       │       │   │   │   │   │   │   └── module.py
+│   │       │       │   │   │   │   │   ├── not_in_sys_path.py
+│   │       │       │   │   │   │   │   └── pkg
+│   │       │       │   │   │   │   │       ├── __init__.py
+│   │       │       │   │   │   │   │       └── module.py
+│   │       │       │   │   │   │   ├── README.rst
+│   │       │       │   │   │   │   ├── sample_venvs
+│   │       │       │   │   │   │   │   └── pth_directory
+│   │       │       │   │   │   │   │       ├── dir-from-foo-pth
+│   │       │       │   │   │   │   │       │   └── __init__.py
+│   │       │       │   │   │   │   │       ├── egg_link.egg-link
+│   │       │       │   │   │   │   │       ├── foo.pth
+│   │       │       │   │   │   │   │       ├── import_smth.pth
+│   │       │       │   │   │   │   │       ├── relative.egg-link
+│   │       │       │   │   │   │   │       └── smth.py
+│   │       │       │   │   │   │   ├── simple_import
+│   │       │       │   │   │   │   │   ├── __init__.py
+│   │       │       │   │   │   │   │   ├── module2.py
+│   │       │       │   │   │   │   │   └── module.py
+│   │       │       │   │   │   │   ├── speed
+│   │       │       │   │   │   │   │   └── precedence.py
+│   │       │       │   │   │   │   ├── stub_packages
+│   │       │       │   │   │   │   │   ├── no_python-stubs
+│   │       │       │   │   │   │   │   │   └── __init__.pyi
+│   │       │       │   │   │   │   │   ├── with_python
+│   │       │       │   │   │   │   │   │   ├── __init__.py
+│   │       │       │   │   │   │   │   │   └── module.py
+│   │       │       │   │   │   │   │   └── with_python-stubs
+│   │       │       │   │   │   │   │       ├── __init__.pyi
+│   │       │       │   │   │   │   │       └── module.pyi
+│   │       │       │   │   │   │   ├── typing_overload
+│   │       │       │   │   │   │   │   ├── file.py
+│   │       │       │   │   │   │   │   └── file.pyi
+│   │       │       │   │   │   │   └── zipped_imports
+│   │       │       │   │   │   │       ├── not_pkg.zip
+│   │       │       │   │   │   │       └── pkg.zip
+│   │       │       │   │   │   ├── helpers.py
+│   │       │       │   │   │   ├── __init__.py
+│   │       │       │   │   │   ├── refactor
+│   │       │       │   │   │   │   ├── extract.py
+│   │       │       │   │   │   │   ├── inline.py
+│   │       │       │   │   │   │   └── rename.py
+│   │       │       │   │   │   ├── refactor.py
+│   │       │       │   │   │   ├── run.py
+│   │       │       │   │   │   ├── static_analysis
+│   │       │       │   │   │   │   ├── attribute_error.py
+│   │       │       │   │   │   │   ├── attribute_warnings.py
+│   │       │       │   │   │   │   ├── branches.py
+│   │       │       │   │   │   │   ├── builtins.py
+│   │       │       │   │   │   │   ├── class_simple.py
+│   │       │       │   │   │   │   ├── comprehensions.py
+│   │       │       │   │   │   │   ├── descriptors.py
+│   │       │       │   │   │   │   ├── generators.py
+│   │       │       │   │   │   │   ├── imports.py
+│   │       │       │   │   │   │   ├── import_tree
+│   │       │       │   │   │   │   │   ├── a.py
+│   │       │       │   │   │   │   │   ├── b.py
+│   │       │       │   │   │   │   │   └── __init__.py
+│   │       │       │   │   │   │   ├── iterable.py
+│   │       │       │   │   │   │   ├── keywords.py
+│   │       │       │   │   │   │   ├── normal_arguments.py
+│   │       │       │   │   │   │   ├── operations.py
+│   │       │       │   │   │   │   ├── python2.py
+│   │       │       │   │   │   │   ├── star_arguments.py
+│   │       │       │   │   │   │   ├── try_except.py
+│   │       │       │   │   │   │   └── with_.py
+│   │       │       │   │   │   ├── test_api
+│   │       │       │   │   │   │   ├── __init__.py
+│   │       │       │   │   │   │   ├── test_analysis.py
+│   │       │       │   │   │   │   ├── test_api_classes_follow_definition.py
+│   │       │       │   │   │   │   ├── test_api.py
+│   │       │       │   │   │   │   ├── test_call_signatures.py
+│   │       │       │   │   │   │   ├── test_classes.py
+│   │       │       │   │   │   │   ├── test_completion.py
+│   │       │       │   │   │   │   ├── test_context.py
+│   │       │       │   │   │   │   ├── test_defined_names.py
+│   │       │       │   │   │   │   ├── test_documentation.py
+│   │       │       │   │   │   │   ├── test_environment.py
+│   │       │       │   │   │   │   ├── test_full_name.py
+│   │       │       │   │   │   │   ├── test_interpreter.py
+│   │       │       │   │   │   │   ├── test_keyword.py
+│   │       │       │   │   │   │   ├── test_project.py
+│   │       │       │   │   │   │   ├── test_settings.py
+│   │       │       │   │   │   │   ├── test_signatures.py
+│   │       │       │   │   │   │   ├── test_unicode.py
+│   │       │       │   │   │   │   └── test_usages.py
+│   │       │       │   │   │   ├── test_cache.py
+│   │       │       │   │   │   ├── test_compatibility.py
+│   │       │       │   │   │   ├── test_debug.py
+│   │       │       │   │   │   ├── test_deprecation.py
+│   │       │       │   │   │   ├── test_file_io.py
+│   │       │       │   │   │   ├── test_inference
+│   │       │       │   │   │   │   ├── __init__.py
+│   │       │       │   │   │   │   ├── test_absolute_import.py
+│   │       │       │   │   │   │   ├── test_annotations.py
+│   │       │       │   │   │   │   ├── test_buildout_detection.py
+│   │       │       │   │   │   │   ├── test_compiled.py
+│   │       │       │   │   │   │   ├── test_context.py
+│   │       │       │   │   │   │   ├── test_docstring.py
+│   │       │       │   │   │   │   ├── test_extension.py
+│   │       │       │   │   │   │   ├── test_fstring.py
+│   │       │       │   │   │   │   ├── test_gradual
+│   │       │       │   │   │   │   │   ├── __init__.py
+│   │       │       │   │   │   │   │   ├── test_conversion.py
+│   │       │       │   │   │   │   │   ├── test_stub_loading.py
+│   │       │       │   │   │   │   │   ├── test_stubs.py
+│   │       │       │   │   │   │   │   └── test_typeshed.py
+│   │       │       │   │   │   │   ├── test_implicit_namespace_package.py
+│   │       │       │   │   │   │   ├── test_imports.py
+│   │       │       │   │   │   │   ├── test_literals.py
+│   │       │       │   │   │   │   ├── test_mixed.py
+│   │       │       │   │   │   │   ├── test_namespace_package.py
+│   │       │       │   │   │   │   ├── test_precedence.py
+│   │       │       │   │   │   │   ├── test_pyc.py
+│   │       │       │   │   │   │   ├── test_representation.py
+│   │       │       │   │   │   │   ├── test_signature.py
+│   │       │       │   │   │   │   ├── test_stdlib.py
+│   │       │       │   │   │   │   └── test_sys_path.py
+│   │       │       │   │   │   ├── test_integration.py
+│   │       │       │   │   │   ├── test_parso_integration
+│   │       │       │   │   │   │   ├── __init__.py
+│   │       │       │   │   │   │   ├── test_basic.py
+│   │       │       │   │   │   │   ├── test_error_correction.py
+│   │       │       │   │   │   │   └── test_parser_utils.py
+│   │       │       │   │   │   ├── test_settings.py
+│   │       │       │   │   │   ├── test_speed.py
+│   │       │       │   │   │   └── test_utils.py
+│   │       │       │   │   └── tox.ini
+│   │       │       │   ├── jedi_vim_debug.py
+│   │       │       │   ├── jedi_vim.py
+│   │       │       │   └── parso
+│   │       │       │       ├── AUTHORS.txt
+│   │       │       │       ├── CHANGELOG.rst
+│   │       │       │       ├── conftest.py
+│   │       │       │       ├── CONTRIBUTING.md
+│   │       │       │       ├── deploy-master.sh
+│   │       │       │       ├── docs
+│   │       │       │       │   ├── conf.py
+│   │       │       │       │   ├── docs
+│   │       │       │       │   │   ├── development.rst
+│   │       │       │       │   │   ├── installation.rst
+│   │       │       │       │   │   ├── parser-tree.rst
+│   │       │       │       │   │   └── usage.rst
+│   │       │       │       │   ├── global.rst
+│   │       │       │       │   ├── index.rst
+│   │       │       │       │   ├── Makefile
+│   │       │       │       │   ├── README.md
+│   │       │       │       │   ├── _static
+│   │       │       │       │   │   ├── logo_characters.png
+│   │       │       │       │   │   └── logo.png
+│   │       │       │       │   ├── _templates
+│   │       │       │       │   │   ├── ghbuttons.html
+│   │       │       │       │   │   └── sidebarlogo.html
+│   │       │       │       │   └── _themes
+│   │       │       │       │       ├── flask
+│   │       │       │       │       │   ├── layout.html
+│   │       │       │       │       │   ├── LICENSE
+│   │       │       │       │       │   ├── relations.html
+│   │       │       │       │       │   ├── static
+│   │       │       │       │       │   │   ├── flasky.css_t
+│   │       │       │       │       │   │   └── small_flask.css
+│   │       │       │       │       │   └── theme.conf
+│   │       │       │       │       └── flask_theme_support.py
+│   │       │       │       ├── LICENSE.txt
+│   │       │       │       ├── MANIFEST.in
+│   │       │       │       ├── parso
+│   │       │       │       │   ├── cache.py
+│   │       │       │       │   ├── _compatibility.py
+│   │       │       │       │   ├── file_io.py
+│   │       │       │       │   ├── grammar.py
+│   │       │       │       │   ├── grammar.pyi
+│   │       │       │       │   ├── __init__.py
+│   │       │       │       │   ├── __init__.pyi
+│   │       │       │       │   ├── normalizer.py
+│   │       │       │       │   ├── parser.py
+│   │       │       │       │   ├── pgen2
+│   │       │       │       │   │   ├── generator.py
+│   │       │       │       │   │   ├── generator.pyi
+│   │       │       │       │   │   ├── grammar_parser.py
+│   │       │       │       │   │   ├── grammar_parser.pyi
+│   │       │       │       │   │   ├── __init__.py
+│   │       │       │       │   │   └── __init__.pyi
+│   │       │       │       │   ├── python
+│   │       │       │       │   │   ├── diff.py
+│   │       │       │       │   │   ├── errors.py
+│   │       │       │       │   │   ├── grammar27.txt
+│   │       │       │       │   │   ├── grammar33.txt
+│   │       │       │       │   │   ├── grammar34.txt
+│   │       │       │       │   │   ├── grammar35.txt
+│   │       │       │       │   │   ├── grammar36.txt
+│   │       │       │       │   │   ├── grammar37.txt
+│   │       │       │       │   │   ├── grammar38.txt
+│   │       │       │       │   │   ├── grammar39.txt
+│   │       │       │       │   │   ├── __init__.py
+│   │       │       │       │   │   ├── issue_list.txt
+│   │       │       │       │   │   ├── parser.py
+│   │       │       │       │   │   ├── pep8.py
+│   │       │       │       │   │   ├── prefix.py
+│   │       │       │       │   │   ├── tokenize.py
+│   │       │       │       │   │   ├── tokenize.pyi
+│   │       │       │       │   │   ├── token.py
+│   │       │       │       │   │   ├── token.pyi
+│   │       │       │       │   │   └── tree.py
+│   │       │       │       │   ├── tree.py
+│   │       │       │       │   ├── utils.py
+│   │       │       │       │   └── utils.pyi
+│   │       │       │       ├── pytest.ini
+│   │       │       │       ├── README.rst
+│   │       │       │       ├── scripts
+│   │       │       │       │   └── diff_parser_profile.py
+│   │       │       │       ├── setup.cfg
+│   │       │       │       ├── setup.py
+│   │       │       │       ├── test
+│   │       │       │       │   ├── failing_examples.py
+│   │       │       │       │   ├── fuzz_diff_parser.py
+│   │       │       │       │   ├── __init__.py
+│   │       │       │       │   ├── normalizer_issue_files
+│   │       │       │       │   │   ├── allowed_syntax.py
+│   │       │       │       │   │   ├── allowed_syntax_python2.py
+│   │       │       │       │   │   ├── allowed_syntax_python3.4.py
+│   │       │       │       │   │   ├── allowed_syntax_python3.5.py
+│   │       │       │       │   │   ├── allowed_syntax_python3.6.py
+│   │       │       │       │   │   ├── E101.py
+│   │       │       │       │   │   ├── E10.py
+│   │       │       │       │   │   ├── E11.py
+│   │       │       │       │   │   ├── E12_first.py
+│   │       │       │       │   │   ├── E12_not_first.py
+│   │       │       │       │   │   ├── E12_not_second.py
+│   │       │       │       │   │   ├── E12_second.py
+│   │       │       │       │   │   ├── E12_third.py
+│   │       │       │       │   │   ├── E20.py
+│   │       │       │       │   │   ├── E21.py
+│   │       │       │       │   │   ├── E22.py
+│   │       │       │       │   │   ├── E23.py
+│   │       │       │       │   │   ├── E25.py
+│   │       │       │       │   │   ├── E26.py
+│   │       │       │       │   │   ├── E27.py
+│   │       │       │       │   │   ├── E29.py
+│   │       │       │       │   │   ├── E30not.py
+│   │       │       │       │   │   ├── E30.py
+│   │       │       │       │   │   ├── E40.py
+│   │       │       │       │   │   ├── E50.py
+│   │       │       │       │   │   ├── E70.py
+│   │       │       │       │   │   ├── E71.py
+│   │       │       │       │   │   ├── E72.py
+│   │       │       │       │   │   ├── E73.py
+│   │       │       │       │   │   ├── latin-1.py
+│   │       │       │       │   │   ├── LICENSE
+│   │       │       │       │   │   ├── python2.7.py
+│   │       │       │       │   │   ├── python3.py
+│   │       │       │       │   │   ├── utf-8-bom.py
+│   │       │       │       │   │   └── utf-8.py
+│   │       │       │       │   ├── test_absolute_import.py
+│   │       │       │       │   ├── test_cache.py
+│   │       │       │       │   ├── test_diff_parser.py
+│   │       │       │       │   ├── test_error_recovery.py
+│   │       │       │       │   ├── test_file_python_errors.py
+│   │       │       │       │   ├── test_fstring.py
+│   │       │       │       │   ├── test_get_code.py
+│   │       │       │       │   ├── test_grammar.py
+│   │       │       │       │   ├── test_load_grammar.py
+│   │       │       │       │   ├── test_normalizer_issues_files.py
+│   │       │       │       │   ├── test_old_fast_parser.py
+│   │       │       │       │   ├── test_param_splitting.py
+│   │       │       │       │   ├── test_parser.py
+│   │       │       │       │   ├── test_parser_tree.py
+│   │       │       │       │   ├── test_pep8.py
+│   │       │       │       │   ├── test_pgen2.py
+│   │       │       │       │   ├── test_prefix.py
+│   │       │       │       │   ├── test_python_errors.py
+│   │       │       │       │   ├── test_tokenize.py
+│   │       │       │       │   └── test_utils.py
+│   │       │       │       └── tox.ini
+│   │       │       ├── README.rst
+│   │       │       ├── setup.cfg
+│   │       │       └── test
+│   │       │           ├── test_integration.py
+│   │       │           ├── _utils.vim
+│   │       │           ├── vimrc
+│   │       │           └── vspec
+│   │       │               ├── completions_disabled.vim
+│   │       │               ├── completions.vim
+│   │       │               ├── documentation.vim
+│   │       │               ├── goto.vim
+│   │       │               ├── jedi_debug_info.vim
+│   │       │               ├── pyimport.vim
+│   │       │               └── signatures.vim
+│   │       ├── dracula
+│   │       │   └── vim
+│   │       │       ├── after
+│   │       │       │   ├── plugin
+│   │       │       │   │   └── dracula.vim
+│   │       │       │   └── syntax
+│   │       │       │       ├── css.vim
+│   │       │       │       ├── gitcommit.vim
+│   │       │       │       ├── html.vim
+│   │       │       │       ├── javascript.vim
+│   │       │       │       ├── json.vim
+│   │       │       │       ├── lua.vim
+│   │       │       │       ├── markdown.vim
+│   │       │       │       ├── ocaml.vim
+│   │       │       │       ├── perl.vim
+│   │       │       │       ├── php.vim
+│   │       │       │       ├── plantuml.vim
+│   │       │       │       ├── python.vim
+│   │       │       │       ├── ruby.vim
+│   │       │       │       ├── rust.vim
+│   │       │       │       ├── sass.vim
+│   │       │       │       ├── sh.vim
+│   │       │       │       ├── tex.vim
+│   │       │       │       ├── typescriptreact.vim
+│   │       │       │       ├── typescript.vim
+│   │       │       │       ├── vim.vim
+│   │       │       │       ├── xml.vim
+│   │       │       │       └── yaml.vim
+│   │       │       ├── autoload
+│   │       │       │   ├── airline
+│   │       │       │   │   └── themes
+│   │       │       │   │       └── dracula.vim
+│   │       │       │   ├── dracula.vim
+│   │       │       │   └── lightline
+│   │       │       │       └── colorscheme
+│   │       │       │           └── dracula.vim
+│   │       │       ├── colors
+│   │       │       │   └── dracula.vim
+│   │       │       ├── doc
+│   │       │       │   └── dracula.txt
+│   │       │       ├── INSTALL.md
+│   │       │       ├── LICENSE
+│   │       │       ├── README.md
+│   │       │       └── screenshot.png
+│   │       ├── elzr
+│   │       │   └── vim-json
+│   │       │       ├── ftdetect
+│   │       │       │   └── json.vim
+│   │       │       ├── ftplugin
+│   │       │       │   └── json.vim
+│   │       │       ├── indent
+│   │       │       │   └── json.vim
+│   │       │       ├── jsonl-test.jsonl
+│   │       │       ├── jsonp-test.jsonp
+│   │       │       ├── json-test.json
+│   │       │       ├── license.md
+│   │       │       ├── readme.md
+│   │       │       └── syntax
+│   │       │           └── json.vim
+│   │       ├── gruvbox-community
+│   │       │   └── gruvbox
+│   │       │       ├── autoload
+│   │       │       │   ├── airline
+│   │       │       │   │   └── themes
+│   │       │       │   │       └── gruvbox.vim
+│   │       │       │   ├── gruvbox.vim
+│   │       │       │   └── lightline
+│   │       │       │       └── colorscheme
+│   │       │       │           └── gruvbox.vim
+│   │       │       ├── CHANGELOG.md
+│   │       │       ├── colors
+│   │       │       │   └── gruvbox.vim
+│   │       │       ├── gruvbox_256palette_osx.sh
+│   │       │       ├── gruvbox_256palette.sh
+│   │       │       ├── LICENSE.md
+│   │       │       ├── package.json
+│   │       │       └── README.md
+│   │       ├── junegunn
+│   │       │   ├── fzf
+│   │       │   │   ├── bin
+│   │       │   │   │   ├── fzf -> /home/mak/pkg/fzf/bin/fzf
+│   │       │   │   │   └── fzf-tmux
+│   │       │   │   ├── BUILD.md
+│   │       │   │   ├── CHANGELOG.md
+│   │       │   │   ├── doc
+│   │       │   │   │   └── fzf.txt
+│   │       │   │   ├── Dockerfile
+│   │       │   │   ├── go.mod
+│   │       │   │   ├── go.sum
+│   │       │   │   ├── install
+│   │       │   │   ├── install.ps1
+│   │       │   │   ├── LICENSE
+│   │       │   │   ├── main.go
+│   │       │   │   ├── Makefile
+│   │       │   │   ├── man
+│   │       │   │   │   └── man1
+│   │       │   │   │       ├── fzf.1
+│   │       │   │   │       └── fzf-tmux.1
+│   │       │   │   ├── plugin
+│   │       │   │   │   └── fzf.vim
+│   │       │   │   ├── README.md
+│   │       │   │   ├── README-VIM.md
+│   │       │   │   ├── shell
+│   │       │   │   │   ├── completion.bash
+│   │       │   │   │   ├── completion.zsh
+│   │       │   │   │   ├── key-bindings.bash
+│   │       │   │   │   ├── key-bindings.fish
+│   │       │   │   │   └── key-bindings.zsh
+│   │       │   │   ├── src
+│   │       │   │   │   ├── algo
+│   │       │   │   │   │   ├── algo.go
+│   │       │   │   │   │   ├── algo_test.go
+│   │       │   │   │   │   └── normalize.go
+│   │       │   │   │   ├── ansi.go
+│   │       │   │   │   ├── ansi_test.go
+│   │       │   │   │   ├── cache.go
+│   │       │   │   │   ├── cache_test.go
+│   │       │   │   │   ├── chunklist.go
+│   │       │   │   │   ├── chunklist_test.go
+│   │       │   │   │   ├── constants.go
+│   │       │   │   │   ├── core.go
+│   │       │   │   │   ├── history.go
+│   │       │   │   │   ├── history_test.go
+│   │       │   │   │   ├── item.go
+│   │       │   │   │   ├── item_test.go
+│   │       │   │   │   ├── LICENSE
+│   │       │   │   │   ├── matcher.go
+│   │       │   │   │   ├── merger.go
+│   │       │   │   │   ├── merger_test.go
+│   │       │   │   │   ├── options.go
+│   │       │   │   │   ├── options_test.go
+│   │       │   │   │   ├── pattern.go
+│   │       │   │   │   ├── pattern_test.go
+│   │       │   │   │   ├── protector
+│   │       │   │   │   │   ├── protector.go
+│   │       │   │   │   │   └── protector_openbsd.go
+│   │       │   │   │   ├── reader.go
+│   │       │   │   │   ├── reader_test.go
+│   │       │   │   │   ├── result.go
+│   │       │   │   │   ├── result_others.go
+│   │       │   │   │   ├── result_test.go
+│   │       │   │   │   ├── result_x86.go
+│   │       │   │   │   ├── terminal.go
+│   │       │   │   │   ├── terminal_test.go
+│   │       │   │   │   ├── terminal_unix.go
+│   │       │   │   │   ├── terminal_windows.go
+│   │       │   │   │   ├── tokenizer.go
+│   │       │   │   │   ├── tokenizer_test.go
+│   │       │   │   │   ├── tui
+│   │       │   │   │   │   ├── dummy.go
+│   │       │   │   │   │   ├── light.go
+│   │       │   │   │   │   ├── light_unix.go
+│   │       │   │   │   │   ├── light_windows.go
+│   │       │   │   │   │   ├── tcell.go
+│   │       │   │   │   │   ├── ttyname_unix.go
+│   │       │   │   │   │   ├── ttyname_windows.go
+│   │       │   │   │   │   ├── tui.go
+│   │       │   │   │   │   └── tui_test.go
+│   │       │   │   │   ├── update_assets.rb
+│   │       │   │   │   └── util
+│   │       │   │   │       ├── atomicbool.go
+│   │       │   │   │       ├── atomicbool_test.go
+│   │       │   │   │       ├── chars.go
+│   │       │   │   │       ├── chars_test.go
+│   │       │   │   │       ├── eventbox.go
+│   │       │   │   │       ├── eventbox_test.go
+│   │       │   │   │       ├── slab.go
+│   │       │   │   │       ├── util.go
+│   │       │   │   │       ├── util_test.go
+│   │       │   │   │       ├── util_unix.go
+│   │       │   │   │       └── util_windows.go
+│   │       │   │   ├── test
+│   │       │   │   │   ├── fzf.vader
+│   │       │   │   │   └── test_go.rb
+│   │       │   │   └── uninstall
+│   │       │   └── fzf.vim
+│   │       │       ├── autoload
+│   │       │       │   └── fzf
+│   │       │       │       ├── vim
+│   │       │       │       │   └── complete.vim
+│   │       │       │       └── vim.vim
+│   │       │       ├── bin
+│   │       │       │   ├── preview.rb
+│   │       │       │   ├── preview.sh
+│   │       │       │   └── tags.pl
+│   │       │       ├── doc
+│   │       │       │   └── fzf-vim.txt
+│   │       │       ├── plugin
+│   │       │       │   └── fzf.vim
+│   │       │       └── README.md
+│   │       ├── nanotech
+│   │       │   └── jellybeans.vim
+│   │       │       ├── ansi-term-colors.txt
+│   │       │       ├── colors
+│   │       │       │   └── jellybeans.vim
+│   │       │       └── README.markdown
+│   │       ├── roxma
+│   │       │   ├── nvim-yarp
+│   │       │   │   ├── autoload
+│   │       │   │   │   ├── yarp
+│   │       │   │   │   │   ├── core.vim
+│   │       │   │   │   │   └── pyx.vim
+│   │       │   │   │   └── yarp.vim
+│   │       │   │   ├── LICENSE
+│   │       │   │   ├── pythonx
+│   │       │   │   │   └── yarp.py
+│   │       │   │   └── README.md
+│   │       │   └── vim-hug-neovim-rpc
+│   │       │       ├── autoload
+│   │       │       │   └── neovim_rpc.vim
+│   │       │       ├── LICENSE
+│   │       │       ├── pythonx
+│   │       │       │   ├── neovim_rpc_methods.py
+│   │       │       │   ├── neovim_rpc_protocol.py
+│   │       │       │   ├── neovim_rpc_server_api_info.py
+│   │       │       │   └── neovim_rpc_server.py
+│   │       │       └── README.md
+│   │       ├── sainnhe
+│   │       │   └── gruvbox-material
+│   │       │       ├── autoload
+│   │       │       │   ├── airline
+│   │       │       │   │   └── themes
+│   │       │       │   │       └── gruvbox_material.vim
+│   │       │       │   ├── gruvbox_material.vim
+│   │       │       │   └── lightline
+│   │       │       │       └── colorscheme
+│   │       │       │           └── gruvbox_material.vim
+│   │       │       ├── CHANGELOG.md
+│   │       │       ├── colors
+│   │       │       │   └── gruvbox-material.vim
+│   │       │       ├── doc
+│   │       │       │   └── gruvbox-material.txt
+│   │       │       ├── LICENSE
+│   │       │       └── README.md
+│   │       ├── Shougo
+│   │       │   ├── dein.vim
+│   │       │   │   ├── autoload
+│   │       │   │   │   ├── dein
+│   │       │   │   │   │   ├── autoload.vim
+│   │       │   │   │   │   ├── install.vim
+│   │       │   │   │   │   ├── parse.vim
+│   │       │   │   │   │   ├── toml.vim
+│   │       │   │   │   │   ├── types
+│   │       │   │   │   │   │   ├── git.vim
+│   │       │   │   │   │   │   └── raw.vim
+│   │       │   │   │   │   └── util.vim
+│   │       │   │   │   ├── dein.vim
+│   │       │   │   │   ├── unite
+│   │       │   │   │   │   ├── kinds
+│   │       │   │   │   │   │   └── dein.vim
+│   │       │   │   │   │   └── sources
+│   │       │   │   │   │       ├── dein_log.vim
+│   │       │   │   │   │       └── dein.vim
+│   │       │   │   │   └── vital
+│   │       │   │   │       ├── _dein
+│   │       │   │   │       │   └── System
+│   │       │   │   │       │       ├── Job
+│   │       │   │   │       │       │   ├── Neovim.vim
+│   │       │   │   │       │       │   └── Vim.vim
+│   │       │   │   │       │       └── Job.vim
+│   │       │   │   │       ├── _dein.vim
+│   │       │   │   │       ├── dein.vim
+│   │       │   │   │       └── dein.vital
+│   │       │   │   ├── bin
+│   │       │   │   │   ├── installer.ps1
+│   │       │   │   │   └── installer.sh
+│   │       │   │   ├── doc
+│   │       │   │   │   └── dein.txt
+│   │       │   │   ├── LICENSE
+│   │       │   │   ├── Makefile
+│   │       │   │   ├── README.md
+│   │       │   │   ├── rplugin
+│   │       │   │   │   └── python3
+│   │       │   │   │       └── denite
+│   │       │   │   │           └── source
+│   │       │   │   │               ├── dein_log.py
+│   │       │   │   │               └── dein.py
+│   │       │   │   └── test
+│   │       │   │       ├── base.vim
+│   │       │   │       ├── git.vim
+│   │       │   │       ├── install_base.vim
+│   │       │   │       ├── install.vim
+│   │       │   │       ├── parse.vim
+│   │       │   │       ├── raw.vim
+│   │       │   │       ├── requirements.txt
+│   │       │   │       ├── state.vim
+│   │       │   │       └── toml.vim
+│   │       │   ├── denite.nvim
+│   │       │   │   ├── autoload
+│   │       │   │   │   ├── denite
+│   │       │   │   │   │   ├── custom.vim
+│   │       │   │   │   │   ├── filter.vim
+│   │       │   │   │   │   ├── helper.vim
+│   │       │   │   │   │   ├── init.vim
+│   │       │   │   │   │   ├── _main.py
+│   │       │   │   │   │   ├── project.vim
+│   │       │   │   │   │   └── util.vim
+│   │       │   │   │   ├── denite.vim
+│   │       │   │   │   └── health
+│   │       │   │   │       └── denite.vim
+│   │       │   │   ├── doc
+│   │       │   │   │   └── denite.txt
+│   │       │   │   ├── LICENSE
+│   │       │   │   ├── Makefile
+│   │       │   │   ├── plugin
+│   │       │   │   │   └── denite.vim
+│   │       │   │   ├── README.md
+│   │       │   │   ├── rplugin
+│   │       │   │   │   └── python3
+│   │       │   │   │       ├── denite
+│   │       │   │   │       │   ├── aprocess.py
+│   │       │   │   │       │   ├── base
+│   │       │   │   │       │   │   ├── filter.py
+│   │       │   │   │       │   │   ├── __init__.py
+│   │       │   │   │       │   │   ├── kind.py
+│   │       │   │   │       │   │   └── source.py
+│   │       │   │   │       │   ├── child.py
+│   │       │   │   │       │   ├── context.py
+│   │       │   │   │       │   ├── filter
+│   │       │   │   │       │   │   ├── base.py
+│   │       │   │   │       │   │   ├── converter
+│   │       │   │   │       │   │   │   ├── abbr_word.py
+│   │       │   │   │       │   │   │   ├── __init__.py
+│   │       │   │   │       │   │   │   ├── relative_abbr.py
+│   │       │   │   │       │   │   │   ├── relative_word.py
+│   │       │   │   │       │   │   │   └── tail_path.py
+│   │       │   │   │       │   │   ├── __init__.py
+│   │       │   │   │       │   │   ├── matcher
+│   │       │   │   │       │   │   │   ├── cpsm.py
+│   │       │   │   │       │   │   │   ├── fuzzy.py
+│   │       │   │   │       │   │   │   ├── hide_hidden_files.py
+│   │       │   │   │       │   │   │   ├── ignore_current_buffer.py
+│   │       │   │   │       │   │   │   ├── ignore_globs.py
+│   │       │   │   │       │   │   │   ├── __init__.py
+│   │       │   │   │       │   │   │   ├── project_files.py
+│   │       │   │   │       │   │   │   ├── regexp.py
+│   │       │   │   │       │   │   │   └── substring.py
+│   │       │   │   │       │   │   └── sorter
+│   │       │   │   │       │   │       ├── __init__.py
+│   │       │   │   │       │   │       ├── rank.py
+│   │       │   │   │       │   │       ├── reverse.py
+│   │       │   │   │       │   │       ├── sublime.py
+│   │       │   │   │       │   │       └── word.py
+│   │       │   │   │       │   ├── __init__.py
+│   │       │   │   │       │   ├── kind
+│   │       │   │   │       │   │   ├── base.py
+│   │       │   │   │       │   │   ├── buffer.py
+│   │       │   │   │       │   │   ├── command.py
+│   │       │   │   │       │   │   ├── directory.py
+│   │       │   │   │       │   │   ├── file.py
+│   │       │   │   │       │   │   ├── __init__.py
+│   │       │   │   │       │   │   ├── openable.py
+│   │       │   │   │       │   │   ├── source.py
+│   │       │   │   │       │   │   └── word.py
+│   │       │   │   │       │   ├── parent.py
+│   │       │   │   │       │   ├── process.py
+│   │       │   │   │       │   ├── rplugin.py
+│   │       │   │   │       │   ├── scantree.py
+│   │       │   │   │       │   ├── socket.py
+│   │       │   │   │       │   ├── source
+│   │       │   │   │       │   │   ├── base.py
+│   │       │   │   │       │   │   ├── buffer.py
+│   │       │   │   │       │   │   ├── change.py
+│   │       │   │   │       │   │   ├── colorscheme.py
+│   │       │   │   │       │   │   ├── command_history.py
+│   │       │   │   │       │   │   ├── command.py
+│   │       │   │   │       │   │   ├── directory_rec.py
+│   │       │   │   │       │   │   ├── file
+│   │       │   │   │       │   │   │   ├── __init__.py
+│   │       │   │   │       │   │   │   ├── old.py
+│   │       │   │   │       │   │   │   ├── point.py
+│   │       │   │   │       │   │   │   └── rec.py
+│   │       │   │   │       │   │   ├── filetype.py
+│   │       │   │   │       │   │   ├── grep.py
+│   │       │   │   │       │   │   ├── help.py
+│   │       │   │   │       │   │   ├── __init__.py
+│   │       │   │   │       │   │   ├── jump.py
+│   │       │   │   │       │   │   ├── line
+│   │       │   │   │       │   │   │   ├── external.py
+│   │       │   │   │       │   │   │   └── __init__.py
+│   │       │   │   │       │   │   ├── mark.py
+│   │       │   │   │       │   │   ├── menu.py
+│   │       │   │   │       │   │   ├── outline.py
+│   │       │   │   │       │   │   ├── output.py
+│   │       │   │   │       │   │   ├── register.py
+│   │       │   │   │       │   │   ├── source.py
+│   │       │   │   │       │   │   ├── spell.py
+│   │       │   │   │       │   │   └── tag.py
+│   │       │   │   │       │   ├── ui
+│   │       │   │   │       │   │   ├── default.py
+│   │       │   │   │       │   │   ├── __init__.py
+│   │       │   │   │       │   │   └── map.py
+│   │       │   │   │       │   └── util.py
+│   │       │   │   │       └── deoplete
+│   │       │   │   │           └── source
+│   │       │   │   │               └── denite.py
+│   │       │   │   ├── setup.cfg
+│   │       │   │   └── test
+│   │       │   │       ├── autoload
+│   │       │   │       │   └── denite
+│   │       │   │       │       ├── custom.vim
+│   │       │   │       │       └── parse.vim
+│   │       │   │       ├── conftest.py
+│   │       │   │       ├── requirements.txt
+│   │       │   │       └── rplugin
+│   │       │   │           └── python3
+│   │       │   │               └── denite
+│   │       │   │                   └── test_util.py
+│   │       │   ├── deoplete.nvim
+│   │       │   │   ├── autoload
+│   │       │   │   │   ├── deoplete
+│   │       │   │   │   │   ├── custom.vim
+│   │       │   │   │   │   ├── handler.vim
+│   │       │   │   │   │   ├── init.vim
+│   │       │   │   │   │   ├── _main.py
+│   │       │   │   │   │   ├── mapping.vim
+│   │       │   │   │   │   └── util.vim
+│   │       │   │   │   ├── deoplete.vim
+│   │       │   │   │   └── health
+│   │       │   │   │       └── deoplete.vim
+│   │       │   │   ├── codecov.yml
+│   │       │   │   ├── doc
+│   │       │   │   │   └── deoplete.txt
+│   │       │   │   ├── LICENSE
+│   │       │   │   ├── Makefile
+│   │       │   │   ├── plugin
+│   │       │   │   │   └── deoplete.vim
+│   │       │   │   ├── README.md
+│   │       │   │   ├── rplugin
+│   │       │   │   │   └── python3
+│   │       │   │   │       └── deoplete
+│   │       │   │   │           ├── base
+│   │       │   │   │           │   ├── filter.py
+│   │       │   │   │           │   ├── __init__.py
+│   │       │   │   │           │   └── source.py
+│   │       │   │   │           ├── child.py
+│   │       │   │   │           ├── context.py
+│   │       │   │   │           ├── deoplete.py
+│   │       │   │   │           ├── exceptions.py
+│   │       │   │   │           ├── filter
+│   │       │   │   │           │   ├── base.py
+│   │       │   │   │           │   ├── converter_auto_delimiter.py
+│   │       │   │   │           │   ├── converter_auto_paren.py
+│   │       │   │   │           │   ├── converter_case.py
+│   │       │   │   │           │   ├── converter_remove_overlap.py
+│   │       │   │   │           │   ├── converter_remove_paren.py
+│   │       │   │   │           │   ├── converter_reorder_attr.py
+│   │       │   │   │           │   ├── converter_truncate_abbr.py
+│   │       │   │   │           │   ├── converter_truncate_info.py
+│   │       │   │   │           │   ├── converter_truncate_kind.py
+│   │       │   │   │           │   ├── converter_truncate_menu.py
+│   │       │   │   │           │   ├── __init__.py
+│   │       │   │   │           │   ├── matcher_cpsm.py
+│   │       │   │   │           │   ├── matcher_full_fuzzy.py
+│   │       │   │   │           │   ├── matcher_fuzzy.py
+│   │       │   │   │           │   ├── matcher_head.py
+│   │       │   │   │           │   ├── matcher_length.py
+│   │       │   │   │           │   ├── sorter_rank.py
+│   │       │   │   │           │   └── sorter_word.py
+│   │       │   │   │           ├── __init__.py
+│   │       │   │   │           ├── logger.py
+│   │       │   │   │           ├── parent.py
+│   │       │   │   │           ├── process.py
+│   │       │   │   │           ├── source
+│   │       │   │   │           │   ├── around.py
+│   │       │   │   │           │   ├── base.py
+│   │       │   │   │           │   ├── buffer.py
+│   │       │   │   │           │   ├── file.py
+│   │       │   │   │           │   ├── __init__.py
+│   │       │   │   │           │   ├── member.py
+│   │       │   │   │           │   └── omni.py
+│   │       │   │   │           └── util.py
+│   │       │   │   └── test
+│   │       │   │       ├── autoload
+│   │       │   │       │   └── deoplete
+│   │       │   │       │       ├── custom.vim
+│   │       │   │       │       └── util.vim
+│   │       │   │       ├── conftest.py
+│   │       │   │       ├── requirements.txt
+│   │       │   │       └── rplugin
+│   │       │   │           └── python3
+│   │       │   │               └── deoplete
+│   │       │   │                   ├── test_converter_reorder_attr.py
+│   │       │   │                   ├── test_filter.py
+│   │       │   │                   ├── test_matcher_full_fuzzy.py
+│   │       │   │                   ├── test_matcher_fuzzy.py
+│   │       │   │                   └── test_util.py
+│   │       │   ├── unite.vim
+│   │       │   │   ├── autoload
+│   │       │   │   │   ├── unite
+│   │       │   │   │   │   ├── action.vim
+│   │       │   │   │   │   ├── candidates.vim
+│   │       │   │   │   │   ├── complete.vim
+│   │       │   │   │   │   ├── custom.vim
+│   │       │   │   │   │   ├── exrename.vim
+│   │       │   │   │   │   ├── filters
+│   │       │   │   │   │   │   ├── converter_abbr_word.vim
+│   │       │   │   │   │   │   ├── converter_default.vim
+│   │       │   │   │   │   │   ├── converter_file_directory.vim
+│   │       │   │   │   │   │   ├── converter_full_path.vim
+│   │       │   │   │   │   │   ├── converter_nothing.vim
+│   │       │   │   │   │   │   ├── converter_relative_abbr.vim
+│   │       │   │   │   │   │   ├── converter_relative_word.vim
+│   │       │   │   │   │   │   ├── converter_smart_path.vim
+│   │       │   │   │   │   │   ├── converter_tail_abbr.vim
+│   │       │   │   │   │   │   ├── converter_tail.vim
+│   │       │   │   │   │   │   ├── converter_uniq_word.vim
+│   │       │   │   │   │   │   ├── converter_word_abbr.vim
+│   │       │   │   │   │   │   ├── matcher_context.vim
+│   │       │   │   │   │   │   ├── matcher_default.vim
+│   │       │   │   │   │   │   ├── matcher_fuzzy.vim
+│   │       │   │   │   │   │   ├── matcher_glob.vim
+│   │       │   │   │   │   │   ├── matcher_hide_current_file.vim
+│   │       │   │   │   │   │   ├── matcher_hide_hidden_files.vim
+│   │       │   │   │   │   │   ├── matcher_migemo.vim
+│   │       │   │   │   │   │   ├── matcher_project_files.vim
+│   │       │   │   │   │   │   ├── matcher_project_ignore_files.vim
+│   │       │   │   │   │   │   ├── matcher_regexp.vim
+│   │       │   │   │   │   │   ├── sorter_default.vim
+│   │       │   │   │   │   │   ├── sorter_ftime.vim
+│   │       │   │   │   │   │   ├── sorter_length.vim
+│   │       │   │   │   │   │   ├── sorter_nothing.vim
+│   │       │   │   │   │   │   ├── sorter_rank.vim
+│   │       │   │   │   │   │   ├── sorter_reverse.vim
+│   │       │   │   │   │   │   ├── sorter_selecta.py
+│   │       │   │   │   │   │   ├── sorter_selecta.vim
+│   │       │   │   │   │   │   └── sorter_word.vim
+│   │       │   │   │   │   ├── filters.vim
+│   │       │   │   │   │   ├── handlers.vim
+│   │       │   │   │   │   ├── helper.vim
+│   │       │   │   │   │   ├── init.vim
+│   │       │   │   │   │   ├── kinds
+│   │       │   │   │   │   │   ├── buffer.vim
+│   │       │   │   │   │   │   ├── cdable.vim
+│   │       │   │   │   │   │   ├── command.vim
+│   │       │   │   │   │   │   ├── common.vim
+│   │       │   │   │   │   │   ├── completion.vim
+│   │       │   │   │   │   │   ├── directory.vim
+│   │       │   │   │   │   │   ├── file_base.vim
+│   │       │   │   │   │   │   ├── file.vim
+│   │       │   │   │   │   │   ├── file_vimfiler_base.vim
+│   │       │   │   │   │   │   ├── guicmd.vim
+│   │       │   │   │   │   │   ├── jump_list.vim
+│   │       │   │   │   │   │   ├── openable.vim
+│   │       │   │   │   │   │   ├── source.vim
+│   │       │   │   │   │   │   ├── tab.vim
+│   │       │   │   │   │   │   ├── uri.vim
+│   │       │   │   │   │   │   ├── window.vim
+│   │       │   │   │   │   │   └── word.vim
+│   │       │   │   │   │   ├── mappings.vim
+│   │       │   │   │   │   ├── sources
+│   │       │   │   │   │   │   ├── action.vim
+│   │       │   │   │   │   │   ├── alias.vim
+│   │       │   │   │   │   │   ├── bookmark.vim
+│   │       │   │   │   │   │   ├── buffer
+│   │       │   │   │   │   │   │   └── variables.vim
+│   │       │   │   │   │   │   ├── buffer.vim
+│   │       │   │   │   │   │   ├── change.vim
+│   │       │   │   │   │   │   ├── command.vim
+│   │       │   │   │   │   │   ├── directory.vim
+│   │       │   │   │   │   │   ├── file_list.vim
+│   │       │   │   │   │   │   ├── file_point.vim
+│   │       │   │   │   │   │   ├── file.vim
+│   │       │   │   │   │   │   ├── find.vim
+│   │       │   │   │   │   │   ├── function.vim
+│   │       │   │   │   │   │   ├── grep_git.vim
+│   │       │   │   │   │   │   ├── grep.vim
+│   │       │   │   │   │   │   ├── history_input.vim
+│   │       │   │   │   │   │   ├── history_unite.vim
+│   │       │   │   │   │   │   ├── interactive.vim
+│   │       │   │   │   │   │   ├── jump_point.vim
+│   │       │   │   │   │   │   ├── jump.vim
+│   │       │   │   │   │   │   ├── launcher.vim
+│   │       │   │   │   │   │   ├── line.vim
+│   │       │   │   │   │   │   ├── mapping.vim
+│   │       │   │   │   │   │   ├── menu.vim
+│   │       │   │   │   │   │   ├── output_shellcmd.vim
+│   │       │   │   │   │   │   ├── output.vim
+│   │       │   │   │   │   │   ├── process.vim
+│   │       │   │   │   │   │   ├── rec.vim
+│   │       │   │   │   │   │   ├── register.vim
+│   │       │   │   │   │   │   ├── resume.vim
+│   │       │   │   │   │   │   ├── runtimepath.vim
+│   │       │   │   │   │   │   ├── script.vim
+│   │       │   │   │   │   │   ├── source.vim
+│   │       │   │   │   │   │   ├── tab.vim
+│   │       │   │   │   │   │   ├── vimgrep.vim
+│   │       │   │   │   │   │   ├── window_gui.vim
+│   │       │   │   │   │   │   └── window.vim
+│   │       │   │   │   │   ├── start.vim
+│   │       │   │   │   │   ├── util.vim
+│   │       │   │   │   │   ├── variables.vim
+│   │       │   │   │   │   └── view.vim
+│   │       │   │   │   ├── unite.vim
+│   │       │   │   │   ├── vital
+│   │       │   │   │   │   ├── _unite
+│   │       │   │   │   │   │   ├── Data
+│   │       │   │   │   │   │   │   ├── List.vim
+│   │       │   │   │   │   │   │   └── String.vim
+│   │       │   │   │   │   │   ├── Prelude.vim
+│   │       │   │   │   │   │   ├── Process.vim
+│   │       │   │   │   │   │   ├── System
+│   │       │   │   │   │   │   │   ├── Cache
+│   │       │   │   │   │   │   │   │   └── Deprecated.vim
+│   │       │   │   │   │   │   │   ├── Filepath.vim
+│   │       │   │   │   │   │   │   └── File.vim
+│   │       │   │   │   │   │   └── Vim
+│   │       │   │   │   │   │       └── Message.vim
+│   │       │   │   │   │   ├── _unite.vim
+│   │       │   │   │   │   ├── unite.vim
+│   │       │   │   │   │   └── unite.vital
+│   │       │   │   │   └── vital.vim
+│   │       │   │   ├── doc
+│   │       │   │   │   └── unite.txt
+│   │       │   │   ├── LICENSE
+│   │       │   │   ├── plugin
+│   │       │   │   │   ├── unite
+│   │       │   │   │   │   ├── bookmark.vim
+│   │       │   │   │   │   ├── buffer.vim
+│   │       │   │   │   │   └── window.vim
+│   │       │   │   │   └── unite.vim
+│   │       │   │   ├── README.md
+│   │       │   │   ├── rplugin
+│   │       │   │   │   └── python3
+│   │       │   │   │       └── denite
+│   │       │   │   │           ├── kind
+│   │       │   │   │           │   └── unite.py
+│   │       │   │   │           └── source
+│   │       │   │   │               └── unite.py
+│   │       │   │   ├── syntax
+│   │       │   │   │   ├── unite_exrename.vim
+│   │       │   │   │   └── unite.vim
+│   │       │   │   └── test
+│   │       │   │       ├── converter.vim
+│   │       │   │       ├── grep.vim
+│   │       │   │       ├── matcher.vim
+│   │       │   │       ├── sorter.vim
+│   │       │   │       └── source.vim
+│   │       │   ├── vimfiler
+│   │       │   │   ├── autoload
+│   │       │   │   │   ├── unite
+│   │       │   │   │   │   ├── filters
+│   │       │   │   │   │   │   └── matcher_vimfiler_mask.vim
+│   │       │   │   │   │   └── sources
+│   │       │   │   │   │       ├── vimfiler_drive.vim
+│   │       │   │   │   │       ├── vimfiler_execute.vim
+│   │       │   │   │   │       ├── vimfiler_history.vim
+│   │       │   │   │   │       ├── vimfiler_mask.vim
+│   │       │   │   │   │       ├── vimfiler_popd.vim
+│   │       │   │   │   │       └── vimfiler_sort.vim
+│   │       │   │   │   ├── vimfiler
+│   │       │   │   │   │   ├── columns
+│   │       │   │   │   │   │   ├── size.vim
+│   │       │   │   │   │   │   ├── time.vim
+│   │       │   │   │   │   │   └── type.vim
+│   │       │   │   │   │   ├── custom.vim
+│   │       │   │   │   │   ├── exrename.vim
+│   │       │   │   │   │   ├── filters
+│   │       │   │   │   │   │   ├── matcher_ignore_files.vim
+│   │       │   │   │   │   │   ├── matcher_ignore_pattern.vim
+│   │       │   │   │   │   │   └── matcher_ignore_wildignore.vim
+│   │       │   │   │   │   ├── handler.vim
+│   │       │   │   │   │   ├── helper.vim
+│   │       │   │   │   │   ├── init.vim
+│   │       │   │   │   │   ├── mappings.vim
+│   │       │   │   │   │   ├── util.vim
+│   │       │   │   │   │   ├── variables.vim
+│   │       │   │   │   │   └── view.vim
+│   │       │   │   │   ├── vimfiler.vim
+│   │       │   │   │   ├── vital
+│   │       │   │   │   │   ├── _vimfiler
+│   │       │   │   │   │   │   ├── Data
+│   │       │   │   │   │   │   │   ├── Dict.vim
+│   │       │   │   │   │   │   │   ├── List.vim
+│   │       │   │   │   │   │   │   └── String.vim
+│   │       │   │   │   │   │   ├── Prelude.vim
+│   │       │   │   │   │   │   ├── Process.vim
+│   │       │   │   │   │   │   ├── System
+│   │       │   │   │   │   │   │   └── Cache
+│   │       │   │   │   │   │   │       └── Deprecated.vim
+│   │       │   │   │   │   │   └── Vim
+│   │       │   │   │   │   │       ├── Buffer.vim
+│   │       │   │   │   │   │       ├── Guard.vim
+│   │       │   │   │   │   │       └── Message.vim
+│   │       │   │   │   │   ├── _vimfiler.vim
+│   │       │   │   │   │   ├── vimfiler.vim
+│   │       │   │   │   │   └── vimfiler.vital
+│   │       │   │   │   └── vital.vim
+│   │       │   │   ├── doc
+│   │       │   │   │   └── vimfiler.txt
+│   │       │   │   ├── LICENSE
+│   │       │   │   ├── plugin
+│   │       │   │   │   └── vimfiler.vim
+│   │       │   │   ├── README.md
+│   │       │   │   ├── syntax
+│   │       │   │   │   └── vimfiler.vim
+│   │       │   │   └── test
+│   │       │   │       └── functions.vim
+│   │       │   └── vimfiler.vim
+│   │       │       ├── autoload
+│   │       │       │   ├── unite
+│   │       │       │   │   ├── filters
+│   │       │       │   │   │   └── matcher_vimfiler_mask.vim
+│   │       │       │   │   └── sources
+│   │       │       │   │       ├── vimfiler_drive.vim
+│   │       │       │   │       ├── vimfiler_execute.vim
+│   │       │       │   │       ├── vimfiler_history.vim
+│   │       │       │   │       ├── vimfiler_mask.vim
+│   │       │       │   │       ├── vimfiler_popd.vim
+│   │       │       │   │       └── vimfiler_sort.vim
+│   │       │       │   ├── vimfiler
+│   │       │       │   │   ├── columns
+│   │       │       │   │   │   ├── size.vim
+│   │       │       │   │   │   ├── time.vim
+│   │       │       │   │   │   └── type.vim
+│   │       │       │   │   ├── custom.vim
+│   │       │       │   │   ├── exrename.vim
+│   │       │       │   │   ├── filters
+│   │       │       │   │   │   ├── matcher_ignore_files.vim
+│   │       │       │   │   │   ├── matcher_ignore_pattern.vim
+│   │       │       │   │   │   └── matcher_ignore_wildignore.vim
+│   │       │       │   │   ├── handler.vim
+│   │       │       │   │   ├── helper.vim
+│   │       │       │   │   ├── init.vim
+│   │       │       │   │   ├── mappings.vim
+│   │       │       │   │   ├── util.vim
+│   │       │       │   │   ├── variables.vim
+│   │       │       │   │   └── view.vim
+│   │       │       │   ├── vimfiler.vim
+│   │       │       │   ├── vital
+│   │       │       │   │   ├── _vimfiler
+│   │       │       │   │   │   ├── Data
+│   │       │       │   │   │   │   ├── Dict.vim
+│   │       │       │   │   │   │   ├── List.vim
+│   │       │       │   │   │   │   └── String.vim
+│   │       │       │   │   │   ├── Prelude.vim
+│   │       │       │   │   │   ├── Process.vim
+│   │       │       │   │   │   ├── System
+│   │       │       │   │   │   │   └── Cache
+│   │       │       │   │   │   │       └── Deprecated.vim
+│   │       │       │   │   │   └── Vim
+│   │       │       │   │   │       ├── Buffer.vim
+│   │       │       │   │   │       ├── Guard.vim
+│   │       │       │   │   │       └── Message.vim
+│   │       │       │   │   ├── _vimfiler.vim
+│   │       │       │   │   ├── vimfiler.vim
+│   │       │       │   │   └── vimfiler.vital
+│   │       │       │   └── vital.vim
+│   │       │       ├── doc
+│   │       │       │   └── vimfiler.txt
+│   │       │       ├── LICENSE
+│   │       │       ├── plugin
+│   │       │       │   └── vimfiler.vim
+│   │       │       ├── README.md
+│   │       │       ├── syntax
+│   │       │       │   └── vimfiler.vim
+│   │       │       └── test
+│   │       │           └── functions.vim
+│   │       ├── tpope
+│   │       │   └── vim-surround
+│   │       │       ├── doc
+│   │       │       │   └── surround.txt
+│   │       │       ├── plugin
+│   │       │       │   └── surround.vim
+│   │       │       └── README.markdown
+│   │       ├── ujihisa
+│   │       │   └── unite-colorscheme
+│   │       │       ├── autoload
+│   │       │       │   └── unite
+│   │       │       │       └── sources
+│   │       │       │           └── colorscheme.vim
+│   │       │       ├── doc
+│   │       │       │   └── unite-colorscheme.txt
+│   │       │       ├── Rakefile
+│   │       │       ├── README.md
+│   │       │       └── unite-colorscheme.vimup
+│   │       ├── vim-airline
+│   │       │   ├── vim-airline
+│   │       │   │   ├── autoload
+│   │       │   │   │   ├── airline
+│   │       │   │   │   │   ├── async.vim
+│   │       │   │   │   │   ├── builder.vim
+│   │       │   │   │   │   ├── debug.vim
+│   │       │   │   │   │   ├── extensions
+│   │       │   │   │   │   │   ├── ale.vim
+│   │       │   │   │   │   │   ├── bookmark.vim
+│   │       │   │   │   │   │   ├── branch.vim
+│   │       │   │   │   │   │   ├── bufferline.vim
+│   │       │   │   │   │   │   ├── capslock.vim
+│   │       │   │   │   │   │   ├── coc.vim
+│   │       │   │   │   │   │   ├── commandt.vim
+│   │       │   │   │   │   │   ├── csv.vim
+│   │       │   │   │   │   │   ├── ctrlp.vim
+│   │       │   │   │   │   │   ├── ctrlspace.vim
+│   │       │   │   │   │   │   ├── cursormode.vim
+│   │       │   │   │   │   │   ├── default.vim
+│   │       │   │   │   │   │   ├── denite.vim
+│   │       │   │   │   │   │   ├── dirvish.vim
+│   │       │   │   │   │   │   ├── eclim.vim
+│   │       │   │   │   │   │   ├── example.vim
+│   │       │   │   │   │   │   ├── fugitiveline.vim
+│   │       │   │   │   │   │   ├── gina.vim
+│   │       │   │   │   │   │   ├── grepper.vim
+│   │       │   │   │   │   │   ├── gutentags.vim
+│   │       │   │   │   │   │   ├── hunks.vim
+│   │       │   │   │   │   │   ├── keymap.vim
+│   │       │   │   │   │   │   ├── languageclient.vim
+│   │       │   │   │   │   │   ├── localsearch.vim
+│   │       │   │   │   │   │   ├── lsp.vim
+│   │       │   │   │   │   │   ├── neomake.vim
+│   │       │   │   │   │   │   ├── netrw.vim
+│   │       │   │   │   │   │   ├── nrrwrgn.vim
+│   │       │   │   │   │   │   ├── obsession.vim
+│   │       │   │   │   │   │   ├── poetv.vim
+│   │       │   │   │   │   │   ├── po.vim
+│   │       │   │   │   │   │   ├── promptline.vim
+│   │       │   │   │   │   │   ├── quickfix.vim
+│   │       │   │   │   │   │   ├── syntastic.vim
+│   │       │   │   │   │   │   ├── tabline
+│   │       │   │   │   │   │   │   ├── autoshow.vim
+│   │       │   │   │   │   │   │   ├── buffers.vim
+│   │       │   │   │   │   │   │   ├── buflist.vim
+│   │       │   │   │   │   │   │   ├── builder.vim
+│   │       │   │   │   │   │   │   ├── ctrlspace.vim
+│   │       │   │   │   │   │   │   ├── formatters
+│   │       │   │   │   │   │   │   │   ├── default.vim
+│   │       │   │   │   │   │   │   │   ├── jsformatter.vim
+│   │       │   │   │   │   │   │   │   ├── short_path.vim
+│   │       │   │   │   │   │   │   │   ├── tabnr.vim
+│   │       │   │   │   │   │   │   │   ├── unique_tail_improved.vim
+│   │       │   │   │   │   │   │   │   └── unique_tail.vim
+│   │       │   │   │   │   │   │   ├── tabs.vim
+│   │       │   │   │   │   │   │   ├── tabws.vim
+│   │       │   │   │   │   │   │   └── xtabline.vim
+│   │       │   │   │   │   │   ├── tabline.vim
+│   │       │   │   │   │   │   ├── tagbar.vim
+│   │       │   │   │   │   │   ├── term.vim
+│   │       │   │   │   │   │   ├── tmuxline.vim
+│   │       │   │   │   │   │   ├── undotree.vim
+│   │       │   │   │   │   │   ├── unicode.vim
+│   │       │   │   │   │   │   ├── unite.vim
+│   │       │   │   │   │   │   ├── vimagit.vim
+│   │       │   │   │   │   │   ├── vimtex.vim
+│   │       │   │   │   │   │   ├── virtualenv.vim
+│   │       │   │   │   │   │   ├── vista.vim
+│   │       │   │   │   │   │   ├── whitespace.vim
+│   │       │   │   │   │   │   ├── windowswap.vim
+│   │       │   │   │   │   │   ├── wordcount
+│   │       │   │   │   │   │   │   └── formatters
+│   │       │   │   │   │   │   │       └── default.vim
+│   │       │   │   │   │   │   ├── wordcount.vim
+│   │       │   │   │   │   │   ├── xkblayout.vim
+│   │       │   │   │   │   │   ├── ycm.vim
+│   │       │   │   │   │   │   └── zoomwintab.vim
+│   │       │   │   │   │   ├── extensions.vim
+│   │       │   │   │   │   ├── highlighter.vim
+│   │       │   │   │   │   ├── init.vim
+│   │       │   │   │   │   ├── msdos.vim
+│   │       │   │   │   │   ├── parts.vim
+│   │       │   │   │   │   ├── section.vim
+│   │       │   │   │   │   ├── themes
+│   │       │   │   │   │   │   └── dark.vim
+│   │       │   │   │   │   ├── themes.vim
+│   │       │   │   │   │   └── util.vim
+│   │       │   │   │   └── airline.vim
+│   │       │   │   ├── CHANGELOG.md
+│   │       │   │   ├── CONTRIBUTING.md
+│   │       │   │   ├── doc
+│   │       │   │   │   └── airline.txt
+│   │       │   │   ├── Gemfile
+│   │       │   │   ├── LICENSE
+│   │       │   │   ├── plugin
+│   │       │   │   │   └── airline.vim
+│   │       │   │   ├── Rakefile
+│   │       │   │   ├── README.md
+│   │       │   │   └── t
+│   │       │   │       ├── airline.vim
+│   │       │   │       ├── builder.vim
+│   │       │   │       ├── commands.vim
+│   │       │   │       ├── extensions_default.vim
+│   │       │   │       ├── extensions_tabline.vim
+│   │       │   │       ├── highlighter.vim
+│   │       │   │       ├── init.vim
+│   │       │   │       ├── parts.vim
+│   │       │   │       ├── section.vim
+│   │       │   │       ├── themes.vim
+│   │       │   │       └── util.vim
+│   │       │   └── vim-airline-themes
+│   │       │       ├── autoload
+│   │       │       │   └── airline
+│   │       │       │       └── themes
+│   │       │       │           ├── alduin.vim
+│   │       │       │           ├── angr.vim
+│   │       │       │           ├── atomic.vim
+│   │       │       │           ├── ayu_dark.vim
+│   │       │       │           ├── ayu_light.vim
+│   │       │       │           ├── ayu_mirage.vim
+│   │       │       │           ├── badwolf.vim
+│   │       │       │           ├── base16_3024.vim
+│   │       │       │           ├── base16_adwaita.vim
+│   │       │       │           ├── base16_apathy.vim
+│   │       │       │           ├── base16_ashes.vim
+│   │       │       │           ├── base16_atelierdune.vim
+│   │       │       │           ├── base16_atelierforest.vim
+│   │       │       │           ├── base16_atelierheath.vim
+│   │       │       │           ├── base16_atelierlakeside.vim
+│   │       │       │           ├── base16_atelierseaside.vim
+│   │       │       │           ├── base16_bespin.vim
+│   │       │       │           ├── base16_brewer.vim
+│   │       │       │           ├── base16_bright.vim
+│   │       │       │           ├── base16_chalk.vim
+│   │       │       │           ├── base16_classic.vim
+│   │       │       │           ├── base16_codeschool.vim
+│   │       │       │           ├── base16_colors.vim
+│   │       │       │           ├── base16color.vim
+│   │       │       │           ├── base16_default.vim
+│   │       │       │           ├── base16_eighties.vim
+│   │       │       │           ├── base16_embers.vim
+│   │       │       │           ├── base16_flat.vim
+│   │       │       │           ├── base16_google.vim
+│   │       │       │           ├── base16_grayscale.vim
+│   │       │       │           ├── base16_greenscreen.vim
+│   │       │       │           ├── base16_gruvbox_dark_hard.vim
+│   │       │       │           ├── base16_harmonic16.vim
+│   │       │       │           ├── base16_hopscotch.vim
+│   │       │       │           ├── base16_isotope.vim
+│   │       │       │           ├── base16_londontube.vim
+│   │       │       │           ├── base16_marrakesh.vim
+│   │       │       │           ├── base16_mocha.vim
+│   │       │       │           ├── base16_monokai.vim
+│   │       │       │           ├── base16_nord.vim
+│   │       │       │           ├── base16_oceanicnext.vim
+│   │       │       │           ├── base16_ocean.vim
+│   │       │       │           ├── base16_paraiso.vim
+│   │       │       │           ├── base16_pop.vim
+│   │       │       │           ├── base16_railscasts.vim
+│   │       │       │           ├── base16_seti.vim
+│   │       │       │           ├── base16_shapeshifter.vim
+│   │       │       │           ├── base16_shell.vim
+│   │       │       │           ├── base16_snazzy.vim
+│   │       │       │           ├── base16_solarized.vim
+│   │       │       │           ├── base16_spacemacs.vim
+│   │       │       │           ├── base16_summerfruit.vim
+│   │       │       │           ├── base16_tomorrow.vim
+│   │       │       │           ├── base16_twilight.vim
+│   │       │       │           ├── base16.vim
+│   │       │       │           ├── base16_vim.vim
+│   │       │       │           ├── behelit.vim
+│   │       │       │           ├── biogoo.vim
+│   │       │       │           ├── bubblegum.vim
+│   │       │       │           ├── cobalt2.vim
+│   │       │       │           ├── cool.vim
+│   │       │       │           ├── dark_minimal.vim
+│   │       │       │           ├── desertink.vim
+│   │       │       │           ├── deus.vim
+│   │       │       │           ├── distinguished.vim
+│   │       │       │           ├── durant.vim
+│   │       │       │           ├── fairyfloss.vim
+│   │       │       │           ├── fruit_punch.vim
+│   │       │       │           ├── hybridline.vim
+│   │       │       │           ├── hybrid.vim
+│   │       │       │           ├── jellybeans.vim
+│   │       │       │           ├── jet.vim
+│   │       │       │           ├── kalisi.vim
+│   │       │       │           ├── kolor.vim
+│   │       │       │           ├── laederon.vim
+│   │       │       │           ├── light.vim
+│   │       │       │           ├── lucius.vim
+│   │       │       │           ├── luna.vim
+│   │       │       │           ├── minimalist.vim
+│   │       │       │           ├── molokai.vim
+│   │       │       │           ├── monochrome.vim
+│   │       │       │           ├── murmur.vim
+│   │       │       │           ├── night_owl.vim
+│   │       │       │           ├── onedark.vim
+│   │       │       │           ├── ouo.vim
+│   │       │       │           ├── owo.vim
+│   │       │       │           ├── papercolor.vim
+│   │       │       │           ├── peaksea.vim
+│   │       │       │           ├── powerlineish.vim
+│   │       │       │           ├── qwq.vim
+│   │       │       │           ├── ravenpower.vim
+│   │       │       │           ├── raven.vim
+│   │       │       │           ├── seagull.vim
+│   │       │       │           ├── serene.vim
+│   │       │       │           ├── sierra.vim
+│   │       │       │           ├── silver.vim
+│   │       │       │           ├── simple.vim
+│   │       │       │           ├── soda.vim
+│   │       │       │           ├── solarized_flood.vim
+│   │       │       │           ├── solarized.vim
+│   │       │       │           ├── sol.vim
+│   │       │       │           ├── term_light.vim
+│   │       │       │           ├── term.vim
+│   │       │       │           ├── tomorrow.vim
+│   │       │       │           ├── ubaryd.vim
+│   │       │       │           ├── understated.vim
+│   │       │       │           ├── violet.vim
+│   │       │       │           ├── wombat.vim
+│   │       │       │           ├── xtermlight.vim
+│   │       │       │           └── zenburn.vim
+│   │       │       ├── doc
+│   │       │       │   └── airline-themes.txt
+│   │       │       ├── LICENSE
+│   │       │       ├── plugin
+│   │       │       │   └── airline-themes.vim
+│   │       │       ├── README.md
+│   │       │       └── test
+│   │       │           └── airline-themes.vader
+│   │       ├── vim-scripts
+│   │       │   └── YankRing.vim
+│   │       │       ├── doc
+│   │       │       │   └── yankring.txt
+│   │       │       ├── plugin
+│   │       │       │   └── yankring.vim
+│   │       │       └── README
+│   │       ├── w0ng
+│   │       │   └── vim-hybrid
+│   │       │       ├── colors
+│   │       │       │   └── hybrid.vim
+│   │       │       └── README.md
+│   │       └── yegappan
+│   │           └── taglist
+│   │               ├── doc
+│   │               │   └── taglist.txt
+│   │               ├── LICENSE
+│   │               ├── plugin
+│   │               │   └── taglist.vim
+│   │               └── README.md
+│   └── state_vim.vim
+└── yankring_history_v2.txt
+
+493 directories, 2445 files

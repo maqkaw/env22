@@ -1,0 +1,131 @@
+""" neobundle
+if has('vim_starting')
+   set runtimepath+=C:\Users\êΩ\vimfiles\bundle\neobundle.vim\
+endif
+call neobundle#begin(expand('C:\Users\êΩ\vimfiles\bundle\'))
+NeoBundle 'Shougo/unite.vim'
+NeoBundle 'Shougo/vimfiler'
+""NeoBundle 'Shougo/vimproc'
+NeoBundle 'yegappan/taglist'
+""NeoBundle 'davidhalter/jedi-vim'
+""NeoBundle 'preservim/nerdtree'
+NeoBundle 'tpope/vim-surround'
+NeoBundle 'vim-scripts/YankRing.vim'
+NeoBundle 'ujihisa/unite-colorscheme'
+NeoBundle 'nanotech/jellybeans.vim'
+NeoBundle 'w0ng/vim-hybrid'
+NeoBundle 'dracula/vim'
+""NeoBundle 'tomasr/molokai'
+""NeoBundle 'NLKNguyen/papercolor-theme'
+""NeoBundle 'morhetz/gruvbox'
+NeoBundle 'gruvbox-community/gruvbox'
+NeoBundle 'sainnhe/gruvbox-material'
+NeoBundle 'altercation/vim-colors-solarized'
+call neobundle#end()
+filetype plugin indent on
+
+syntax on
+
+" Tags , 
+set tags=C:\Users\êΩ\Documents\Engineering\py\tags
+
+" colors
+highlight ColorColumn ctermbg=0 guibg=lightgrey
+""colorscheme jellybeans
+colorscheme gruvbox
+set background=dark
+let g:gruvbox_contrast_dark = 'hard'
+
+set colorcolumn=80
+
+" options
+set history=1000
+set rnu
+set nu
+set scrolloff=4
+set incsearch
+set hlsearch
+set wrapscan
+set tabstop=4
+set autoindent
+set expandtab
+set shiftwidth=4
+""set encoding=utf-8
+set fileencodings=iso-2022-jp,euc-jp,sjis,utf-8
+set fileformats=unix,dos,mac
+
+let mapleader = "\<Space>"
+
+" vimfiler
+nnoremap <Leader>e <C-w>v:VimFiler<CR>
+" taglist
+nnoremap <Leader>m :Tlist<CR>
+" Unite
+let g:unite_enable_start_insert=1
+nnoremap <silent> <Leader>ub :<C-u>Unite buffer<CR>
+nnoremap <silent> <Leader>ur :<C-u>Unite -buffer-name=register register<CR>
+nnoremap <silent> <Leader>uc :<C-u>Unite -auto-preview colorscheme<CR>
+" Yankring
+"let g:yankring_history_dir='$HOME/.vim'
+" Jedi
+let g:jedi#force_py_version = 3
+autocmd FileType python setlocal completeopt-=preview
+
+" original
+nnoremap <silent> <Esc><Esc> :nohlsearch<CR>
+nnoremap n nzz
+nnoremap N Nzz
+nnoremap * g*Nzz
+nnoremap # g#Nzz
+nnoremap g* g*zz
+nnoremap g# g#zz
+nnoremap <C-]> <C-w>v<C-]>zz
+nnoremap gf <C-w>vgf
+nnoremap <C-h> <C-w>h
+nnoremap <C-j> <C-w>j
+nnoremap <C-k> <C-w>k
+nnoremap <C-l> <C-w>l
+nnoremap <Leader>h <C-w>5<<CR>
+nnoremap <Leader>l <C-w>5><CR>
+nnoremap <Leader>k <C-w>5-<CR>
+nnoremap <Leader>j <C-w>5+<CR>
+nnoremap <Leader><Leader> <C-w>v
+nnoremap <Leader>c :q<CR>
+nnoremap <Leader>w :w<CR>
+nnoremap <silent> <Leader>nu :set rnu<CR>> :set nu<CR>
+nnoremap <silent> <Leader>nonu :set nonu<CR> :set nornu<CR>
+nnoremap <silent> <Leader>wind :windo diffthis<CR>
+
+vnoremap v $h
+
+cnoremap <C-b> <left>
+cnoremap <C-f> <right>
+cnoremap <C-n> <down>
+cnoremap <C-p> <up>
+cnoremap <C-d> <delete>
+
+inoremap <C-j>  <down>
+inoremap <C-k>  <up>
+inoremap <C-h>  <left>
+inoremap <C-l>  <right>
+
+" brackets supplement
+inoremap { {}<Left>
+inoremap {<Enter> {}<Left><CR><ESC><S-o>
+inoremap [ []<ESC>i
+inoremap [<Enter> []<Left><CR><ESC><S-o>
+inoremap ( ()<ESC>i
+inoremap (<Enter> ()<Left><CR><ESC><S-o>
+inoremap < <><ESC>i
+inoremap <<Enter> <><Left><CR><ESC><S-o>
+inoremap ' ''<LEFT>
+inoremap " ""<LEFT>
+
+""*** NeoBundlet
+"":NeoBundleInstall
+"":NeoBundleUpdate vimfiler
+"":NeoBundleClean vimfiler
+""
+""*** unite-colorschemea 
+"":Unite -auto-preview colorscheme
+
